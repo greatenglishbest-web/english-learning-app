@@ -142,7 +142,13 @@ body{background:radial-gradient(ellipse at 10% 0%,#1e3a5f 0%,transparent 45%),ra
         </div>
       </div>
       <div class="stats" id="listenStats"></div>
-      <div id="listenContent"></div>
+      <div id="listenListView">
+        <div class="word-grid" id="listenTagGrid" style="max-height:480px"></div>
+      </div>
+      <div id="listenDetailView" style="display:none">
+        <button class="back" onclick="backToListenList()">← 返回题目列表</button>
+        <div id="listenContent"></div>
+      </div>
     </div>
   </div>
   <div class="status-bar" id="statusBar">数据来源：加载中…</div>
@@ -379,18 +385,45 @@ function renderListening(){
   if(!dataReady)return;
   const items=getListenItems();
   const stats=document.getElementById('listenStats');
-  const box=document.getElementById('listenContent');
+  const listView=document.getElementById('listenListView');
+  const detailView=document.getElementById('listenDetailView');
+  listView.style.display='block';
+  detailView.style.display='none';
   if(!items.length){
-    stats.innerText='当前难度/类型暂无题目，后续可通过更新 listening.json 轻松添加。';
-    box.innerHTML='<div style="text-align:center;padding:40px;color:#94a8c4">暂无内容<br><small>上传新的 listening.json 后刷新即可</small></div>';
+    stats.innerText='当前难度/类型暂无题目。';
+    document.getElementById('listenTagGrid').innerHTML='<div style="text-align:center;padding:40px;color:#94a8c4;grid-column:1/-1">暂无内容，更新 listening.json 后刷新即可</div>';
     return;
   }
-  stats.innerText=`${currentLevel==='junior'?'初中':'高中'} · ${{'easy':'简单','medium':'较难','hard':'高难'}[listenDiff]} · ${{'wordChoice':'听音辩词','sentenceOrder':'句子排序','passage':'短文听力'}[listenType]} · 共 ${items.length} 题`;
-  currentListenIndex=Math.min(currentListenIndex,items.length-1);
-  const item=items[currentListenIndex];
+  const typeName={'wordChoice':'听音辩词','sentenceOrder':'句子排序','passage':'短文听力'}[listenType];
+  const diffName={'easy':'简单','medium':'较难','hard':'高难'}[listenDiff];
+  stats.innerText=`${currentLevel==='junior'?'初中':'高中'} · ${diffName} · ${typeName} · 共 ${items.length} 题（点击下方标签开始）`;
+  const grid=document.getElementById('listenTagGrid');
+  grid.innerHTML='';
+  items.forEach((item,idx)=>{
+    const card=document.createElement('div');
+    card.className='word-card';
+    card.style.cursor='pointer';
+    let preview='';
+    if(listenType==='wordChoice') preview=item.audio;
+    else if(listenType==='sentenceOrder') preview=item.audio.length>40?item.audio.slice(0,40)+'…':item.audio;
+    else preview=item.title||'短文';
+    card.innerHTML=`<div class="w-word" style="font-size:1rem">第 ${idx+1} 题</div><div class="w-cn" style="margin-top:4px">${preview}</div><div class="w-ipa" style="margin-top:6px">${typeName}</div>`;
+    card.onclick=()=>openListenItem(idx);
+    grid.appendChild(card);
+  });
+}
+function openListenItem(idx){
+  currentListenIndex=idx;
+  const items=getListenItems();
+  const item=items[idx];
+  document.getElementById('listenListView').style.display='none';
+  document.getElementById('listenDetailView').style.display='block';
   if(listenType==='wordChoice') renderWordChoice(item,items);
   else if(listenType==='sentenceOrder') renderSentenceOrder(item,items);
   else renderPassage(item,items);
+}
+function backToListenList(){
+  renderListening();
 }
 function renderWordChoice(item,items){
   const box=document.getElementById('listenContent');
@@ -542,10 +575,10 @@ function checkPassage(){
 }
 function nextListen(){
   const items=getListenItems();
-  if(currentListenIndex<items.length-1){currentListenIndex++;renderListening();}
+  if(currentListenIndex<items.length-1){openListenItem(currentListenIndex+1);}
 }
 function prevListen(){
-  if(currentListenIndex>0){currentListenIndex--;renderListening();}
+  if(currentListenIndex>0){openListenItem(currentListenIndex-1);}
 }
 
 </script>
