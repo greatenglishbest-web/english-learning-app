@@ -7024,6 +7024,328 @@
         "cn": "撤回；取款",
         "ex": "He withdrew his application.",
         "exCn": "他撤回了申请。"
+      },
+      {
+        "w": "collaborate",
+        "ipa": "/kəˈlæbəreɪt/",
+        "cn": "合作",
+        "ex": "We need to collaborate on this project.",
+        "exCn": "我们需要在这个项目上合作。"
+      },
+      {
+        "w": "perceive",
+        "ipa": "/pəˈsiːv/",
+        "cn": "感知",
+        "ex": "How do you perceive the situation?",
+        "exCn": "你如何感知这个情况？"
+      },
+      {
+        "w": "compensate",
+        "ipa": "/ˈkɒmpenseɪt/",
+        "cn": "补偿",
+        "ex": "The company will compensate you.",
+        "exCn": "公司会补偿你。"
+      },
+      {
+        "w": "complement",
+        "ipa": "/ˈkɒmplɪment/",
+        "cn": "补充",
+        "ex": "The two ideas complement each other.",
+        "exCn": "两个想法互补。"
+      },
+      {
+        "w": "comprise",
+        "ipa": "/kəmˈpraɪz/",
+        "cn": "包含",
+        "ex": "The team comprises ten members.",
+        "exCn": "团队包含十名成员。"
+      },
+      {
+        "w": "conceive",
+        "ipa": "/kənˈsiːv/",
+        "cn": "构想",
+        "ex": "She conceived a new plan.",
+        "exCn": "她构想了新计划。"
+      },
+      {
+        "w": "constrain",
+        "ipa": "/kənˈstreɪn/",
+        "cn": "限制",
+        "ex": "Time constrains our options.",
+        "exCn": "时间限制我们的选择。"
+      },
+      {
+        "w": "contemplate",
+        "ipa": "/ˈkɒntəmpleɪt/",
+        "cn": "思考",
+        "ex": "He contemplated the problem.",
+        "exCn": "他思考了问题。"
+      },
+      {
+        "w": "contradict",
+        "ipa": "/ˌkɒntrəˈdɪkt/",
+        "cn": "反驳",
+        "ex": "The evidence contradicts the claim.",
+        "exCn": "证据反驳了声称。"
+      },
+      {
+        "w": "correlate",
+        "ipa": "/ˈkɒrəleɪt/",
+        "cn": "相关",
+        "ex": "The two factors correlate.",
+        "exCn": "两个因素相关。"
+      },
+      {
+        "w": "dedicate",
+        "ipa": "/ˈdedɪkeɪt/",
+        "cn": "奉献",
+        "ex": "She dedicated her life to education.",
+        "exCn": "她把一生献给教育。"
+      },
+      {
+        "w": "derive",
+        "ipa": "/dɪˈraɪv/",
+        "cn": "获得",
+        "ex": "We derive benefits from exercise.",
+        "exCn": "我们从锻炼中获得益处。"
+      },
+      {
+        "w": "designate",
+        "ipa": "/ˈdezɪɡneɪt/",
+        "cn": "指定",
+        "ex": "This area is designated for study.",
+        "exCn": "这个区域指定用于学习。"
+      },
+      {
+        "w": "differentiate",
+        "ipa": "/ˌdɪfəˈrenʃieɪt/",
+        "cn": "区分",
+        "ex": "Differentiate the two concepts.",
+        "exCn": "区分这两个概念。"
+      },
+      {
+        "w": "discriminate",
+        "ipa": "/dɪˈskrɪmɪneɪt/",
+        "cn": "歧视",
+        "ex": "Do not discriminate against others.",
+        "exCn": "不要歧视他人。"
+      },
+      {
+        "w": "emphasise",
+        "ipa": "/ˈemfəsaɪz/",
+        "cn": "强调",
+        "ex": "The teacher emphasised practice.",
+        "exCn": "老师强调了练习。"
+      },
+      {
+        "w": "encounter",
+        "ipa": "/ɪnˈkaʊntə(r)/",
+        "cn": "遇到",
+        "ex": "We encountered difficulties.",
+        "exCn": "我们遇到了困难。"
+      },
+      {
+        "w": "incorporate",
+        "ipa": "/ɪnˈkɔːpəreɪt/",
+        "cn": "纳入",
+        "ex": "Incorporate feedback into the work.",
+        "exCn": "把反馈纳入工作。"
+      },
+      {
+        "w": "initiate",
+        "ipa": "/ɪˈnɪʃieɪt/",
+        "cn": "发起",
+        "ex": "She initiated the project.",
+        "exCn": "她发起了项目。"
+      },
+      {
+        "w": "innovate",
+        "ipa": "/ˈɪnəveɪt/",
+        "cn": "创新",
+        "ex": "Companies must innovate to survive.",
+        "exCn": "公司必须创新才能生存。"
+      },
+      {
+        "w": "integrate",
+        "ipa": "/ˈɪntɪɡreɪt/",
+        "cn": "整合",
+        "ex": "Integrate theory with practice.",
+        "exCn": "把理论与实践整合。"
+      },
+      {
+        "w": "manipulate",
+        "ipa": "/məˈnɪpjuleɪt/",
+        "cn": "操纵",
+        "ex": "Do not manipulate data.",
+        "exCn": "不要操纵数据。"
+      },
+      {
+        "w": "maximise",
+        "ipa": "/ˈmæksɪmaɪz/",
+        "cn": "最大化",
+        "ex": "Maximise learning opportunities.",
+        "exCn": "最大化学习机会。"
+      },
+      {
+        "w": "minimise",
+        "ipa": "/ˈmɪnɪmaɪz/",
+        "cn": "最小化",
+        "ex": "Minimise the risks.",
+        "exCn": "最小化风险。"
+      },
+      {
+        "w": "modify",
+        "ipa": "/ˈmɒdɪfaɪ/",
+        "cn": "修改",
+        "ex": "Modify the plan if needed.",
+        "exCn": "如有需要修改计划。"
+      },
+      {
+        "w": "neglect",
+        "ipa": "/nɪˈɡlekt/",
+        "cn": "忽视",
+        "ex": "Do not neglect your health.",
+        "exCn": "不要忽视健康。"
+      },
+      {
+        "w": "occupy",
+        "ipa": "/ˈɒkjupaɪ/",
+        "cn": "占据",
+        "ex": "The project occupies much time.",
+        "exCn": "项目占据很多时间。"
+      },
+      {
+        "w": "persist",
+        "ipa": "/pəˈsɪst/",
+        "cn": "坚持",
+        "ex": "Persist until you succeed.",
+        "exCn": "坚持直到成功。"
+      },
+      {
+        "w": "precede",
+        "ipa": "/prɪˈsiːd/",
+        "cn": "先于",
+        "ex": "Preparation precedes success.",
+        "exCn": "准备先于成功。"
+      },
+      {
+        "w": "proceed",
+        "ipa": "/prəˈsiːd/",
+        "cn": "继续",
+        "ex": "Please proceed with the plan.",
+        "exCn": "请继续计划。"
+      },
+      {
+        "w": "prohibit",
+        "ipa": "/prəˈhɪbɪt/",
+        "cn": "禁止",
+        "ex": "Smoking is prohibited here.",
+        "exCn": "这里禁止吸烟。"
+      },
+      {
+        "w": "qualify",
+        "ipa": "/ˈkwɒlɪfaɪ/",
+        "cn": "使有资格",
+        "ex": "Hard work qualifies you for the award.",
+        "exCn": "努力使你有资格获奖。"
+      },
+      {
+        "w": "recognise",
+        "ipa": "/ˈrekəɡnaɪz/",
+        "cn": "认出；承认",
+        "ex": "Recognise your strengths.",
+        "exCn": "承认你的优势。"
+      },
+      {
+        "w": "reinforce",
+        "ipa": "/ˌriːɪnˈfɔːs/",
+        "cn": "加强",
+        "ex": "Practice reinforces learning.",
+        "exCn": "练习加强学习。"
+      },
+      {
+        "w": "validate",
+        "ipa": "/ˈvælɪdeɪt/",
+        "cn": "验证",
+        "ex": "Validate the results.",
+        "exCn": "验证结果。"
+      },
+      {
+        "w": "constitute",
+        "ipa": "/ˈkɒnstɪtjuːt/",
+        "cn": "构成",
+        "ex": "These factors constitute the main reason.",
+        "exCn": "这些因素构成主要原因。"
+      },
+      {
+        "w": "construct",
+        "ipa": "/kənˈstrʌkt/",
+        "cn": "建造",
+        "ex": "Construct a clear argument.",
+        "exCn": "构建清晰论证。"
+      },
+      {
+        "w": "criticise",
+        "ipa": "/ˈkrɪtɪsaɪz/",
+        "cn": "批评",
+        "ex": "Criticise constructively.",
+        "exCn": "建设性地批评。"
+      },
+      {
+        "w": "permit",
+        "ipa": "/pəˈmɪt/",
+        "cn": "允许",
+        "ex": "Permit questions.",
+        "exCn": "允许提问。"
+      },
+      {
+        "w": "propose",
+        "ipa": "/prəˈpəʊz/",
+        "cn": "提议",
+        "ex": "Propose a solution.",
+        "exCn": "提议解决方案。"
+      },
+      {
+        "w": "realise",
+        "ipa": "/ˈriːəlaɪz/",
+        "cn": "意识到",
+        "ex": "Realise the importance.",
+        "exCn": "意识到重要性。"
+      },
+      {
+        "w": "regulate",
+        "ipa": "/ˈreɡjuleɪt/",
+        "cn": "调节",
+        "ex": "Regulate temperature.",
+        "exCn": "调节温度。"
+      },
+      {
+        "w": "remove",
+        "ipa": "/rɪˈmuːv/",
+        "cn": "移除",
+        "ex": "Remove obstacles.",
+        "exCn": "移除障碍。"
+      },
+      {
+        "w": "retain",
+        "ipa": "/rɪˈteɪn/",
+        "cn": "保持",
+        "ex": "Retain key information.",
+        "exCn": "保持关键信息。"
+      },
+      {
+        "w": "revise",
+        "ipa": "/rɪˈvaɪz/",
+        "cn": "修订",
+        "ex": "Revise the draft.",
+        "exCn": "修订草稿。"
+      },
+      {
+        "w": "utilise",
+        "ipa": "/ˈjuːtəlaɪz/",
+        "cn": "利用",
+        "ex": "Utilise resources efficiently.",
+        "exCn": "高效利用资源。"
       }
     ],
     "高考核心形容词": [
@@ -9406,6 +9728,55 @@
         "cn": "住宅的",
         "ex": "This is a residential area.",
         "exCn": "这是住宅区。"
+      },
+      {
+        "w": "accountable",
+        "ipa": "/əˈkaʊntəbl/",
+        "cn": "负责任的",
+        "ex": "Leaders should be accountable.",
+        "exCn": "领导者应该负责任。"
+      },
+      {
+        "w": "adaptable",
+        "ipa": "/əˈdæptəbl/",
+        "cn": "适应力强的",
+        "ex": "She is highly adaptable.",
+        "exCn": "她适应力很强。"
+      },
+      {
+        "w": "analytical",
+        "ipa": "/ˌænəˈlɪtɪkl/",
+        "cn": "分析的",
+        "ex": "He has an analytical mind.",
+        "exCn": "他有分析性思维。"
+      },
+      {
+        "w": "collaborative",
+        "ipa": "/kəˈlæbərətɪv/",
+        "cn": "协作的",
+        "ex": "Teamwork requires a collaborative attitude.",
+        "exCn": "团队合作需要协作态度。"
+      },
+      {
+        "w": "proactive",
+        "ipa": "/ˌprəʊˈæktɪv/",
+        "cn": "主动的",
+        "ex": "Be proactive in solving problems.",
+        "exCn": "主动解决问题。"
+      },
+      {
+        "w": "transparent",
+        "ipa": "/trænsˈpærənt/",
+        "cn": "透明的",
+        "ex": "The process should be transparent.",
+        "exCn": "过程应该透明。"
+      },
+      {
+        "w": "versatile",
+        "ipa": "/ˈvɜːsətaɪl/",
+        "cn": "多才多艺的；多功能的",
+        "ex": "She is a versatile student.",
+        "exCn": "她是一个多才多艺的学生。"
       }
     ],
     "高考核心名词": [
@@ -13027,6 +13398,48 @@
         "cn": "意愿",
         "ex": "Willingness to learn is key.",
         "exCn": "学习意愿是关键。"
+      },
+      {
+        "w": "sustainability",
+        "ipa": "/səˌsteɪnəˈbɪləti/",
+        "cn": "可持续性",
+        "ex": "Sustainability is a key goal.",
+        "exCn": "可持续性是关键目标。"
+      },
+      {
+        "w": "accountability",
+        "ipa": "/əˌkaʊntəˈbɪləti/",
+        "cn": "责任",
+        "ex": "Accountability is important in leadership.",
+        "exCn": "领导中责任很重要。"
+      },
+      {
+        "w": "adaptability",
+        "ipa": "/əˌdæptəˈbɪləti/",
+        "cn": "适应性",
+        "ex": "Adaptability helps in changing times.",
+        "exCn": "适应性在变化时期有帮助。"
+      },
+      {
+        "w": "collaboration",
+        "ipa": "/kəˌlæbəˈreɪʃn/",
+        "cn": "协作",
+        "ex": "Collaboration leads to better results.",
+        "exCn": "协作带来更好结果。"
+      },
+      {
+        "w": "competitiveness",
+        "ipa": "/kəmˈpetətɪvnəs/",
+        "cn": "竞争力",
+        "ex": "Education improves competitiveness.",
+        "exCn": "教育提高竞争力。"
+      },
+      {
+        "w": "consciousness",
+        "ipa": "/ˈkɒnʃəsnəs/",
+        "cn": "意识",
+        "ex": "Environmental consciousness is rising.",
+        "exCn": "环境意识在上升。"
       }
     ],
     "高考写作连接词": [
