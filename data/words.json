@@ -2279,6 +2279,1469 @@
         "cn": "解决方案",
         "ex": "We need to find a practical solution.",
         "exCn": "我们需要找到切实可行的解决方案。"
+      },
+      {
+        "w": "accident",
+        "ipa": "/ˈæksɪdənt/",
+        "cn": "事故",
+        "ex": "There was a car accident on the road.",
+        "exCn": "路上发生了车祸。"
+      },
+      {
+        "w": "address",
+        "ipa": "/əˈdres/",
+        "cn": "地址",
+        "ex": "Please write down your address.",
+        "exCn": "请写下你的地址。"
+      },
+      {
+        "w": "age",
+        "ipa": "/eɪdʒ/",
+        "cn": "年龄",
+        "ex": "What is your age?",
+        "exCn": "你多大了？"
+      },
+      {
+        "w": "air",
+        "ipa": "/eə(r)/",
+        "cn": "空气",
+        "ex": "Fresh air is good for health.",
+        "exCn": "新鲜空气对健康有益。"
+      },
+      {
+        "w": "animal",
+        "ipa": "/ˈænɪml/",
+        "cn": "动物",
+        "ex": "We should protect animals.",
+        "exCn": "我们应该保护动物。"
+      },
+      {
+        "w": "answer",
+        "ipa": "/ˈɑːnsə(r)/",
+        "cn": "答案",
+        "ex": "Do you know the answer?",
+        "exCn": "你知道答案吗？"
+      },
+      {
+        "w": "area",
+        "ipa": "/ˈeəriə/",
+        "cn": "地区；面积",
+        "ex": "This is a quiet area.",
+        "exCn": "这是一个安静的地区。"
+      },
+      {
+        "w": "art",
+        "ipa": "/ɑːt/",
+        "cn": "艺术",
+        "ex": "She is good at art.",
+        "exCn": "她擅长艺术。"
+      },
+      {
+        "w": "baby",
+        "ipa": "/ˈbeɪbi/",
+        "cn": "婴儿",
+        "ex": "The baby is sleeping.",
+        "exCn": "婴儿在睡觉。"
+      },
+      {
+        "w": "bag",
+        "ipa": "/bæɡ/",
+        "cn": "包",
+        "ex": "Please put your books in the bag.",
+        "exCn": "请把书放进包里。"
+      },
+      {
+        "w": "ball",
+        "ipa": "/bɔːl/",
+        "cn": "球",
+        "ex": "They are playing with a ball.",
+        "exCn": "他们在玩球。"
+      },
+      {
+        "w": "bank",
+        "ipa": "/bæŋk/",
+        "cn": "银行",
+        "ex": "I need to go to the bank.",
+        "exCn": "我需要去银行。"
+      },
+      {
+        "w": "beach",
+        "ipa": "/biːtʃ/",
+        "cn": "海滩",
+        "ex": "We went to the beach last summer.",
+        "exCn": "去年夏天我们去了海滩。"
+      },
+      {
+        "w": "bird",
+        "ipa": "/bɜːd/",
+        "cn": "鸟",
+        "ex": "A bird is singing in the tree.",
+        "exCn": "一只鸟在树上唱歌。"
+      },
+      {
+        "w": "birthday",
+        "ipa": "/ˈbɜːθdeɪ/",
+        "cn": "生日",
+        "ex": "Happy birthday to you!",
+        "exCn": "生日快乐！"
+      },
+      {
+        "w": "body",
+        "ipa": "/ˈbɒdi/",
+        "cn": "身体",
+        "ex": "Exercise is good for your body.",
+        "exCn": "锻炼对身体有好处。"
+      },
+      {
+        "w": "box",
+        "ipa": "/bɒks/",
+        "cn": "盒子",
+        "ex": "Please open the box.",
+        "exCn": "请打开盒子。"
+      },
+      {
+        "w": "bridge",
+        "ipa": "/brɪdʒ/",
+        "cn": "桥",
+        "ex": "There is a bridge over the river.",
+        "exCn": "河上有一座桥。"
+      },
+      {
+        "w": "building",
+        "ipa": "/ˈbɪldɪŋ/",
+        "cn": "建筑物",
+        "ex": "This is a tall building.",
+        "exCn": "这是一座高楼。"
+      },
+      {
+        "w": "business",
+        "ipa": "/ˈbɪznəs/",
+        "cn": "生意；事务",
+        "ex": "He is in the computer business.",
+        "exCn": "他做电脑生意。"
+      },
+      {
+        "w": "camera",
+        "ipa": "/ˈkæmərə/",
+        "cn": "相机",
+        "ex": "I bought a new camera.",
+        "exCn": "我买了一部新相机。"
+      },
+      {
+        "w": "capital",
+        "ipa": "/ˈkæpɪtl/",
+        "cn": "首都；大写",
+        "ex": "Beijing is the capital of China.",
+        "exCn": "北京是中国的首都。"
+      },
+      {
+        "w": "card",
+        "ipa": "/kɑːd/",
+        "cn": "卡片",
+        "ex": "I sent her a birthday card.",
+        "exCn": "我给她寄了一张生日卡片。"
+      },
+      {
+        "w": "center",
+        "ipa": "/ˈsentə(r)/",
+        "cn": "中心",
+        "ex": "The shopping center is near here.",
+        "exCn": "购物中心就在附近。"
+      },
+      {
+        "w": "century",
+        "ipa": "/ˈsentʃəri/",
+        "cn": "世纪",
+        "ex": "We live in the 21st century.",
+        "exCn": "我们生活在21世纪。"
+      },
+      {
+        "w": "chair",
+        "ipa": "/tʃeə(r)/",
+        "cn": "椅子",
+        "ex": "Please sit on the chair.",
+        "exCn": "请坐在椅子上。"
+      },
+      {
+        "w": "change",
+        "ipa": "/tʃeɪndʒ/",
+        "cn": "变化；零钱",
+        "ex": "There has been a big change.",
+        "exCn": "发生了很大的变化。"
+      },
+      {
+        "w": "child",
+        "ipa": "/tʃaɪld/",
+        "cn": "孩子",
+        "ex": "Every child needs love.",
+        "exCn": "每个孩子都需要爱。"
+      },
+      {
+        "w": "city",
+        "ipa": "/ˈsɪti/",
+        "cn": "城市",
+        "ex": "Shanghai is a modern city.",
+        "exCn": "上海是一座现代化城市。"
+      },
+      {
+        "w": "class",
+        "ipa": "/klɑːs/",
+        "cn": "班级；课",
+        "ex": "We have English class today.",
+        "exCn": "我们今天有英语课。"
+      },
+      {
+        "w": "classmate",
+        "ipa": "/ˈklɑːsmeɪt/",
+        "cn": "同学",
+        "ex": "She is my classmate.",
+        "exCn": "她是我的同学。"
+      },
+      {
+        "w": "classroom",
+        "ipa": "/ˈklɑːsruːm/",
+        "cn": "教室",
+        "ex": "The classroom is clean.",
+        "exCn": "教室很干净。"
+      },
+      {
+        "w": "clock",
+        "ipa": "/klɒk/",
+        "cn": "时钟",
+        "ex": "Look at the clock.",
+        "exCn": "看时钟。"
+      },
+      {
+        "w": "clothes",
+        "ipa": "/kləʊðz/",
+        "cn": "衣服",
+        "ex": "She bought new clothes.",
+        "exCn": "她买了新衣服。"
+      },
+      {
+        "w": "club",
+        "ipa": "/klʌb/",
+        "cn": "俱乐部",
+        "ex": "I joined the English club.",
+        "exCn": "我加入了英语俱乐部。"
+      },
+      {
+        "w": "color",
+        "ipa": "/ˈkʌlə(r)/",
+        "cn": "颜色",
+        "ex": "What color is your bag?",
+        "exCn": "你的包是什么颜色？"
+      },
+      {
+        "w": "company",
+        "ipa": "/ˈkʌmpəni/",
+        "cn": "公司",
+        "ex": "He works in a big company.",
+        "exCn": "他在一家大公司工作。"
+      },
+      {
+        "w": "computer",
+        "ipa": "/kəmˈpjuːtə(r)/",
+        "cn": "电脑",
+        "ex": "I use the computer every day.",
+        "exCn": "我每天使用电脑。"
+      },
+      {
+        "w": "concert",
+        "ipa": "/ˈkɒnsət/",
+        "cn": "音乐会",
+        "ex": "We went to a concert last night.",
+        "exCn": "昨晚我们去听了音乐会。"
+      },
+      {
+        "w": "country",
+        "ipa": "/ˈkʌntri/",
+        "cn": "国家；乡村",
+        "ex": "China is a large country.",
+        "exCn": "中国是一个大国。"
+      },
+      {
+        "w": "course",
+        "ipa": "/kɔːs/",
+        "cn": "课程",
+        "ex": "I am taking an English course.",
+        "exCn": "我正在上英语课程。"
+      },
+      {
+        "w": "danger",
+        "ipa": "/ˈdeɪndʒə(r)/",
+        "cn": "危险",
+        "ex": "There is danger ahead.",
+        "exCn": "前方有危险。"
+      },
+      {
+        "w": "date",
+        "ipa": "/deɪt/",
+        "cn": "日期",
+        "ex": "What is the date today?",
+        "exCn": "今天是几号？"
+      },
+      {
+        "w": "daughter",
+        "ipa": "/ˈdɔːtə(r)/",
+        "cn": "女儿",
+        "ex": "She has a lovely daughter.",
+        "exCn": "她有一个可爱的女儿。"
+      },
+      {
+        "w": "day",
+        "ipa": "/deɪ/",
+        "cn": "天；白天",
+        "ex": "Have a nice day!",
+        "exCn": "祝你有美好的一天！"
+      },
+      {
+        "w": "dictionary",
+        "ipa": "/ˈdɪkʃənri/",
+        "cn": "词典",
+        "ex": "I need a dictionary.",
+        "exCn": "我需要一本词典。"
+      },
+      {
+        "w": "difference",
+        "ipa": "/ˈdɪfrəns/",
+        "cn": "差异",
+        "ex": "There is a big difference between them.",
+        "exCn": "他们之间有很大差异。"
+      },
+      {
+        "w": "dinner",
+        "ipa": "/ˈdɪnə(r)/",
+        "cn": "晚餐",
+        "ex": "Dinner is ready.",
+        "exCn": "晚饭准备好了。"
+      },
+      {
+        "w": "doctor",
+        "ipa": "/ˈdɒktə(r)/",
+        "cn": "医生",
+        "ex": "I need to see a doctor.",
+        "exCn": "我需要看医生。"
+      },
+      {
+        "w": "dream",
+        "ipa": "/driːm/",
+        "cn": "梦想",
+        "ex": "Never give up your dream.",
+        "exCn": "永远不要放弃梦想。"
+      },
+      {
+        "w": "earth",
+        "ipa": "/ɜːθ/",
+        "cn": "地球",
+        "ex": "We must protect the earth.",
+        "exCn": "我们必须保护地球。"
+      },
+      {
+        "w": "example",
+        "ipa": "/ɪɡˈzɑːmpl/",
+        "cn": "例子",
+        "ex": "Can you give me an example?",
+        "exCn": "你能给我一个例子吗？"
+      },
+      {
+        "w": "exercise",
+        "ipa": "/ˈeksəsaɪz/",
+        "cn": "练习；锻炼",
+        "ex": "Do more exercise every day.",
+        "exCn": "每天多锻炼。"
+      },
+      {
+        "w": "factory",
+        "ipa": "/ˈfæktri/",
+        "cn": "工厂",
+        "ex": "My father works in a factory.",
+        "exCn": "我父亲在工厂工作。"
+      },
+      {
+        "w": "family",
+        "ipa": "/ˈfæməli/",
+        "cn": "家庭",
+        "ex": "I love my family.",
+        "exCn": "我爱我的家人。"
+      },
+      {
+        "w": "farm",
+        "ipa": "/fɑːm/",
+        "cn": "农场",
+        "ex": "They live on a farm.",
+        "exCn": "他们住在农场。"
+      },
+      {
+        "w": "farmer",
+        "ipa": "/ˈfɑːmə(r)/",
+        "cn": "农民",
+        "ex": "The farmer grows rice.",
+        "exCn": "农民种植水稻。"
+      },
+      {
+        "w": "festival",
+        "ipa": "/ˈfestɪvl/",
+        "cn": "节日",
+        "ex": "Spring Festival is important in China.",
+        "exCn": "春节在中国很重要。"
+      },
+      {
+        "w": "field",
+        "ipa": "/fiːld/",
+        "cn": "田地；领域",
+        "ex": "There are flowers in the field.",
+        "exCn": "田野里有花。"
+      },
+      {
+        "w": "film",
+        "ipa": "/fɪlm/",
+        "cn": "电影",
+        "ex": "We watched a film last night.",
+        "exCn": "昨晚我们看了一部电影。"
+      },
+      {
+        "w": "fire",
+        "ipa": "/ˈfaɪə(r)/",
+        "cn": "火",
+        "ex": "Be careful with fire.",
+        "exCn": "小心火。"
+      },
+      {
+        "w": "floor",
+        "ipa": "/flɔː(r)/",
+        "cn": "地板；楼层",
+        "ex": "The book is on the floor.",
+        "exCn": "书在地板上。"
+      },
+      {
+        "w": "flower",
+        "ipa": "/ˈflaʊə(r)/",
+        "cn": "花",
+        "ex": "She gave me a flower.",
+        "exCn": "她给了我一朵花。"
+      },
+      {
+        "w": "food",
+        "ipa": "/fuːd/",
+        "cn": "食物",
+        "ex": "Chinese food is delicious.",
+        "exCn": "中国菜很美味。"
+      },
+      {
+        "w": "forest",
+        "ipa": "/ˈfɒrɪst/",
+        "cn": "森林",
+        "ex": "We walked through the forest.",
+        "exCn": "我们穿过了森林。"
+      },
+      {
+        "w": "friend",
+        "ipa": "/frend/",
+        "cn": "朋友",
+        "ex": "He is my best friend.",
+        "exCn": "他是我最好的朋友。"
+      },
+      {
+        "w": "future",
+        "ipa": "/ˈfjuːtʃə(r)/",
+        "cn": "未来",
+        "ex": "We should plan for the future.",
+        "exCn": "我们应该为未来做计划。"
+      },
+      {
+        "w": "game",
+        "ipa": "/ɡeɪm/",
+        "cn": "游戏；比赛",
+        "ex": "They are playing a game.",
+        "exCn": "他们在玩游戏。"
+      },
+      {
+        "w": "garden",
+        "ipa": "/ˈɡɑːdn/",
+        "cn": "花园",
+        "ex": "There are many flowers in the garden.",
+        "exCn": "花园里有很多花。"
+      },
+      {
+        "w": "gift",
+        "ipa": "/ɡɪft/",
+        "cn": "礼物",
+        "ex": "I received a gift from her.",
+        "exCn": "我收到了她的礼物。"
+      },
+      {
+        "w": "glass",
+        "ipa": "/ɡlɑːs/",
+        "cn": "玻璃；玻璃杯",
+        "ex": "Please give me a glass of water.",
+        "exCn": "请给我一杯水。"
+      },
+      {
+        "w": "grade",
+        "ipa": "/ɡreɪd/",
+        "cn": "年级；成绩",
+        "ex": "She got a good grade.",
+        "exCn": "她取得了好成绩。"
+      },
+      {
+        "w": "ground",
+        "ipa": "/ɡraʊnd/",
+        "cn": "地面",
+        "ex": "The ground is wet.",
+        "exCn": "地面是湿的。"
+      },
+      {
+        "w": "group",
+        "ipa": "/ɡruːp/",
+        "cn": "小组；群体",
+        "ex": "We work in groups.",
+        "exCn": "我们分组工作。"
+      },
+      {
+        "w": "guest",
+        "ipa": "/ɡest/",
+        "cn": "客人",
+        "ex": "We have a guest today.",
+        "exCn": "今天我们有客人。"
+      },
+      {
+        "w": "habit",
+        "ipa": "/ˈhæbɪt/",
+        "cn": "习惯",
+        "ex": "Reading is a good habit.",
+        "exCn": "阅读是一个好习惯。"
+      },
+      {
+        "w": "health",
+        "ipa": "/helθ/",
+        "cn": "健康",
+        "ex": "Health is more important than money.",
+        "exCn": "健康比金钱更重要。"
+      },
+      {
+        "w": "heart",
+        "ipa": "/hɑːt/",
+        "cn": "心脏；心",
+        "ex": "She has a kind heart.",
+        "exCn": "她有一颗善良的心。"
+      },
+      {
+        "w": "history",
+        "ipa": "/ˈhɪstri/",
+        "cn": "历史",
+        "ex": "I am interested in history.",
+        "exCn": "我对历史感兴趣。"
+      },
+      {
+        "w": "holiday",
+        "ipa": "/ˈhɒlədeɪ/",
+        "cn": "假期",
+        "ex": "Where did you go on holiday?",
+        "exCn": "你假期去了哪里？"
+      },
+      {
+        "w": "home",
+        "ipa": "/həʊm/",
+        "cn": "家",
+        "ex": "I go home after school.",
+        "exCn": "放学后我回家。"
+      },
+      {
+        "w": "homework",
+        "ipa": "/ˈhəʊmwɜːk/",
+        "cn": "家庭作业",
+        "ex": "I finish my homework every day.",
+        "exCn": "我每天完成作业。"
+      },
+      {
+        "w": "hospital",
+        "ipa": "/ˈhɒspɪtl/",
+        "cn": "医院",
+        "ex": "She works in a hospital.",
+        "exCn": "她在医院工作。"
+      },
+      {
+        "w": "hotel",
+        "ipa": "/həʊˈtel/",
+        "cn": "酒店",
+        "ex": "We stayed in a hotel.",
+        "exCn": "我们住在酒店。"
+      },
+      {
+        "w": "hour",
+        "ipa": "/ˈaʊə(r)/",
+        "cn": "小时",
+        "ex": "It takes one hour to get there.",
+        "exCn": "到那里需要一小时。"
+      },
+      {
+        "w": "idea",
+        "ipa": "/aɪˈdɪə/",
+        "cn": "想法",
+        "ex": "That's a good idea.",
+        "exCn": "那是个好主意。"
+      },
+      {
+        "w": "interest",
+        "ipa": "/ˈɪntrəst/",
+        "cn": "兴趣",
+        "ex": "I have an interest in music.",
+        "exCn": "我对音乐有兴趣。"
+      },
+      {
+        "w": "job",
+        "ipa": "/dʒɒb/",
+        "cn": "工作",
+        "ex": "He has a good job.",
+        "exCn": "他有一份好工作。"
+      },
+      {
+        "w": "joke",
+        "ipa": "/dʒəʊk/",
+        "cn": "笑话",
+        "ex": "He told a funny joke.",
+        "exCn": "他讲了一个有趣的笑话。"
+      },
+      {
+        "w": "journey",
+        "ipa": "/ˈdʒɜːni/",
+        "cn": "旅行",
+        "ex": "The journey was long but interesting.",
+        "exCn": "旅途漫长但有趣。"
+      },
+      {
+        "w": "key",
+        "ipa": "/kiː/",
+        "cn": "钥匙；关键",
+        "ex": "I lost my key.",
+        "exCn": "我丢了钥匙。"
+      },
+      {
+        "w": "kind",
+        "ipa": "/kaɪnd/",
+        "cn": "种类；善良的",
+        "ex": "What kind of music do you like?",
+        "exCn": "你喜欢哪种音乐？"
+      },
+      {
+        "w": "kitchen",
+        "ipa": "/ˈkɪtʃɪn/",
+        "cn": "厨房",
+        "ex": "Mom is cooking in the kitchen.",
+        "exCn": "妈妈在厨房做饭。"
+      },
+      {
+        "w": "language",
+        "ipa": "/ˈlæŋɡwɪdʒ/",
+        "cn": "语言",
+        "ex": "English is an important language.",
+        "exCn": "英语是一门重要的语言。"
+      },
+      {
+        "w": "letter",
+        "ipa": "/ˈletə(r)/",
+        "cn": "信；字母",
+        "ex": "I received a letter from my friend.",
+        "exCn": "我收到了朋友的来信。"
+      },
+      {
+        "w": "library",
+        "ipa": "/ˈlaɪbrəri/",
+        "cn": "图书馆",
+        "ex": "I often go to the library.",
+        "exCn": "我经常去图书馆。"
+      },
+      {
+        "w": "life",
+        "ipa": "/laɪf/",
+        "cn": "生活；生命",
+        "ex": "Life is beautiful.",
+        "exCn": "生活是美好的。"
+      },
+      {
+        "w": "light",
+        "ipa": "/laɪt/",
+        "cn": "光；灯",
+        "ex": "Turn on the light.",
+        "exCn": "打开灯。"
+      },
+      {
+        "w": "line",
+        "ipa": "/laɪn/",
+        "cn": "线；队列",
+        "ex": "Please stand in line.",
+        "exCn": "请排队。"
+      },
+      {
+        "w": "list",
+        "ipa": "/lɪst/",
+        "cn": "清单",
+        "ex": "I made a shopping list.",
+        "exCn": "我列了一份购物清单。"
+      },
+      {
+        "w": "magazine",
+        "ipa": "/ˌmæɡəˈziːn/",
+        "cn": "杂志",
+        "ex": "I like reading magazines.",
+        "exCn": "我喜欢看杂志。"
+      },
+      {
+        "w": "market",
+        "ipa": "/ˈmɑːkɪt/",
+        "cn": "市场",
+        "ex": "We buy food at the market.",
+        "exCn": "我们在市场买食物。"
+      },
+      {
+        "w": "meal",
+        "ipa": "/miːl/",
+        "cn": "一餐",
+        "ex": "Breakfast is an important meal.",
+        "exCn": "早餐是重要的一餐。"
+      },
+      {
+        "w": "medicine",
+        "ipa": "/ˈmedsn/",
+        "cn": "药",
+        "ex": "Take the medicine three times a day.",
+        "exCn": "一天吃三次药。"
+      },
+      {
+        "w": "meeting",
+        "ipa": "/ˈmiːtɪŋ/",
+        "cn": "会议",
+        "ex": "We have a meeting this afternoon.",
+        "exCn": "今天下午我们有会议。"
+      },
+      {
+        "w": "member",
+        "ipa": "/ˈmembə(r)/",
+        "cn": "成员",
+        "ex": "She is a member of the club.",
+        "exCn": "她是社团成员。"
+      },
+      {
+        "w": "message",
+        "ipa": "/ˈmesɪdʒ/",
+        "cn": "消息",
+        "ex": "I left a message for you.",
+        "exCn": "我给你留了消息。"
+      },
+      {
+        "w": "middle",
+        "ipa": "/ˈmɪdl/",
+        "cn": "中间",
+        "ex": "He sits in the middle.",
+        "exCn": "他坐在中间。"
+      },
+      {
+        "w": "minute",
+        "ipa": "/ˈmɪnɪt/",
+        "cn": "分钟",
+        "ex": "Wait a minute.",
+        "exCn": "等一分钟。"
+      },
+      {
+        "w": "moment",
+        "ipa": "/ˈməʊmənt/",
+        "cn": "片刻",
+        "ex": "Please wait a moment.",
+        "exCn": "请稍等片刻。"
+      },
+      {
+        "w": "money",
+        "ipa": "/ˈmʌni/",
+        "cn": "钱",
+        "ex": "Time is money.",
+        "exCn": "时间就是金钱。"
+      },
+      {
+        "w": "month",
+        "ipa": "/mʌnθ/",
+        "cn": "月",
+        "ex": "There are twelve months in a year.",
+        "exCn": "一年有十二个月。"
+      },
+      {
+        "w": "morning",
+        "ipa": "/ˈmɔːnɪŋ/",
+        "cn": "早晨",
+        "ex": "Good morning!",
+        "exCn": "早上好！"
+      },
+      {
+        "w": "mountain",
+        "ipa": "/ˈmaʊntən/",
+        "cn": "山",
+        "ex": "They climbed the mountain.",
+        "exCn": "他们爬了山。"
+      },
+      {
+        "w": "movie",
+        "ipa": "/ˈmuːvi/",
+        "cn": "电影",
+        "ex": "Let's watch a movie.",
+        "exCn": "我们看电影吧。"
+      },
+      {
+        "w": "museum",
+        "ipa": "/mjuˈziːəm/",
+        "cn": "博物馆",
+        "ex": "We visited the museum.",
+        "exCn": "我们参观了博物馆。"
+      },
+      {
+        "w": "music",
+        "ipa": "/ˈmjuːzɪk/",
+        "cn": "音乐",
+        "ex": "I love listening to music.",
+        "exCn": "我喜欢听音乐。"
+      },
+      {
+        "w": "name",
+        "ipa": "/neɪm/",
+        "cn": "名字",
+        "ex": "What is your name?",
+        "exCn": "你叫什么名字？"
+      },
+      {
+        "w": "nature",
+        "ipa": "/ˈneɪtʃə(r)/",
+        "cn": "自然",
+        "ex": "We should protect nature.",
+        "exCn": "我们应该保护自然。"
+      },
+      {
+        "w": "neighbour",
+        "ipa": "/ˈneɪbə(r)/",
+        "cn": "邻居",
+        "ex": "My neighbour is very kind.",
+        "exCn": "我的邻居很友善。"
+      },
+      {
+        "w": "news",
+        "ipa": "/njuːz/",
+        "cn": "新闻",
+        "ex": "I watch the news every evening.",
+        "exCn": "我每天晚上看新闻。"
+      },
+      {
+        "w": "newspaper",
+        "ipa": "/ˈnjuːzpeɪpə(r)/",
+        "cn": "报纸",
+        "ex": "He reads the newspaper every morning.",
+        "exCn": "他每天早上读报纸。"
+      },
+      {
+        "w": "night",
+        "ipa": "/naɪt/",
+        "cn": "夜晚",
+        "ex": "Good night!",
+        "exCn": "晚安！"
+      },
+      {
+        "w": "noise",
+        "ipa": "/nɔɪz/",
+        "cn": "噪音",
+        "ex": "There is too much noise.",
+        "exCn": "噪音太大了。"
+      },
+      {
+        "w": "number",
+        "ipa": "/ˈnʌmbə(r)/",
+        "cn": "数字；号码",
+        "ex": "What is your phone number?",
+        "exCn": "你的电话号码是多少？"
+      },
+      {
+        "w": "office",
+        "ipa": "/ˈɒfɪs/",
+        "cn": "办公室",
+        "ex": "He works in an office.",
+        "exCn": "他在办公室工作。"
+      },
+      {
+        "w": "page",
+        "ipa": "/peɪdʒ/",
+        "cn": "页",
+        "ex": "Please turn to page 10.",
+        "exCn": "请翻到第10页。"
+      },
+      {
+        "w": "pair",
+        "ipa": "/peə(r)/",
+        "cn": "一对",
+        "ex": "I need a pair of shoes.",
+        "exCn": "我需要一双鞋。"
+      },
+      {
+        "w": "paper",
+        "ipa": "/ˈpeɪpə(r)/",
+        "cn": "纸；论文",
+        "ex": "Please give me a piece of paper.",
+        "exCn": "请给我一张纸。"
+      },
+      {
+        "w": "parent",
+        "ipa": "/ˈpeərənt/",
+        "cn": "父母",
+        "ex": "My parents are teachers.",
+        "exCn": "我的父母是老师。"
+      },
+      {
+        "w": "park",
+        "ipa": "/pɑːk/",
+        "cn": "公园",
+        "ex": "We often play in the park.",
+        "exCn": "我们经常在公园玩。"
+      },
+      {
+        "w": "party",
+        "ipa": "/ˈpɑːti/",
+        "cn": "派对",
+        "ex": "We had a birthday party.",
+        "exCn": "我们举办了生日派对。"
+      },
+      {
+        "w": "past",
+        "ipa": "/pɑːst/",
+        "cn": "过去",
+        "ex": "Don't worry about the past.",
+        "exCn": "不要担心过去。"
+      },
+      {
+        "w": "person",
+        "ipa": "/ˈpɜːsn/",
+        "cn": "人",
+        "ex": "He is a kind person.",
+        "exCn": "他是一个善良的人。"
+      },
+      {
+        "w": "photo",
+        "ipa": "/ˈfəʊtəʊ/",
+        "cn": "照片",
+        "ex": "I took a photo of the sunset.",
+        "exCn": "我拍了一张日落的照片。"
+      },
+      {
+        "w": "picture",
+        "ipa": "/ˈpɪktʃə(r)/",
+        "cn": "图片；画",
+        "ex": "This is a beautiful picture.",
+        "exCn": "这是一幅美丽的画。"
+      },
+      {
+        "w": "place",
+        "ipa": "/pleɪs/",
+        "cn": "地方",
+        "ex": "This is a good place to study.",
+        "exCn": "这是学习的好地方。"
+      },
+      {
+        "w": "plant",
+        "ipa": "/plɑːnt/",
+        "cn": "植物；种植",
+        "ex": "We should plant more trees.",
+        "exCn": "我们应该多种树。"
+      },
+      {
+        "w": "playground",
+        "ipa": "/ˈpleɪɡraʊnd/",
+        "cn": "操场",
+        "ex": "Students play on the playground.",
+        "exCn": "学生在操场上玩。"
+      },
+      {
+        "w": "police",
+        "ipa": "/pəˈliːs/",
+        "cn": "警察",
+        "ex": "Call the police if you need help.",
+        "exCn": "如果需要帮助就报警。"
+      },
+      {
+        "w": "pool",
+        "ipa": "/puːl/",
+        "cn": "游泳池",
+        "ex": "They swam in the pool.",
+        "exCn": "他们在游泳池游泳。"
+      },
+      {
+        "w": "present",
+        "ipa": "/ˈpreznt/",
+        "cn": "礼物；现在",
+        "ex": "I gave her a present.",
+        "exCn": "我给了她一份礼物。"
+      },
+      {
+        "w": "price",
+        "ipa": "/praɪs/",
+        "cn": "价格",
+        "ex": "What is the price of this book?",
+        "exCn": "这本书的价格是多少？"
+      },
+      {
+        "w": "problem",
+        "ipa": "/ˈprɒbləm/",
+        "cn": "问题",
+        "ex": "We need to solve this problem.",
+        "exCn": "我们需要解决这个问题。"
+      },
+      {
+        "w": "program",
+        "ipa": "/ˈprəʊɡræm/",
+        "cn": "节目；程序",
+        "ex": "I watched a TV program.",
+        "exCn": "我看了一个电视节目。"
+      },
+      {
+        "w": "project",
+        "ipa": "/ˈprɒdʒekt/",
+        "cn": "项目",
+        "ex": "We are working on a project.",
+        "exCn": "我们正在做一个项目。"
+      },
+      {
+        "w": "question",
+        "ipa": "/ˈkwestʃən/",
+        "cn": "问题",
+        "ex": "Do you have any questions?",
+        "exCn": "你有问题吗？"
+      },
+      {
+        "w": "radio",
+        "ipa": "/ˈreɪdiəʊ/",
+        "cn": "收音机",
+        "ex": "I listen to the radio every morning.",
+        "exCn": "我每天早上听收音机。"
+      },
+      {
+        "w": "reason",
+        "ipa": "/ˈriːzn/",
+        "cn": "原因",
+        "ex": "What is the reason for this?",
+        "exCn": "这是什么原因？"
+      },
+      {
+        "w": "report",
+        "ipa": "/rɪˈpɔːt/",
+        "cn": "报告",
+        "ex": "He wrote a report.",
+        "exCn": "他写了一份报告。"
+      },
+      {
+        "w": "restaurant",
+        "ipa": "/ˈrestrɒnt/",
+        "cn": "餐厅",
+        "ex": "We had dinner in a restaurant.",
+        "exCn": "我们在餐厅吃了晚饭。"
+      },
+      {
+        "w": "result",
+        "ipa": "/rɪˈzʌlt/",
+        "cn": "结果",
+        "ex": "The result is good.",
+        "exCn": "结果很好。"
+      },
+      {
+        "w": "river",
+        "ipa": "/ˈrɪvə(r)/",
+        "cn": "河",
+        "ex": "There is a river near our school.",
+        "exCn": "我们学校附近有一条河。"
+      },
+      {
+        "w": "road",
+        "ipa": "/rəʊd/",
+        "cn": "路",
+        "ex": "Be careful on the road.",
+        "exCn": "在路上要小心。"
+      },
+      {
+        "w": "room",
+        "ipa": "/ruːm/",
+        "cn": "房间",
+        "ex": "This is my room.",
+        "exCn": "这是我的房间。"
+      },
+      {
+        "w": "rule",
+        "ipa": "/ruːl/",
+        "cn": "规则",
+        "ex": "We must follow the rules.",
+        "exCn": "我们必须遵守规则。"
+      },
+      {
+        "w": "science",
+        "ipa": "/ˈsaɪəns/",
+        "cn": "科学",
+        "ex": "I like science.",
+        "exCn": "我喜欢科学。"
+      },
+      {
+        "w": "season",
+        "ipa": "/ˈsiːzn/",
+        "cn": "季节",
+        "ex": "Spring is my favourite season.",
+        "exCn": "春天是我最喜欢的季节。"
+      },
+      {
+        "w": "service",
+        "ipa": "/ˈsɜːvɪs/",
+        "cn": "服务",
+        "ex": "The service is excellent.",
+        "exCn": "服务非常好。"
+      },
+      {
+        "w": "shop",
+        "ipa": "/ʃɒp/",
+        "cn": "商店",
+        "ex": "I bought this in a shop.",
+        "exCn": "我在商店买的这个。"
+      },
+      {
+        "w": "side",
+        "ipa": "/saɪd/",
+        "cn": "边；方面",
+        "ex": "Stand on this side.",
+        "exCn": "站在这边。"
+      },
+      {
+        "w": "sign",
+        "ipa": "/saɪn/",
+        "cn": "标志；签名",
+        "ex": "Look at the traffic sign.",
+        "exCn": "看交通标志。"
+      },
+      {
+        "w": "size",
+        "ipa": "/saɪz/",
+        "cn": "尺寸",
+        "ex": "What size do you need?",
+        "exCn": "你需要什么尺寸？"
+      },
+      {
+        "w": "skill",
+        "ipa": "/skɪl/",
+        "cn": "技能",
+        "ex": "Reading is an important skill.",
+        "exCn": "阅读是一项重要技能。"
+      },
+      {
+        "w": "sky",
+        "ipa": "/skaɪ/",
+        "cn": "天空",
+        "ex": "The sky is blue.",
+        "exCn": "天空是蓝色的。"
+      },
+      {
+        "w": "society",
+        "ipa": "/səˈsaɪəti/",
+        "cn": "社会",
+        "ex": "We live in a modern society.",
+        "exCn": "我们生活在现代社会。"
+      },
+      {
+        "w": "son",
+        "ipa": "/sʌn/",
+        "cn": "儿子",
+        "ex": "He has a son.",
+        "exCn": "他有一个儿子。"
+      },
+      {
+        "w": "song",
+        "ipa": "/sɒŋ/",
+        "cn": "歌曲",
+        "ex": "This is a beautiful song.",
+        "exCn": "这是一首美丽的歌。"
+      },
+      {
+        "w": "sound",
+        "ipa": "/saʊnd/",
+        "cn": "声音",
+        "ex": "I heard a strange sound.",
+        "exCn": "我听到一个奇怪的声音。"
+      },
+      {
+        "w": "space",
+        "ipa": "/speɪs/",
+        "cn": "空间；太空",
+        "ex": "There is not enough space.",
+        "exCn": "空间不够。"
+      },
+      {
+        "w": "sport",
+        "ipa": "/spɔːt/",
+        "cn": "运动",
+        "ex": "Football is my favourite sport.",
+        "exCn": "足球是我最喜欢的运动。"
+      },
+      {
+        "w": "star",
+        "ipa": "/stɑː(r)/",
+        "cn": "星星；明星",
+        "ex": "There are many stars in the sky.",
+        "exCn": "天上有很多星星。"
+      },
+      {
+        "w": "station",
+        "ipa": "/ˈsteɪʃn/",
+        "cn": "车站",
+        "ex": "The train station is near here.",
+        "exCn": "火车站就在附近。"
+      },
+      {
+        "w": "story",
+        "ipa": "/ˈstɔːri/",
+        "cn": "故事",
+        "ex": "She told us an interesting story.",
+        "exCn": "她给我们讲了一个有趣的故事。"
+      },
+      {
+        "w": "street",
+        "ipa": "/striːt/",
+        "cn": "街道",
+        "ex": "Don't play in the street.",
+        "exCn": "不要在街上玩。"
+      },
+      {
+        "w": "student",
+        "ipa": "/ˈstjuːdnt/",
+        "cn": "学生",
+        "ex": "I am a student.",
+        "exCn": "我是一名学生。"
+      },
+      {
+        "w": "subject",
+        "ipa": "/ˈsʌbdʒɪkt/",
+        "cn": "科目",
+        "ex": "English is my favourite subject.",
+        "exCn": "英语是我最喜欢的科目。"
+      },
+      {
+        "w": "success",
+        "ipa": "/səkˈses/",
+        "cn": "成功",
+        "ex": "Hard work leads to success.",
+        "exCn": "努力工作通向成功。"
+      },
+      {
+        "w": "sugar",
+        "ipa": "/ˈʃʊɡə(r)/",
+        "cn": "糖",
+        "ex": "Too much sugar is bad for health.",
+        "exCn": "吃太多糖对健康不好。"
+      },
+      {
+        "w": "sun",
+        "ipa": "/sʌn/",
+        "cn": "太阳",
+        "ex": "The sun is shining.",
+        "exCn": "太阳在照耀。"
+      },
+      {
+        "w": "table",
+        "ipa": "/ˈteɪbl/",
+        "cn": "桌子",
+        "ex": "Please put the book on the table.",
+        "exCn": "请把书放在桌子上。"
+      },
+      {
+        "w": "team",
+        "ipa": "/tiːm/",
+        "cn": "团队",
+        "ex": "Our team won the game.",
+        "exCn": "我们队赢了比赛。"
+      },
+      {
+        "w": "telephone",
+        "ipa": "/ˈtelɪfəʊn/",
+        "cn": "电话",
+        "ex": "The telephone is ringing.",
+        "exCn": "电话在响。"
+      },
+      {
+        "w": "temperature",
+        "ipa": "/ˈtemprətʃə(r)/",
+        "cn": "温度",
+        "ex": "What is the temperature today?",
+        "exCn": "今天气温是多少？"
+      },
+      {
+        "w": "test",
+        "ipa": "/test/",
+        "cn": "测试",
+        "ex": "We have a test tomorrow.",
+        "exCn": "我们明天有考试。"
+      },
+      {
+        "w": "thing",
+        "ipa": "/θɪŋ/",
+        "cn": "东西；事情",
+        "ex": "I have many things to do.",
+        "exCn": "我有很多事情要做。"
+      },
+      {
+        "w": "time",
+        "ipa": "/taɪm/",
+        "cn": "时间",
+        "ex": "Time is limited.",
+        "exCn": "时间有限。"
+      },
+      {
+        "w": "today",
+        "ipa": "/təˈdeɪ/",
+        "cn": "今天",
+        "ex": "Today is Monday.",
+        "exCn": "今天是星期一。"
+      },
+      {
+        "w": "tomorrow",
+        "ipa": "/təˈmɒrəʊ/",
+        "cn": "明天",
+        "ex": "See you tomorrow.",
+        "exCn": "明天见。"
+      },
+      {
+        "w": "town",
+        "ipa": "/taʊn/",
+        "cn": "城镇",
+        "ex": "I live in a small town.",
+        "exCn": "我住在一个小镇。"
+      },
+      {
+        "w": "traffic",
+        "ipa": "/ˈtræfɪk/",
+        "cn": "交通",
+        "ex": "There is heavy traffic in the morning.",
+        "exCn": "早上交通很拥堵。"
+      },
+      {
+        "w": "train",
+        "ipa": "/treɪn/",
+        "cn": "火车",
+        "ex": "I go to Beijing by train.",
+        "exCn": "我坐火车去北京。"
+      },
+      {
+        "w": "tree",
+        "ipa": "/triː/",
+        "cn": "树",
+        "ex": "There is a big tree in the garden.",
+        "exCn": "花园里有一棵大树。"
+      },
+      {
+        "w": "trip",
+        "ipa": "/trɪp/",
+        "cn": "旅行",
+        "ex": "We had a great trip.",
+        "exCn": "我们的旅行很棒。"
+      },
+      {
+        "w": "trouble",
+        "ipa": "/ˈtrʌbl/",
+        "cn": "麻烦",
+        "ex": "Sorry to trouble you.",
+        "exCn": "抱歉麻烦你了。"
+      },
+      {
+        "w": "university",
+        "ipa": "/ˌjuːnɪˈvɜːsəti/",
+        "cn": "大学",
+        "ex": "She studies at a university.",
+        "exCn": "她在大学学习。"
+      },
+      {
+        "w": "village",
+        "ipa": "/ˈvɪlɪdʒ/",
+        "cn": "村庄",
+        "ex": "He was born in a small village.",
+        "exCn": "他出生在一个小村庄。"
+      },
+      {
+        "w": "voice",
+        "ipa": "/vɔɪs/",
+        "cn": "声音",
+        "ex": "She has a beautiful voice.",
+        "exCn": "她有美丽的嗓音。"
+      },
+      {
+        "w": "wall",
+        "ipa": "/wɔːl/",
+        "cn": "墙",
+        "ex": "There is a picture on the wall.",
+        "exCn": "墙上有一幅画。"
+      },
+      {
+        "w": "water",
+        "ipa": "/ˈwɔːtə(r)/",
+        "cn": "水",
+        "ex": "Please drink more water.",
+        "exCn": "请多喝水。"
+      },
+      {
+        "w": "way",
+        "ipa": "/weɪ/",
+        "cn": "方式；路",
+        "ex": "This is the best way to learn.",
+        "exCn": "这是最好的学习方式。"
+      },
+      {
+        "w": "weather",
+        "ipa": "/ˈweðə(r)/",
+        "cn": "天气",
+        "ex": "The weather is nice today.",
+        "exCn": "今天天气很好。"
+      },
+      {
+        "w": "week",
+        "ipa": "/wiːk/",
+        "cn": "星期",
+        "ex": "There are seven days in a week.",
+        "exCn": "一周有七天。"
+      },
+      {
+        "w": "weekend",
+        "ipa": "/ˌwiːkˈend/",
+        "cn": "周末",
+        "ex": "I stay at home on weekends.",
+        "exCn": "我周末待在家里。"
+      },
+      {
+        "w": "window",
+        "ipa": "/ˈwɪndəʊ/",
+        "cn": "窗户",
+        "ex": "Please open the window.",
+        "exCn": "请打开窗户。"
+      },
+      {
+        "w": "woman",
+        "ipa": "/ˈwʊmən/",
+        "cn": "女人",
+        "ex": "She is a kind woman.",
+        "exCn": "她是一个善良的女人。"
+      },
+      {
+        "w": "word",
+        "ipa": "/wɜːd/",
+        "cn": "单词",
+        "ex": "Please learn these words.",
+        "exCn": "请学习这些单词。"
+      },
+      {
+        "w": "world",
+        "ipa": "/wɜːld/",
+        "cn": "世界",
+        "ex": "We live in a big world.",
+        "exCn": "我们生活在一个大世界。"
+      },
+      {
+        "w": "year",
+        "ipa": "/jɪə(r)/",
+        "cn": "年",
+        "ex": "Happy New Year!",
+        "exCn": "新年快乐！"
       }
     ]
   },
