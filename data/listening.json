@@ -3,7 +3,7 @@
     "easy": {
       "wordChoice": [
         {
-          "id": "jwe1",
+          "id": "jew1",
           "audio": "apple",
           "options": [
             "apple",
@@ -15,7 +15,7 @@
           "exp": "apple 苹果"
         },
         {
-          "id": "jwe2",
+          "id": "jew2",
           "audio": "book",
           "options": [
             "book",
@@ -27,7 +27,7 @@
           "exp": "book 书"
         },
         {
-          "id": "jwe3",
+          "id": "jew3",
           "audio": "school",
           "options": [
             "school",
@@ -39,7 +39,7 @@
           "exp": "school 学校"
         },
         {
-          "id": "jwe4",
+          "id": "jew4",
           "audio": "friend",
           "options": [
             "friend",
@@ -51,7 +51,7 @@
           "exp": "friend 朋友"
         },
         {
-          "id": "jwe5",
+          "id": "jew5",
           "audio": "happy",
           "options": [
             "happy",
@@ -61,11 +61,191 @@
           ],
           "answer": 0,
           "exp": "happy 高兴的"
+        },
+        {
+          "id": "jew6",
+          "audio": "water",
+          "options": [
+            "water",
+            "waiter",
+            "weather",
+            "whether"
+          ],
+          "answer": 0,
+          "exp": "water 水"
+        },
+        {
+          "id": "jew7",
+          "audio": "family",
+          "options": [
+            "family",
+            "famous",
+            "familiar",
+            "farmer"
+          ],
+          "answer": 0,
+          "exp": "family 家庭"
+        },
+        {
+          "id": "jew8",
+          "audio": "teacher",
+          "options": [
+            "teacher",
+            "teaching",
+            "feature",
+            "creature"
+          ],
+          "answer": 0,
+          "exp": "teacher 老师"
+        },
+        {
+          "id": "jew9",
+          "audio": "student",
+          "options": [
+            "student",
+            "study",
+            "stupid",
+            "studio"
+          ],
+          "answer": 0,
+          "exp": "student 学生"
+        },
+        {
+          "id": "jew10",
+          "audio": "morning",
+          "options": [
+            "morning",
+            "mourning",
+            "warning",
+            "meaning"
+          ],
+          "answer": 0,
+          "exp": "morning 早晨"
+        },
+        {
+          "id": "jew11",
+          "audio": "evening",
+          "options": [
+            "evening",
+            "even",
+            "event",
+            "every"
+          ],
+          "answer": 0,
+          "exp": "evening 晚上"
+        },
+        {
+          "id": "jew12",
+          "audio": "breakfast",
+          "options": [
+            "breakfast",
+            "break",
+            "breast",
+            "breath"
+          ],
+          "answer": 0,
+          "exp": "breakfast 早餐"
+        },
+        {
+          "id": "jew13",
+          "audio": "homework",
+          "options": [
+            "homework",
+            "housework",
+            "network",
+            "framework"
+          ],
+          "answer": 0,
+          "exp": "homework 家庭作业"
+        },
+        {
+          "id": "jew14",
+          "audio": "library",
+          "options": [
+            "library",
+            "liberty",
+            "literary",
+            "librarian"
+          ],
+          "answer": 0,
+          "exp": "library 图书馆"
+        },
+        {
+          "id": "jew15",
+          "audio": "computer",
+          "options": [
+            "computer",
+            "compete",
+            "complete",
+            "composer"
+          ],
+          "answer": 0,
+          "exp": "computer 电脑"
+        },
+        {
+          "id": "jew16",
+          "audio": "music",
+          "options": [
+            "music",
+            "museum",
+            "muscle",
+            "musical"
+          ],
+          "answer": 0,
+          "exp": "music 音乐"
+        },
+        {
+          "id": "jew17",
+          "audio": "sport",
+          "options": [
+            "sport",
+            "support",
+            "report",
+            "export"
+          ],
+          "answer": 0,
+          "exp": "sport 运动"
+        },
+        {
+          "id": "jew18",
+          "audio": "holiday",
+          "options": [
+            "holiday",
+            "hospital",
+            "history",
+            "holiday"
+          ],
+          "answer": 0,
+          "exp": "holiday 假期"
+        },
+        {
+          "id": "jew19",
+          "audio": "weather",
+          "options": [
+            "weather",
+            "whether",
+            "feather",
+            "leather"
+          ],
+          "answer": 0,
+          "exp": "weather 天气"
+        },
+        {
+          "id": "jew20",
+          "audio": "garden",
+          "options": [
+            "garden",
+            "guard",
+            "regard",
+            "pardon"
+          ],
+          "answer": 0,
+          "exp": "garden 花园"
         }
       ],
       "sentenceOrder": [
         {
-          "id": "jse1",
+          "id": "jes1",
           "audio": "I like reading books.",
           "words": [
             "I",
@@ -76,7 +256,7 @@
           "exp": "我喜欢读书。"
         },
         {
-          "id": "jse2",
+          "id": "jes2",
           "audio": "She goes to school every day.",
           "words": [
             "She",
@@ -89,7 +269,7 @@
           "exp": "她每天去上学。"
         },
         {
-          "id": "jse3",
+          "id": "jes3",
           "audio": "We are good friends.",
           "words": [
             "We",
@@ -100,7 +280,7 @@
           "exp": "我们是好朋友。"
         },
         {
-          "id": "jse4",
+          "id": "jes4",
           "audio": "Please open the window.",
           "words": [
             "Please",
@@ -109,11 +289,87 @@
             "window"
           ],
           "exp": "请打开窗户。"
+        },
+        {
+          "id": "jes5",
+          "audio": "He plays football after school.",
+          "words": [
+            "He",
+            "plays",
+            "football",
+            "after",
+            "school"
+          ],
+          "exp": "他放学后踢足球。"
+        },
+        {
+          "id": "jes6",
+          "audio": "My mother cooks dinner every evening.",
+          "words": [
+            "My",
+            "mother",
+            "cooks",
+            "dinner",
+            "every",
+            "evening"
+          ],
+          "exp": "我妈妈每天晚上做晚饭。"
+        },
+        {
+          "id": "jes7",
+          "audio": "They live in a small town.",
+          "words": [
+            "They",
+            "live",
+            "in",
+            "a",
+            "small",
+            "town"
+          ],
+          "exp": "他们住在一个小镇上。"
+        },
+        {
+          "id": "jes8",
+          "audio": "Can you help me with this?",
+          "words": [
+            "Can",
+            "you",
+            "help",
+            "me",
+            "with",
+            "this"
+          ],
+          "exp": "你能帮我这个吗？"
+        },
+        {
+          "id": "jes9",
+          "audio": "The weather is nice today.",
+          "words": [
+            "The",
+            "weather",
+            "is",
+            "nice",
+            "today"
+          ],
+          "exp": "今天天气很好。"
+        },
+        {
+          "id": "jes10",
+          "audio": "I want to learn English well.",
+          "words": [
+            "I",
+            "want",
+            "to",
+            "learn",
+            "English",
+            "well"
+          ],
+          "exp": "我想学好英语。"
         }
       ],
       "passage": [
         {
-          "id": "jpe1",
+          "id": "jep1",
           "title": "A Sunny Day",
           "audio": "It is a sunny day. Tom and his friends go to the park. They play football and have a picnic. Everyone is happy.",
           "transcript": "It is a sunny day. Tom and his friends go to the park. They play football and have a picnic. Everyone is happy.",
@@ -152,13 +408,95 @@
               "exp": "They play football and have a picnic."
             }
           ]
+        },
+        {
+          "id": "jep2",
+          "title": "My School",
+          "audio": "I go to school by bus every morning. My school is big and beautiful. There are many trees and flowers. I like my teachers and classmates.",
+          "transcript": "I go to school by bus every morning. My school is big and beautiful. There are many trees and flowers. I like my teachers and classmates.",
+          "questions": [
+            {
+              "q": "How does the speaker go to school?",
+              "options": [
+                "On foot",
+                "By bus",
+                "By car",
+                "By bike"
+              ],
+              "answer": 1,
+              "exp": "By bus."
+            },
+            {
+              "q": "What is the school like?",
+              "options": [
+                "Small",
+                "Big and beautiful",
+                "Old",
+                "Far away"
+              ],
+              "answer": 1,
+              "exp": "Big and beautiful."
+            },
+            {
+              "q": "What does the speaker like?",
+              "options": [
+                "Only sports",
+                "Teachers and classmates",
+                "Only food",
+                "Nothing"
+              ],
+              "answer": 1,
+              "exp": "Teachers and classmates."
+            }
+          ]
+        },
+        {
+          "id": "jep3",
+          "title": "Breakfast",
+          "audio": "Breakfast is important. I usually have milk, bread and an egg. Sometimes I eat fruit. A good breakfast gives me energy for the morning.",
+          "transcript": "Breakfast is important. I usually have milk, bread and an egg. Sometimes I eat fruit. A good breakfast gives me energy for the morning.",
+          "questions": [
+            {
+              "q": "What does the speaker usually have?",
+              "options": [
+                "Only coffee",
+                "Milk, bread and an egg",
+                "Nothing",
+                "Only fruit"
+              ],
+              "answer": 1,
+              "exp": "Milk, bread and an egg."
+            },
+            {
+              "q": "Why is breakfast important?",
+              "options": [
+                "It is cheap",
+                "It gives energy",
+                "It is fast",
+                "It is sweet"
+              ],
+              "answer": 1,
+              "exp": "It gives energy for the morning."
+            },
+            {
+              "q": "What does the speaker sometimes eat?",
+              "options": [
+                "Meat",
+                "Fruit",
+                "Rice",
+                "Noodles"
+              ],
+              "answer": 1,
+              "exp": "Fruit."
+            }
+          ]
         }
       ]
     },
     "medium": {
       "wordChoice": [
         {
-          "id": "jwm1",
+          "id": "jmw1",
           "audio": "important",
           "options": [
             "important",
@@ -170,7 +508,7 @@
           "exp": "important 重要的"
         },
         {
-          "id": "jwm2",
+          "id": "jmw2",
           "audio": "beautiful",
           "options": [
             "beautiful",
@@ -182,7 +520,7 @@
           "exp": "beautiful 美丽的"
         },
         {
-          "id": "jwm3",
+          "id": "jmw3",
           "audio": "different",
           "options": [
             "different",
@@ -194,7 +532,7 @@
           "exp": "different 不同的"
         },
         {
-          "id": "jwm4",
+          "id": "jmw4",
           "audio": "interesting",
           "options": [
             "interesting",
@@ -204,11 +542,143 @@
           ],
           "answer": 0,
           "exp": "interesting 有趣的"
+        },
+        {
+          "id": "jmw5",
+          "audio": "environment",
+          "options": [
+            "environment",
+            "environmental",
+            "experiment",
+            "equipment"
+          ],
+          "answer": 0,
+          "exp": "environment 环境"
+        },
+        {
+          "id": "jmw6",
+          "audio": "knowledge",
+          "options": [
+            "knowledge",
+            "know",
+            "acknowledge",
+            "college"
+          ],
+          "answer": 0,
+          "exp": "knowledge 知识"
+        },
+        {
+          "id": "jmw7",
+          "audio": "practice",
+          "options": [
+            "practice",
+            "practise",
+            "practical",
+            "predict"
+          ],
+          "answer": 0,
+          "exp": "practice 练习"
+        },
+        {
+          "id": "jmw8",
+          "audio": "improve",
+          "options": [
+            "improve",
+            "improvement",
+            "approve",
+            "prove"
+          ],
+          "answer": 0,
+          "exp": "improve 提高"
+        },
+        {
+          "id": "jmw9",
+          "audio": "protect",
+          "options": [
+            "protect",
+            "protection",
+            "project",
+            "protest"
+          ],
+          "answer": 0,
+          "exp": "protect 保护"
+        },
+        {
+          "id": "jmw10",
+          "audio": "develop",
+          "options": [
+            "develop",
+            "development",
+            "device",
+            "devote"
+          ],
+          "answer": 0,
+          "exp": "develop 发展"
+        },
+        {
+          "id": "jmw11",
+          "audio": "success",
+          "options": [
+            "success",
+            "successful",
+            "succeed",
+            "suggest"
+          ],
+          "answer": 0,
+          "exp": "success 成功"
+        },
+        {
+          "id": "jmw12",
+          "audio": "healthy",
+          "options": [
+            "healthy",
+            "health",
+            "wealthy",
+            "heavy"
+          ],
+          "answer": 0,
+          "exp": "healthy 健康的"
+        },
+        {
+          "id": "jmw13",
+          "audio": "exercise",
+          "options": [
+            "exercise",
+            "excuse",
+            "except",
+            "exchange"
+          ],
+          "answer": 0,
+          "exp": "exercise 锻炼"
+        },
+        {
+          "id": "jmw14",
+          "audio": "remember",
+          "options": [
+            "remember",
+            "remind",
+            "member",
+            "memory"
+          ],
+          "answer": 0,
+          "exp": "remember 记住"
+        },
+        {
+          "id": "jmw15",
+          "audio": "understand",
+          "options": [
+            "understand",
+            "understanding",
+            "under",
+            "stand"
+          ],
+          "answer": 0,
+          "exp": "understand 理解"
         }
       ],
       "sentenceOrder": [
         {
-          "id": "jsm1",
+          "id": "jms1",
           "audio": "Learning English is very useful.",
           "words": [
             "Learning",
@@ -220,7 +690,7 @@
           "exp": "学习英语非常有用。"
         },
         {
-          "id": "jsm2",
+          "id": "jms2",
           "audio": "We should protect the environment.",
           "words": [
             "We",
@@ -232,7 +702,7 @@
           "exp": "我们应该保护环境。"
         },
         {
-          "id": "jsm3",
+          "id": "jms3",
           "audio": "Reading books can improve your knowledge.",
           "words": [
             "Reading",
@@ -243,11 +713,73 @@
             "knowledge"
           ],
           "exp": "读书可以提高你的知识。"
+        },
+        {
+          "id": "jms4",
+          "audio": "Healthy food gives you more energy.",
+          "words": [
+            "Healthy",
+            "food",
+            "gives",
+            "you",
+            "more",
+            "energy"
+          ],
+          "exp": "健康食物给你更多能量。"
+        },
+        {
+          "id": "jms5",
+          "audio": "Practice makes perfect.",
+          "words": [
+            "Practice",
+            "makes",
+            "perfect"
+          ],
+          "exp": "熟能生巧。"
+        },
+        {
+          "id": "jms6",
+          "audio": "It is important to sleep well.",
+          "words": [
+            "It",
+            "is",
+            "important",
+            "to",
+            "sleep",
+            "well"
+          ],
+          "exp": "睡好很重要。"
+        },
+        {
+          "id": "jms7",
+          "audio": "Students need to develop good habits.",
+          "words": [
+            "Students",
+            "need",
+            "to",
+            "develop",
+            "good",
+            "habits"
+          ],
+          "exp": "学生需要养成好习惯。"
+        },
+        {
+          "id": "jms8",
+          "audio": "Exercise helps both body and mind.",
+          "words": [
+            "Exercise",
+            "helps",
+            "both",
+            "body",
+            "and",
+            "mind"
+          ],
+          "exp": "锻炼对身心都有帮助。"
         }
       ],
       "passage": [
         {
-          "id": "jpm1",
+          "id": "jmp1",
           "title": "Healthy Habits",
           "audio": "Good habits are important for students. Eating breakfast, drinking water, and getting enough sleep help you study better. Exercise also keeps your body strong. Try to build one healthy habit at a time.",
           "transcript": "Good habits are important for students. Eating breakfast, drinking water, and getting enough sleep help you study better. Exercise also keeps your body strong. Try to build one healthy habit at a time.",
@@ -261,7 +793,7 @@
                 "Skipping meals"
               ],
               "answer": 1,
-              "exp": "Eating breakfast, drinking water, and getting enough sleep help you study better."
+              "exp": "Eating breakfast, drinking water, and getting enough sleep."
             },
             {
               "q": "What does exercise do?",
@@ -272,7 +804,7 @@
                 "Is unnecessary"
               ],
               "answer": 1,
-              "exp": "Exercise also keeps your body strong."
+              "exp": "Keeps your body strong."
             },
             {
               "q": "What advice is given?",
@@ -283,7 +815,48 @@
                 "Ignore sleep"
               ],
               "answer": 1,
-              "exp": "Try to build one healthy habit at a time."
+              "exp": "Build one healthy habit at a time."
+            }
+          ]
+        },
+        {
+          "id": "jmp2",
+          "title": "Reading Every Day",
+          "audio": "Reading every day is a good habit. It helps you learn new words and understand better. You can read stories, news or science books. Even fifteen minutes a day makes a difference.",
+          "transcript": "Reading every day is a good habit. It helps you learn new words and understand better. You can read stories, news or science books. Even fifteen minutes a day makes a difference.",
+          "questions": [
+            {
+              "q": "What does daily reading help?",
+              "options": [
+                "Only speed",
+                "Learn new words and understand better",
+                "Only handwriting",
+                "Nothing"
+              ],
+              "answer": 1,
+              "exp": "Learn new words and understand better."
+            },
+            {
+              "q": "How long is suggested?",
+              "options": [
+                "Several hours",
+                "Even fifteen minutes",
+                "Only weekends",
+                "Never"
+              ],
+              "answer": 1,
+              "exp": "Even fifteen minutes a day."
+            },
+            {
+              "q": "What can you read?",
+              "options": [
+                "Only textbooks",
+                "Stories, news or science books",
+                "Only comics",
+                "Nothing"
+              ],
+              "answer": 1,
+              "exp": "Stories, news or science books."
             }
           ]
         }
@@ -292,19 +865,7 @@
     "hard": {
       "wordChoice": [
         {
-          "id": "jwh1",
-          "audio": "environment",
-          "options": [
-            "environment",
-            "environmental",
-            "experiment",
-            "equipment"
-          ],
-          "answer": 0,
-          "exp": "environment 环境"
-        },
-        {
-          "id": "jwh2",
+          "id": "jhw1",
           "audio": "opportunity",
           "options": [
             "opportunity",
@@ -316,7 +877,7 @@
           "exp": "opportunity 机会"
         },
         {
-          "id": "jwh3",
+          "id": "jhw2",
           "audio": "communicate",
           "options": [
             "communicate",
@@ -326,11 +887,83 @@
           ],
           "answer": 0,
           "exp": "communicate 交流"
+        },
+        {
+          "id": "jhw3",
+          "audio": "responsibility",
+          "options": [
+            "responsibility",
+            "responsible",
+            "response",
+            "respect"
+          ],
+          "answer": 0,
+          "exp": "responsibility 责任"
+        },
+        {
+          "id": "jhw4",
+          "audio": "experience",
+          "options": [
+            "experience",
+            "experiment",
+            "expert",
+            "explain"
+          ],
+          "answer": 0,
+          "exp": "experience 经验"
+        },
+        {
+          "id": "jhw5",
+          "audio": "advantage",
+          "options": [
+            "advantage",
+            "advance",
+            "advice",
+            "adventure"
+          ],
+          "answer": 0,
+          "exp": "advantage 优势"
+        },
+        {
+          "id": "jhw6",
+          "audio": "challenge",
+          "options": [
+            "challenge",
+            "change",
+            "chance",
+            "charge"
+          ],
+          "answer": 0,
+          "exp": "challenge 挑战"
+        },
+        {
+          "id": "jhw7",
+          "audio": "discover",
+          "options": [
+            "discover",
+            "discovery",
+            "discuss",
+            "distance"
+          ],
+          "answer": 0,
+          "exp": "discover 发现"
+        },
+        {
+          "id": "jhw8",
+          "audio": "encourage",
+          "options": [
+            "encourage",
+            "courage",
+            "encourage",
+            "increase"
+          ],
+          "answer": 0,
+          "exp": "encourage 鼓励"
         }
       ],
       "sentenceOrder": [
         {
-          "id": "jsh1",
+          "id": "jhs1",
           "audio": "Students should develop good learning habits from an early age.",
           "words": [
             "Students",
@@ -347,7 +980,7 @@
           "exp": "学生应该从小养成良好的学习习惯。"
         },
         {
-          "id": "jsh2",
+          "id": "jhs2",
           "audio": "Protecting the environment is everyone's responsibility.",
           "words": [
             "Protecting",
@@ -358,11 +991,40 @@
             "responsibility"
           ],
           "exp": "保护环境是每个人的责任。"
+        },
+        {
+          "id": "jhs3",
+          "audio": "Communication skills are important in modern society.",
+          "words": [
+            "Communication",
+            "skills",
+            "are",
+            "important",
+            "in",
+            "modern",
+            "society"
+          ],
+          "exp": "沟通技能在现代社会很重要。"
+        },
+        {
+          "id": "jhs4",
+          "audio": "We can learn a lot from our mistakes.",
+          "words": [
+            "We",
+            "can",
+            "learn",
+            "a",
+            "lot",
+            "from",
+            "our",
+            "mistakes"
+          ],
+          "exp": "我们可以从错误中学到很多。"
         }
       ],
       "passage": [
         {
-          "id": "jph1",
+          "id": "jhp1",
           "title": "The Value of Reading",
           "audio": "Reading widely helps students in many ways. It improves vocabulary and comprehension. Different books open different windows to the world. Even twenty minutes a day can make a big difference over time. Start with topics you enjoy, then try more challenging materials.",
           "transcript": "Reading widely helps students in many ways. It improves vocabulary and comprehension. Different books open different windows to the world. Even twenty minutes a day can make a big difference over time. Start with topics you enjoy, then try more challenging materials.",
@@ -376,7 +1038,7 @@
                 "Nothing"
               ],
               "answer": 1,
-              "exp": "It improves vocabulary and comprehension."
+              "exp": "Vocabulary and comprehension."
             },
             {
               "q": "How much reading is suggested?",
@@ -387,7 +1049,7 @@
                 "Never"
               ],
               "answer": 1,
-              "exp": "Even twenty minutes a day can make a big difference."
+              "exp": "Even twenty minutes a day."
             },
             {
               "q": "What is the advice for starting?",
@@ -398,7 +1060,7 @@
                 "Only textbooks"
               ],
               "answer": 1,
-              "exp": "Start with topics you enjoy, then try more challenging materials."
+              "exp": "Start with topics you enjoy."
             }
           ]
         }
@@ -409,7 +1071,7 @@
     "easy": {
       "wordChoice": [
         {
-          "id": "swe1",
+          "id": "sew1",
           "audio": "achieve",
           "options": [
             "achieve",
@@ -421,7 +1083,7 @@
           "exp": "achieve 实现"
         },
         {
-          "id": "swe2",
+          "id": "sew2",
           "audio": "benefit",
           "options": [
             "benefit",
@@ -433,7 +1095,7 @@
           "exp": "benefit 益处"
         },
         {
-          "id": "swe3",
+          "id": "sew3",
           "audio": "challenge",
           "options": [
             "challenge",
@@ -445,7 +1107,7 @@
           "exp": "challenge 挑战"
         },
         {
-          "id": "swe4",
+          "id": "sew4",
           "audio": "develop",
           "options": [
             "develop",
@@ -455,11 +1117,143 @@
           ],
           "answer": 0,
           "exp": "develop 发展"
+        },
+        {
+          "id": "sew5",
+          "audio": "effort",
+          "options": [
+            "effort",
+            "effect",
+            "affect",
+            "afford"
+          ],
+          "answer": 0,
+          "exp": "effort 努力"
+        },
+        {
+          "id": "sew6",
+          "audio": "focus",
+          "options": [
+            "focus",
+            "force",
+            "fork",
+            "folk"
+          ],
+          "answer": 0,
+          "exp": "focus 专注"
+        },
+        {
+          "id": "sew7",
+          "audio": "goal",
+          "options": [
+            "goal",
+            "gold",
+            "golf",
+            "good"
+          ],
+          "answer": 0,
+          "exp": "goal 目标"
+        },
+        {
+          "id": "sew8",
+          "audio": "habit",
+          "options": [
+            "habit",
+            "happy",
+            "happen",
+            "hobby"
+          ],
+          "answer": 0,
+          "exp": "habit 习惯"
+        },
+        {
+          "id": "sew9",
+          "audio": "improve",
+          "options": [
+            "improve",
+            "import",
+            "impress",
+            "important"
+          ],
+          "answer": 0,
+          "exp": "improve 提高"
+        },
+        {
+          "id": "sew10",
+          "audio": "knowledge",
+          "options": [
+            "knowledge",
+            "know",
+            "college",
+            "acknowledge"
+          ],
+          "answer": 0,
+          "exp": "knowledge 知识"
+        },
+        {
+          "id": "sew11",
+          "audio": "method",
+          "options": [
+            "method",
+            "metal",
+            "meter",
+            "matter"
+          ],
+          "answer": 0,
+          "exp": "method 方法"
+        },
+        {
+          "id": "sew12",
+          "audio": "progress",
+          "options": [
+            "progress",
+            "process",
+            "program",
+            "project"
+          ],
+          "answer": 0,
+          "exp": "progress 进步"
+        },
+        {
+          "id": "sew13",
+          "audio": "quality",
+          "options": [
+            "quality",
+            "quantity",
+            "qualify",
+            "quiet"
+          ],
+          "answer": 0,
+          "exp": "quality 质量"
+        },
+        {
+          "id": "sew14",
+          "audio": "result",
+          "options": [
+            "result",
+            "resist",
+            "resort",
+            "resolve"
+          ],
+          "answer": 0,
+          "exp": "result 结果"
+        },
+        {
+          "id": "sew15",
+          "audio": "skill",
+          "options": [
+            "skill",
+            "skull",
+            "scale",
+            "school"
+          ],
+          "answer": 0,
+          "exp": "skill 技能"
         }
       ],
       "sentenceOrder": [
         {
-          "id": "sse1",
+          "id": "ses1",
           "audio": "Hard work leads to success.",
           "words": [
             "Hard",
@@ -471,7 +1265,7 @@
           "exp": "努力带来成功。"
         },
         {
-          "id": "sse2",
+          "id": "ses2",
           "audio": "We need to protect our environment.",
           "words": [
             "We",
@@ -484,7 +1278,7 @@
           "exp": "我们需要保护我们的环境。"
         },
         {
-          "id": "sse3",
+          "id": "ses3",
           "audio": "Learning a foreign language takes time.",
           "words": [
             "Learning",
@@ -495,11 +1289,47 @@
             "time"
           ],
           "exp": "学习一门外语需要时间。"
+        },
+        {
+          "id": "ses4",
+          "audio": "Setting clear goals helps you focus.",
+          "words": [
+            "Setting",
+            "clear",
+            "goals",
+            "helps",
+            "you",
+            "focus"
+          ],
+          "exp": "设定清晰目标帮助你专注。"
+        },
+        {
+          "id": "ses5",
+          "audio": "Regular review strengthens memory.",
+          "words": [
+            "Regular",
+            "review",
+            "strengthens",
+            "memory"
+          ],
+          "exp": "规律复习加强记忆。"
+        },
+        {
+          "id": "ses6",
+          "audio": "Good habits support better learning.",
+          "words": [
+            "Good",
+            "habits",
+            "support",
+            "better",
+            "learning"
+          ],
+          "exp": "好习惯支持更好的学习。"
         }
       ],
       "passage": [
         {
-          "id": "spe1",
+          "id": "sep1",
           "title": "Setting Goals",
           "audio": "Setting clear goals helps students focus. A good goal is specific and realistic. Breaking a large goal into small steps makes it easier to achieve. Review your progress regularly and adjust when necessary. Clear goals turn hopes into actions.",
           "transcript": "Setting clear goals helps students focus. A good goal is specific and realistic. Breaking a large goal into small steps makes it easier to achieve. Review your progress regularly and adjust when necessary. Clear goals turn hopes into actions.",
@@ -513,7 +1343,7 @@
                 "Only written once"
               ],
               "answer": 1,
-              "exp": "A good goal is specific and realistic."
+              "exp": "Specific and realistic."
             },
             {
               "q": "Why break large goals into steps?",
@@ -524,7 +1354,7 @@
                 "It is unnecessary"
               ],
               "answer": 1,
-              "exp": "Breaking a large goal into small steps makes it easier to achieve."
+              "exp": "It makes them easier to achieve."
             },
             {
               "q": "What do clear goals do?",
@@ -535,7 +1365,7 @@
                 "Only help adults"
               ],
               "answer": 1,
-              "exp": "Clear goals turn hopes into actions."
+              "exp": "Turn hopes into actions."
             }
           ]
         }
@@ -544,7 +1374,7 @@
     "medium": {
       "wordChoice": [
         {
-          "id": "swm1",
+          "id": "smw1",
           "audio": "significant",
           "options": [
             "significant",
@@ -556,7 +1386,7 @@
           "exp": "significant 重要的"
         },
         {
-          "id": "swm2",
+          "id": "smw2",
           "audio": "contribute",
           "options": [
             "contribute",
@@ -568,7 +1398,7 @@
           "exp": "contribute 贡献"
         },
         {
-          "id": "swm3",
+          "id": "smw3",
           "audio": "perspective",
           "options": [
             "perspective",
@@ -580,7 +1410,7 @@
           "exp": "perspective 视角"
         },
         {
-          "id": "swm4",
+          "id": "smw4",
           "audio": "sustainable",
           "options": [
             "sustainable",
@@ -590,11 +1420,83 @@
           ],
           "answer": 0,
           "exp": "sustainable 可持续的"
+        },
+        {
+          "id": "smw5",
+          "audio": "evidence",
+          "options": [
+            "evidence",
+            "evident",
+            "event",
+            "even"
+          ],
+          "answer": 0,
+          "exp": "evidence 证据"
+        },
+        {
+          "id": "smw6",
+          "audio": "analysis",
+          "options": [
+            "analysis",
+            "analyse",
+            "animal",
+            "annual"
+          ],
+          "answer": 0,
+          "exp": "analysis 分析"
+        },
+        {
+          "id": "smw7",
+          "audio": "strategy",
+          "options": [
+            "strategy",
+            "strange",
+            "strength",
+            "stress"
+          ],
+          "answer": 0,
+          "exp": "strategy 策略"
+        },
+        {
+          "id": "smw8",
+          "audio": "evaluate",
+          "options": [
+            "evaluate",
+            "evaluation",
+            "value",
+            "evolve"
+          ],
+          "answer": 0,
+          "exp": "evaluate 评估"
+        },
+        {
+          "id": "smw9",
+          "audio": "maintain",
+          "options": [
+            "maintain",
+            "main",
+            "mountain",
+            "mention"
+          ],
+          "answer": 0,
+          "exp": "maintain 维持"
+        },
+        {
+          "id": "smw10",
+          "audio": "require",
+          "options": [
+            "require",
+            "request",
+            "require",
+            "acquire"
+          ],
+          "answer": 0,
+          "exp": "require 需要"
         }
       ],
       "sentenceOrder": [
         {
-          "id": "ssm1",
+          "id": "sms1",
           "audio": "Critical thinking is essential for academic success.",
           "words": [
             "Critical",
@@ -608,7 +1510,7 @@
           "exp": "批判性思维对学业成功至关重要。"
         },
         {
-          "id": "ssm2",
+          "id": "sms2",
           "audio": "Technology can both help and challenge traditional education.",
           "words": [
             "Technology",
@@ -623,7 +1525,7 @@
           "exp": "技术既能帮助也能挑战传统教育。"
         },
         {
-          "id": "ssm3",
+          "id": "sms3",
           "audio": "Students should develop the ability to learn continuously.",
           "words": [
             "Students",
@@ -636,11 +1538,23 @@
             "continuously"
           ],
           "exp": "学生应该培养持续学习的能力。"
+        },
+        {
+          "id": "sms4",
+          "audio": "Evidence-based methods improve learning outcomes.",
+          "words": [
+            "Evidence-based",
+            "methods",
+            "improve",
+            "learning",
+            "outcomes"
+          ],
+          "exp": "基于证据的方法改善学习成果。"
         }
       ],
       "passage": [
         {
-          "id": "spm1",
+          "id": "smp1",
           "title": "Active Recall",
           "audio": "Active recall is a powerful study technique. Instead of rereading notes, try to remember the information without looking. This effort strengthens memory. Combining active recall with spaced repetition produces even better long-term results. Students who practise retrieval often perform better on exams.",
           "transcript": "Active recall is a powerful study technique. Instead of rereading notes, try to remember the information without looking. This effort strengthens memory. Combining active recall with spaced repetition produces even better long-term results. Students who practise retrieval often perform better on exams.",
@@ -654,10 +1568,10 @@
                 "Listening passively"
               ],
               "answer": 1,
-              "exp": "try to remember the information without looking."
+              "exp": "Trying to remember without looking."
             },
             {
-              "q": "What strengthens memory according to the passage?",
+              "q": "What strengthens memory?",
               "options": [
                 "Passive review only",
                 "The effort of trying to recall",
@@ -665,7 +1579,7 @@
                 "Only cramming"
               ],
               "answer": 1,
-              "exp": "This effort strengthens memory."
+              "exp": "The effort of trying to recall."
             },
             {
               "q": "What combination is recommended?",
@@ -676,7 +1590,7 @@
                 "Only group study"
               ],
               "answer": 1,
-              "exp": "Combining active recall with spaced repetition produces even better long-term results."
+              "exp": "Active recall with spaced repetition."
             }
           ]
         }
@@ -685,7 +1599,7 @@
     "hard": {
       "wordChoice": [
         {
-          "id": "swh1",
+          "id": "shw1",
           "audio": "intellectual",
           "options": [
             "intellectual",
@@ -697,7 +1611,7 @@
           "exp": "intellectual 智力的"
         },
         {
-          "id": "swh2",
+          "id": "shw2",
           "audio": "infrastructure",
           "options": [
             "infrastructure",
@@ -709,7 +1623,7 @@
           "exp": "infrastructure 基础设施"
         },
         {
-          "id": "swh3",
+          "id": "shw3",
           "audio": "sustainability",
           "options": [
             "sustainability",
@@ -719,11 +1633,71 @@
           ],
           "answer": 0,
           "exp": "sustainability 可持续性"
+        },
+        {
+          "id": "shw4",
+          "audio": "correlation",
+          "options": [
+            "correlation",
+            "relation",
+            "correction",
+            "collection"
+          ],
+          "answer": 0,
+          "exp": "correlation 相关"
+        },
+        {
+          "id": "shw5",
+          "audio": "causation",
+          "options": [
+            "causation",
+            "cause",
+            "caution",
+            "creation"
+          ],
+          "answer": 0,
+          "exp": "causation 因果"
+        },
+        {
+          "id": "shw6",
+          "audio": "algorithm",
+          "options": [
+            "algorithm",
+            "algebra",
+            "allegory",
+            "allergy"
+          ],
+          "answer": 0,
+          "exp": "algorithm 算法"
+        },
+        {
+          "id": "shw7",
+          "audio": "resilience",
+          "options": [
+            "resilience",
+            "resistance",
+            "residence",
+            "resonance"
+          ],
+          "answer": 0,
+          "exp": "resilience 韧性"
+        },
+        {
+          "id": "shw8",
+          "audio": "biodiversity",
+          "options": [
+            "biodiversity",
+            "biology",
+            "biography",
+            "biography"
+          ],
+          "answer": 0,
+          "exp": "biodiversity 生物多样性"
         }
       ],
       "sentenceOrder": [
         {
-          "id": "ssh1",
+          "id": "shs1",
           "audio": "Distinguishing correlation from causation is a fundamental critical thinking skill.",
           "words": [
             "Distinguishing",
@@ -740,7 +1714,7 @@
           "exp": "区分相关与因果是一项基本的批判性思维技能。"
         },
         {
-          "id": "ssh2",
+          "id": "shs2",
           "audio": "Sustainable development requires balancing economic, social and environmental needs.",
           "words": [
             "Sustainable",
@@ -754,11 +1728,29 @@
             "needs"
           ],
           "exp": "可持续发展需要平衡经济、社会和环境需求。"
+        },
+        {
+          "id": "shs3",
+          "audio": "Media literacy helps people evaluate information carefully in the digital age.",
+          "words": [
+            "Media",
+            "literacy",
+            "helps",
+            "people",
+            "evaluate",
+            "information",
+            "carefully",
+            "in",
+            "the",
+            "digital",
+            "age"
+          ],
+          "exp": "媒体素养帮助人们在数字时代仔细评估信息。"
         }
       ],
       "passage": [
         {
-          "id": "sph1",
+          "id": "shp1",
           "title": "Media Literacy",
           "audio": "In the digital age, media literacy has become essential. Not all information online is reliable. Evaluating sources, checking evidence, and recognising bias help people make better judgements. Algorithms can create filter bubbles that reinforce existing views. Developing critical habits protects both personal understanding and public discourse.",
           "transcript": "In the digital age, media literacy has become essential. Not all information online is reliable. Evaluating sources, checking evidence, and recognising bias help people make better judgements. Algorithms can create filter bubbles that reinforce existing views. Developing critical habits protects both personal understanding and public discourse.",
@@ -772,7 +1764,7 @@
                 "Because no one needs it"
               ],
               "answer": 1,
-              "exp": "Not all information online is reliable."
+              "exp": "Not all information is reliable."
             },
             {
               "q": "What can algorithms create?",
@@ -783,7 +1775,7 @@
                 "No effect"
               ],
               "answer": 1,
-              "exp": "Algorithms can create filter bubbles that reinforce existing views."
+              "exp": "Filter bubbles."
             },
             {
               "q": "What do critical habits protect?",
@@ -794,7 +1786,7 @@
                 "Nothing important"
               ],
               "answer": 1,
-              "exp": "Developing critical habits protects both personal understanding and public discourse."
+              "exp": "Personal understanding and public discourse."
             },
             {
               "q": "What should people do when evaluating information?",
@@ -805,7 +1797,7 @@
                 "Only trust social media"
               ],
               "answer": 1,
-              "exp": "Evaluating sources, checking evidence, and recognising bias help people make better judgements."
+              "exp": "Evaluate sources, check evidence and recognise bias."
             }
           ]
         }
