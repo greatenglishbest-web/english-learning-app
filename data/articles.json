@@ -1,0 +1,247 @@
+{
+  "junior": [
+    {
+      "id": "j1",
+      "cat": "自然环保",
+      "title": "🌲 Trees That Talk — The Hidden Forest Network",
+      "tags": ["自然", "科学", "环保"],
+      "words": 318,
+      "hardWords": {
+        "communicate": {"ipa": "/kəˈmjuːnɪkeɪt/", "cn": "交流"},
+        "network": {"ipa": "/ˈnetwɜːk/", "cn": "网络"},
+        "nutrients": {"ipa": "/ˈnjuːtriənts/", "cn": "营养物质"},
+        "scientists": {"ipa": "/ˈsaɪəntɪsts/", "cn": "科学家"},
+        "underground": {"ipa": "/ˌʌndəˈɡraʊnd/", "cn": "地下的"},
+        "protect": {"ipa": "/prəˈtekt/", "cn": "保护"},
+        "environment": {"ipa": "/ɪnˈvaɪrənmənt/", "cn": "环境"},
+        "chemical": {"ipa": "/ˈkemɪkl/", "cn": "化学的；化学物质"},
+        "warning": {"ipa": "/ˈwɔːnɪŋ/", "cn": "警告"},
+        "precious": {"ipa": "/ˈpreʃəs/", "cn": "珍贵的"}
+      },
+      "content": "Have you ever walked through a forest and felt that the trees were somehow alive in a special way? 🔬 Scientists have discovered that trees can actually communicate with each other!\n\nUnder the ground, trees are connected by a huge network of tiny roots and fungi. This underground network is sometimes called the “Wood Wide Web”. Through this network, trees can share water and nutrients. When a young tree is weak, older trees nearby can send it extra food to help it grow stronger. Isn’t that amazing? 🌳\n\nTrees also send warnings about danger. If insects attack one tree, it can send chemical signals through the air and the roots. Other trees receive the message and start producing special chemicals to protect themselves. In this way, the whole forest works together like a big family.\n\nWhy is this important for us? Forests help clean the air we breathe and give us oxygen. They also provide homes for many animals and plants. When we cut down too many trees, we break this beautiful network. That is why it is so important to protect forests and plant more trees.\n\nNext time you walk in a park or a forest, take a moment to look at the trees. Remember that under your feet, they may be quietly talking to each other, sharing food, and helping their neighbours. Nature is full of secrets, and the more we learn, the more we understand how precious our environment is. Let’s all try to take better care of the green world around us! 🌍",
+      "translation": "你有没有走过森林，感觉树木以某种特殊的方式活着？🔬 科学家们已经发现，树木其实可以互相交流！\n\n在地下，树木通过由细小根须和真菌组成的巨大网络连接在一起。这个地下网络有时被称为“树木互联网”。通过这个网络，树木可以分享水分和营养。当一棵小树较弱时，附近的大树可以给它额外的食物，帮助它长得更强壮。这是不是很神奇？🌳\n\n树木还会发出危险警告。如果昆虫攻击一棵树，它可以通过空气和根部发出化学信号。其他树木收到信息后，会开始产生特殊的化学物质来保护自己。这样，整片森林就像一个大家庭一样共同协作。\n\n这对我们为什么重要？森林帮助净化我们呼吸的空气，并提供氧气。它们还为许多动植物提供家园。当我们砍伐太多树木时，就会破坏这个美丽的网络。这就是为什么保护森林、多种树如此重要。\n\n下次你在公园或森林里散步时，花点时间看看那些树。记住，在你脚下，它们可能正在悄悄地互相交谈、分享食物、帮助邻居。大自然充满秘密，我们学得越多，就越能理解环境是多么珍贵。让我们都努力更好地照顾身边的绿色世界吧！🌍",
+      "questions": [
+        {
+          "q": "1. What is the “Wood Wide Web”?",
+          "options": ["A network of roads in the forest", "An underground network of roots and fungi that connects trees", "A website about trees", "A type of tree that grows under the ground"],
+          "answer": 1,
+          "exp": "文章明确指出地下由根须和真菌组成的网络被称为 “Wood Wide Web”。"
+        },
+        {
+          "q": "2. How do trees help a weak young tree?",
+          "options": ["They cut it down", "They send it extra food through the underground network", "They move it to a better place", "They stop growing themselves"],
+          "answer": 1,
+          "exp": "文中提到 older trees can send it extra food to help it grow stronger。"
+        },
+        {
+          "q": "3. What do trees do when insects attack one of them?",
+          "options": ["They all fall down", "They send chemical signals to warn other trees", "They stop producing oxygen", "They ask humans for help"],
+          "answer": 1,
+          "exp": "Trees send chemical signals through the air and the roots to warn others。"
+        },
+        {
+          "q": "4. Why should we protect forests according to the passage?",
+          "options": ["Because trees are expensive", "Because forests clean the air, provide oxygen and homes for animals", "Because forests are only for decoration", "Because trees can talk to people"],
+          "answer": 1,
+          "exp": "文章强调森林净化空气、提供氧气和动物家园，因此需要保护。"
+        }
+      ]
+    },
+    {
+      "id": "j2",
+      "cat": "科技探索",
+      "title": "🚀 A Day of a Young Astronaut",
+      "tags": ["太空", "梦想", "科学"],
+      "words": 312,
+      "hardWords": {
+        "astronaut": {"ipa": "/ˈæstrənɔːt/", "cn": "宇航员"},
+        "gravity": {"ipa": "/ˈɡrævəti/", "cn": "重力"},
+        "experiment": {"ipa": "/ɪkˈsperɪmənt/", "cn": "实验"},
+        "spacecraft": {"ipa": "/ˈspeɪskrɑːft/", "cn": "航天器"},
+        "challenge": {"ipa": "/ˈtʃælɪndʒ/", "cn": "挑战"},
+        "training": {"ipa": "/ˈtreɪnɪŋ/", "cn": "训练"},
+        "explore": {"ipa": "/ɪkˈsplɔː(r)/", "cn": "探索"},
+        "universe": {"ipa": "/ˈjuːnɪvɜːs/", "cn": "宇宙"},
+        "schedule": {"ipa": "/ˈʃedjuːl/", "cn": "日程安排"},
+        "muscle": {"ipa": "/ˈmʌsl/", "cn": "肌肉"}
+      },
+      "content": "Have you ever dreamed of becoming an astronaut and flying into space? 🌌 Let’s imagine a day in the life of a young astronaut on a space station.\n\nThe day starts early. There is no sunrise or sunset in space the way we see them on Earth, but the astronaut still follows a schedule. First, she checks the systems of the spacecraft to make sure everything is working well. Then she has breakfast. In space, food comes in special packages, and there is no gravity, so drinks and crumbs float around if you are not careful!\n\nAfter breakfast, the astronaut begins her science experiments. She may study how plants grow without gravity, or how the human body changes in space. These experiments help scientists on Earth understand more about life and prepare for future journeys to the Moon or Mars. 🔬\n\nIn the afternoon, she does physical training. Living without gravity makes muscles and bones weaker, so astronauts must exercise every day on special machines. It is hard work, but necessary to stay healthy.\n\nLater, she may look out of the window. From space, the Earth looks beautiful — blue oceans, white clouds, and green land. There are no borders visible. Many astronauts say this view makes them feel how important it is to protect our planet. 🌍\n\nIn the evening, she talks with her family on Earth through video calls and writes in her journal. Before sleeping, she looks at the stars and thinks about how far humans have come, and how much more there is still to explore in the universe.\n\nBeing an astronaut is full of challenges, but it is also one of the most exciting jobs in the world. Who knows? Maybe one day you will be the one floating among the stars! ✨",
+      "translation": "你有没有梦想过成为宇航员，飞向太空？🌌 让我们想象一下一位年轻宇航员在空间站的一天。\n\n一天很早开始。太空中没有我们在地球上看到的那种日出日落，但宇航员仍然遵循作息时间。首先，她检查航天器的系统，确保一切正常。然后吃早餐。在太空中，食物装在特殊包装里，没有重力，所以如果不小心，饮料和碎屑会飘得到处都是！\n\n早餐后，宇航员开始科学实验。她可能研究植物在没有重力的情况下如何生长，或者人体在太空中如何变化。这些实验帮助地球上的科学家更多地了解生命，并为未来前往月球或火星的旅程做准备。🔬\n\n下午，她进行体能训练。没有重力的生活会让肌肉和骨骼变弱，所以宇航员必须每天在特殊机器上锻炼。这很辛苦，但对保持健康很有必要。\n\n晚些时候，她可能会望向窗外。从太空看，地球美丽极了——蓝色的海洋、白色的云朵和绿色的陆地。看不到任何国界。许多宇航员说，这种景色让他们感受到保护我们星球是多么重要。🌍\n\n晚上，她通过视频通话与地球上的家人聊天，并写日记。睡觉前，她望着星星，思考人类已经走了多远，以及宇宙中还有多少值得探索的地方。\n\n成为宇航员充满挑战，但也是世界上最令人兴奋的工作之一。谁知道呢？也许有一天，飘浮在星空中的人就是你！✨",
+      "questions": [
+        {
+          "q": "1. Why do astronauts need to exercise every day in space?",
+          "options": ["Because they want to become stronger than people on Earth", "Because living without gravity makes muscles and bones weaker", "Because there is too much free time", "Because the food is not healthy"],
+          "answer": 1,
+          "exp": "文中明确说明：Living without gravity makes muscles and bones weaker。"
+        },
+        {
+          "q": "2. What can astronauts see when they look at the Earth from space?",
+          "options": ["Only the dark side of the Earth", "Blue oceans, white clouds and green land, with no visible borders", "Many cities with bright lights only", "Just the Moon and stars"],
+          "answer": 1,
+          "exp": "From space, the Earth looks beautiful — blue oceans, white clouds, and green land. There are no borders visible。"
+        },
+        {
+          "q": "3. What is one purpose of the science experiments on the space station?",
+          "options": ["To make more food for astronauts", "To help scientists understand life and prepare for future space journeys", "To build a new spacecraft", "To talk with family"],
+          "answer": 1,
+          "exp": "These experiments help scientists on Earth understand more about life and prepare for future journeys to the Moon or Mars。"
+        },
+        {
+          "q": "4. What does the passage mainly tell us?",
+          "options": ["How to become an astronaut", "A typical day of a young astronaut and why the job is meaningful", "The history of space travel", "How to grow plants on Earth"],
+          "answer": 1,
+          "exp": "全文描述宇航员的一天，并强调其挑战与意义。"
+        }
+      ]
+    },
+    {
+      "id": "j3",
+      "cat": "成长习惯",
+      "title": "📚 The Magic Power of Reading",
+      "tags": ["阅读", "成长", "习惯"],
+      "words": 308,
+      "hardWords": {
+        "imagination": {"ipa": "/ɪˌmædʒɪˈneɪʃn/", "cn": "想象力"},
+        "knowledge": {"ipa": "/ˈnɒlɪdʒ/", "cn": "知识"},
+        "adventure": {"ipa": "/ədˈventʃə(r)/", "cn": "冒险"},
+        "character": {"ipa": "/ˈkærəktə(r)/", "cn": "人物；性格"},
+        "improve": {"ipa": "/ɪmˈpruːv/", "cn": "提高"},
+        "vocabulary": {"ipa": "/vəˈkæbjələri/", "cn": "词汇"},
+        "concentrate": {"ipa": "/ˈkɒnsntreɪt/", "cn": "集中注意力"},
+        "habit": {"ipa": "/ˈhæbɪt/", "cn": "习惯"},
+        "treasure": {"ipa": "/ˈtreʒə(r)/", "cn": "宝藏"},
+        "composition": {"ipa": "/ˌkɒmpəˈzɪʃn/", "cn": "作文"}
+      },
+      "content": "Reading is like having a magic key that can open thousands of doors. 📖 With a book in your hand, you can travel to any place in the world, meet interesting people, and experience amazing adventures — all without leaving your chair!\n\nWhen you read a story, your imagination starts working. You can see the characters in your mind, hear their voices, and feel their feelings. A good book can make you laugh, cry, or think deeply about life. That is the special power of reading.\n\nReading also helps you learn. Every book is full of new words and ideas. The more you read, the larger your vocabulary becomes, and the better you understand the world. Students who read a lot often find it easier to write good compositions and do well in exams, because they have more knowledge and better language skills.\n\nBut reading is not only useful — it is also fun. There are books about animals, space, history, mystery, friendship, and almost everything else you can think of. You can choose what you like and enjoy it at your own speed. Unlike watching videos, reading lets you stop, think, and go back whenever you want.\n\nTo become a good reader, you need to build a habit. Try to read for at least fifteen or twenty minutes every day. Find a quiet place, turn off your phone, and dive into the story. At first it may feel a little hard to concentrate, but soon you will find it hard to stop!\n\nBooks are treasures that never grow old. The stories your grandparents loved can still touch your heart today. So open a book, and let the magic begin. Who knows what wonderful worlds you will discover next? ✨",
+      "translation": "阅读就像拥有一把能打开成千上万扇门的魔法钥匙。📖 手里拿着一本书，你可以去世界任何地方旅行，遇见有趣的人，体验奇妙的冒险——这一切都不需要离开你的椅子！\n\n当你读故事时，你的想象力开始运转。你可以在脑海中看到人物，听到他们的声音，感受他们的情感。一本好书可以让你开怀大笑、流泪，或者深入思考人生。这就是阅读的特殊力量。\n\n阅读还能帮助你学习。每本书都充满新单词和新想法。你读得越多，词汇量就越大，对世界的理解也越好。爱读书的学生往往更容易写出好作文、在考试中取得好成绩，因为他们知识更丰富，语言能力更强。\n\n但阅读不仅有用——它也很有趣。有关于动物、太空、历史、悬疑、友谊的书，几乎你能想到的一切都有。你可以选择自己喜欢的，按照自己的节奏去享受。与看视频不同，阅读可以让你随时停下来思考，或回过头再看。\n\n要成为一名好的读者，你需要养成习惯。试着每天至少读十五到二十分钟。找一个安静的地方，关掉手机，沉浸到故事中。一开始可能有点难集中注意力，但很快你就会发现停不下来！\n\n书是永不老去的宝藏。你祖父母曾经喜欢的故事，今天依然能触动你的心。所以打开一本书，让魔法开始吧。谁知道你接下来会发现怎样精彩的世界呢？✨",
+      "questions": [
+        {
+          "q": "1. According to the passage, what is the special power of reading?",
+          "options": ["It can make you rich", "It can make you laugh, cry or think deeply about life", "It can replace all school lessons", "It can help you sleep better only"],
+          "answer": 1,
+          "exp": "文中说 A good book can make you laugh, cry, or think deeply about life. That is the special power of reading。"
+        },
+        {
+          "q": "2. How does reading help students in their studies?",
+          "options": ["It makes exams unnecessary", "It increases vocabulary and knowledge, and improves writing and exam performance", "It only helps with maths", "It allows students to skip classes"],
+          "answer": 1,
+          "exp": "The more you read, the larger your vocabulary becomes... students who read a lot often find it easier to write good compositions and do well in exams。"
+        },
+        {
+          "q": "3. What advice does the writer give to become a good reader?",
+          "options": ["Read only difficult books", "Build a daily reading habit of at least 15–20 minutes in a quiet place", "Read only on the phone", "Never stop reading even when tired"],
+          "answer": 1,
+          "exp": "Try to read for at least fifteen or twenty minutes every day. Find a quiet place..."
+        },
+        {
+          "q": "4. Why does the writer compare books to treasures?",
+          "options": ["Because books are expensive", "Because good stories never grow old and can still touch people’s hearts", "Because books are made of gold", "Because only rich people can buy books"],
+          "answer": 1,
+          "exp": "Books are treasures that never grow old. The stories your grandparents loved can still touch your heart today。"
+        }
+      ]
+    }
+  ],
+  "senior": [
+    {
+      "id": "s1",
+      "cat": "科学环境",
+      "title": "🌊 The Ocean as Earth’s Climate Engine",
+      "tags": ["气候", "科学", "环境"],
+      "words": 338,
+      "hardWords": {
+        "circulation": {"ipa": "/ˌsɜːkjəˈleɪʃn/", "cn": "循环"},
+        "absorb": {"ipa": "/əbˈzɔːb/", "cn": "吸收"},
+        "carbon": {"ipa": "/ˈkɑːbən/", "cn": "碳"},
+        "ecosystem": {"ipa": "/ˈiːkəʊsɪstəm/", "cn": "生态系统"},
+        "vulnerable": {"ipa": "/ˈvʌlnərəbl/", "cn": "脆弱的"},
+        "consequence": {"ipa": "/ˈkɒnsɪkwəns/", "cn": "后果"},
+        "mitigate": {"ipa": "/ˈmɪtɪɡeɪt/", "cn": "缓解"},
+        "sustainable": {"ipa": "/səˈsteɪnəbl/", "cn": "可持续的"},
+        "phenomenon": {"ipa": "/fəˈnɒmɪnən/", "cn": "现象"},
+        "regulate": {"ipa": "/ˈreɡjuleɪt/", "cn": "调节"}
+      },
+      "content": "The ocean covers more than 70 percent of our planet’s surface, yet many people still think of it mainly as a place for swimming or fishing. In reality, the ocean is one of the most powerful climate regulators on Earth. 🔬\n\nOcean currents, driven by wind, temperature differences and the Earth’s rotation, move huge amounts of heat around the globe. Warm water travels from the equator toward the poles, while cold water returns toward the tropics. This continuous circulation helps keep temperatures in many regions moderate and stable. Without it, some places would be much hotter and others much colder.\n\nThe ocean also absorbs a large share of the carbon dioxide that human activities release into the atmosphere. Phytoplankton — tiny plant-like organisms floating near the surface — take in carbon during photosynthesis. When they die, some of that carbon sinks to the deep ocean, where it can remain locked away for centuries. In this way, the ocean acts as a giant carbon sink that slows the pace of global warming.\n\nHowever, this vital system is under growing pressure. Rising temperatures cause seawater to expand and ice sheets to melt, contributing to sea-level rise. Warmer water holds less oxygen and can harm coral reefs and other marine ecosystems. At the same time, the ocean’s ability to absorb extra carbon is not unlimited; as it takes in more CO₂, the water becomes more acidic, threatening shellfish and the food chains that depend on them.\n\nUnderstanding these processes is essential if we want to mitigate climate change. Protecting marine ecosystems, reducing greenhouse-gas emissions and supporting sustainable fishing are all part of the solution. The ocean is not just a beautiful blue landscape — it is a dynamic engine that helps keep our planet livable. The more we learn about it, the clearer it becomes that caring for the ocean means caring for ourselves. 🌍",
+      "translation": "海洋覆盖了地球表面超过70%的面积，但许多人仍主要把它当作游泳或钓鱼的地方。实际上，海洋是地球上最强大的气候调节器之一。🔬\n\n由风、温度差异和地球自转驱动的洋流，在全球范围内输送着大量热量。温暖的海水从赤道流向两极，而冷水则返回热带。这种持续的循环有助于使许多地区的温度保持温和稳定。如果没有它，有些地方会热得多，另一些地方则冷得多。\n\n海洋还吸收了人类活动释放到大气中的大量二氧化碳。浮游植物——漂浮在表层的微小植物样生物——在光合作用过程中吸收碳。当它们死亡后，部分碳会沉入深海，并可能在那里封存数百年。这样，海洋就像一个巨大的碳汇，减缓了全球变暖的速度。\n\n然而，这个至关重要的系统正承受着越来越大的压力。气温上升导致海水膨胀、冰盖融化，从而加剧海平面上升。温暖的海水含氧量更低，并可能伤害珊瑚礁和其他海洋生态系统。同时，海洋吸收额外碳的能力并非无限；随着它吸收更多二氧化碳，海水会变得更酸，威胁贝类以及依赖它们的食物链。\n\n如果我们想缓解气候变化，理解这些过程至关重要。保护海洋生态系统、减少温室气体排放、支持可持续捕捞，都是解决方案的一部分。海洋不仅仅是美丽的蓝色风景——它是帮助维持我们星球宜居的动力引擎。我们对它了解得越多，就越清楚：关爱海洋就是关爱我们自己。🌍",
+      "questions": [
+        {
+          "q": "1. What is one major role of ocean currents mentioned in the passage?",
+          "options": ["They produce most of the world’s oxygen", "They move heat around the globe and help keep regional temperatures moderate", "They prevent all storms from forming", "They only affect the temperature of the poles"],
+          "answer": 1,
+          "exp": "Ocean currents move huge amounts of heat... This continuous circulation helps keep temperatures in many regions moderate and stable。"
+        },
+        {
+          "q": "2. How does the ocean help slow global warming?",
+          "options": ["By reflecting all sunlight back into space", "By absorbing a large share of carbon dioxide and storing some of it in the deep ocean", "By producing more clouds", "By cooling the land directly"],
+          "answer": 1,
+          "exp": "The ocean absorbs a large share of the carbon dioxide... some of that carbon sinks to the deep ocean..."
+        },
+        {
+          "q": "3. What negative effect does increased CO₂ absorption have on the ocean?",
+          "options": ["It makes the water colder", "It makes the water more acidic, threatening shellfish and related food chains", "It increases the number of fish", "It has no negative effects"],
+          "answer": 1,
+          "exp": "as it takes in more CO₂, the water becomes more acidic, threatening shellfish and the food chains..."
+        },
+        {
+          "q": "4. What is the main purpose of the passage?",
+          "options": ["To describe popular beach activities", "To explain the ocean’s role in regulating climate and why protecting it matters", "To argue that oceans are more important than forests", "To teach readers how to fish sustainably only"],
+          "answer": 1,
+          "exp": "全文核心是海洋作为气候调节器的作用及保护的必要性。"
+        },
+        {
+          "q": "5. Which of the following is suggested as part of the solution?",
+          "options": ["Increasing greenhouse-gas emissions", "Protecting marine ecosystems and reducing emissions", "Ignoring sea-level rise", "Stopping all scientific research on the ocean"],
+          "answer": 1,
+          "exp": "Protecting marine ecosystems, reducing greenhouse-gas emissions and supporting sustainable fishing are all part of the solution。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "cat": "心理成长",
+      "title": "🧠 How Habits Quietly Shape Our Future",
+      "tags": ["心理", "成长", "习惯"],
+      "words": 328,
+      "hardWords": {
+        "automatic": {"ipa": "/ˌɔːtəˈmætɪk/", "cn": "自动的"},
+        "reinforce": {"ipa": "/ˌriːɪnˈfɔːs/", "cn": "强化"},
+        "discipline": {"ipa": "/ˈdɪsəplɪn/", "cn": "自律"},
+        "motivation": {"ipa": "/ˌməʊtɪˈveɪʃn/", "cn": "动机"},
+        "consistent": {"ipa": "/kənˈsɪstənt/", "cn": "持续的"},
+        "identity": {"ipa": "/aɪˈdentəti/", "cn": "身份认同"},
+        "transform": {"ipa": "/trænsˈfɔːm/", "cn": "转变"},
+        "compound": {"ipa": "/ˈkɒmpaʊnd/", "cn": "累积的"},
+        "intentional": {"ipa": "/ɪnˈtenʃənl/", "cn": "有意的"},
+        "resilience": {"ipa": "/rɪˈzɪliəns/", "cn": "韧性"}
+      },
+      "content": "We often think of success as the result of big decisions or sudden inspiration. In truth, much of who we become is shaped by the small, repeated actions we take every day — our habits. 🔄\n\nA habit is a behaviour that has become automatic through repetition. When you first learn to ride a bicycle or type on a keyboard, every movement requires attention. With practice, the brain creates stronger neural pathways, and the action becomes almost effortless. The same process applies to studying, exercising, reading, or even negative patterns like procrastination.\n\nBecause habits run largely on autopilot, they can work for us or against us. A student who reviews notes for twenty minutes every evening is quietly building knowledge and confidence. Another student who checks social media first thing every morning may be reinforcing distraction. Over months and years, these tiny differences compound into very different results.\n\nChanging a habit is possible, but it usually requires more than motivation alone. Motivation comes and goes; systems and environment matter more. Making the desired behaviour easier (for example, putting a book on your pillow) and the unwanted behaviour harder (leaving the phone in another room) increases the chance of success. Tracking progress and celebrating small wins also helps reinforce the new pattern.\n\nPerhaps the deepest power of habits lies in identity. When you repeatedly act like a reader, a runner, or a careful thinker, you begin to see yourself that way. The behaviour and the self-image support each other. In this sense, habits do not just change what we do — they gradually transform who we believe we are.\n\nBuilding good habits is therefore an act of long-term self-respect. It is not about perfection, but about consistent, intentional effort. The person you will be in five years is being shaped by the habits you practise today. Choose them wisely. 🌱",
+      "translation": "我们常常认为成功来自大的决定或突然的灵感。实际上，我们成为什么样的人，很大程度上是由每天重复的小行动——我们的习惯——塑造的。🔄\n\n习惯是一种通过重复变得自动化的行为。当你第一次学骑自行车或打字时，每一个动作都需要注意力。通过练习，大脑会建立更强的神经通路，动作几乎变得不费力。同样的过程也适用于学习、锻炼、阅读，甚至像拖延这样的负面模式。\n\n因为习惯很大程度上在“自动驾驶”状态下运行，它们既可以为我们服务，也可能与我们作对。一个每天晚上复习二十分钟笔记的学生，正在悄悄积累知识和自信。另一个每天早上第一件事就刷社交媒体的学生，可能在强化分心。几个月、几年后，这些微小的差异会累积成截然不同的结果。\n\n改变习惯是可能的，但通常需要的不只是动机。动机来了又走；系统和环境更重要。让期望的行为更容易（比如把书放在枕头上），让不想要的行为更难（把手机放在另一个房间），会提高成功的几率。记录进度并庆祝小胜利也有助于强化新模式。\n\n也许习惯最深层的力量在于身份认同。当你反复表现得像一个读者、跑步者或谨慎的思考者时，你开始以这种方式看待自己。行为与自我形象相互支持。从这个意义上说，习惯不仅改变我们做什么——它们逐渐转变我们认为自己是谁。\n\n因此，培养好习惯是一种长期的自我尊重。它不关乎完美，而关乎持续、有意识的努力。五年后的你，正被你今天实践的习惯所塑造。请明智地选择它们。🌱",
+      "questions": [
+        {
+          "q": "1. According to the passage, what mainly shapes who we become?",
+          "options": ["Only big life decisions", "Sudden inspiration", "The small, repeated actions we take every day — our habits", "Luck and talent alone"],
+          "answer": 2,
+          "exp": "much of who we become is shaped by the small, repeated actions we take every day — our habits。"
+        },
+        {
+          "q": "2. Why can habits work for us or against us?",
+          "options": ["Because they are always positive", "Because they run largely on autopilot and can reinforce either useful or harmful patterns", "Because habits never change", "Because only bad habits become automatic"],
+          "answer": 1,
+          "exp": "Because habits run largely on autopilot, they can work for us or against us。"
+        },
+        {
+          "q": "3. What does the writer suggest is more reliable than motivation for changing habits?",
+          "options": ["Waiting for the right mood", "Systems and environment that make good behaviours easier and bad ones harder", "Only reading books about success", "Changing everything overnight"],
+          "answer": 1,
+          "exp": "Motivation comes and goes; systems and environment matter more。"
+        },
+        {
+          "q": "4. How do habits relate to identity according to the passage?",
+          "options": ["Habits have no connection to identity", "Repeated behaviours gradually shape how we see ourselves, and identity then supports the behaviour", "Identity is fixed at birth", "Only other people define our identity"],
+          "answer": 1,
+          "exp": "When you repeatedly act like a reader... you begin to see yourself that way. The behaviour and the self-image support each other。"
+        }
+      ]
+    }
+  ]
+}
