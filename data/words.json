@@ -3956,6 +3956,1441 @@
         "cn": "认出；承认",
         "ex": "I didn't recognize her at first.",
         "exCn": "我一开始没认出她。"
+      },
+      {
+        "w": "accelerate",
+        "ipa": "/əkˈseləreɪt/",
+        "cn": "加速",
+        "ex": "The car accelerated quickly.",
+        "exCn": "汽车迅速加速。"
+      },
+      {
+        "w": "accommodate",
+        "ipa": "/əˈkɒmədeɪt/",
+        "cn": "容纳；适应",
+        "ex": "The hotel can accommodate 200 guests.",
+        "exCn": "酒店可容纳200位客人。"
+      },
+      {
+        "w": "accompany",
+        "ipa": "/əˈkʌmpəni/",
+        "cn": "陪伴",
+        "ex": "I will accompany you to the station.",
+        "exCn": "我陪你去车站。"
+      },
+      {
+        "w": "accomplish",
+        "ipa": "/əˈkʌmplɪʃ/",
+        "cn": "完成；实现",
+        "ex": "She accomplished her goal.",
+        "exCn": "她实现了目标。"
+      },
+      {
+        "w": "accumulate",
+        "ipa": "/əˈkjuːmjəleɪt/",
+        "cn": "积累",
+        "ex": "He has accumulated a lot of experience.",
+        "exCn": "他积累了大量经验。"
+      },
+      {
+        "w": "acknowledge",
+        "ipa": "/əkˈnɒlɪdʒ/",
+        "cn": "承认；致谢",
+        "ex": "He acknowledged his mistake.",
+        "exCn": "他承认了错误。"
+      },
+      {
+        "w": "acquire",
+        "ipa": "/əˈkwaɪə(r)/",
+        "cn": "获得",
+        "ex": "She acquired a new skill.",
+        "exCn": "她获得了一项新技能。"
+      },
+      {
+        "w": "address",
+        "ipa": "/əˈdres/",
+        "cn": "处理；演讲",
+        "ex": "We must address this problem immediately.",
+        "exCn": "我们必须立即处理这个问题。"
+      },
+      {
+        "w": "adjust",
+        "ipa": "/əˈdʒʌst/",
+        "cn": "调整",
+        "ex": "Please adjust the volume.",
+        "exCn": "请调整音量。"
+      },
+      {
+        "w": "adopt",
+        "ipa": "/əˈdɒpt/",
+        "cn": "采用；收养",
+        "ex": "They adopted a new method.",
+        "exCn": "他们采用了新方法。"
+      },
+      {
+        "w": "affect",
+        "ipa": "/əˈfekt/",
+        "cn": "影响",
+        "ex": "The weather affects our mood.",
+        "exCn": "天气影响我们的心情。"
+      },
+      {
+        "w": "allocate",
+        "ipa": "/ˈæləkeɪt/",
+        "cn": "分配",
+        "ex": "We need to allocate more time for study.",
+        "exCn": "我们需要分配更多时间学习。"
+      },
+      {
+        "w": "alter",
+        "ipa": "/ˈɔːltə(r)/",
+        "cn": "改变",
+        "ex": "Nothing can alter the facts.",
+        "exCn": "什么也改变不了事实。"
+      },
+      {
+        "w": "analyse",
+        "ipa": "/ˈænəlaɪz/",
+        "cn": "分析",
+        "ex": "We need to analyse the data carefully.",
+        "exCn": "我们需要仔细分析数据。"
+      },
+      {
+        "w": "anticipate",
+        "ipa": "/ænˈtɪsɪpeɪt/",
+        "cn": "预期",
+        "ex": "We anticipate a good result.",
+        "exCn": "我们预期会有好结果。"
+      },
+      {
+        "w": "apologize",
+        "ipa": "/əˈpɒlədʒaɪz/",
+        "cn": "道歉",
+        "ex": "He apologized for being late.",
+        "exCn": "他为迟到道歉。"
+      },
+      {
+        "w": "appeal",
+        "ipa": "/əˈpiːl/",
+        "cn": "呼吁；上诉",
+        "ex": "The charity appealed for donations.",
+        "exCn": "慈善机构呼吁捐款。"
+      },
+      {
+        "w": "apply",
+        "ipa": "/əˈplaɪ/",
+        "cn": "申请；应用",
+        "ex": "She applied for the job.",
+        "exCn": "她申请了这份工作。"
+      },
+      {
+        "w": "approach",
+        "ipa": "/əˈprəʊtʃ/",
+        "cn": "接近；方法",
+        "ex": "We need a new approach to the problem.",
+        "exCn": "我们需要解决问题的新方法。"
+      },
+      {
+        "w": "approve",
+        "ipa": "/əˈpruːv/",
+        "cn": "批准；赞成",
+        "ex": "The plan was approved.",
+        "exCn": "计划获得批准。"
+      },
+      {
+        "w": "argue",
+        "ipa": "/ˈɑːɡjuː/",
+        "cn": "争论；主张",
+        "ex": "They argued about the best solution.",
+        "exCn": "他们争论最佳解决方案。"
+      },
+      {
+        "w": "arise",
+        "ipa": "/əˈraɪz/",
+        "cn": "出现；产生",
+        "ex": "Problems may arise during the process.",
+        "exCn": "过程中可能会出现问题。"
+      },
+      {
+        "w": "assess",
+        "ipa": "/əˈses/",
+        "cn": "评估",
+        "ex": "Teachers assess students regularly.",
+        "exCn": "老师定期评估学生。"
+      },
+      {
+        "w": "assign",
+        "ipa": "/əˈsaɪn/",
+        "cn": "分配；布置",
+        "ex": "The teacher assigned homework.",
+        "exCn": "老师布置了作业。"
+      },
+      {
+        "w": "assist",
+        "ipa": "/əˈsɪst/",
+        "cn": "协助",
+        "ex": "Can you assist me with this task?",
+        "exCn": "你能协助我完成这项任务吗？"
+      },
+      {
+        "w": "attach",
+        "ipa": "/əˈtætʃ/",
+        "cn": "附加；依附",
+        "ex": "Please attach the file to the email.",
+        "exCn": "请把文件附在邮件上。"
+      },
+      {
+        "w": "attain",
+        "ipa": "/əˈteɪn/",
+        "cn": "达到；获得",
+        "ex": "She attained her goal after years of hard work.",
+        "exCn": "经过多年努力她达成了目标。"
+      },
+      {
+        "w": "attempt",
+        "ipa": "/əˈtempt/",
+        "cn": "尝试",
+        "ex": "He attempted to solve the problem.",
+        "exCn": "他尝试解决这个问题。"
+      },
+      {
+        "w": "attract",
+        "ipa": "/əˈtrækt/",
+        "cn": "吸引",
+        "ex": "The museum attracts many visitors.",
+        "exCn": "博物馆吸引了许多游客。"
+      },
+      {
+        "w": "attribute",
+        "ipa": "/əˈtrɪbjuːt/",
+        "cn": "归因于",
+        "ex": "She attributes her success to hard work.",
+        "exCn": "她把成功归因于努力。"
+      },
+      {
+        "w": "avoid",
+        "ipa": "/əˈvɔɪd/",
+        "cn": "避免",
+        "ex": "We should avoid making the same mistake.",
+        "exCn": "我们应该避免犯同样的错误。"
+      },
+      {
+        "w": "blame",
+        "ipa": "/bleɪm/",
+        "cn": "责备",
+        "ex": "Don't blame others for your mistakes.",
+        "exCn": "不要把错误归咎于别人。"
+      },
+      {
+        "w": "boost",
+        "ipa": "/buːst/",
+        "cn": "促进；提升",
+        "ex": "The new policy will boost the economy.",
+        "exCn": "新政策将促进经济发展。"
+      },
+      {
+        "w": "calculate",
+        "ipa": "/ˈkælkjuleɪt/",
+        "cn": "计算",
+        "ex": "Please calculate the total cost.",
+        "exCn": "请计算总成本。"
+      },
+      {
+        "w": "capture",
+        "ipa": "/ˈkæptʃə(r)/",
+        "cn": "捕捉；俘获",
+        "ex": "The photo captures a beautiful moment.",
+        "exCn": "这张照片捕捉到了美丽瞬间。"
+      },
+      {
+        "w": "categorize",
+        "ipa": "/ˈkætəɡəraɪz/",
+        "cn": "分类",
+        "ex": "We need to categorize the books.",
+        "exCn": "我们需要给书籍分类。"
+      },
+      {
+        "w": "characterize",
+        "ipa": "/ˈkærəktəraɪz/",
+        "cn": "以…为特征",
+        "ex": "The city is characterized by its modern architecture.",
+        "exCn": "这座城市以现代建筑为特征。"
+      },
+      {
+        "w": "clarify",
+        "ipa": "/ˈklærəfaɪ/",
+        "cn": "澄清",
+        "ex": "Please clarify your meaning.",
+        "exCn": "请澄清你的意思。"
+      },
+      {
+        "w": "classify",
+        "ipa": "/ˈklæsɪfaɪ/",
+        "cn": "分类",
+        "ex": "Scientists classify animals into different groups.",
+        "exCn": "科学家把动物分成不同组别。"
+      },
+      {
+        "w": "combine",
+        "ipa": "/kəmˈbaɪn/",
+        "cn": "结合",
+        "ex": "Combine theory with practice.",
+        "exCn": "把理论与实践结合起来。"
+      },
+      {
+        "w": "communicate",
+        "ipa": "/kəˈmjuːnɪkeɪt/",
+        "cn": "交流",
+        "ex": "It is important to communicate clearly.",
+        "exCn": "清晰交流很重要。"
+      },
+      {
+        "w": "compare",
+        "ipa": "/kəmˈpeə(r)/",
+        "cn": "比较",
+        "ex": "Compare the two answers carefully.",
+        "exCn": "仔细比较这两个答案。"
+      },
+      {
+        "w": "compete",
+        "ipa": "/kəmˈpiːt/",
+        "cn": "竞争",
+        "ex": "Athletes compete in the Olympic Games.",
+        "exCn": "运动员在奥运会上竞争。"
+      },
+      {
+        "w": "complain",
+        "ipa": "/kəmˈpleɪn/",
+        "cn": "抱怨",
+        "ex": "Don't complain about the weather.",
+        "exCn": "不要抱怨天气。"
+      },
+      {
+        "w": "compose",
+        "ipa": "/kəmˈpəʊz/",
+        "cn": "组成；创作",
+        "ex": "Water is composed of hydrogen and oxygen.",
+        "exCn": "水由氢和氧组成。"
+      },
+      {
+        "w": "comprehend",
+        "ipa": "/ˌkɒmprɪˈhend/",
+        "cn": "理解",
+        "ex": "It is difficult to comprehend the full meaning.",
+        "exCn": "很难完全理解其含义。"
+      },
+      {
+        "w": "concentrate",
+        "ipa": "/ˈkɒnsntreɪt/",
+        "cn": "集中注意力",
+        "ex": "Please concentrate on your work.",
+        "exCn": "请把注意力集中在工作上。"
+      },
+      {
+        "w": "conclude",
+        "ipa": "/kənˈkluːd/",
+        "cn": "得出结论；结束",
+        "ex": "We concluded that the plan was good.",
+        "exCn": "我们得出结论：计划很好。"
+      },
+      {
+        "w": "conduct",
+        "ipa": "/kənˈdʌkt/",
+        "cn": "进行；指挥",
+        "ex": "They conducted a survey.",
+        "exCn": "他们进行了一次调查。"
+      },
+      {
+        "w": "confirm",
+        "ipa": "/kənˈfɜːm/",
+        "cn": "确认",
+        "ex": "Please confirm your attendance.",
+        "exCn": "请确认你是否出席。"
+      },
+      {
+        "w": "conflict",
+        "ipa": "/ˈkɒnflɪkt/",
+        "cn": "冲突",
+        "ex": "There is a conflict between the two ideas.",
+        "exCn": "这两种想法之间存在冲突。"
+      },
+      {
+        "w": "confront",
+        "ipa": "/kənˈfrʌnt/",
+        "cn": "面对；对抗",
+        "ex": "We must confront the problem directly.",
+        "exCn": "我们必须直面问题。"
+      },
+      {
+        "w": "confuse",
+        "ipa": "/kənˈfjuːz/",
+        "cn": "使困惑",
+        "ex": "The instructions confused me.",
+        "exCn": "说明把我搞糊涂了。"
+      },
+      {
+        "w": "congratulate",
+        "ipa": "/kənˈɡrætʃuleɪt/",
+        "cn": "祝贺",
+        "ex": "I congratulate you on your success.",
+        "exCn": "我祝贺你的成功。"
+      },
+      {
+        "w": "connect",
+        "ipa": "/kəˈnekt/",
+        "cn": "连接",
+        "ex": "Please connect the cable.",
+        "exCn": "请连接线缆。"
+      },
+      {
+        "w": "consider",
+        "ipa": "/kənˈsɪdə(r)/",
+        "cn": "考虑",
+        "ex": "Please consider my suggestion.",
+        "exCn": "请考虑我的建议。"
+      },
+      {
+        "w": "consist",
+        "ipa": "/kənˈsɪst/",
+        "cn": "由…组成",
+        "ex": "The team consists of ten members.",
+        "exCn": "团队由十名成员组成。"
+      },
+      {
+        "w": "consult",
+        "ipa": "/kənˈsʌlt/",
+        "cn": "咨询",
+        "ex": "You should consult a doctor.",
+        "exCn": "你应该咨询医生。"
+      },
+      {
+        "w": "consume",
+        "ipa": "/kənˈsjuːm/",
+        "cn": "消耗；消费",
+        "ex": "Cars consume a lot of fuel.",
+        "exCn": "汽车消耗大量燃料。"
+      },
+      {
+        "w": "contain",
+        "ipa": "/kənˈteɪn/",
+        "cn": "包含",
+        "ex": "This book contains useful information.",
+        "exCn": "这本书包含有用信息。"
+      },
+      {
+        "w": "control",
+        "ipa": "/kənˈtrəʊl/",
+        "cn": "控制",
+        "ex": "We need to control pollution.",
+        "exCn": "我们需要控制污染。"
+      },
+      {
+        "w": "convert",
+        "ipa": "/kənˈvɜːt/",
+        "cn": "转换",
+        "ex": "Convert the file to PDF format.",
+        "exCn": "把文件转换成PDF格式。"
+      },
+      {
+        "w": "cooperate",
+        "ipa": "/kəʊˈɒpəreɪt/",
+        "cn": "合作",
+        "ex": "We need to cooperate with each other.",
+        "exCn": "我们需要互相合作。"
+      },
+      {
+        "w": "coordinate",
+        "ipa": "/kəʊˈɔːdɪneɪt/",
+        "cn": "协调",
+        "ex": "Please coordinate the schedule.",
+        "exCn": "请协调一下日程。"
+      },
+      {
+        "w": "cope",
+        "ipa": "/kəʊp/",
+        "cn": "应付",
+        "ex": "She learned to cope with stress.",
+        "exCn": "她学会了应对压力。"
+      },
+      {
+        "w": "correspond",
+        "ipa": "/ˌkɒrəˈspɒnd/",
+        "cn": "通信；符合",
+        "ex": "The results correspond to our expectations.",
+        "exCn": "结果符合我们的预期。"
+      },
+      {
+        "w": "create",
+        "ipa": "/kriˈeɪt/",
+        "cn": "创造",
+        "ex": "Artists create beautiful works.",
+        "exCn": "艺术家创造美丽的作品。"
+      },
+      {
+        "w": "criticize",
+        "ipa": "/ˈkrɪtɪsaɪz/",
+        "cn": "批评",
+        "ex": "Don't criticize others without reason.",
+        "exCn": "不要无故批评别人。"
+      },
+      {
+        "w": "cultivate",
+        "ipa": "/ˈkʌltɪveɪt/",
+        "cn": "培养；耕种",
+        "ex": "We should cultivate good habits.",
+        "exCn": "我们应该培养良好习惯。"
+      },
+      {
+        "w": "decorate",
+        "ipa": "/ˈdekəreɪt/",
+        "cn": "装饰",
+        "ex": "They decorated the room for the party.",
+        "exCn": "他们为派对装饰了房间。"
+      },
+      {
+        "w": "decrease",
+        "ipa": "/dɪˈkriːs/",
+        "cn": "减少",
+        "ex": "The price has decreased.",
+        "exCn": "价格已经下降。"
+      },
+      {
+        "w": "defend",
+        "ipa": "/dɪˈfend/",
+        "cn": "保卫；辩护",
+        "ex": "We must defend our rights.",
+        "exCn": "我们必须捍卫自己的权利。"
+      },
+      {
+        "w": "define",
+        "ipa": "/dɪˈfaɪn/",
+        "cn": "定义",
+        "ex": "Can you define this term?",
+        "exCn": "你能定义这个术语吗？"
+      },
+      {
+        "w": "delay",
+        "ipa": "/dɪˈleɪ/",
+        "cn": "延迟",
+        "ex": "The flight was delayed.",
+        "exCn": "航班延误了。"
+      },
+      {
+        "w": "deliver",
+        "ipa": "/dɪˈlɪvə(r)/",
+        "cn": "递送；发表",
+        "ex": "The postman delivers letters every day.",
+        "exCn": "邮递员每天送信。"
+      },
+      {
+        "w": "deny",
+        "ipa": "/dɪˈnaɪ/",
+        "cn": "否认",
+        "ex": "He denied the accusation.",
+        "exCn": "他否认了指控。"
+      },
+      {
+        "w": "depend",
+        "ipa": "/dɪˈpend/",
+        "cn": "依靠；取决于",
+        "ex": "Success depends on hard work.",
+        "exCn": "成功取决于努力。"
+      },
+      {
+        "w": "describe",
+        "ipa": "/dɪˈskraɪb/",
+        "cn": "描述",
+        "ex": "Please describe the scene.",
+        "exCn": "请描述这个场景。"
+      },
+      {
+        "w": "deserve",
+        "ipa": "/dɪˈzɜːv/",
+        "cn": "应得",
+        "ex": "You deserve a rest.",
+        "exCn": "你应该休息一下。"
+      },
+      {
+        "w": "design",
+        "ipa": "/dɪˈzaɪn/",
+        "cn": "设计",
+        "ex": "She designed a beautiful logo.",
+        "exCn": "她设计了一个漂亮的标志。"
+      },
+      {
+        "w": "destroy",
+        "ipa": "/dɪˈstrɔɪ/",
+        "cn": "摧毁",
+        "ex": "The storm destroyed many houses.",
+        "exCn": "风暴摧毁了许多房屋。"
+      },
+      {
+        "w": "detect",
+        "ipa": "/dɪˈtekt/",
+        "cn": "察觉；检测",
+        "ex": "The device can detect smoke.",
+        "exCn": "该设备可以检测烟雾。"
+      },
+      {
+        "w": "develop",
+        "ipa": "/dɪˈveləp/",
+        "cn": "发展；开发",
+        "ex": "The city has developed rapidly.",
+        "exCn": "这座城市发展迅速。"
+      },
+      {
+        "w": "devote",
+        "ipa": "/dɪˈvəʊt/",
+        "cn": "致力于",
+        "ex": "She devoted her life to education.",
+        "exCn": "她把一生献给了教育。"
+      },
+      {
+        "w": "differ",
+        "ipa": "/ˈdɪfə(r)/",
+        "cn": "不同",
+        "ex": "Opinions differ on this issue.",
+        "exCn": "在这个问题上意见不同。"
+      },
+      {
+        "w": "diminish",
+        "ipa": "/dɪˈmɪnɪʃ/",
+        "cn": "减少；减弱",
+        "ex": "The noise diminished gradually.",
+        "exCn": "噪音逐渐减弱。"
+      },
+      {
+        "w": "direct",
+        "ipa": "/dəˈrekt/",
+        "cn": "指导；直接的",
+        "ex": "The teacher directed the students.",
+        "exCn": "老师指导了学生。"
+      },
+      {
+        "w": "disappear",
+        "ipa": "/ˌdɪsəˈpɪə(r)/",
+        "cn": "消失",
+        "ex": "The sun disappeared behind the clouds.",
+        "exCn": "太阳消失在云层后面。"
+      },
+      {
+        "w": "discourage",
+        "ipa": "/dɪsˈkʌrɪdʒ/",
+        "cn": "使气馁",
+        "ex": "Don't let failure discourage you.",
+        "exCn": "不要让失败使你气馁。"
+      },
+      {
+        "w": "discover",
+        "ipa": "/dɪˈskʌvə(r)/",
+        "cn": "发现",
+        "ex": "Scientists discovered a new species.",
+        "exCn": "科学家发现了一个新物种。"
+      },
+      {
+        "w": "discuss",
+        "ipa": "/dɪˈskʌs/",
+        "cn": "讨论",
+        "ex": "We need to discuss this further.",
+        "exCn": "我们需要进一步讨论。"
+      },
+      {
+        "w": "dismiss",
+        "ipa": "/dɪsˈmɪs/",
+        "cn": "解雇；解散",
+        "ex": "The class was dismissed early.",
+        "exCn": "课程提前结束了。"
+      },
+      {
+        "w": "display",
+        "ipa": "/dɪˈspleɪ/",
+        "cn": "展示",
+        "ex": "The museum displays ancient artifacts.",
+        "exCn": "博物馆展示古代文物。"
+      },
+      {
+        "w": "distribute",
+        "ipa": "/dɪˈstrɪbjuːt/",
+        "cn": "分发；分配",
+        "ex": "Please distribute the papers.",
+        "exCn": "请分发试卷。"
+      },
+      {
+        "w": "disturb",
+        "ipa": "/dɪˈstɜːb/",
+        "cn": "打扰",
+        "ex": "Sorry to disturb you.",
+        "exCn": "抱歉打扰你。"
+      },
+      {
+        "w": "dominate",
+        "ipa": "/ˈdɒmɪneɪt/",
+        "cn": "主导；支配",
+        "ex": "The company dominates the market.",
+        "exCn": "该公司主导市场。"
+      },
+      {
+        "w": "donate",
+        "ipa": "/dəʊˈneɪt/",
+        "cn": "捐赠",
+        "ex": "She donated money to the school.",
+        "exCn": "她向学校捐了款。"
+      },
+      {
+        "w": "doubt",
+        "ipa": "/daʊt/",
+        "cn": "怀疑",
+        "ex": "I doubt whether he will come.",
+        "exCn": "我怀疑他是否会来。"
+      },
+      {
+        "w": "educate",
+        "ipa": "/ˈedʒukeɪt/",
+        "cn": "教育",
+        "ex": "Parents should educate their children.",
+        "exCn": "父母应该教育孩子。"
+      },
+      {
+        "w": "eliminate",
+        "ipa": "/ɪˈlɪmɪneɪt/",
+        "cn": "消除",
+        "ex": "We must eliminate the risk.",
+        "exCn": "我们必须消除风险。"
+      },
+      {
+        "w": "emerge",
+        "ipa": "/ɪˈmɜːdʒ/",
+        "cn": "出现；浮现",
+        "ex": "New problems emerged.",
+        "exCn": "新问题出现了。"
+      },
+      {
+        "w": "employ",
+        "ipa": "/ɪmˈplɔɪ/",
+        "cn": "雇用；使用",
+        "ex": "The company employs 500 people.",
+        "exCn": "公司雇用500人。"
+      },
+      {
+        "w": "enable",
+        "ipa": "/ɪˈneɪbl/",
+        "cn": "使能够",
+        "ex": "The new tool enables us to work faster.",
+        "exCn": "新工具使我们能更快工作。"
+      },
+      {
+        "w": "encourage",
+        "ipa": "/ɪnˈkʌrɪdʒ/",
+        "cn": "鼓励",
+        "ex": "Teachers should encourage students.",
+        "exCn": "老师应该鼓励学生。"
+      },
+      {
+        "w": "engage",
+        "ipa": "/ɪnˈɡeɪdʒ/",
+        "cn": "参与；吸引",
+        "ex": "Students should engage in class discussion.",
+        "exCn": "学生应参与课堂讨论。"
+      },
+      {
+        "w": "enhance",
+        "ipa": "/ɪnˈhɑːns/",
+        "cn": "增强；提高",
+        "ex": "Exercise can enhance your health.",
+        "exCn": "锻炼可以增强健康。"
+      },
+      {
+        "w": "ensure",
+        "ipa": "/ɪnˈʃʊə(r)/",
+        "cn": "确保",
+        "ex": "Please ensure that all doors are locked.",
+        "exCn": "请确保所有门都锁好。"
+      },
+      {
+        "w": "estimate",
+        "ipa": "/ˈestɪmeɪt/",
+        "cn": "估计",
+        "ex": "I estimate the cost to be 1000 yuan.",
+        "exCn": "我估计费用为1000元。"
+      },
+      {
+        "w": "examine",
+        "ipa": "/ɪɡˈzæmɪn/",
+        "cn": "检查；考试",
+        "ex": "The doctor examined the patient.",
+        "exCn": "医生检查了病人。"
+      },
+      {
+        "w": "exceed",
+        "ipa": "/ɪkˈsiːd/",
+        "cn": "超过",
+        "ex": "The results exceeded our expectations.",
+        "exCn": "结果超出了我们的预期。"
+      },
+      {
+        "w": "exchange",
+        "ipa": "/ɪksˈtʃeɪndʒ/",
+        "cn": "交换",
+        "ex": "We exchanged ideas at the meeting.",
+        "exCn": "我们在会议上交换了意见。"
+      },
+      {
+        "w": "exclude",
+        "ipa": "/ɪkˈskluːd/",
+        "cn": "排除",
+        "ex": "The price excludes tax.",
+        "exCn": "价格不含税。"
+      },
+      {
+        "w": "expand",
+        "ipa": "/ɪkˈspænd/",
+        "cn": "扩大",
+        "ex": "The company plans to expand overseas.",
+        "exCn": "公司计划向海外扩张。"
+      },
+      {
+        "w": "expect",
+        "ipa": "/ɪkˈspekt/",
+        "cn": "期望",
+        "ex": "We expect good weather tomorrow.",
+        "exCn": "我们期望明天天气好。"
+      },
+      {
+        "w": "experience",
+        "ipa": "/ɪkˈspɪəriəns/",
+        "cn": "经历；体验",
+        "ex": "Travel is a valuable experience.",
+        "exCn": "旅行是宝贵的经历。"
+      },
+      {
+        "w": "explore",
+        "ipa": "/ɪkˈsplɔː(r)/",
+        "cn": "探索",
+        "ex": "Scientists explore the universe.",
+        "exCn": "科学家探索宇宙。"
+      },
+      {
+        "w": "expose",
+        "ipa": "/ɪkˈspəʊz/",
+        "cn": "暴露；接触",
+        "ex": "Don't expose the film to light.",
+        "exCn": "不要让胶片接触光线。"
+      },
+      {
+        "w": "express",
+        "ipa": "/ɪkˈspres/",
+        "cn": "表达",
+        "ex": "It is important to express your feelings.",
+        "exCn": "表达自己的感受很重要。"
+      },
+      {
+        "w": "extend",
+        "ipa": "/ɪkˈstend/",
+        "cn": "延伸；延长",
+        "ex": "They extended the deadline.",
+        "exCn": "他们延长了截止日期。"
+      },
+      {
+        "w": "facilitate",
+        "ipa": "/fəˈsɪlɪteɪt/",
+        "cn": "促进；使便利",
+        "ex": "Technology can facilitate learning.",
+        "exCn": "技术可以促进学习。"
+      },
+      {
+        "w": "focus",
+        "ipa": "/ˈfəʊkəs/",
+        "cn": "集中",
+        "ex": "Please focus on the main idea.",
+        "exCn": "请专注于主旨。"
+      },
+      {
+        "w": "function",
+        "ipa": "/ˈfʌŋkʃn/",
+        "cn": "起作用；功能",
+        "ex": "The machine is not functioning properly.",
+        "exCn": "机器运转不正常。"
+      },
+      {
+        "w": "guarantee",
+        "ipa": "/ˌɡærənˈtiː/",
+        "cn": "保证",
+        "ex": "We guarantee the quality of our products.",
+        "exCn": "我们保证产品质量。"
+      },
+      {
+        "w": "ignore",
+        "ipa": "/ɪɡˈnɔː(r)/",
+        "cn": "忽视",
+        "ex": "Don't ignore the warning signs.",
+        "exCn": "不要忽视警告标志。"
+      },
+      {
+        "w": "implement",
+        "ipa": "/ˈɪmplɪment/",
+        "cn": "实施",
+        "ex": "We will implement the new policy next month.",
+        "exCn": "我们将在下月实施新政策。"
+      },
+      {
+        "w": "imply",
+        "ipa": "/ɪmˈplaɪ/",
+        "cn": "暗示",
+        "ex": "His words imply that he is not satisfied.",
+        "exCn": "他的话暗示他不满意。"
+      },
+      {
+        "w": "impose",
+        "ipa": "/ɪmˈpəʊz/",
+        "cn": "强加",
+        "ex": "Don't impose your views on others.",
+        "exCn": "不要把你的观点强加给别人。"
+      },
+      {
+        "w": "improve",
+        "ipa": "/ɪmˈpruːv/",
+        "cn": "提高",
+        "ex": "Practice can improve your skills.",
+        "exCn": "练习可以提高技能。"
+      },
+      {
+        "w": "include",
+        "ipa": "/ɪnˈkluːd/",
+        "cn": "包括",
+        "ex": "The price includes breakfast.",
+        "exCn": "价格包括早餐。"
+      },
+      {
+        "w": "influence",
+        "ipa": "/ˈɪnfluəns/",
+        "cn": "影响",
+        "ex": "Parents influence their children.",
+        "exCn": "父母影响孩子。"
+      },
+      {
+        "w": "inform",
+        "ipa": "/ɪnˈfɔːm/",
+        "cn": "通知",
+        "ex": "Please inform me of any changes.",
+        "exCn": "如有变更请通知我。"
+      },
+      {
+        "w": "inspire",
+        "ipa": "/ɪnˈspaɪə(r)/",
+        "cn": "激励；启发",
+        "ex": "Her story inspired many people.",
+        "exCn": "她的故事激励了许多人。"
+      },
+      {
+        "w": "install",
+        "ipa": "/ɪnˈstɔːl/",
+        "cn": "安装",
+        "ex": "Please install the software.",
+        "exCn": "请安装软件。"
+      },
+      {
+        "w": "instruct",
+        "ipa": "/ɪnˈstrʌkt/",
+        "cn": "指导；命令",
+        "ex": "The teacher instructed the students carefully.",
+        "exCn": "老师仔细指导了学生。"
+      },
+      {
+        "w": "intend",
+        "ipa": "/ɪnˈtend/",
+        "cn": "打算",
+        "ex": "I intend to study abroad.",
+        "exCn": "我打算出国留学。"
+      },
+      {
+        "w": "interpret",
+        "ipa": "/ɪnˈtɜːprət/",
+        "cn": "解释；口译",
+        "ex": "How do you interpret this sentence?",
+        "exCn": "你如何解释这句话？"
+      },
+      {
+        "w": "introduce",
+        "ipa": "/ˌɪntrəˈdjuːs/",
+        "cn": "介绍；引进",
+        "ex": "Let me introduce my friend.",
+        "exCn": "让我介绍我的朋友。"
+      },
+      {
+        "w": "invest",
+        "ipa": "/ɪnˈvest/",
+        "cn": "投资",
+        "ex": "They invested a lot of money in education.",
+        "exCn": "他们在教育上投入了大量资金。"
+      },
+      {
+        "w": "investigate",
+        "ipa": "/ɪnˈvestɪɡeɪt/",
+        "cn": "调查",
+        "ex": "The police are investigating the case.",
+        "exCn": "警方正在调查此案。"
+      },
+      {
+        "w": "judge",
+        "ipa": "/dʒʌdʒ/",
+        "cn": "判断；法官",
+        "ex": "Don't judge a book by its cover.",
+        "exCn": "不要以貌取人。"
+      },
+      {
+        "w": "justify",
+        "ipa": "/ˈdʒʌstɪfaɪ/",
+        "cn": "证明…正当",
+        "ex": "How can you justify your decision?",
+        "exCn": "你如何证明你的决定是正确的？"
+      },
+      {
+        "w": "manage",
+        "ipa": "/ˈmænɪdʒ/",
+        "cn": "管理；设法",
+        "ex": "She managed to finish the work on time.",
+        "exCn": "她设法按时完成了工作。"
+      },
+      {
+        "w": "measure",
+        "ipa": "/ˈmeʒə(r)/",
+        "cn": "测量；措施",
+        "ex": "We need to measure the distance.",
+        "exCn": "我们需要测量距离。"
+      },
+      {
+        "w": "mention",
+        "ipa": "/ˈmenʃn/",
+        "cn": "提到",
+        "ex": "He didn't mention the problem.",
+        "exCn": "他没有提到这个问题。"
+      },
+      {
+        "w": "monitor",
+        "ipa": "/ˈmɒnɪtə(r)/",
+        "cn": "监控",
+        "ex": "Teachers monitor students' progress.",
+        "exCn": "老师监控学生的进步。"
+      },
+      {
+        "w": "motivate",
+        "ipa": "/ˈməʊtɪveɪt/",
+        "cn": "激励",
+        "ex": "A good teacher can motivate students.",
+        "exCn": "好老师能激励学生。"
+      },
+      {
+        "w": "negotiate",
+        "ipa": "/nɪˈɡəʊʃieɪt/",
+        "cn": "谈判",
+        "ex": "They negotiated a new contract.",
+        "exCn": "他们谈判达成了新合同。"
+      },
+      {
+        "w": "observe",
+        "ipa": "/əbˈzɜːv/",
+        "cn": "观察；遵守",
+        "ex": "Scientists observe the stars.",
+        "exCn": "科学家观察星星。"
+      },
+      {
+        "w": "occur",
+        "ipa": "/əˈkɜː(r)/",
+        "cn": "发生",
+        "ex": "The accident occurred last night.",
+        "exCn": "事故发生在昨晚。"
+      },
+      {
+        "w": "operate",
+        "ipa": "/ˈɒpəreɪt/",
+        "cn": "操作；手术",
+        "ex": "Do you know how to operate this machine?",
+        "exCn": "你知道如何操作这台机器吗？"
+      },
+      {
+        "w": "organize",
+        "ipa": "/ˈɔːɡənaɪz/",
+        "cn": "组织",
+        "ex": "We organized a school trip.",
+        "exCn": "我们组织了一次学校旅行。"
+      },
+      {
+        "w": "perform",
+        "ipa": "/pəˈfɔːm/",
+        "cn": "表演；执行",
+        "ex": "The actors performed well.",
+        "exCn": "演员们表演出色。"
+      },
+      {
+        "w": "persuade",
+        "ipa": "/pəˈsweɪd/",
+        "cn": "说服",
+        "ex": "I persuaded him to join us.",
+        "exCn": "我说服他加入我们。"
+      },
+      {
+        "w": "predict",
+        "ipa": "/prɪˈdɪkt/",
+        "cn": "预测",
+        "ex": "It is hard to predict the future.",
+        "exCn": "很难预测未来。"
+      },
+      {
+        "w": "prefer",
+        "ipa": "/prɪˈfɜː(r)/",
+        "cn": "更喜欢",
+        "ex": "I prefer tea to coffee.",
+        "exCn": "我更喜欢茶。"
+      },
+      {
+        "w": "prepare",
+        "ipa": "/prɪˈpeə(r)/",
+        "cn": "准备",
+        "ex": "We need to prepare for the exam.",
+        "exCn": "我们需要为考试做准备。"
+      },
+      {
+        "w": "preserve",
+        "ipa": "/prɪˈzɜːv/",
+        "cn": "保护；保存",
+        "ex": "We must preserve our culture.",
+        "exCn": "我们必须保护我们的文化。"
+      },
+      {
+        "w": "prevent",
+        "ipa": "/prɪˈvent/",
+        "cn": "防止",
+        "ex": "Exercise can prevent many diseases.",
+        "exCn": "锻炼可以预防许多疾病。"
+      },
+      {
+        "w": "produce",
+        "ipa": "/prəˈdjuːs/",
+        "cn": "生产；产生",
+        "ex": "The factory produces cars.",
+        "exCn": "工厂生产汽车。"
+      },
+      {
+        "w": "protect",
+        "ipa": "/prəˈtekt/",
+        "cn": "保护",
+        "ex": "We must protect the environment.",
+        "exCn": "我们必须保护环境。"
+      },
+      {
+        "w": "prove",
+        "ipa": "/pruːv/",
+        "cn": "证明",
+        "ex": "The evidence proves his innocence.",
+        "exCn": "证据证明他无罪。"
+      },
+      {
+        "w": "provide",
+        "ipa": "/prəˈvaɪd/",
+        "cn": "提供",
+        "ex": "The school provides free lunch.",
+        "exCn": "学校提供免费午餐。"
+      },
+      {
+        "w": "pursue",
+        "ipa": "/pəˈsjuː/",
+        "cn": "追求",
+        "ex": "She decided to pursue her dream.",
+        "exCn": "她决定追求自己的梦想。"
+      },
+      {
+        "w": "recommend",
+        "ipa": "/ˌrekəˈmend/",
+        "cn": "推荐",
+        "ex": "I recommend this book.",
+        "exCn": "我推荐这本书。"
+      },
+      {
+        "w": "reduce",
+        "ipa": "/rɪˈdjuːs/",
+        "cn": "减少",
+        "ex": "We should reduce waste.",
+        "exCn": "我们应该减少浪费。"
+      },
+      {
+        "w": "refer",
+        "ipa": "/rɪˈfɜː(r)/",
+        "cn": "参考；提及",
+        "ex": "Please refer to the handbook.",
+        "exCn": "请参考手册。"
+      },
+      {
+        "w": "reflect",
+        "ipa": "/rɪˈflekt/",
+        "cn": "反映；反思",
+        "ex": "The results reflect hard work.",
+        "exCn": "结果反映了努力。"
+      },
+      {
+        "w": "regard",
+        "ipa": "/rɪˈɡɑːd/",
+        "cn": "看待；尊敬",
+        "ex": "I regard him as a friend.",
+        "exCn": "我把他看作朋友。"
+      },
+      {
+        "w": "reject",
+        "ipa": "/rɪˈdʒekt/",
+        "cn": "拒绝",
+        "ex": "They rejected the proposal.",
+        "exCn": "他们拒绝了提议。"
+      },
+      {
+        "w": "relate",
+        "ipa": "/rɪˈleɪt/",
+        "cn": "相关；讲述",
+        "ex": "The story relates to real events.",
+        "exCn": "这个故事与真实事件有关。"
+      },
+      {
+        "w": "rely",
+        "ipa": "/rɪˈlaɪ/",
+        "cn": "依靠",
+        "ex": "You can rely on me.",
+        "exCn": "你可以依靠我。"
+      },
+      {
+        "w": "remain",
+        "ipa": "/rɪˈmeɪn/",
+        "cn": "保持；剩余",
+        "ex": "Please remain seated.",
+        "exCn": "请保持就座。"
+      },
+      {
+        "w": "remind",
+        "ipa": "/rɪˈmaɪnd/",
+        "cn": "提醒",
+        "ex": "Please remind me to call her.",
+        "exCn": "请提醒我给她打电话。"
+      },
+      {
+        "w": "replace",
+        "ipa": "/rɪˈpleɪs/",
+        "cn": "替换",
+        "ex": "We need to replace the old computer.",
+        "exCn": "我们需要更换旧电脑。"
+      },
+      {
+        "w": "represent",
+        "ipa": "/ˌreprɪˈzent/",
+        "cn": "代表",
+        "ex": "He represents our school.",
+        "exCn": "他代表我们学校。"
+      },
+      {
+        "w": "require",
+        "ipa": "/rɪˈkwaɪə(r)/",
+        "cn": "需要；要求",
+        "ex": "This job requires patience.",
+        "exCn": "这份工作需要耐心。"
+      },
+      {
+        "w": "research",
+        "ipa": "/rɪˈsɜːtʃ/",
+        "cn": "研究",
+        "ex": "Scientists research climate change.",
+        "exCn": "科学家研究气候变化。"
+      },
+      {
+        "w": "resolve",
+        "ipa": "/rɪˈzɒlv/",
+        "cn": "解决；决心",
+        "ex": "We need to resolve the conflict.",
+        "exCn": "我们需要解决冲突。"
+      },
+      {
+        "w": "respond",
+        "ipa": "/rɪˈspɒnd/",
+        "cn": "回应",
+        "ex": "Please respond to the email.",
+        "exCn": "请回复邮件。"
+      },
+      {
+        "w": "restore",
+        "ipa": "/rɪˈstɔː(r)/",
+        "cn": "恢复；修复",
+        "ex": "They restored the old building.",
+        "exCn": "他们修复了旧建筑。"
+      },
+      {
+        "w": "restrict",
+        "ipa": "/rɪˈstrɪkt/",
+        "cn": "限制",
+        "ex": "The law restricts smoking in public places.",
+        "exCn": "法律限制在公共场所吸烟。"
+      },
+      {
+        "w": "reveal",
+        "ipa": "/rɪˈviːl/",
+        "cn": "揭示",
+        "ex": "The investigation revealed the truth.",
+        "exCn": "调查揭示了真相。"
+      },
+      {
+        "w": "review",
+        "ipa": "/rɪˈvjuː/",
+        "cn": "复习；审查",
+        "ex": "Please review the chapter before the test.",
+        "exCn": "请在考试前复习这一章。"
+      },
+      {
+        "w": "satisfy",
+        "ipa": "/ˈsætɪsfaɪ/",
+        "cn": "使满意",
+        "ex": "The result satisfied everyone.",
+        "exCn": "结果让每个人都满意。"
+      },
+      {
+        "w": "seek",
+        "ipa": "/siːk/",
+        "cn": "寻求",
+        "ex": "She seeks advice from her teacher.",
+        "exCn": "她向老师寻求建议。"
+      },
+      {
+        "w": "select",
+        "ipa": "/sɪˈlekt/",
+        "cn": "选择",
+        "ex": "Please select the correct answer.",
+        "exCn": "请选择正确答案。"
+      },
+      {
+        "w": "separate",
+        "ipa": "/ˈseprət/",
+        "cn": "分开",
+        "ex": "Separate the good apples from the bad ones.",
+        "exCn": "把好苹果和坏苹果分开。"
+      },
+      {
+        "w": "solve",
+        "ipa": "/sɒlv/",
+        "cn": "解决",
+        "ex": "We need to solve this problem.",
+        "exCn": "我们需要解决这个问题。"
+      },
+      {
+        "w": "specify",
+        "ipa": "/ˈspesɪfaɪ/",
+        "cn": "详细说明",
+        "ex": "Please specify your requirements.",
+        "exCn": "请详细说明你的要求。"
+      },
+      {
+        "w": "stimulate",
+        "ipa": "/ˈstɪmjuleɪt/",
+        "cn": "刺激；激励",
+        "ex": "The teacher stimulated the students' interest.",
+        "exCn": "老师激发了学生的兴趣。"
+      },
+      {
+        "w": "strengthen",
+        "ipa": "/ˈstreŋθn/",
+        "cn": "加强",
+        "ex": "Exercise can strengthen your body.",
+        "exCn": "锻炼可以增强身体。"
+      },
+      {
+        "w": "stress",
+        "ipa": "/stres/",
+        "cn": "强调；压力",
+        "ex": "The teacher stressed the importance of practice.",
+        "exCn": "老师强调了练习的重要性。"
+      },
+      {
+        "w": "submit",
+        "ipa": "/səbˈmɪt/",
+        "cn": "提交",
+        "ex": "Please submit your homework on time.",
+        "exCn": "请按时提交作业。"
+      },
+      {
+        "w": "succeed",
+        "ipa": "/səkˈsiːd/",
+        "cn": "成功",
+        "ex": "Hard work helps you succeed.",
+        "exCn": "努力工作帮助你成功。"
+      },
+      {
+        "w": "suggest",
+        "ipa": "/səˈdʒest/",
+        "cn": "建议",
+        "ex": "I suggest taking a break.",
+        "exCn": "我建议休息一下。"
+      },
+      {
+        "w": "support",
+        "ipa": "/səˈpɔːt/",
+        "cn": "支持",
+        "ex": "My parents support my decision.",
+        "exCn": "我父母支持我的决定。"
+      },
+      {
+        "w": "survive",
+        "ipa": "/səˈvaɪv/",
+        "cn": "幸存",
+        "ex": "Only a few plants survived the drought.",
+        "exCn": "只有少数植物在干旱中幸存。"
+      },
+      {
+        "w": "sustain",
+        "ipa": "/səˈsteɪn/",
+        "cn": "维持；支撑",
+        "ex": "We need sustainable development.",
+        "exCn": "我们需要可持续发展。"
+      },
+      {
+        "w": "transform",
+        "ipa": "/trænsˈfɔːm/",
+        "cn": "转变",
+        "ex": "Education can transform lives.",
+        "exCn": "教育可以改变人生。"
+      },
+      {
+        "w": "transmit",
+        "ipa": "/trænsˈmɪt/",
+        "cn": "传输；传播",
+        "ex": "The radio transmits signals.",
+        "exCn": "收音机传输信号。"
+      },
+      {
+        "w": "undertake",
+        "ipa": "/ˌʌndəˈteɪk/",
+        "cn": "承担；从事",
+        "ex": "She undertook a difficult task.",
+        "exCn": "她承担了一项艰巨的任务。"
+      },
+      {
+        "w": "utilize",
+        "ipa": "/ˈjuːtəlaɪz/",
+        "cn": "利用",
+        "ex": "We should utilize resources wisely.",
+        "exCn": "我们应该明智地利用资源。"
+      },
+      {
+        "w": "vary",
+        "ipa": "/ˈveəri/",
+        "cn": "变化；不同",
+        "ex": "Opinions vary on this topic.",
+        "exCn": "在这个话题上意见不同。"
+      },
+      {
+        "w": "verify",
+        "ipa": "/ˈverɪfaɪ/",
+        "cn": "核实",
+        "ex": "Please verify the information.",
+        "exCn": "请核实信息。"
+      },
+      {
+        "w": "withdraw",
+        "ipa": "/wɪðˈdrɔː/",
+        "cn": "撤回；取款",
+        "ex": "He withdrew his application.",
+        "exCn": "他撤回了申请。"
       }
     ],
     "高考核心形容词": [
