@@ -4,44 +4,98 @@
       "id": "j1",
       "cat": "自然环保",
       "title": "🌲 Trees That Talk — The Hidden Forest Network",
-      "tags": ["自然", "科学", "环保"],
+      "tags": [
+        "自然",
+        "科学",
+        "环保"
+      ],
       "words": 318,
       "hardWords": {
-        "communicate": {"ipa": "/kəˈmjuːnɪkeɪt/", "cn": "交流"},
-        "network": {"ipa": "/ˈnetwɜːk/", "cn": "网络"},
-        "nutrients": {"ipa": "/ˈnjuːtriənts/", "cn": "营养物质"},
-        "scientists": {"ipa": "/ˈsaɪəntɪsts/", "cn": "科学家"},
-        "underground": {"ipa": "/ˌʌndəˈɡraʊnd/", "cn": "地下的"},
-        "protect": {"ipa": "/prəˈtekt/", "cn": "保护"},
-        "environment": {"ipa": "/ɪnˈvaɪrənmənt/", "cn": "环境"},
-        "chemical": {"ipa": "/ˈkemɪkl/", "cn": "化学的；化学物质"},
-        "warning": {"ipa": "/ˈwɔːnɪŋ/", "cn": "警告"},
-        "precious": {"ipa": "/ˈpreʃəs/", "cn": "珍贵的"}
+        "communicate": {
+          "ipa": "/kəˈmjuːnɪkeɪt/",
+          "cn": "交流"
+        },
+        "network": {
+          "ipa": "/ˈnetwɜːk/",
+          "cn": "网络"
+        },
+        "nutrients": {
+          "ipa": "/ˈnjuːtriənts/",
+          "cn": "营养物质"
+        },
+        "scientists": {
+          "ipa": "/ˈsaɪəntɪsts/",
+          "cn": "科学家"
+        },
+        "underground": {
+          "ipa": "/ˌʌndəˈɡraʊnd/",
+          "cn": "地下的"
+        },
+        "protect": {
+          "ipa": "/prəˈtekt/",
+          "cn": "保护"
+        },
+        "environment": {
+          "ipa": "/ɪnˈvaɪrənmənt/",
+          "cn": "环境"
+        },
+        "chemical": {
+          "ipa": "/ˈkemɪkl/",
+          "cn": "化学的；化学物质"
+        },
+        "warning": {
+          "ipa": "/ˈwɔːnɪŋ/",
+          "cn": "警告"
+        },
+        "precious": {
+          "ipa": "/ˈpreʃəs/",
+          "cn": "珍贵的"
+        }
       },
       "content": "Have you ever walked through a forest and felt that the trees were somehow alive in a special way? 🔬 Scientists have discovered that trees can actually communicate with each other!\n\nUnder the ground, trees are connected by a huge network of tiny roots and fungi. This underground network is sometimes called the “Wood Wide Web”. Through this network, trees can share water and nutrients. When a young tree is weak, older trees nearby can send it extra food to help it grow stronger. Isn’t that amazing? 🌳\n\nTrees also send warnings about danger. If insects attack one tree, it can send chemical signals through the air and the roots. Other trees receive the message and start producing special chemicals to protect themselves. In this way, the whole forest works together like a big family.\n\nWhy is this important for us? Forests help clean the air we breathe and give us oxygen. They also provide homes for many animals and plants. When we cut down too many trees, we break this beautiful network. That is why it is so important to protect forests and plant more trees.\n\nNext time you walk in a park or a forest, take a moment to look at the trees. Remember that under your feet, they may be quietly talking to each other, sharing food, and helping their neighbours. Nature is full of secrets, and the more we learn, the more we understand how precious our environment is. Let’s all try to take better care of the green world around us! 🌍",
       "translation": "你有没有走过森林，感觉树木以某种特殊的方式活着？🔬 科学家们已经发现，树木其实可以互相交流！\n\n在地下，树木通过由细小根须和真菌组成的巨大网络连接在一起。这个地下网络有时被称为“树木互联网”。通过这个网络，树木可以分享水分和营养。当一棵小树较弱时，附近的大树可以给它额外的食物，帮助它长得更强壮。这是不是很神奇？🌳\n\n树木还会发出危险警告。如果昆虫攻击一棵树，它可以通过空气和根部发出化学信号。其他树木收到信息后，会开始产生特殊的化学物质来保护自己。这样，整片森林就像一个大家庭一样共同协作。\n\n这对我们为什么重要？森林帮助净化我们呼吸的空气，并提供氧气。它们还为许多动植物提供家园。当我们砍伐太多树木时，就会破坏这个美丽的网络。这就是为什么保护森林、多种树如此重要。\n\n下次你在公园或森林里散步时，花点时间看看那些树。记住，在你脚下，它们可能正在悄悄地互相交谈、分享食物、帮助邻居。大自然充满秘密，我们学得越多，就越能理解环境是多么珍贵。让我们都努力更好地照顾身边的绿色世界吧！🌍",
       "questions": [
         {
           "q": "1. What is the “Wood Wide Web”?",
-          "options": ["A network of roads in the forest", "An underground network of roots and fungi that connects trees", "A website about trees", "A type of tree that grows under the ground"],
+          "options": [
+            "A network of roads in the forest",
+            "An underground network of roots and fungi that connects trees",
+            "A website about trees",
+            "A type of tree that grows under the ground"
+          ],
           "answer": 1,
           "exp": "文章明确指出地下由根须和真菌组成的网络被称为 “Wood Wide Web”。"
         },
         {
           "q": "2. How do trees help a weak young tree?",
-          "options": ["They cut it down", "They send it extra food through the underground network", "They move it to a better place", "They stop growing themselves"],
+          "options": [
+            "They cut it down",
+            "They send it extra food through the underground network",
+            "They move it to a better place",
+            "They stop growing themselves"
+          ],
           "answer": 1,
           "exp": "文中提到 older trees can send it extra food to help it grow stronger。"
         },
         {
           "q": "3. What do trees do when insects attack one of them?",
-          "options": ["They all fall down", "They send chemical signals to warn other trees", "They stop producing oxygen", "They ask humans for help"],
+          "options": [
+            "They all fall down",
+            "They send chemical signals to warn other trees",
+            "They stop producing oxygen",
+            "They ask humans for help"
+          ],
           "answer": 1,
           "exp": "Trees send chemical signals through the air and the roots to warn others。"
         },
         {
           "q": "4. Why should we protect forests according to the passage?",
-          "options": ["Because trees are expensive", "Because forests clean the air, provide oxygen and homes for animals", "Because forests are only for decoration", "Because trees can talk to people"],
+          "options": [
+            "Because trees are expensive",
+            "Because forests clean the air, provide oxygen and homes for animals",
+            "Because forests are only for decoration",
+            "Because trees can talk to people"
+          ],
           "answer": 1,
           "exp": "文章强调森林净化空气、提供氧气和动物家园，因此需要保护。"
         }
@@ -51,44 +105,98 @@
       "id": "j2",
       "cat": "科技探索",
       "title": "🚀 A Day of a Young Astronaut",
-      "tags": ["太空", "梦想", "科学"],
+      "tags": [
+        "太空",
+        "梦想",
+        "科学"
+      ],
       "words": 312,
       "hardWords": {
-        "astronaut": {"ipa": "/ˈæstrənɔːt/", "cn": "宇航员"},
-        "gravity": {"ipa": "/ˈɡrævəti/", "cn": "重力"},
-        "experiment": {"ipa": "/ɪkˈsperɪmənt/", "cn": "实验"},
-        "spacecraft": {"ipa": "/ˈspeɪskrɑːft/", "cn": "航天器"},
-        "challenge": {"ipa": "/ˈtʃælɪndʒ/", "cn": "挑战"},
-        "training": {"ipa": "/ˈtreɪnɪŋ/", "cn": "训练"},
-        "explore": {"ipa": "/ɪkˈsplɔː(r)/", "cn": "探索"},
-        "universe": {"ipa": "/ˈjuːnɪvɜːs/", "cn": "宇宙"},
-        "schedule": {"ipa": "/ˈʃedjuːl/", "cn": "日程安排"},
-        "muscle": {"ipa": "/ˈmʌsl/", "cn": "肌肉"}
+        "astronaut": {
+          "ipa": "/ˈæstrənɔːt/",
+          "cn": "宇航员"
+        },
+        "gravity": {
+          "ipa": "/ˈɡrævəti/",
+          "cn": "重力"
+        },
+        "experiment": {
+          "ipa": "/ɪkˈsperɪmənt/",
+          "cn": "实验"
+        },
+        "spacecraft": {
+          "ipa": "/ˈspeɪskrɑːft/",
+          "cn": "航天器"
+        },
+        "challenge": {
+          "ipa": "/ˈtʃælɪndʒ/",
+          "cn": "挑战"
+        },
+        "training": {
+          "ipa": "/ˈtreɪnɪŋ/",
+          "cn": "训练"
+        },
+        "explore": {
+          "ipa": "/ɪkˈsplɔː(r)/",
+          "cn": "探索"
+        },
+        "universe": {
+          "ipa": "/ˈjuːnɪvɜːs/",
+          "cn": "宇宙"
+        },
+        "schedule": {
+          "ipa": "/ˈʃedjuːl/",
+          "cn": "日程安排"
+        },
+        "muscle": {
+          "ipa": "/ˈmʌsl/",
+          "cn": "肌肉"
+        }
       },
       "content": "Have you ever dreamed of becoming an astronaut and flying into space? 🌌 Let’s imagine a day in the life of a young astronaut on a space station.\n\nThe day starts early. There is no sunrise or sunset in space the way we see them on Earth, but the astronaut still follows a schedule. First, she checks the systems of the spacecraft to make sure everything is working well. Then she has breakfast. In space, food comes in special packages, and there is no gravity, so drinks and crumbs float around if you are not careful!\n\nAfter breakfast, the astronaut begins her science experiments. She may study how plants grow without gravity, or how the human body changes in space. These experiments help scientists on Earth understand more about life and prepare for future journeys to the Moon or Mars. 🔬\n\nIn the afternoon, she does physical training. Living without gravity makes muscles and bones weaker, so astronauts must exercise every day on special machines. It is hard work, but necessary to stay healthy.\n\nLater, she may look out of the window. From space, the Earth looks beautiful — blue oceans, white clouds, and green land. There are no borders visible. Many astronauts say this view makes them feel how important it is to protect our planet. 🌍\n\nIn the evening, she talks with her family on Earth through video calls and writes in her journal. Before sleeping, she looks at the stars and thinks about how far humans have come, and how much more there is still to explore in the universe.\n\nBeing an astronaut is full of challenges, but it is also one of the most exciting jobs in the world. Who knows? Maybe one day you will be the one floating among the stars! ✨",
       "translation": "你有没有梦想过成为宇航员，飞向太空？🌌 让我们想象一下一位年轻宇航员在空间站的一天。\n\n一天很早开始。太空中没有我们在地球上看到的那种日出日落，但宇航员仍然遵循作息时间。首先，她检查航天器的系统，确保一切正常。然后吃早餐。在太空中，食物装在特殊包装里，没有重力，所以如果不小心，饮料和碎屑会飘得到处都是！\n\n早餐后，宇航员开始科学实验。她可能研究植物在没有重力的情况下如何生长，或者人体在太空中如何变化。这些实验帮助地球上的科学家更多地了解生命，并为未来前往月球或火星的旅程做准备。🔬\n\n下午，她进行体能训练。没有重力的生活会让肌肉和骨骼变弱，所以宇航员必须每天在特殊机器上锻炼。这很辛苦，但对保持健康很有必要。\n\n晚些时候，她可能会望向窗外。从太空看，地球美丽极了——蓝色的海洋、白色的云朵和绿色的陆地。看不到任何国界。许多宇航员说，这种景色让他们感受到保护我们星球是多么重要。🌍\n\n晚上，她通过视频通话与地球上的家人聊天，并写日记。睡觉前，她望着星星，思考人类已经走了多远，以及宇宙中还有多少值得探索的地方。\n\n成为宇航员充满挑战，但也是世界上最令人兴奋的工作之一。谁知道呢？也许有一天，飘浮在星空中的人就是你！✨",
       "questions": [
         {
           "q": "1. Why do astronauts need to exercise every day in space?",
-          "options": ["Because they want to become stronger than people on Earth", "Because living without gravity makes muscles and bones weaker", "Because there is too much free time", "Because the food is not healthy"],
+          "options": [
+            "Because they want to become stronger than people on Earth",
+            "Because living without gravity makes muscles and bones weaker",
+            "Because there is too much free time",
+            "Because the food is not healthy"
+          ],
           "answer": 1,
           "exp": "文中明确说明：Living without gravity makes muscles and bones weaker。"
         },
         {
           "q": "2. What can astronauts see when they look at the Earth from space?",
-          "options": ["Only the dark side of the Earth", "Blue oceans, white clouds and green land, with no visible borders", "Many cities with bright lights only", "Just the Moon and stars"],
+          "options": [
+            "Only the dark side of the Earth",
+            "Blue oceans, white clouds and green land, with no visible borders",
+            "Many cities with bright lights only",
+            "Just the Moon and stars"
+          ],
           "answer": 1,
           "exp": "From space, the Earth looks beautiful — blue oceans, white clouds, and green land. There are no borders visible。"
         },
         {
           "q": "3. What is one purpose of the science experiments on the space station?",
-          "options": ["To make more food for astronauts", "To help scientists understand life and prepare for future space journeys", "To build a new spacecraft", "To talk with family"],
+          "options": [
+            "To make more food for astronauts",
+            "To help scientists understand life and prepare for future space journeys",
+            "To build a new spacecraft",
+            "To talk with family"
+          ],
           "answer": 1,
           "exp": "These experiments help scientists on Earth understand more about life and prepare for future journeys to the Moon or Mars。"
         },
         {
           "q": "4. What does the passage mainly tell us?",
-          "options": ["How to become an astronaut", "A typical day of a young astronaut and why the job is meaningful", "The history of space travel", "How to grow plants on Earth"],
+          "options": [
+            "How to become an astronaut",
+            "A typical day of a young astronaut and why the job is meaningful",
+            "The history of space travel",
+            "How to grow plants on Earth"
+          ],
           "answer": 1,
           "exp": "全文描述宇航员的一天，并强调其挑战与意义。"
         }
@@ -98,46 +206,403 @@
       "id": "j3",
       "cat": "成长习惯",
       "title": "📚 The Magic Power of Reading",
-      "tags": ["阅读", "成长", "习惯"],
+      "tags": [
+        "阅读",
+        "成长",
+        "习惯"
+      ],
       "words": 308,
       "hardWords": {
-        "imagination": {"ipa": "/ɪˌmædʒɪˈneɪʃn/", "cn": "想象力"},
-        "knowledge": {"ipa": "/ˈnɒlɪdʒ/", "cn": "知识"},
-        "adventure": {"ipa": "/ədˈventʃə(r)/", "cn": "冒险"},
-        "character": {"ipa": "/ˈkærəktə(r)/", "cn": "人物；性格"},
-        "improve": {"ipa": "/ɪmˈpruːv/", "cn": "提高"},
-        "vocabulary": {"ipa": "/vəˈkæbjələri/", "cn": "词汇"},
-        "concentrate": {"ipa": "/ˈkɒnsntreɪt/", "cn": "集中注意力"},
-        "habit": {"ipa": "/ˈhæbɪt/", "cn": "习惯"},
-        "treasure": {"ipa": "/ˈtreʒə(r)/", "cn": "宝藏"},
-        "composition": {"ipa": "/ˌkɒmpəˈzɪʃn/", "cn": "作文"}
+        "imagination": {
+          "ipa": "/ɪˌmædʒɪˈneɪʃn/",
+          "cn": "想象力"
+        },
+        "knowledge": {
+          "ipa": "/ˈnɒlɪdʒ/",
+          "cn": "知识"
+        },
+        "adventure": {
+          "ipa": "/ədˈventʃə(r)/",
+          "cn": "冒险"
+        },
+        "character": {
+          "ipa": "/ˈkærəktə(r)/",
+          "cn": "人物；性格"
+        },
+        "improve": {
+          "ipa": "/ɪmˈpruːv/",
+          "cn": "提高"
+        },
+        "vocabulary": {
+          "ipa": "/vəˈkæbjələri/",
+          "cn": "词汇"
+        },
+        "concentrate": {
+          "ipa": "/ˈkɒnsntreɪt/",
+          "cn": "集中注意力"
+        },
+        "habit": {
+          "ipa": "/ˈhæbɪt/",
+          "cn": "习惯"
+        },
+        "treasure": {
+          "ipa": "/ˈtreʒə(r)/",
+          "cn": "宝藏"
+        },
+        "composition": {
+          "ipa": "/ˌkɒmpəˈzɪʃn/",
+          "cn": "作文"
+        }
       },
       "content": "Reading is like having a magic key that can open thousands of doors. 📖 With a book in your hand, you can travel to any place in the world, meet interesting people, and experience amazing adventures — all without leaving your chair!\n\nWhen you read a story, your imagination starts working. You can see the characters in your mind, hear their voices, and feel their feelings. A good book can make you laugh, cry, or think deeply about life. That is the special power of reading.\n\nReading also helps you learn. Every book is full of new words and ideas. The more you read, the larger your vocabulary becomes, and the better you understand the world. Students who read a lot often find it easier to write good compositions and do well in exams, because they have more knowledge and better language skills.\n\nBut reading is not only useful — it is also fun. There are books about animals, space, history, mystery, friendship, and almost everything else you can think of. You can choose what you like and enjoy it at your own speed. Unlike watching videos, reading lets you stop, think, and go back whenever you want.\n\nTo become a good reader, you need to build a habit. Try to read for at least fifteen or twenty minutes every day. Find a quiet place, turn off your phone, and dive into the story. At first it may feel a little hard to concentrate, but soon you will find it hard to stop!\n\nBooks are treasures that never grow old. The stories your grandparents loved can still touch your heart today. So open a book, and let the magic begin. Who knows what wonderful worlds you will discover next? ✨",
       "translation": "阅读就像拥有一把能打开成千上万扇门的魔法钥匙。📖 手里拿着一本书，你可以去世界任何地方旅行，遇见有趣的人，体验奇妙的冒险——这一切都不需要离开你的椅子！\n\n当你读故事时，你的想象力开始运转。你可以在脑海中看到人物，听到他们的声音，感受他们的情感。一本好书可以让你开怀大笑、流泪，或者深入思考人生。这就是阅读的特殊力量。\n\n阅读还能帮助你学习。每本书都充满新单词和新想法。你读得越多，词汇量就越大，对世界的理解也越好。爱读书的学生往往更容易写出好作文、在考试中取得好成绩，因为他们知识更丰富，语言能力更强。\n\n但阅读不仅有用——它也很有趣。有关于动物、太空、历史、悬疑、友谊的书，几乎你能想到的一切都有。你可以选择自己喜欢的，按照自己的节奏去享受。与看视频不同，阅读可以让你随时停下来思考，或回过头再看。\n\n要成为一名好的读者，你需要养成习惯。试着每天至少读十五到二十分钟。找一个安静的地方，关掉手机，沉浸到故事中。一开始可能有点难集中注意力，但很快你就会发现停不下来！\n\n书是永不老去的宝藏。你祖父母曾经喜欢的故事，今天依然能触动你的心。所以打开一本书，让魔法开始吧。谁知道你接下来会发现怎样精彩的世界呢？✨",
       "questions": [
         {
           "q": "1. According to the passage, what is the special power of reading?",
-          "options": ["It can make you rich", "It can make you laugh, cry or think deeply about life", "It can replace all school lessons", "It can help you sleep better only"],
+          "options": [
+            "It can make you rich",
+            "It can make you laugh, cry or think deeply about life",
+            "It can replace all school lessons",
+            "It can help you sleep better only"
+          ],
           "answer": 1,
           "exp": "文中说 A good book can make you laugh, cry, or think deeply about life. That is the special power of reading。"
         },
         {
           "q": "2. How does reading help students in their studies?",
-          "options": ["It makes exams unnecessary", "It increases vocabulary and knowledge, and improves writing and exam performance", "It only helps with maths", "It allows students to skip classes"],
+          "options": [
+            "It makes exams unnecessary",
+            "It increases vocabulary and knowledge, and improves writing and exam performance",
+            "It only helps with maths",
+            "It allows students to skip classes"
+          ],
           "answer": 1,
           "exp": "The more you read, the larger your vocabulary becomes... students who read a lot often find it easier to write good compositions and do well in exams。"
         },
         {
           "q": "3. What advice does the writer give to become a good reader?",
-          "options": ["Read only difficult books", "Build a daily reading habit of at least 15–20 minutes in a quiet place", "Read only on the phone", "Never stop reading even when tired"],
+          "options": [
+            "Read only difficult books",
+            "Build a daily reading habit of at least 15–20 minutes in a quiet place",
+            "Read only on the phone",
+            "Never stop reading even when tired"
+          ],
           "answer": 1,
           "exp": "Try to read for at least fifteen or twenty minutes every day. Find a quiet place..."
         },
         {
           "q": "4. Why does the writer compare books to treasures?",
-          "options": ["Because books are expensive", "Because good stories never grow old and can still touch people’s hearts", "Because books are made of gold", "Because only rich people can buy books"],
+          "options": [
+            "Because books are expensive",
+            "Because good stories never grow old and can still touch people’s hearts",
+            "Because books are made of gold",
+            "Because only rich people can buy books"
+          ],
           "answer": 1,
           "exp": "Books are treasures that never grow old. The stories your grandparents loved can still touch your heart today。"
+        }
+      ]
+    },
+    {
+      "id": "j4",
+      "cat": "科技探索",
+      "title": "🤖 Robots in Our Daily Life",
+      "tags": [
+        "科技",
+        "未来",
+        "生活"
+      ],
+      "words": 305,
+      "hardWords": {
+        "robot": {
+          "ipa": "/ˈrəʊbɒt/",
+          "cn": "机器人"
+        },
+        "automatic": {
+          "ipa": "/ˌɔːtəˈmætɪk/",
+          "cn": "自动的"
+        },
+        "factory": {
+          "ipa": "/ˈfæktri/",
+          "cn": "工厂"
+        },
+        "program": {
+          "ipa": "/ˈprəʊɡræm/",
+          "cn": "程序"
+        },
+        "convenient": {
+          "ipa": "/kənˈviːniənt/",
+          "cn": "方便的"
+        },
+        "dangerous": {
+          "ipa": "/ˈdeɪndʒərəs/",
+          "cn": "危险的"
+        },
+        "replace": {
+          "ipa": "/rɪˈpleɪs/",
+          "cn": "替代"
+        },
+        "invent": {
+          "ipa": "/ɪnˈvent/",
+          "cn": "发明"
+        },
+        "future": {
+          "ipa": "/ˈfjuːtʃə(r)/",
+          "cn": "未来"
+        },
+        "control": {
+          "ipa": "/kənˈtrəʊl/",
+          "cn": "控制"
+        }
+      },
+      "content": "Have you ever seen a robot? Robots are no longer just in science fiction movies. They are becoming part of our daily life. 🤖\n\nIn factories, robots work day and night. They can do heavy and dangerous jobs that humans find difficult. For example, they move heavy boxes, paint cars, and even check the quality of products. Because robots never get tired, factories can produce more things in less time.\n\nAt home, some families use robots to clean the floor. These robots move around the room automatically and collect dust. Other robots can help cook or water the plants. In hospitals, special robots help doctors perform operations more carefully. In schools, some robots are used to teach children languages or science in a fun way.\n\nOf course, robots still need humans. People invent robots, write the programs that control them, and repair them when something goes wrong. Robots cannot think or feel like humans. They only do what they are programmed to do.\n\nSome people worry that robots will replace human workers and take away jobs. Others believe that robots will create new kinds of jobs and make life more convenient. What do you think? Will robots make our future better? One thing is certain: learning about science and technology will help us understand and use robots wisely. 🚀",
+      "translation": "你见过机器人吗？机器人不再只出现在科幻电影里。它们正在成为我们日常生活的一部分。🤖\n\n在工厂里，机器人日夜工作。它们能做人类觉得困难的重活和危险工作。例如，它们搬运重箱子、给汽车喷漆，甚至检查产品质量。因为机器人永不疲倦，工厂能在更短时间内生产更多东西。\n\n在家里，一些家庭用机器人打扫地板。这些机器人自动在房间里移动并收集灰尘。其他机器人可以帮忙做饭或给植物浇水。在医院，特殊机器人帮助医生更仔细地做手术。在学校，一些机器人被用来以有趣的方式教孩子们语言或科学。\n\n当然，机器人仍然需要人类。人们发明机器人，编写控制它们的程序，并在出问题时修理它们。机器人不能像人类一样思考或感受。它们只做被编程去做的事情。\n\n有人担心机器人会取代人类工人并抢走工作。另一些人认为机器人会创造新的工作类型，让生活更方便。你怎么看？机器人会让我们的未来更美好吗？有一点是确定的：学习科学技术将帮助我们理解和明智地使用机器人。🚀",
+      "questions": [
+        {
+          "q": "1. What can robots do in factories?",
+          "options": [
+            "Only clean the floor",
+            "Do heavy and dangerous jobs like moving boxes and painting cars",
+            "Teach children languages",
+            "Cook for workers"
+          ],
+          "answer": 1,
+          "exp": "文中提到工厂机器人做重活和危险工作，如搬箱子、喷漆。"
+        },
+        {
+          "q": "2. Why can factories produce more with robots?",
+          "options": [
+            "Because robots are cheap",
+            "Because robots never get tired",
+            "Because robots can think",
+            "Because robots need no electricity"
+          ],
+          "answer": 1,
+          "exp": "Because robots never get tired, factories can produce more things in less time."
+        },
+        {
+          "q": "3. What do some people worry about robots?",
+          "options": [
+            "Robots will become too expensive",
+            "Robots will replace human workers and take away jobs",
+            "Robots will stop working",
+            "Robots will teach children badly"
+          ],
+          "answer": 1,
+          "exp": "Some people worry that robots will replace human workers and take away jobs."
+        },
+        {
+          "q": "4. According to the passage, what is certain about the future?",
+          "options": [
+            "Robots will control everything",
+            "Learning science and technology helps us use robots wisely",
+            "Robots will no longer be needed",
+            "All jobs will disappear"
+          ],
+          "answer": 1,
+          "exp": "learning about science and technology will help us understand and use robots wisely."
+        }
+      ]
+    },
+    {
+      "id": "j5",
+      "cat": "成长习惯",
+      "title": "⏰ The Power of Small Daily Habits",
+      "tags": [
+        "习惯",
+        "成长",
+        "时间"
+      ],
+      "words": 310,
+      "hardWords": {
+        "habit": {
+          "ipa": "/ˈhæbɪt/",
+          "cn": "习惯"
+        },
+        "daily": {
+          "ipa": "/ˈdeɪli/",
+          "cn": "每天的"
+        },
+        "improve": {
+          "ipa": "/ɪmˈpruːv/",
+          "cn": "提高"
+        },
+        "progress": {
+          "ipa": "/ˈprəʊɡres/",
+          "cn": "进步"
+        },
+        "concentrate": {
+          "ipa": "/ˈkɒnsntreɪt/",
+          "cn": "集中注意力"
+        },
+        "result": {
+          "ipa": "/rɪˈzʌlt/",
+          "cn": "结果"
+        },
+        "success": {
+          "ipa": "/səkˈses/",
+          "cn": "成功"
+        },
+        "patient": {
+          "ipa": "/ˈpeɪʃnt/",
+          "cn": "有耐心的"
+        },
+        "continue": {
+          "ipa": "/kənˈtɪnjuː/",
+          "cn": "继续"
+        },
+        "achieve": {
+          "ipa": "/əˈtʃiːv/",
+          "cn": "实现"
+        }
+      },
+      "content": "Do you want to become better at English, sports, or any skill? The secret is not doing something big once, but doing small things every day. 🌱\n\nThink about learning English. If you only study hard one day before the exam, you may still forget most of the words. But if you learn ten new words every day and review them, after one year you will know more than three thousand words! Small daily efforts create big results.\n\nThe same is true for sports. Running for five minutes every day is better than running for one hour only once a month. Your body gets stronger little by little. Reading ten pages of a book every night is better than trying to finish a whole book in one weekend.\n\nWhy do small habits work so well? Because they are easy to start and easy to continue. When a task is too big, we often feel tired and give up. When it is small, we can finish it even on busy days. Over time, these small actions become automatic — they become real habits.\n\nTo build a good habit, choose something small and clear. For example: “I will read English for ten minutes after dinner.” Write it down and do it every day for at least three weeks. Be patient. Progress may feel slow at first, but one day you will look back and be surprised by how far you have come.\n\nRemember: success is not about sudden big changes. It is about the small things you do every single day. Start today, and let your daily habits shape a better you. ✨",
+      "translation": "你想在英语、运动或任何技能上变得更好吗？秘密不是偶尔做一件大事，而是每天做小事情。🌱\n\n想想学英语。如果只在考试前一天努力学习，你可能还是会忘记大部分单词。但如果你每天学十个新词并复习，一年后你就会认识三千多个词！每天的小努力会创造大结果。\n\n运动也是一样。每天跑五分钟，比一个月只跑一次一小时要好。你的身体会一点点变强。每天晚上读十页书，比周末试图读完整本书要好。\n\n为什么小习惯如此有效？因为它们容易开始、容易坚持。当任务太大时，我们常常感到累并放弃。当它很小时，即使在忙碌的日子也能完成。随着时间推移，这些小行动会变得自动化——它们成为真正的习惯。\n\n要养成好习惯，选择一件又小又明确的事。例如：“晚饭后我读十分钟英语。”写下来，连续至少三周每天做。要有耐心。一开始进步可能感觉很慢，但有一天你会回头看，惊讶于自己走了多远。\n\n记住：成功不是关于突然的大改变。它关于你每天做的小事。从今天开始，让每日习惯塑造更好的你。✨",
+      "questions": [
+        {
+          "q": "1. According to the passage, what is the secret to becoming better at a skill?",
+          "options": [
+            "Doing something big only once",
+            "Doing small things every day",
+            "Studying only before exams",
+            "Waiting for sudden change"
+          ],
+          "answer": 1,
+          "exp": "The secret is not doing something big once, but doing small things every day."
+        },
+        {
+          "q": "2. Why do small habits work well?",
+          "options": [
+            "Because they are difficult",
+            "Because they are easy to start and continue",
+            "Because they need no effort",
+            "Because they only work for English"
+          ],
+          "answer": 1,
+          "exp": "Because they are easy to start and easy to continue."
+        },
+        {
+          "q": "3. What advice does the writer give to build a good habit?",
+          "options": [
+            "Choose something big and hard",
+            "Choose something small and clear, and do it every day",
+            "Only do it on weekends",
+            "Change the habit every week"
+          ],
+          "answer": 1,
+          "exp": "choose something small and clear... do it every day for at least three weeks."
+        },
+        {
+          "q": "4. What is the main idea of the passage?",
+          "options": [
+            "Big changes are the only way to success",
+            "Small daily habits can lead to big progress",
+            "Habits are not important",
+            "Studying once is enough"
+          ],
+          "answer": 1,
+          "exp": "全文强调每日小习惯带来大进步。"
+        }
+      ]
+    },
+    {
+      "id": "j6",
+      "cat": "自然环保",
+      "title": "🐝 Why Bees Are Important to Us",
+      "tags": [
+        "自然",
+        "环保",
+        "动物"
+      ],
+      "words": 302,
+      "hardWords": {
+        "pollinate": {
+          "ipa": "/ˈpɒləneɪt/",
+          "cn": "授粉"
+        },
+        "flower": {
+          "ipa": "/ˈflaʊə(r)/",
+          "cn": "花"
+        },
+        "fruit": {
+          "ipa": "/fruːt/",
+          "cn": "水果"
+        },
+        "vegetable": {
+          "ipa": "/ˈvedʒtəbl/",
+          "cn": "蔬菜"
+        },
+        "disappear": {
+          "ipa": "/ˌdɪsəˈpɪə(r)/",
+          "cn": "消失"
+        },
+        "protect": {
+          "ipa": "/prəˈtekt/",
+          "cn": "保护"
+        },
+        "environment": {
+          "ipa": "/ɪnˈvaɪrənmənt/",
+          "cn": "环境"
+        },
+        "chemical": {
+          "ipa": "/ˈkemɪkl/",
+          "cn": "化学物质"
+        },
+        "nature": {
+          "ipa": "/ˈneɪtʃə(r)/",
+          "cn": "自然"
+        },
+        "balance": {
+          "ipa": "/ˈbæləns/",
+          "cn": "平衡"
+        }
+      },
+      "content": "When you eat an apple or a tomato, do you ever think about bees? Bees are small, but they play a huge role in our food and environment. 🐝\n\nBees help plants by carrying pollen from one flower to another. This process is called pollination. Without pollination, many plants cannot produce fruits and seeds. In fact, about one third of the food we eat depends on bees and other pollinators. Apples, strawberries, cucumbers, and many other fruits and vegetables need bees.\n\nBesides food, bees also help keep nature in balance. When plants grow well because of bees, animals that eat those plants also have enough food. Forests, fields, and gardens all benefit from the work of bees.\n\nSadly, the number of bees is decreasing in many places. One reason is the use of chemicals that kill insects. Another reason is the loss of wild flowers and natural places where bees can live. Climate change also makes life harder for bees.\n\nWhat can we do to help? We can plant more flowers that bees like. We can avoid using harmful chemicals in our gardens. We can also tell others how important bees are. Even small actions can make a difference.\n\nNext time you see a bee flying around a flower, remember: that little insect is working hard to help feed the world. Protecting bees means protecting our food and our beautiful environment. 🌸",
+      "translation": "当你吃苹果或西红柿时，有没有想过蜜蜂？蜜蜂很小，但它们在我们的食物和环境中扮演着巨大角色。🐝\n\n蜜蜂通过把花粉从一朵花带到另一朵花来帮助植物。这个过程叫做授粉。没有授粉，许多植物无法结出果实和种子。事实上，我们吃的大约三分之一的食物依赖蜜蜂和其他授粉者。苹果、草莓、黄瓜以及许多其他水果和蔬菜都需要蜜蜂。\n\n除了食物，蜜蜂还帮助保持自然平衡。当植物因为蜜蜂而生长良好时，以这些植物为食的动物也有足够的食物。森林、田野和花园都受益于蜜蜂的工作。\n\n可悲的是，许多地方蜜蜂的数量在减少。一个原因是使用杀死昆虫的化学物质。另一个原因是蜜蜂可以生活的野花和自然场所的丧失。气候变化也让蜜蜂的生活更艰难。\n\n我们能做什么来帮助？我们可以种植更多蜜蜂喜欢的花。我们可以避免在花园使用有害化学物质。我们也可以告诉别人蜜蜂有多重要。即使是小行动也能带来改变。\n\n下次你看到蜜蜂在花周围飞时，请记住：那个小昆虫正在努力帮助养活世界。保护蜜蜂就是保护我们的食物和美丽的环境。🌸",
+      "questions": [
+        {
+          "q": "1. What do bees do to help plants?",
+          "options": [
+            "They eat the leaves",
+            "They carry pollen from one flower to another",
+            "They water the plants",
+            "They cut the flowers"
+          ],
+          "answer": 1,
+          "exp": "Bees help plants by carrying pollen from one flower to another."
+        },
+        {
+          "q": "2. About how much of our food depends on bees?",
+          "options": [
+            "Almost none",
+            "About one third",
+            "All of it",
+            "Only apples"
+          ],
+          "answer": 1,
+          "exp": "about one third of the food we eat depends on bees and other pollinators."
+        },
+        {
+          "q": "3. Why is the number of bees decreasing?",
+          "options": [
+            "Because bees are too big",
+            "Because of chemicals, loss of natural places, and climate change",
+            "Because people keep too many bees",
+            "Because bees do not like flowers"
+          ],
+          "answer": 1,
+          "exp": "chemicals... loss of wild flowers... Climate change also makes life harder for bees."
+        },
+        {
+          "q": "4. What can people do to help bees?",
+          "options": [
+            "Use more chemicals",
+            "Plant more flowers bees like and avoid harmful chemicals",
+            "Catch all the bees",
+            "Cut down all trees"
+          ],
+          "answer": 1,
+          "exp": "We can plant more flowers that bees like. We can avoid using harmful chemicals..."
         }
       ]
     }
@@ -147,50 +612,109 @@
       "id": "s1",
       "cat": "科学环境",
       "title": "🌊 The Ocean as Earth’s Climate Engine",
-      "tags": ["气候", "科学", "环境"],
+      "tags": [
+        "气候",
+        "科学",
+        "环境"
+      ],
       "words": 338,
       "hardWords": {
-        "circulation": {"ipa": "/ˌsɜːkjəˈleɪʃn/", "cn": "循环"},
-        "absorb": {"ipa": "/əbˈzɔːb/", "cn": "吸收"},
-        "carbon": {"ipa": "/ˈkɑːbən/", "cn": "碳"},
-        "ecosystem": {"ipa": "/ˈiːkəʊsɪstəm/", "cn": "生态系统"},
-        "vulnerable": {"ipa": "/ˈvʌlnərəbl/", "cn": "脆弱的"},
-        "consequence": {"ipa": "/ˈkɒnsɪkwəns/", "cn": "后果"},
-        "mitigate": {"ipa": "/ˈmɪtɪɡeɪt/", "cn": "缓解"},
-        "sustainable": {"ipa": "/səˈsteɪnəbl/", "cn": "可持续的"},
-        "phenomenon": {"ipa": "/fəˈnɒmɪnən/", "cn": "现象"},
-        "regulate": {"ipa": "/ˈreɡjuleɪt/", "cn": "调节"}
+        "circulation": {
+          "ipa": "/ˌsɜːkjəˈleɪʃn/",
+          "cn": "循环"
+        },
+        "absorb": {
+          "ipa": "/əbˈzɔːb/",
+          "cn": "吸收"
+        },
+        "carbon": {
+          "ipa": "/ˈkɑːbən/",
+          "cn": "碳"
+        },
+        "ecosystem": {
+          "ipa": "/ˈiːkəʊsɪstəm/",
+          "cn": "生态系统"
+        },
+        "vulnerable": {
+          "ipa": "/ˈvʌlnərəbl/",
+          "cn": "脆弱的"
+        },
+        "consequence": {
+          "ipa": "/ˈkɒnsɪkwəns/",
+          "cn": "后果"
+        },
+        "mitigate": {
+          "ipa": "/ˈmɪtɪɡeɪt/",
+          "cn": "缓解"
+        },
+        "sustainable": {
+          "ipa": "/səˈsteɪnəbl/",
+          "cn": "可持续的"
+        },
+        "phenomenon": {
+          "ipa": "/fəˈnɒmɪnən/",
+          "cn": "现象"
+        },
+        "regulate": {
+          "ipa": "/ˈreɡjuleɪt/",
+          "cn": "调节"
+        }
       },
       "content": "The ocean covers more than 70 percent of our planet’s surface, yet many people still think of it mainly as a place for swimming or fishing. In reality, the ocean is one of the most powerful climate regulators on Earth. 🔬\n\nOcean currents, driven by wind, temperature differences and the Earth’s rotation, move huge amounts of heat around the globe. Warm water travels from the equator toward the poles, while cold water returns toward the tropics. This continuous circulation helps keep temperatures in many regions moderate and stable. Without it, some places would be much hotter and others much colder.\n\nThe ocean also absorbs a large share of the carbon dioxide that human activities release into the atmosphere. Phytoplankton — tiny plant-like organisms floating near the surface — take in carbon during photosynthesis. When they die, some of that carbon sinks to the deep ocean, where it can remain locked away for centuries. In this way, the ocean acts as a giant carbon sink that slows the pace of global warming.\n\nHowever, this vital system is under growing pressure. Rising temperatures cause seawater to expand and ice sheets to melt, contributing to sea-level rise. Warmer water holds less oxygen and can harm coral reefs and other marine ecosystems. At the same time, the ocean’s ability to absorb extra carbon is not unlimited; as it takes in more CO₂, the water becomes more acidic, threatening shellfish and the food chains that depend on them.\n\nUnderstanding these processes is essential if we want to mitigate climate change. Protecting marine ecosystems, reducing greenhouse-gas emissions and supporting sustainable fishing are all part of the solution. The ocean is not just a beautiful blue landscape — it is a dynamic engine that helps keep our planet livable. The more we learn about it, the clearer it becomes that caring for the ocean means caring for ourselves. 🌍",
       "translation": "海洋覆盖了地球表面超过70%的面积，但许多人仍主要把它当作游泳或钓鱼的地方。实际上，海洋是地球上最强大的气候调节器之一。🔬\n\n由风、温度差异和地球自转驱动的洋流，在全球范围内输送着大量热量。温暖的海水从赤道流向两极，而冷水则返回热带。这种持续的循环有助于使许多地区的温度保持温和稳定。如果没有它，有些地方会热得多，另一些地方则冷得多。\n\n海洋还吸收了人类活动释放到大气中的大量二氧化碳。浮游植物——漂浮在表层的微小植物样生物——在光合作用过程中吸收碳。当它们死亡后，部分碳会沉入深海，并可能在那里封存数百年。这样，海洋就像一个巨大的碳汇，减缓了全球变暖的速度。\n\n然而，这个至关重要的系统正承受着越来越大的压力。气温上升导致海水膨胀、冰盖融化，从而加剧海平面上升。温暖的海水含氧量更低，并可能伤害珊瑚礁和其他海洋生态系统。同时，海洋吸收额外碳的能力并非无限；随着它吸收更多二氧化碳，海水会变得更酸，威胁贝类以及依赖它们的食物链。\n\n如果我们想缓解气候变化，理解这些过程至关重要。保护海洋生态系统、减少温室气体排放、支持可持续捕捞，都是解决方案的一部分。海洋不仅仅是美丽的蓝色风景——它是帮助维持我们星球宜居的动力引擎。我们对它了解得越多，就越清楚：关爱海洋就是关爱我们自己。🌍",
       "questions": [
         {
           "q": "1. What is one major role of ocean currents mentioned in the passage?",
-          "options": ["They produce most of the world’s oxygen", "They move heat around the globe and help keep regional temperatures moderate", "They prevent all storms from forming", "They only affect the temperature of the poles"],
+          "options": [
+            "They produce most of the world’s oxygen",
+            "They move heat around the globe and help keep regional temperatures moderate",
+            "They prevent all storms from forming",
+            "They only affect the temperature of the poles"
+          ],
           "answer": 1,
           "exp": "Ocean currents move huge amounts of heat... This continuous circulation helps keep temperatures in many regions moderate and stable。"
         },
         {
           "q": "2. How does the ocean help slow global warming?",
-          "options": ["By reflecting all sunlight back into space", "By absorbing a large share of carbon dioxide and storing some of it in the deep ocean", "By producing more clouds", "By cooling the land directly"],
+          "options": [
+            "By reflecting all sunlight back into space",
+            "By absorbing a large share of carbon dioxide and storing some of it in the deep ocean",
+            "By producing more clouds",
+            "By cooling the land directly"
+          ],
           "answer": 1,
           "exp": "The ocean absorbs a large share of the carbon dioxide... some of that carbon sinks to the deep ocean..."
         },
         {
           "q": "3. What negative effect does increased CO₂ absorption have on the ocean?",
-          "options": ["It makes the water colder", "It makes the water more acidic, threatening shellfish and related food chains", "It increases the number of fish", "It has no negative effects"],
+          "options": [
+            "It makes the water colder",
+            "It makes the water more acidic, threatening shellfish and related food chains",
+            "It increases the number of fish",
+            "It has no negative effects"
+          ],
           "answer": 1,
           "exp": "as it takes in more CO₂, the water becomes more acidic, threatening shellfish and the food chains..."
         },
         {
           "q": "4. What is the main purpose of the passage?",
-          "options": ["To describe popular beach activities", "To explain the ocean’s role in regulating climate and why protecting it matters", "To argue that oceans are more important than forests", "To teach readers how to fish sustainably only"],
+          "options": [
+            "To describe popular beach activities",
+            "To explain the ocean’s role in regulating climate and why protecting it matters",
+            "To argue that oceans are more important than forests",
+            "To teach readers how to fish sustainably only"
+          ],
           "answer": 1,
           "exp": "全文核心是海洋作为气候调节器的作用及保护的必要性。"
         },
         {
           "q": "5. Which of the following is suggested as part of the solution?",
-          "options": ["Increasing greenhouse-gas emissions", "Protecting marine ecosystems and reducing emissions", "Ignoring sea-level rise", "Stopping all scientific research on the ocean"],
+          "options": [
+            "Increasing greenhouse-gas emissions",
+            "Protecting marine ecosystems and reducing emissions",
+            "Ignoring sea-level rise",
+            "Stopping all scientific research on the ocean"
+          ],
           "answer": 1,
           "exp": "Protecting marine ecosystems, reducing greenhouse-gas emissions and supporting sustainable fishing are all part of the solution。"
         }
@@ -200,46 +724,324 @@
       "id": "s2",
       "cat": "心理成长",
       "title": "🧠 How Habits Quietly Shape Our Future",
-      "tags": ["心理", "成长", "习惯"],
+      "tags": [
+        "心理",
+        "成长",
+        "习惯"
+      ],
       "words": 328,
       "hardWords": {
-        "automatic": {"ipa": "/ˌɔːtəˈmætɪk/", "cn": "自动的"},
-        "reinforce": {"ipa": "/ˌriːɪnˈfɔːs/", "cn": "强化"},
-        "discipline": {"ipa": "/ˈdɪsəplɪn/", "cn": "自律"},
-        "motivation": {"ipa": "/ˌməʊtɪˈveɪʃn/", "cn": "动机"},
-        "consistent": {"ipa": "/kənˈsɪstənt/", "cn": "持续的"},
-        "identity": {"ipa": "/aɪˈdentəti/", "cn": "身份认同"},
-        "transform": {"ipa": "/trænsˈfɔːm/", "cn": "转变"},
-        "compound": {"ipa": "/ˈkɒmpaʊnd/", "cn": "累积的"},
-        "intentional": {"ipa": "/ɪnˈtenʃənl/", "cn": "有意的"},
-        "resilience": {"ipa": "/rɪˈzɪliəns/", "cn": "韧性"}
+        "automatic": {
+          "ipa": "/ˌɔːtəˈmætɪk/",
+          "cn": "自动的"
+        },
+        "reinforce": {
+          "ipa": "/ˌriːɪnˈfɔːs/",
+          "cn": "强化"
+        },
+        "discipline": {
+          "ipa": "/ˈdɪsəplɪn/",
+          "cn": "自律"
+        },
+        "motivation": {
+          "ipa": "/ˌməʊtɪˈveɪʃn/",
+          "cn": "动机"
+        },
+        "consistent": {
+          "ipa": "/kənˈsɪstənt/",
+          "cn": "持续的"
+        },
+        "identity": {
+          "ipa": "/aɪˈdentəti/",
+          "cn": "身份认同"
+        },
+        "transform": {
+          "ipa": "/trænsˈfɔːm/",
+          "cn": "转变"
+        },
+        "compound": {
+          "ipa": "/ˈkɒmpaʊnd/",
+          "cn": "累积的"
+        },
+        "intentional": {
+          "ipa": "/ɪnˈtenʃənl/",
+          "cn": "有意的"
+        },
+        "resilience": {
+          "ipa": "/rɪˈzɪliəns/",
+          "cn": "韧性"
+        }
       },
       "content": "We often think of success as the result of big decisions or sudden inspiration. In truth, much of who we become is shaped by the small, repeated actions we take every day — our habits. 🔄\n\nA habit is a behaviour that has become automatic through repetition. When you first learn to ride a bicycle or type on a keyboard, every movement requires attention. With practice, the brain creates stronger neural pathways, and the action becomes almost effortless. The same process applies to studying, exercising, reading, or even negative patterns like procrastination.\n\nBecause habits run largely on autopilot, they can work for us or against us. A student who reviews notes for twenty minutes every evening is quietly building knowledge and confidence. Another student who checks social media first thing every morning may be reinforcing distraction. Over months and years, these tiny differences compound into very different results.\n\nChanging a habit is possible, but it usually requires more than motivation alone. Motivation comes and goes; systems and environment matter more. Making the desired behaviour easier (for example, putting a book on your pillow) and the unwanted behaviour harder (leaving the phone in another room) increases the chance of success. Tracking progress and celebrating small wins also helps reinforce the new pattern.\n\nPerhaps the deepest power of habits lies in identity. When you repeatedly act like a reader, a runner, or a careful thinker, you begin to see yourself that way. The behaviour and the self-image support each other. In this sense, habits do not just change what we do — they gradually transform who we believe we are.\n\nBuilding good habits is therefore an act of long-term self-respect. It is not about perfection, but about consistent, intentional effort. The person you will be in five years is being shaped by the habits you practise today. Choose them wisely. 🌱",
       "translation": "我们常常认为成功来自大的决定或突然的灵感。实际上，我们成为什么样的人，很大程度上是由每天重复的小行动——我们的习惯——塑造的。🔄\n\n习惯是一种通过重复变得自动化的行为。当你第一次学骑自行车或打字时，每一个动作都需要注意力。通过练习，大脑会建立更强的神经通路，动作几乎变得不费力。同样的过程也适用于学习、锻炼、阅读，甚至像拖延这样的负面模式。\n\n因为习惯很大程度上在“自动驾驶”状态下运行，它们既可以为我们服务，也可能与我们作对。一个每天晚上复习二十分钟笔记的学生，正在悄悄积累知识和自信。另一个每天早上第一件事就刷社交媒体的学生，可能在强化分心。几个月、几年后，这些微小的差异会累积成截然不同的结果。\n\n改变习惯是可能的，但通常需要的不只是动机。动机来了又走；系统和环境更重要。让期望的行为更容易（比如把书放在枕头上），让不想要的行为更难（把手机放在另一个房间），会提高成功的几率。记录进度并庆祝小胜利也有助于强化新模式。\n\n也许习惯最深层的力量在于身份认同。当你反复表现得像一个读者、跑步者或谨慎的思考者时，你开始以这种方式看待自己。行为与自我形象相互支持。从这个意义上说，习惯不仅改变我们做什么——它们逐渐转变我们认为自己是谁。\n\n因此，培养好习惯是一种长期的自我尊重。它不关乎完美，而关乎持续、有意识的努力。五年后的你，正被你今天实践的习惯所塑造。请明智地选择它们。🌱",
       "questions": [
         {
           "q": "1. According to the passage, what mainly shapes who we become?",
-          "options": ["Only big life decisions", "Sudden inspiration", "The small, repeated actions we take every day — our habits", "Luck and talent alone"],
+          "options": [
+            "Only big life decisions",
+            "Sudden inspiration",
+            "The small, repeated actions we take every day — our habits",
+            "Luck and talent alone"
+          ],
           "answer": 2,
           "exp": "much of who we become is shaped by the small, repeated actions we take every day — our habits。"
         },
         {
           "q": "2. Why can habits work for us or against us?",
-          "options": ["Because they are always positive", "Because they run largely on autopilot and can reinforce either useful or harmful patterns", "Because habits never change", "Because only bad habits become automatic"],
+          "options": [
+            "Because they are always positive",
+            "Because they run largely on autopilot and can reinforce either useful or harmful patterns",
+            "Because habits never change",
+            "Because only bad habits become automatic"
+          ],
           "answer": 1,
           "exp": "Because habits run largely on autopilot, they can work for us or against us。"
         },
         {
           "q": "3. What does the writer suggest is more reliable than motivation for changing habits?",
-          "options": ["Waiting for the right mood", "Systems and environment that make good behaviours easier and bad ones harder", "Only reading books about success", "Changing everything overnight"],
+          "options": [
+            "Waiting for the right mood",
+            "Systems and environment that make good behaviours easier and bad ones harder",
+            "Only reading books about success",
+            "Changing everything overnight"
+          ],
           "answer": 1,
           "exp": "Motivation comes and goes; systems and environment matter more。"
         },
         {
           "q": "4. How do habits relate to identity according to the passage?",
-          "options": ["Habits have no connection to identity", "Repeated behaviours gradually shape how we see ourselves, and identity then supports the behaviour", "Identity is fixed at birth", "Only other people define our identity"],
+          "options": [
+            "Habits have no connection to identity",
+            "Repeated behaviours gradually shape how we see ourselves, and identity then supports the behaviour",
+            "Identity is fixed at birth",
+            "Only other people define our identity"
+          ],
           "answer": 1,
           "exp": "When you repeatedly act like a reader... you begin to see yourself that way. The behaviour and the self-image support each other。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "cat": "科技社会",
+      "title": "📱 The Double-Edged Sword of Social Media",
+      "tags": [
+        "科技",
+        "社会",
+        "心理"
+      ],
+      "words": 340,
+      "hardWords": {
+        "platform": {
+          "ipa": "/ˈplætfɔːm/",
+          "cn": "平台"
+        },
+        "interaction": {
+          "ipa": "/ˌɪntərˈækʃn/",
+          "cn": "互动"
+        },
+        "addiction": {
+          "ipa": "/əˈdɪkʃn/",
+          "cn": "成瘾"
+        },
+        "anxiety": {
+          "ipa": "/æŋˈzaɪəti/",
+          "cn": "焦虑"
+        },
+        "privacy": {
+          "ipa": "/ˈprɪvəsi/",
+          "cn": "隐私"
+        },
+        "influence": {
+          "ipa": "/ˈɪnfluəns/",
+          "cn": "影响"
+        },
+        "comparison": {
+          "ipa": "/kəmˈpærɪsn/",
+          "cn": "比较"
+        },
+        "digital": {
+          "ipa": "/ˈdɪdʒɪtl/",
+          "cn": "数字的"
+        },
+        "balance": {
+          "ipa": "/ˈbæləns/",
+          "cn": "平衡"
+        },
+        "awareness": {
+          "ipa": "/əˈweənəs/",
+          "cn": "意识"
+        }
+      },
+      "content": "Social media has become an inseparable part of modern life. Platforms like WeChat, Douyin, and Instagram allow people to share moments, stay connected with friends, and access information instantly. Yet this powerful tool is a double-edged sword. 📱\n\nOn the positive side, social media enables rapid communication across distances. Students can join study groups online, discuss problems, and share learning resources. During difficult times, people can receive emotional support from online communities. Businesses use these platforms to reach customers, and public organizations spread important messages quickly.\n\nHowever, the negative effects are equally real. Many teenagers spend hours scrolling through short videos, which can reduce the time available for study, exercise, and face-to-face interaction. Constant comparison with others’ carefully edited lives often leads to anxiety and lower self-esteem. Addiction to likes and comments can make some people dependent on external approval rather than inner confidence.\n\nPrivacy is another serious concern. Personal information shared online may be collected and used without full awareness. Cyberbullying and the spread of false information also damage trust and mental well-being.\n\nThe key is not to abandon social media, but to use it with awareness and balance. Setting time limits, choosing high-quality content, and protecting personal information are practical steps. Offline activities—reading, sports, and real conversations—remain essential for healthy development.\n\nTechnology itself is neutral. Its value depends on how we choose to use it. By developing digital literacy and self-discipline, young people can enjoy the benefits of social media while avoiding its traps. 🌱",
+      "translation": "社交媒体已成为现代生活中不可分割的一部分。微信、抖音和Instagram等平台让人们分享瞬间、与朋友保持联系、即时获取信息。然而，这个强大的工具是一把双刃剑。📱\n\n积极方面，社交媒体使跨距离的快速沟通成为可能。学生可以加入在线学习小组、讨论问题、分享学习资源。在困难时期，人们可以从在线社区获得情感支持。企业利用这些平台接触客户，公共机构快速传播重要信息。\n\n然而，负面影响同样真实。许多青少年花数小时刷短视频，这会减少学习、锻炼和面对面交流的时间。不断与他人精心编辑的生活比较，往往导致焦虑和自尊心下降。对点赞和评论的沉迷会让一些人依赖外部认可，而非内在自信。\n\n隐私是另一个严重问题。在线分享的个人信息可能在不完全知情的情况下被收集和使用。网络欺凌和虚假信息的传播也会损害信任和心理健康。\n\n关键不是放弃社交媒体，而是带着意识和平衡去使用它。设定时间限制、选择高质量内容、保护个人信息都是切实可行的步骤。线下活动——阅读、运动和真实对话——对健康发展仍然至关重要。\n\n技术本身是中性的。它的价值取决于我们如何选择使用它。通过培养数字素养和自律，年轻人可以享受社交媒体的好处，同时避免其陷阱。🌱",
+      "questions": [
+        {
+          "q": "1. What does the writer mean by calling social media a “double-edged sword”?",
+          "options": [
+            "It is only useful for business",
+            "It has both positive and negative effects",
+            "It is dangerous and should be banned",
+            "It only affects teenagers"
+          ],
+          "answer": 1,
+          "exp": "全文阐述其利弊，双刃剑指既有好处也有坏处。"
+        },
+        {
+          "q": "2. Which is mentioned as a positive use of social media?",
+          "options": [
+            "Reducing study time",
+            "Joining online study groups and sharing resources",
+            "Increasing anxiety",
+            "Spreading false information"
+          ],
+          "answer": 1,
+          "exp": "Students can join study groups online, discuss problems, and share learning resources."
+        },
+        {
+          "q": "3. What negative effect is linked to constant comparison on social media?",
+          "options": [
+            "Better self-esteem",
+            "Anxiety and lower self-esteem",
+            "More face-to-face interaction",
+            "Improved privacy"
+          ],
+          "answer": 1,
+          "exp": "Constant comparison... often leads to anxiety and lower self-esteem."
+        },
+        {
+          "q": "4. What does the writer suggest as the key approach?",
+          "options": [
+            "Completely abandon social media",
+            "Use it with awareness and balance",
+            "Spend more hours online",
+            "Only use it for entertainment"
+          ],
+          "answer": 1,
+          "exp": "The key is not to abandon social media, but to use it with awareness and balance."
+        },
+        {
+          "q": "5. According to the passage, technology’s value depends on ________.",
+          "options": [
+            "how expensive it is",
+            "how we choose to use it",
+            "how many users it has",
+            "how old the users are"
+          ],
+          "answer": 1,
+          "exp": "Its value depends on how we choose to use it."
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "cat": "科学环境",
+      "title": "🌍 Plastic Pollution: A Challenge We Must Face",
+      "tags": [
+        "环境",
+        "污染",
+        "责任"
+      ],
+      "words": 335,
+      "hardWords": {
+        "plastic": {
+          "ipa": "/ˈplæstɪk/",
+          "cn": "塑料"
+        },
+        "pollution": {
+          "ipa": "/pəˈluːʃn/",
+          "cn": "污染"
+        },
+        "decompose": {
+          "ipa": "/ˌdiːkəmˈpəʊz/",
+          "cn": "分解"
+        },
+        "microplastic": {
+          "ipa": "/ˈmaɪkrəʊˌplæstɪk/",
+          "cn": "微塑料"
+        },
+        "recycle": {
+          "ipa": "/ˌriːˈsaɪkl/",
+          "cn": "回收"
+        },
+        "consume": {
+          "ipa": "/kənˈsjuːm/",
+          "cn": "消费"
+        },
+        "alternative": {
+          "ipa": "/ɔːlˈtɜːnətɪv/",
+          "cn": "替代品"
+        },
+        "responsibility": {
+          "ipa": "/rɪˌspɒnsəˈbɪləti/",
+          "cn": "责任"
+        },
+        "sustainable": {
+          "ipa": "/səˈsteɪnəbl/",
+          "cn": "可持续的"
+        },
+        "ecosystem": {
+          "ipa": "/ˈiːkəʊsɪstəm/",
+          "cn": "生态系统"
+        }
+      },
+      "content": "Plastic is everywhere—in bottles, bags, packaging, and countless everyday products. It is cheap, light, and convenient. Yet the same qualities that make plastic useful also make it a serious environmental threat. 🌍\n\nMost plastics do not decompose naturally for hundreds of years. When they enter rivers and oceans, they break into smaller pieces called microplastics. These tiny particles are eaten by fish and other marine animals, and eventually enter the human food chain. Birds and sea turtles often mistake plastic bags for food, which can cause injury or death.\n\nThe scale of the problem is enormous. Millions of tons of plastic waste enter the ocean every year. Beaches around the world are littered with bottles and packaging. Even remote areas far from cities are no longer free from plastic pollution.\n\nSolving this challenge requires action at many levels. Individuals can reduce single-use plastics by carrying reusable bags and bottles. Governments can ban certain plastic products and improve recycling systems. Companies can redesign packaging and invest in alternative materials that are biodegradable or easier to recycle.\n\nEducation also plays a vital role. When people understand the long-term cost of plastic pollution, they are more likely to change their habits. Schools, media, and communities can all help raise awareness.\n\nPlastic pollution is not someone else’s problem—it is a shared responsibility. Every choice we make, from refusing a plastic straw to supporting sustainable products, contributes to a cleaner planet. The future of our oceans and ecosystems depends on the actions we take today. 🌊",
+      "translation": "塑料无处不在——瓶子、袋子、包装以及无数日常产品中。它便宜、轻便、方便。然而，让塑料有用的这些特性，也使它成为严重的环境威胁。🌍\n\n大多数塑料在自然中数百年都不会分解。当它们进入河流和海洋时，会碎成叫做微塑料的小块。这些微小颗粒被鱼类和其他海洋动物吃掉，最终进入人类食物链。鸟类和海龟经常把塑料袋误认为食物，可能导致受伤或死亡。\n\n问题的规模巨大。每年有数百万吨塑料废物进入海洋。世界各地的海滩上散落着瓶子和包装。即使远离城市的偏远地区也不再没有塑料污染。\n\n解决这一挑战需要多层次的行动。个人可以通过携带可重复使用的袋子和瓶子来减少一次性塑料。政府可以禁止某些塑料产品并改善回收系统。公司可以重新设计包装，投资可生物降解或更容易回收的替代材料。\n\n教育也起着至关重要的作用。当人们理解塑料污染的长期代价时，他们更有可能改变习惯。学校、媒体和社区都可以帮助提高意识。\n\n塑料污染不是别人的问题——它是共同的责任。我们做出的每一个选择，从拒绝塑料吸管到支持可持续产品，都有助于更清洁的星球。我们海洋和生态系统的未来，取决于我们今天采取的行动。🌊",
+      "questions": [
+        {
+          "q": "1. Why is plastic a serious environmental threat?",
+          "options": [
+            "Because it is expensive",
+            "Because most plastics do not decompose for hundreds of years and harm wildlife",
+            "Because it is heavy",
+            "Because it is only used in cities"
+          ],
+          "answer": 1,
+          "exp": "Most plastics do not decompose naturally for hundreds of years... harm marine animals."
+        },
+        {
+          "q": "2. What are microplastics?",
+          "options": [
+            "Large plastic bottles",
+            "Tiny pieces that plastics break into",
+            "A type of fish",
+            "Recyclable materials"
+          ],
+          "answer": 1,
+          "exp": "they break into smaller pieces called microplastics."
+        },
+        {
+          "q": "3. Which is suggested as an individual action?",
+          "options": [
+            "Producing more plastic",
+            "Carrying reusable bags and bottles",
+            "Throwing plastic into the ocean",
+            "Ignoring the problem"
+          ],
+          "answer": 1,
+          "exp": "Individuals can reduce single-use plastics by carrying reusable bags and bottles."
+        },
+        {
+          "q": "4. What role does education play according to the passage?",
+          "options": [
+            "It is not important",
+            "It helps people understand the cost of plastic pollution and change habits",
+            "It only helps companies",
+            "It increases plastic production"
+          ],
+          "answer": 1,
+          "exp": "When people understand the long-term cost... they are more likely to change their habits."
+        },
+        {
+          "q": "5. What is the main message of the passage?",
+          "options": [
+            "Plastic is completely safe",
+            "Plastic pollution is a shared responsibility that requires action at many levels",
+            "Only governments can solve the problem",
+            "Plastic will disappear by itself"
+          ],
+          "answer": 1,
+          "exp": "全文强调共同责任与多层次行动。"
         }
       ]
     }
