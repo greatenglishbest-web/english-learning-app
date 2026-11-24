@@ -3,499 +3,81 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<title>英语单词与阅读理解学习神器 · 中高考卡通科技版</title>
+<title>英语单词与阅读理解学习神器 · 远程数据版</title>
 <style>
-:root {
-  --bg-main: #0b1220;
-  --bg-card: #131c31;
-  --bg-elevated: #1c2740;
-  --bg-soft: #243047;
-  --border: rgba(148, 180, 220, 0.18);
-  --text: #f0f6ff;
-  --text-sec: #94a8c4;
-  --accent: #5eead4;
-  --accent2: #a78bfa;
-  --play: #38bdf8;
-  --slow: #fbbf24;
-  --success: #34d399;
-  --warn: #fb7185;
-  --junior: #38bdf8;
-  --senior: #c084fc;
-  --radius: 18px;
-  --shadow: 0 8px 28px rgba(0,0,0,0.35);
-}
-* { box-sizing: border-box; margin: 0; padding: 0; }
-body {
-  background: 
-    radial-gradient(ellipse at 10% 0%, #1e3a5f 0%, transparent 45%),
-    radial-gradient(ellipse at 90% 10%, #3b1f5e 0%, transparent 40%),
-    var(--bg-main);
-  color: var(--text);
-  font-family: 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif;
-  min-height: 100vh;
-  padding: 10px;
-  display: flex;
-  justify-content: center;
-  line-height: 1.5;
-}
-.app {
-  width: 100%;
-  max-width: 1120px;
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
-
-/* ===== Header ===== */
-.header {
-  background: linear-gradient(135deg, rgba(28,39,64,0.95), rgba(19,28,49,0.92));
-  border: 1px solid var(--border);
-  border-radius: 22px;
-  padding: 14px 18px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  gap: 10px;
-  box-shadow: var(--shadow);
-  backdrop-filter: blur(12px);
-}
-.title h1 {
-  font-size: 1.32rem;
-  font-weight: 900;
-  background: linear-gradient(90deg, #5eead4, #7dd3fc, #c084fc, #f9a8d4);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  letter-spacing: 0.3px;
-}
-.title p {
-  font-size: 0.74rem;
-  color: var(--text-sec);
-  margin-top: 2px;
-}
-.controls {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  align-items: center;
-}
-.switch {
-  display: flex;
-  background: var(--bg-main);
-  border-radius: 14px;
-  border: 1px solid var(--border);
-  overflow: hidden;
-  padding: 3px;
-}
-.switch button {
-  border: none;
-  background: transparent;
-  color: var(--text-sec);
-  padding: 7px 14px;
-  font-size: 0.8rem;
-  font-weight: 800;
-  cursor: pointer;
-  border-radius: 11px;
-  transition: all 0.2s;
-}
-.switch button.active {
-  color: #fff;
-  box-shadow: 0 2px 10px rgba(56,189,248,0.35);
-}
-.level-btn.active { background: linear-gradient(135deg, #0ea5e9, #6366f1); }
-.level-btn.active.senior { background: linear-gradient(135deg, #a855f7, #ec4899); }
-.mode-btn.active { background: linear-gradient(135deg, #14b8a6, #0ea5e9); }
-
-/* ===== Main ===== */
-.main {
-  background: var(--bg-card);
-  border: 1px solid var(--border);
-  border-radius: 22px;
-  padding: 16px;
-  min-height: 540px;
-  box-shadow: var(--shadow);
-}
-
-/* Word toolbar */
-.toolbar {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-bottom: 12px;
-  align-items: center;
-}
-.search {
-  flex: 1;
-  min-width: 150px;
-  background: var(--bg-elevated);
-  border: 1px solid var(--border);
-  border-radius: 14px;
-  padding: 9px 14px;
-  color: #fff;
-  font-size: 0.86rem;
-  outline: none;
-  transition: border 0.2s;
-}
-.search:focus { border-color: #5eead4; }
-.search::placeholder { color: #64748b; }
-.pills {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-}
-.pill {
-  border: 1px solid rgba(148,180,220,0.22);
-  background: var(--bg-elevated);
-  color: #b8c9e0;
-  padding: 5px 12px;
-  border-radius: 999px;
-  font-size: 0.74rem;
-  font-weight: 800;
-  cursor: pointer;
-  transition: all 0.18s;
-}
-.pill:hover, .pill.active {
-  background: linear-gradient(135deg, #0ea5e9, #8b5cf6);
-  border-color: transparent;
-  color: #fff;
-  transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(56,189,248,0.3);
-}
-.stats {
-  font-size: 0.76rem;
-  color: var(--text-sec);
-  margin-bottom: 10px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 6px;
-}
-
-/* Word grid */
-.word-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
-  gap: 11px;
-  max-height: 620px;
-  overflow-y: auto;
-  padding-right: 4px;
-  scrollbar-width: thin;
-  scrollbar-color: #334155 transparent;
-}
-.word-card {
-  background: linear-gradient(160deg, var(--bg-elevated), #1a2438);
-  border: 1px solid rgba(148,180,220,0.15);
-  border-radius: 16px;
-  padding: 13px 14px;
-  transition: all 0.2s;
-  position: relative;
-  overflow: hidden;
-}
-.word-card::before {
-  content: '';
-  position: absolute;
-  top: 0; left: 0; right: 0;
-  height: 3px;
-  background: linear-gradient(90deg, #5eead4, #38bdf8, #a78bfa);
-  opacity: 0;
-  transition: opacity 0.2s;
-}
-.word-card:hover {
-  border-color: rgba(94,234,212,0.4);
-  transform: translateY(-2px);
-  box-shadow: 0 8px 22px rgba(14,165,233,0.15);
-}
-.word-card:hover::before { opacity: 1; }
-.w-main {
-  font-size: 1.28rem;
-  font-weight: 900;
-  color: #f8fafc;
-  letter-spacing: 0.3px;
-}
-.w-ipa {
-  font-size: 0.9rem;
-  color: #5eead4;
-  font-weight: 700;
-  margin-top: 2px;
-}
-.w-cn {
-  font-size: 0.84rem;
-  color: #e2e8f0;
-  margin: 5px 0 8px;
-  font-weight: 600;
-}
-.w-ex {
-  font-size: 0.78rem;
-  background: rgba(56,189,248,0.08);
-  border: 1px solid rgba(56,189,248,0.15);
-  border-radius: 11px;
-  padding: 8px 10px;
-  margin-bottom: 9px;
-  cursor: pointer;
-  transition: all 0.15s;
-  line-height: 1.5;
-}
-.w-ex:hover {
-  background: rgba(56,189,248,0.16);
-  border-color: rgba(56,189,248,0.35);
-}
-.w-ex .en { color: #cbd5e1; }
-.w-ex .cn { color: #7c8da6; margin-top: 3px; font-size: 0.74rem; }
-.w-ex .hint {
-  font-size: 0.68rem;
-  color: #5eead4;
-  margin-top: 4px;
-  opacity: 0.85;
-}
-.w-actions {
-  display: flex;
-  gap: 7px;
-}
-.btn {
-  border: none;
-  border-radius: 10px;
-  padding: 7px 0;
-  font-size: 0.76rem;
-  font-weight: 800;
-  color: #fff;
-  cursor: pointer;
-  flex: 1;
-  transition: all 0.15s;
-}
-.btn:active { transform: scale(0.96); }
-.btn-play {
-  background: linear-gradient(135deg, #0ea5e9, #0284c7);
-  box-shadow: 0 3px 10px rgba(14,165,233,0.3);
-}
-.btn-slow {
-  background: linear-gradient(135deg, #f59e0b, #d97706);
-  box-shadow: 0 3px 10px rgba(245,158,11,0.3);
-}
-
-/* Article list */
-.art-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
-  gap: 12px;
-}
-.art-card {
-  background: linear-gradient(160deg, var(--bg-elevated), #1a2438);
-  border: 1px solid rgba(148,180,220,0.15);
-  border-radius: 16px;
-  padding: 14px 15px;
-  cursor: pointer;
-  transition: all 0.2s;
-  position: relative;
-  overflow: hidden;
-}
-.art-card:hover {
-  border-color: #5eead4;
-  transform: translateY(-3px);
-  box-shadow: 0 10px 24px rgba(94,234,212,0.12);
-}
-.art-card .t {
-  font-size: 0.96rem;
-  font-weight: 800;
-  margin-bottom: 7px;
-  color: #f1f5f9;
-  line-height: 1.35;
-}
-.art-card .meta {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-  font-size: 0.7rem;
-}
-.tag {
-  background: rgba(167,139,250,0.18);
-  color: #c4b5fd;
-  padding: 2px 8px;
-  border-radius: 8px;
-  font-weight: 700;
-}
-.tag.words { background: rgba(56,189,248,0.15); color: #7dd3fc; }
-
-/* Article detail */
-.back {
-  border: 1px solid rgba(148,180,220,0.3);
-  background: transparent;
-  color: #5eead4;
-  padding: 7px 14px;
-  border-radius: 12px;
-  font-size: 0.8rem;
-  font-weight: 800;
-  cursor: pointer;
-  margin-bottom: 12px;
-  transition: all 0.15s;
-}
-.back:hover { background: rgba(94,234,212,0.1); }
-.art-title {
-  font-size: 1.38rem;
-  font-weight: 900;
-  margin-bottom: 12px;
-  background: linear-gradient(90deg, #5eead4, #7dd3fc, #c084fc);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  line-height: 1.3;
-}
-.art-body {
-  font-size: 0.96rem;
-  line-height: 1.8;
-  color: #e2e8f0;
-  background: var(--bg-elevated);
-  border-radius: 16px;
-  padding: 16px 18px;
-  margin-bottom: 14px;
-  white-space: pre-wrap;
-  border: 1px solid rgba(148,180,220,0.1);
-}
-.hard {
-  color: #fbbf24;
-  font-weight: 800;
-  border-bottom: 2.5px solid rgba(251,191,36,0.5);
-  cursor: pointer;
-  padding: 0 2px;
-  border-radius: 4px;
-  transition: all 0.15s;
-}
-.hard:hover {
-  background: rgba(251,191,36,0.2);
-  color: #fde68a;
-}
-.trans-box {
-  background: linear-gradient(135deg, rgba(52,211,153,0.08), rgba(16,185,129,0.05));
-  border: 1px solid rgba(52,211,153,0.25);
-  border-radius: 14px;
-  padding: 13px 15px;
-  margin-bottom: 16px;
-  font-size: 0.87rem;
-  color: #a7f3d0;
-  line-height: 1.7;
-}
-.trans-box h4 {
-  color: #34d399;
-  font-size: 0.84rem;
-  margin-bottom: 6px;
-  font-weight: 800;
-}
-.q-sec h3 {
-  font-size: 1.08rem;
-  margin-bottom: 12px;
-  color: #e2e8f0;
-  font-weight: 800;
-}
-.q-card {
-  background: var(--bg-elevated);
-  border: 1px solid rgba(148,180,220,0.14);
-  border-radius: 14px;
-  padding: 13px 14px;
-  margin-bottom: 11px;
-}
-.q-text {
-  font-size: 0.91rem;
-  font-weight: 800;
-  margin-bottom: 10px;
-  color: #f1f5f9;
-}
-.q-opt {
-  display: flex;
-  align-items: flex-start;
-  gap: 9px;
-  padding: 8px 11px;
-  border-radius: 11px;
-  cursor: pointer;
-  margin-bottom: 4px;
-  transition: all 0.15s;
-  font-size: 0.85rem;
-  border: 1px solid transparent;
-}
-.q-opt:hover { background: rgba(56,189,248,0.1); }
-.q-opt.selected { background: rgba(14,165,233,0.18); border-color: #38bdf8; }
-.q-opt.correct { background: rgba(52,211,153,0.18); border-color: #34d399; }
-.q-opt.wrong { background: rgba(251,113,133,0.15); border-color: #fb7185; }
-.q-opt input { margin-top: 3px; accent-color: #38bdf8; }
-.check-btn {
-  background: linear-gradient(135deg, #0ea5e9, #8b5cf6);
-  border: none;
-  color: #fff;
-  padding: 11px 22px;
-  border-radius: 14px;
-  font-size: 0.92rem;
-  font-weight: 900;
-  cursor: pointer;
-  margin-top: 8px;
-  box-shadow: 0 4px 16px rgba(139,92,246,0.3);
-  transition: all 0.15s;
-}
-.check-btn:hover { transform: translateY(-1px); opacity: 0.95; }
-.score-banner {
-  display: none;
-  background: linear-gradient(135deg, rgba(52,211,153,0.15), rgba(16,185,129,0.08));
-  border: 1px solid rgba(52,211,153,0.35);
-  border-radius: 14px;
-  padding: 13px;
-  margin-top: 12px;
-  text-align: center;
-  font-size: 1.08rem;
-  font-weight: 900;
-  color: #6ee7b7;
-}
-
-/* Popup */
-.mask {
-  display: none;
-  position: fixed;
-  inset: 0;
-  background: rgba(0,0,0,0.6);
-  z-index: 200;
-  justify-content: center;
-  align-items: center;
-  backdrop-filter: blur(4px);
-}
-.mask.show { display: flex; }
-.popup {
-  background: linear-gradient(160deg, #1e293b, #0f172a);
-  border: 1px solid rgba(94,234,212,0.35);
-  border-radius: 20px;
-  padding: 20px 22px;
-  max-width: 340px;
-  width: 90%;
-  text-align: center;
-  box-shadow: 0 16px 48px rgba(0,0,0,0.5);
-}
-.p-word { font-size: 1.5rem; font-weight: 900; color: #f8fafc; }
-.p-ipa { font-size: 1.1rem; color: #5eead4; margin: 7px 0; font-weight: 700; }
-.p-cn { font-size: 1.05rem; color: #e2e8f0; margin-bottom: 14px; font-weight: 600; }
-.p-btns { display: flex; gap: 8px; justify-content: center; margin-bottom: 10px; }
-.p-btns button {
-  border: none;
-  border-radius: 11px;
-  padding: 9px 16px;
-  font-size: 0.82rem;
-  font-weight: 800;
-  color: #fff;
-  cursor: pointer;
-}
-.p-close {
-  background: #475569;
-  width: 100%;
-  padding: 9px;
-  border: none;
-  border-radius: 11px;
-  color: #fff;
-  font-weight: 800;
-  cursor: pointer;
-  margin-top: 4px;
-}
-.empty {
-  text-align: center;
-  color: var(--text-sec);
-  padding: 50px 20px;
-  font-size: 0.92rem;
-}
-.view { display: none; }
-.view.active { display: block; }
+:root{--bg:#0b1220;--card:#131c31;--elev:#1c2740;--bd:rgba(148,180,220,.18);--tx:#f0f6ff;--sec:#94a8c4;--acc:#5eead4;--play:#38bdf8;--slow:#fbbf24}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:radial-gradient(ellipse at 10% 0%,#1e3a5f 0%,transparent 45%),radial-gradient(ellipse at 90% 10%,#3b1f5e 0%,transparent 40%),var(--bg);color:var(--tx);font-family:'PingFang SC','Microsoft YaHei',system-ui,sans-serif;min-height:100vh;padding:10px;display:flex;justify-content:center;line-height:1.5}
+.app{width:100%;max-width:1120px;display:flex;flex-direction:column;gap:12px}
+.header{background:linear-gradient(135deg,rgba(28,39,64,.95),rgba(19,28,49,.92));border:1px solid var(--bd);border-radius:22px;padding:14px 18px;display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:10px}
+.title h1{font-size:1.28rem;font-weight:900;background:linear-gradient(90deg,#5eead4,#7dd3fc,#c084fc,#f9a8d4);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.title p{font-size:.74rem;color:var(--sec);margin-top:2px}
+.controls{display:flex;flex-wrap:wrap;gap:8px}
+.switch{display:flex;background:var(--bg);border-radius:14px;border:1px solid var(--bd);overflow:hidden;padding:3px}
+.switch button{border:none;background:transparent;color:var(--sec);padding:7px 14px;font-size:.8rem;font-weight:800;cursor:pointer;border-radius:11px}
+.switch button.active{color:#fff}
+.level-btn.active{background:linear-gradient(135deg,#0ea5e9,#6366f1)}
+.level-btn.active.senior{background:linear-gradient(135deg,#a855f7,#ec4899)}
+.mode-btn.active{background:linear-gradient(135deg,#14b8a6,#0ea5e9)}
+.main{background:var(--card);border:1px solid var(--bd);border-radius:22px;padding:16px;min-height:540px}
+.toolbar{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px;align-items:center}
+.search{flex:1;min-width:150px;background:var(--elev);border:1px solid var(--bd);border-radius:14px;padding:9px 14px;color:#fff;font-size:.86rem;outline:none}
+.search:focus{border-color:#5eead4}
+.pills{display:flex;flex-wrap:wrap;gap:6px}
+.pill{border:1px solid rgba(148,180,220,.22);background:var(--elev);color:#b8c9e0;padding:5px 12px;border-radius:999px;font-size:.74rem;font-weight:800;cursor:pointer}
+.pill.active,.pill:hover{background:linear-gradient(135deg,#0ea5e9,#8b5cf6);border-color:transparent;color:#fff}
+.stats{font-size:.76rem;color:var(--sec);margin-bottom:10px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:6px}
+.word-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:11px;max-height:620px;overflow-y:auto}
+.word-card{background:linear-gradient(160deg,var(--elev),#1a2438);border:1px solid rgba(148,180,220,.15);border-radius:16px;padding:13px 14px;transition:.2s}
+.word-card:hover{border-color:rgba(94,234,212,.4);transform:translateY(-2px)}
+.w-main{font-size:1.28rem;font-weight:900}
+.w-ipa{font-size:.9rem;color:#5eead4;font-weight:700;margin-top:2px}
+.w-cn{font-size:.84rem;margin:5px 0 8px;font-weight:600}
+.w-ex{font-size:.78rem;background:rgba(56,189,248,.08);border:1px solid rgba(56,189,248,.15);border-radius:11px;padding:8px 10px;margin-bottom:9px;cursor:pointer;line-height:1.5}
+.w-ex:hover{background:rgba(56,189,248,.16)}
+.w-ex .cn{color:#7c8da6;margin-top:3px;font-size:.74rem}
+.w-ex .hint{font-size:.68rem;color:#5eead4;margin-top:4px}
+.w-actions{display:flex;gap:7px}
+.btn{border:none;border-radius:10px;padding:7px 0;font-size:.76rem;font-weight:800;color:#fff;cursor:pointer;flex:1}
+.btn-play{background:linear-gradient(135deg,#0ea5e9,#0284c7)}
+.btn-slow{background:linear-gradient(135deg,#f59e0b,#d97706)}
+.art-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:12px}
+.art-card{background:linear-gradient(160deg,var(--elev),#1a2438);border:1px solid rgba(148,180,220,.15);border-radius:16px;padding:14px 15px;cursor:pointer;transition:.2s}
+.art-card:hover{border-color:#5eead4;transform:translateY(-3px)}
+.art-card .t{font-size:.96rem;font-weight:800;margin-bottom:7px;line-height:1.35}
+.art-card .meta{display:flex;flex-wrap:wrap;gap:6px;font-size:.7rem}
+.tag{background:rgba(167,139,250,.18);color:#c4b5fd;padding:2px 8px;border-radius:8px;font-weight:700}
+.tag.words{background:rgba(56,189,248,.15);color:#7dd3fc}
+.back{border:1px solid rgba(148,180,220,.3);background:transparent;color:#5eead4;padding:7px 14px;border-radius:12px;font-size:.8rem;font-weight:800;cursor:pointer;margin-bottom:12px}
+.art-title{font-size:1.35rem;font-weight:900;margin-bottom:12px;background:linear-gradient(90deg,#5eead4,#7dd3fc,#c084fc);-webkit-background-clip:text;-webkit-text-fill-color:transparent;line-height:1.3}
+.art-body{font-size:.96rem;line-height:1.8;color:#e2e8f0;background:var(--elev);border-radius:16px;padding:16px 18px;margin-bottom:14px;white-space:pre-wrap;border:1px solid rgba(148,180,220,.1)}
+.hard{color:#fbbf24;font-weight:800;border-bottom:2.5px solid rgba(251,191,36,.5);cursor:pointer;padding:0 2px;border-radius:4px}
+.hard:hover{background:rgba(251,191,36,.2)}
+.trans-box{background:linear-gradient(135deg,rgba(52,211,153,.08),rgba(16,185,129,.05));border:1px solid rgba(52,211,153,.25);border-radius:14px;padding:13px 15px;margin-bottom:16px;font-size:.87rem;color:#a7f3d0;line-height:1.7}
+.trans-box h4{color:#34d399;font-size:.84rem;margin-bottom:6px;font-weight:800}
+.q-sec h3{font-size:1.08rem;margin-bottom:12px;font-weight:800}
+.q-card{background:var(--elev);border:1px solid rgba(148,180,220,.14);border-radius:14px;padding:13px 14px;margin-bottom:11px}
+.q-text{font-size:.91rem;font-weight:800;margin-bottom:10px}
+.q-opt{display:flex;align-items:flex-start;gap:9px;padding:8px 11px;border-radius:11px;cursor:pointer;margin-bottom:4px;font-size:.85rem;border:1px solid transparent}
+.q-opt:hover{background:rgba(56,189,248,.1)}
+.q-opt.selected{background:rgba(14,165,233,.18);border-color:#38bdf8}
+.q-opt.correct{background:rgba(52,211,153,.18);border-color:#34d399}
+.q-opt.wrong{background:rgba(251,113,133,.15);border-color:#fb7185}
+.check-btn{background:linear-gradient(135deg,#0ea5e9,#8b5cf6);border:none;color:#fff;padding:11px 22px;border-radius:14px;font-size:.92rem;font-weight:900;cursor:pointer;margin-top:8px}
+.score-banner{display:none;background:linear-gradient(135deg,rgba(52,211,153,.15),rgba(16,185,129,.08));border:1px solid rgba(52,211,153,.35);border-radius:14px;padding:13px;margin-top:12px;text-align:center;font-size:1.08rem;font-weight:900;color:#6ee7b7}
+.mask{display:none;position:fixed;inset:0;background:rgba(0,0,0,.6);z-index:200;justify-content:center;align-items:center;backdrop-filter:blur(4px)}
+.mask.show{display:flex}
+.popup{background:linear-gradient(160deg,#1e293b,#0f172a);border:1px solid rgba(94,234,212,.35);border-radius:20px;padding:20px 22px;max-width:340px;width:90%;text-align:center}
+.p-word{font-size:1.5rem;font-weight:900}
+.p-ipa{font-size:1.1rem;color:#5eead4;margin:7px 0;font-weight:700}
+.p-cn{font-size:1.05rem;margin-bottom:14px;font-weight:600}
+.p-btns{display:flex;gap:8px;justify-content:center;margin-bottom:10px}
+.p-btns button{border:none;border-radius:11px;padding:9px 16px;font-size:.82rem;font-weight:800;color:#fff;cursor:pointer}
+.p-close{background:#475569;width:100%;padding:9px;border:none;border-radius:11px;color:#fff;font-weight:800;cursor:pointer;margin-top:4px}
+.empty{text-align:center;color:var(--sec);padding:50px 20px;font-size:.92rem}
+.view{display:none}.view.active{display:block}
+.loading{text-align:center;padding:60px 20px;color:#5eead4;font-size:1rem;font-weight:700}
+.status-bar{font-size:.72rem;color:#64748b;text-align:right;margin-top:6px}
 </style>
 </head>
 <body>
@@ -503,7 +85,7 @@ body {
   <div class="header">
     <div class="title">
       <h1>🚀 英语单词与阅读理解学习神器</h1>
-      <p>中高考高频词汇 · 趣味科普短文 · 点击发音 · 护眼卡通科技风</p>
+      <p>中高考高频词汇 · 远程数据加载 · 护眼卡通科技风</p>
     </div>
     <div class="controls">
       <div class="switch">
@@ -516,24 +98,19 @@ body {
       </div>
     </div>
   </div>
-
   <div class="main">
-    <!-- 单词 -->
-    <div id="wordsPanel">
+    <div id="loadingBox" class="loading">正在从云端加载数据，请稍候…</div>
+    <div id="wordsPanel" style="display:none">
       <div class="toolbar">
         <input class="search" id="wordSearch" placeholder="🔍 搜索单词 / 中文释义..." oninput="filterWords()">
         <div class="pills" id="catPills"></div>
       </div>
-      <div class="stats" id="wordStats">加载中...</div>
+      <div class="stats" id="wordStats"></div>
       <div class="word-grid" id="wordGrid"></div>
     </div>
-
-    <!-- 阅读 -->
-    <div id="readingPanel" style="display:none;">
+    <div id="readingPanel" style="display:none">
       <div id="listView">
-        <div class="toolbar">
-          <div class="pills" id="artCatPills"></div>
-        </div>
+        <div class="toolbar"><div class="pills" id="artCatPills"></div></div>
         <div class="stats" id="artStats"></div>
         <div class="art-list" id="artList"></div>
       </div>
@@ -541,12 +118,9 @@ body {
         <button class="back" onclick="backToList()">← 返回文章列表</button>
         <div class="art-title" id="artTitle"></div>
         <div class="art-body" id="artBody"></div>
-        <div class="trans-box">
-          <h4>📖 中文翻译</h4>
-          <div id="artTrans"></div>
-        </div>
+        <div class="trans-box"><h4>📖 中文翻译</h4><div id="artTrans"></div></div>
         <div class="q-sec">
-          <h3>✏️ 阅读理解（认真作答）</h3>
+          <h3>✏️ 阅读理解</h3>
           <div id="qBox"></div>
           <button class="check-btn" onclick="checkAnswers()">提交答案并查看解析</button>
           <div class="score-banner" id="scoreBanner"></div>
@@ -554,8 +128,8 @@ body {
       </div>
     </div>
   </div>
+  <div class="status-bar" id="statusBar">数据来源：加载中…</div>
 </div>
-
 <div class="mask" id="popup">
   <div class="popup">
     <div class="p-word" id="pWord"></div>
@@ -568,757 +142,195 @@ body {
     <button class="p-close" onclick="closePopup()">关闭</button>
   </div>
 </div>
-
 <script>
-/* ============================================================
-   单词数据：中考 / 高考 真实高频词（已去除小学基础词）
-   结构支持持续扩展到 2000+
-   ============================================================ */
-const WORD_DATA = {
-  junior: {
-    "中考核心动词": [
-      {w:"achieve",ipa:"/əˈtʃiːv/",cn:"达到；完成",ex:"She finally achieved her goal of becoming a doctor.",exCn:"她最终实现了成为医生的目标。"},
-      {w:"affect",ipa:"/əˈfekt/",cn:"影响",ex:"The weather can affect our mood.",exCn:"天气会影响我们的心情。"},
-      {w:"appear",ipa:"/əˈpɪə(r)/",cn:"出现；似乎",ex:"A rainbow appeared after the rain.",exCn:"雨后出现了彩虹。"},
-      {w:"avoid",ipa:"/əˈvɔɪd/",cn:"避免",ex:"We should avoid eating too much sugar.",exCn:"我们应该避免吃太多糖。"},
-      {w:"belong",ipa:"/bɪˈlɒŋ/",cn:"属于",ex:"This book belongs to the library.",exCn:"这本书属于图书馆。"},
-      {w:"breathe",ipa:"/briːð/",cn:"呼吸",ex:"It is important to breathe deeply when you feel nervous.",exCn:"紧张时深呼吸很重要。"},
-      {w:"celebrate",ipa:"/ˈselɪbreɪt/",cn:"庆祝",ex:"We celebrate the Spring Festival with family.",exCn:"我们和家人一起庆祝春节。"},
-      {w:"compare",ipa:"/kəmˈpeə(r)/",cn:"比较",ex:"Don't always compare yourself with others.",exCn:"不要总是把自己和别人比较。"},
-      {w:"continue",ipa:"/kənˈtɪnjuː/",cn:"继续",ex:"Please continue reading the next paragraph.",exCn:"请继续读下一段。"},
-      {w:"create",ipa:"/kriˈeɪt/",cn:"创造",ex:"The artist created a beautiful painting.",exCn:"这位艺术家创作了一幅美丽的画。"},
-      {w:"decide",ipa:"/dɪˈsaɪd/",cn:"决定",ex:"Have you decided which club to join?",exCn:"你决定加入哪个社团了吗？"},
-      {w:"describe",ipa:"/dɪˈskraɪb/",cn:"描述",ex:"Can you describe what the man looked like?",exCn:"你能描述一下那个男人长什么样吗？"},
-      {w:"discover",ipa:"/dɪˈskʌvə(r)/",cn:"发现",ex:"Scientists discovered a new planet.",exCn:"科学家发现了一颗新行星。"},
-      {w:"encourage",ipa:"/ɪnˈkʌrɪdʒ/",cn:"鼓励",ex:"Teachers should encourage students to ask questions.",exCn:"老师应该鼓励学生提问。"},
-      {w:"explain",ipa:"/ɪkˈspleɪn/",cn:"解释",ex:"Could you explain this sentence to me?",exCn:"你能给我解释一下这个句子吗？"},
-      {w:"improve",ipa:"/ɪmˈpruːv/",cn:"提高；改善",ex:"Reading every day can improve your English.",exCn:"每天阅读可以提高你的英语。"},
-      {w:"include",ipa:"/ɪnˈkluːd/",cn:"包括",ex:"The price includes breakfast and dinner.",exCn:"价格包括早餐和晚餐。"},
-      {w:"introduce",ipa:"/ˌɪntrəˈdjuːs/",cn:"介绍；引进",ex:"Let me introduce my friend to you.",exCn:"让我把我的朋友介绍给你。"},
-      {w:"mention",ipa:"/ˈmenʃn/",cn:"提到",ex:"She didn't mention the meeting in her email.",exCn:"她在邮件里没有提到会议。"},
-      {w:"prefer",ipa:"/prɪˈfɜː(r)/",cn:"更喜欢",ex:"I prefer tea to coffee.",exCn:"比起咖啡我更喜欢茶。"},
-      {w:"provide",ipa:"/prəˈvaɪd/",cn:"提供",ex:"The school provides free lunch for students.",exCn:"学校为学生提供免费午餐。"},
-      {w:"realize",ipa:"/ˈriːəlaɪz/",cn:"意识到；实现",ex:"I suddenly realized I had left my phone at home.",exCn:"我突然意识到我把手机落在家里了。"},
-      {w:"receive",ipa:"/rɪˈsiːv/",cn:"收到",ex:"I received a letter from my pen friend.",exCn:"我收到了笔友的一封信。"},
-      {w:"require",ipa:"/rɪˈkwaɪə(r)/",cn:"需要；要求",ex:"This job requires patience and hard work.",exCn:"这份工作需要耐心和努力。"},
-      {w:"suggest",ipa:"/səˈdʒest/",cn:"建议",ex:"I suggest that we start earlier tomorrow.",exCn:"我建议我们明天早点开始。"}
-    ],
-    "中考核心形容词": [
-      {w:"ancient",ipa:"/ˈeɪnʃənt/",cn:"古代的",ex:"China has a long and ancient history.",exCn:"中国有悠久的古代历史。"},
-      {w:"available",ipa:"/əˈveɪləbl/",cn:"可获得的；有空的",ex:"Is the book available in the library?",exCn:"图书馆有这本书吗？"},
-      {w:"comfortable",ipa:"/ˈkʌmftəbl/",cn:"舒适的",ex:"This chair is very comfortable.",exCn:"这把椅子非常舒适。"},
-      {w:"convenient",ipa:"/kənˈviːniənt/",cn:"方便的",ex:"Online shopping is very convenient.",exCn:"网购非常方便。"},
-      {w:"curious",ipa:"/ˈkjʊəriəs/",cn:"好奇的",ex:"Children are naturally curious about the world.",exCn:"孩子们天生对世界充满好奇。"},
-      {w:"dangerous",ipa:"/ˈdeɪndʒərəs/",cn:"危险的",ex:"Crossing the road without looking is dangerous.",exCn:"不看路就过马路是危险的。"},
-      {w:"different",ipa:"/ˈdɪfrənt/",cn:"不同的",ex:"We come from different cities.",exCn:"我们来自不同的城市。"},
-      {w:"difficult",ipa:"/ˈdɪfɪkəlt/",cn:"困难的",ex:"Learning a new language can be difficult at first.",exCn:"刚开始学一门新语言可能会很难。"},
-      {w:"excellent",ipa:"/ˈeksələnt/",cn:"优秀的",ex:"She did an excellent job in the competition.",exCn:"她在比赛中表现优秀。"},
-      {w:"famous",ipa:"/ˈfeɪməs/",cn:"著名的",ex:"Hangzhou is famous for the West Lake.",exCn:"杭州因西湖而闻名。"},
-      {w:"foreign",ipa:"/ˈfɒrən/",cn:"外国的",ex:"He is interested in foreign cultures.",exCn:"他对外国文化很感兴趣。"},
-      {w:"important",ipa:"/ɪmˈpɔːtnt/",cn:"重要的",ex:"It is important to protect the environment.",exCn:"保护环境很重要。"},
-      {w:"interesting",ipa:"/ˈɪntrəstɪŋ/",cn:"有趣的",ex:"This science book is really interesting.",exCn:"这本科普书真的很有趣。"},
-      {w:"necessary",ipa:"/ˈnesəsəri/",cn:"必要的",ex:"It is necessary to drink enough water every day.",exCn:"每天喝足够的水是必要的。"},
-      {w:"popular",ipa:"/ˈpɒpjələ(r)/",cn:"受欢迎的",ex:"This song is very popular among teenagers.",exCn:"这首歌在青少年中很受欢迎。"},
-      {w:"possible",ipa:"/ˈpɒsəbl/",cn:"可能的",ex:"Is it possible to finish the work today?",exCn:"今天有可能完成工作吗？"},
-      {w:"serious",ipa:"/ˈsɪəriəs/",cn:"严重的；认真的",ex:"Air pollution is a serious problem.",exCn:"空气污染是一个严重问题。"},
-      {w:"similar",ipa:"/ˈsɪmələ(r)/",cn:"相似的",ex:"The two brothers look very similar.",exCn:"这两兄弟长得很像。"},
-      {w:"special",ipa:"/ˈspeʃl/",cn:"特殊的",ex:"Today is a special day for our family.",exCn:"今天对我们家来说是特别的日子。"},
-      {w:"successful",ipa:"/səkˈsesfl/",cn:"成功的",ex:"Hard work is the key to being successful.",exCn:"努力工作是成功的关键。"}
-    ],
-    "中考核心名词": [
-      {w:"ability",ipa:"/əˈbɪləti/",cn:"能力",ex:"She has the ability to solve difficult problems.",exCn:"她有解决难题的能力。"},
-      {w:"advice",ipa:"/ədˈvaɪs/",cn:"建议",ex:"Can you give me some advice on learning English?",exCn:"你能给我一些学英语的建议吗？"},
-      {w:"attention",ipa:"/əˈtenʃn/",cn:"注意",ex:"Please pay attention to the teacher.",exCn:"请注意听老师讲。"},
-      {w:"chance",ipa:"/tʃɑːns/",cn:"机会",ex:"Everyone deserves a second chance.",exCn:"每个人都值得第二次机会。"},
-      {w:"culture",ipa:"/ˈkʌltʃə(r)/",cn:"文化",ex:"We should respect different cultures.",exCn:"我们应该尊重不同的文化。"},
-      {w:"decision",ipa:"/dɪˈsɪʒn/",cn:"决定",ex:"Making a decision is not always easy.",exCn:"做决定并不总是容易。"},
-      {w:"education",ipa:"/ˌedʒuˈkeɪʃn/",cn:"教育",ex:"Education can change a person's life.",exCn:"教育可以改变一个人的一生。"},
-      {w:"environment",ipa:"/ɪnˈvaɪrənmənt/",cn:"环境",ex:"We must protect our living environment.",exCn:"我们必须保护我们的生活环境。"},
-      {w:"experience",ipa:"/ɪkˈspɪəriəns/",cn:"经验；经历",ex:"Traveling is a valuable experience.",exCn:"旅行是宝贵的经历。"},
-      {w:"government",ipa:"/ˈɡʌvənmənt/",cn:"政府",ex:"The government is building more parks.",exCn:"政府正在建更多公园。"},
-      {w:"information",ipa:"/ˌɪnfəˈmeɪʃn/",cn:"信息",ex:"The Internet provides a lot of information.",exCn:"互联网提供大量信息。"},
-      {w:"knowledge",ipa:"/ˈnɒlɪdʒ/",cn:"知识",ex:"Reading can increase your knowledge.",exCn:"阅读可以增长知识。"},
-      {w:"opportunity",ipa:"/ˌɒpəˈtjuːnəti/",cn:"机会",ex:"This is a great opportunity to learn.",exCn:"这是一个很好的学习机会。"},
-      {w:"pollution",ipa:"/pəˈluːʃn/",cn:"污染",ex:"We should reduce air pollution.",exCn:"我们应该减少空气污染。"},
-      {w:"population",ipa:"/ˌpɒpjuˈleɪʃn/",cn:"人口",ex:"China has a large population.",exCn:"中国人口众多。"},
-      {w:"problem",ipa:"/ˈprɒbləm/",cn:"问题",ex:"We need to find a way to solve this problem.",exCn:"我们需要找到解决这个问题的方法。"},
-      {w:"progress",ipa:"/ˈprəʊɡres/",cn:"进步",ex:"She has made great progress in English.",exCn:"她在英语方面取得了很大进步。"},
-      {w:"relationship",ipa:"/rɪˈleɪʃnʃɪp/",cn:"关系",ex:"A good relationship needs trust and respect.",exCn:"良好的关系需要信任和尊重。"},
-      {w:"responsibility",ipa:"/rɪˌspɒnsəˈbɪləti/",cn:"责任",ex:"It is our responsibility to protect nature.",exCn:"保护自然是我们的责任。"},
-      {w:"situation",ipa:"/ˌsɪtʃuˈeɪʃn/",cn:"情况",ex:"We must stay calm in a difficult situation.",exCn:"在困难的情况下我们必须保持冷静。"}
-    ],
-    "中考高频短语相关": [
-      {w:"although",ipa:"/ɔːlˈðəʊ/",cn:"虽然",ex:"Although it was raining, we still went out.",exCn:"虽然在下雨，我们还是出去了。"},
-      {w:"because",ipa:"/bɪˈkɒz/",cn:"因为",ex:"I stayed at home because I was ill.",exCn:"我待在家里是因为我病了。"},
-      {w:"however",ipa:"/haʊˈevə(r)/",cn:"然而",ex:"The plan sounds good; however, it needs more money.",exCn:"计划听起来不错，然而需要更多资金。"},
-      {w:"instead",ipa:"/ɪnˈsted/",cn:"代替；反而",ex:"He didn't go to the party; he stayed home instead.",exCn:"他没去聚会，反而待在家里。"},
-      {w:"perhaps",ipa:"/pəˈhæps/",cn:"也许",ex:"Perhaps we can finish the work tomorrow.",exCn:"也许我们明天可以完成工作。"},
-      {w:"probably",ipa:"/ˈprɒbəbli/",cn:"大概；很可能",ex:"It will probably rain this afternoon.",exCn:"今天下午很可能下雨。"},
-      {w:"suddenly",ipa:"/ˈsʌdənli/",cn:"突然",ex:"Suddenly the lights went out.",exCn:"突然灯灭了。"},
-      {w:"therefore",ipa:"/ˈðeəfɔː(r)/",cn:"因此",ex:"He was late; therefore he missed the bus.",exCn:"他迟到了，因此错过了公交车。"},
-      {w:"whether",ipa:"/ˈweðə(r)/",cn:"是否",ex:"I don't know whether he will come.",exCn:"我不知道他是否会来。"},
-      {w:"while",ipa:"/waɪl/",cn:"当……时；而",ex:"She was reading while I was cooking.",exCn:"我做饭时她在看书。"}
-    ]
-  },
-  senior: {
-    "高考核心动词": [
-      {w:"abandon",ipa:"/əˈbændən/",cn:"放弃；遗弃",ex:"They had to abandon the plan because of the weather.",exCn:"由于天气原因他们不得不放弃计划。"},
-      {w:"absorb",ipa:"/əbˈzɔːb/",cn:"吸收；理解",ex:"Plants absorb carbon dioxide from the air.",exCn:"植物从空气中吸收二氧化碳。"},
-      {w:"adapt",ipa:"/əˈdæpt/",cn:"适应；改编",ex:"It takes time to adapt to a new environment.",exCn:"适应新环境需要时间。"},
-      {w:"advocate",ipa:"/ˈædvəkeɪt/",cn:"提倡；主张",ex:"Many people advocate protecting wild animals.",exCn:"许多人提倡保护野生动物。"},
-      {w:"analyze",ipa:"/ˈænəlaɪz/",cn:"分析",ex:"We need to analyze the data carefully before making a decision.",exCn:"做决定前我们需要仔细分析数据。"},
-      {w:"appreciate",ipa:"/əˈpriːʃieɪt/",cn:"欣赏；感激",ex:"I really appreciate your help.",exCn:"我非常感谢你的帮助。"},
-      {w:"assume",ipa:"/əˈsjuːm/",cn:"假定；承担",ex:"We cannot assume that everyone has the same opinion.",exCn:"我们不能假定每个人都有同样的看法。"},
-      {w:"benefit",ipa:"/ˈbenɪfɪt/",cn:"有益于；受益",ex:"Regular exercise can benefit both body and mind.",exCn:"规律锻炼对身心都有益。"},
-      {w:"challenge",ipa:"/ˈtʃælɪndʒ/",cn:"挑战；质疑",ex:"Learning a new skill is always a challenge.",exCn:"学习新技能总是一种挑战。"},
-      {w:"commit",ipa:"/kəˈmɪt/",cn:"承诺；犯罪",ex:"He committed himself to finishing the project on time.",exCn:"他承诺按时完成项目。"},
-      {w:"contribute",ipa:"/kənˈtrɪbjuːt/",cn:"贡献；促成",ex:"Everyone can contribute to a better society.",exCn:"每个人都能为更美好的社会做贡献。"},
-      {w:"convince",ipa:"/kənˈvɪns/",cn:"说服",ex:"She convinced me to join the volunteer group.",exCn:"她说服我加入志愿者团体。"},
-      {w:"decline",ipa:"/dɪˈklaɪn/",cn:"下降；婉拒",ex:"The number of wild tigers is declining.",exCn:"野生老虎的数量正在下降。"},
-      {w:"demonstrate",ipa:"/ˈdemənstreɪt/",cn:"证明；演示",ex:"The experiment demonstrates that the theory is correct.",exCn:"实验证明该理论是正确的。"},
-      {w:"determine",ipa:"/dɪˈtɜːmɪn/",cn:"决定；确定",ex:"We must determine the cause of the problem.",exCn:"我们必须确定问题的原因。"},
-      {w:"distinguish",ipa:"/dɪˈstɪŋɡwɪʃ/",cn:"区分",ex:"It is hard to distinguish the twins.",exCn:"很难区分这对双胞胎。"},
-      {w:"emphasize",ipa:"/ˈemfəsaɪz/",cn:"强调",ex:"The teacher emphasized the importance of practice.",exCn:"老师强调了练习的重要性。"},
-      {w:"establish",ipa:"/ɪˈstæblɪʃ/",cn:"建立；确立",ex:"They established a new research center last year.",exCn:"他们去年建立了一个新的研究中心。"},
-      {w:"evaluate",ipa:"/ɪˈvæljueɪt/",cn:"评估",ex:"Teachers evaluate students based on many factors.",exCn:"老师根据许多因素评估学生。"},
-      {w:"generate",ipa:"/ˈdʒenəreɪt/",cn:"产生；生成",ex:"Solar panels can generate electricity.",exCn:"太阳能板可以发电。"},
-      {w:"identify",ipa:"/aɪˈdentɪfaɪ/",cn:"识别；确认",ex:"Can you identify the main idea of the passage?",exCn:"你能识别出这篇文章的主旨吗？"},
-      {w:"illustrate",ipa:"/ˈɪləstreɪt/",cn:"说明；阐明",ex:"The example illustrates how the rule works.",exCn:"这个例子说明了规则如何运作。"},
-      {w:"indicate",ipa:"/ˈɪndɪkeɪt/",cn:"表明；指示",ex:"The results indicate a positive trend.",exCn:"结果表明有积极趋势。"},
-      {w:"involve",ipa:"/ɪnˈvɒlv/",cn:"涉及；使参与",ex:"The project involves several departments.",exCn:"这个项目涉及几个部门。"},
-      {w:"maintain",ipa:"/meɪnˈteɪn/",cn:"维持；维修",ex:"It is important to maintain a healthy lifestyle.",exCn:"保持健康的生活方式很重要。"},
-      {w:"obtain",ipa:"/əbˈteɪn/",cn:"获得",ex:"She obtained a scholarship to study abroad.",exCn:"她获得了出国留学的奖学金。"},
-      {w:"overcome",ipa:"/ˌəʊvəˈkʌm/",cn:"克服",ex:"He overcame many difficulties to succeed.",exCn:"他克服了许多困难才获得成功。"},
-      {w:"participate",ipa:"/pɑːˈtɪsɪpeɪt/",cn:"参加",ex:"Students are encouraged to participate in class discussions.",exCn:"鼓励学生参加课堂讨论。"},
-      {w:"promote",ipa:"/prəˈməʊt/",cn:"促进；晋升",ex:"The campaign aims to promote healthy eating.",exCn:"这项活动旨在促进健康饮食。"},
-      {w:"recognize",ipa:"/ˈrekəɡnaɪz/",cn:"认出；承认",ex:"I didn't recognize her at first.",exCn:"我一开始没认出她。"}
-    ],
-    "高考核心形容词": [
-      {w:"accurate",ipa:"/ˈækjərət/",cn:"准确的",ex:"Please make sure the information is accurate.",exCn:"请确保信息准确。"},
-      {w:"adequate",ipa:"/ˈædɪkwət/",cn:"足够的",ex:"We need adequate time to prepare for the exam.",exCn:"我们需要足够的时间准备考试。"},
-      {w:"appropriate",ipa:"/əˈprəʊpriət/",cn:"合适的",ex:"Please wear appropriate clothes for the interview.",exCn:"请穿适合面试的衣服。"},
-      {w:"aware",ipa:"/əˈweə(r)/",cn:"意识到的",ex:"People are becoming more aware of environmental issues.",exCn:"人们越来越意识到环境问题。"},
-      {w:"beneficial",ipa:"/ˌbenɪˈfɪʃl/",cn:"有益的",ex:"Reading is beneficial to your mind.",exCn:"阅读对心智有益。"},
-      {w:"complex",ipa:"/ˈkɒmpleks/",cn:"复杂的",ex:"The problem is more complex than it appears.",exCn:"问题比看起来更复杂。"},
-      {w:"consistent",ipa:"/kənˈsɪstənt/",cn:"一致的；持续的",ex:"She has been consistent in her efforts.",exCn:"她一直在坚持努力。"},
-      {w:"critical",ipa:"/ˈkrɪtɪkl/",cn:"关键的；批判的",ex:"Critical thinking is a key skill for students.",exCn:"批判性思维是学生的关键技能。"},
-      {w:"efficient",ipa:"/ɪˈfɪʃnt/",cn:"高效的",ex:"This new method is more efficient.",exCn:"这种新方法更高效。"},
-      {w:"essential",ipa:"/ɪˈsenʃl/",cn:"必要的；本质的",ex:"Water is essential for all living things.",exCn:"水对所有生物都是必需的。"},
-      {w:"flexible",ipa:"/ˈfleksəbl/",cn:"灵活的",ex:"We need a more flexible schedule.",exCn:"我们需要更灵活的时间安排。"},
-      {w:"global",ipa:"/ˈɡləʊbl/",cn:"全球的",ex:"Climate change is a global challenge.",exCn:"气候变化是全球性挑战。"},
-      {w:"potential",ipa:"/pəˈtenʃl/",cn:"潜在的；潜力",ex:"Every student has great potential.",exCn:"每个学生都有巨大潜力。"},
-      {w:"relevant",ipa:"/ˈreləvənt/",cn:"相关的",ex:"Please only include relevant information.",exCn:"请只包含相关信息。"},
-      {w:"significant",ipa:"/sɪɡˈnɪfɪkənt/",cn:"重要的；显著的",ex:"This is a significant discovery in science.",exCn:"这是科学上的重大发现。"},
-      {w:"sufficient",ipa:"/səˈfɪʃnt/",cn:"足够的",ex:"We have sufficient evidence to support the claim.",exCn:"我们有足够的证据支持这一主张。"},
-      {w:"sustainable",ipa:"/səˈsteɪnəbl/",cn:"可持续的",ex:"We need sustainable ways to use energy.",exCn:"我们需要可持续的能源使用方式。"},
-      {w:"typical",ipa:"/ˈtɪpɪkl/",cn:"典型的",ex:"This is a typical example of the problem.",exCn:"这是该问题的典型例子。"},
-      {w:"various",ipa:"/ˈveəriəs/",cn:"各种各样的",ex:"There are various ways to solve this problem.",exCn:"有各种各样的方法解决这个问题。"},
-      {w:"vital",ipa:"/ˈvaɪtl/",cn:"至关重要的",ex:"It is vital to stay calm in an emergency.",exCn:"紧急情况下保持冷静至关重要。"}
-    ],
-    "高考核心名词": [
-      {w:"access",ipa:"/ˈækses/",cn:"通道；使用权",ex:"Students should have access to good books.",exCn:"学生应该有机会接触好书。"},
-      {w:"approach",ipa:"/əˈprəʊtʃ/",cn:"方法；接近",ex:"We need a new approach to the problem.",exCn:"我们需要解决问题的新方法。"},
-      {w:"aspect",ipa:"/ˈæspekt/",cn:"方面",ex:"We should consider every aspect of the plan.",exCn:"我们应该考虑计划的各个方面。"},
-      {w:"attitude",ipa:"/ˈætɪtjuːd/",cn:"态度",ex:"A positive attitude can change everything.",exCn:"积极的态度可以改变一切。"},
-      {w:"awareness",ipa:"/əˈweənəs/",cn:"意识",ex:"Public awareness of environmental protection is growing.",exCn:"公众的环保意识正在增强。"},
-      {w:"benefit",ipa:"/ˈbenɪfɪt/",cn:"益处",ex:"The benefits of exercise are well known.",exCn:"锻炼的益处众所周知。"},
-      {w:"capacity",ipa:"/kəˈpæsəti/",cn:"能力；容量",ex:"The hall has a capacity of 500 people.",exCn:"大厅可容纳500人。"},
-      {w:"consequence",ipa:"/ˈkɒnsɪkwəns/",cn:"后果",ex:"We must consider the consequences of our actions.",exCn:"我们必须考虑行为的后果。"},
-      {w:"contribution",ipa:"/ˌkɒntrɪˈbjuːʃn/",cn:"贡献",ex:"He made a great contribution to science.",exCn:"他为科学做出了巨大贡献。"},
-      {w:"evidence",ipa:"/ˈevɪdəns/",cn:"证据",ex:"There is strong evidence to support the theory.",exCn:"有强有力的证据支持这一理论。"},
-      {w:"factor",ipa:"/ˈfæktə(r)/",cn:"因素",ex:"Many factors affect the final result.",exCn:"许多因素影响最终结果。"},
-      {w:"impact",ipa:"/ˈɪmpækt/",cn:"影响；冲击",ex:"The decision will have a big impact on the company.",exCn:"这个决定将对公司产生重大影响。"},
-      {w:"issue",ipa:"/ˈɪʃuː/",cn:"问题；议题",ex:"Climate change is a global issue.",exCn:"气候变化是全球性问题。"},
-      {w:"perspective",ipa:"/pəˈspektɪv/",cn:"视角；观点",ex:"Try to see the problem from another perspective.",exCn:"试着从另一个角度看这个问题。"},
-      {w:"priority",ipa:"/praɪˈɒrəti/",cn:"优先事项",ex:"Safety should be our top priority.",exCn:"安全应该是我们的首要任务。"},
-      {w:"process",ipa:"/ˈprəʊses/",cn:"过程；加工",ex:"Learning is a long process.",exCn:"学习是一个漫长的过程。"},
-      {w:"resource",ipa:"/rɪˈsɔːs/",cn:"资源",ex:"Water is a limited resource.",exCn:"水是有限的资源。"},
-      {w:"solution",ipa:"/səˈluːʃn/",cn:"解决方案",ex:"We are looking for a practical solution.",exCn:"我们正在寻找切实可行的解决方案。"},
-      {w:"strategy",ipa:"/ˈstrætədʒi/",cn:"策略",ex:"We need a better strategy to win the game.",exCn:"我们需要更好的策略来赢得比赛。"},
-      {w:"tendency",ipa:"/ˈtendənsi/",cn:"趋势；倾向",ex:"There is a growing tendency to work from home.",exCn:"在家办公的趋势日益增长。"}
-    ],
-    "高考写作连接词": [
-      {w:"furthermore",ipa:"/ˌfɜːðəˈmɔː(r)/",cn:"此外；而且",ex:"The plan is practical; furthermore, it is affordable.",exCn:"计划切实可行，而且价格合理。"},
-      {w:"nevertheless",ipa:"/ˌnevəðəˈles/",cn:"尽管如此",ex:"It was difficult; nevertheless, she finished on time.",exCn:"虽然很难，尽管如此她还是按时完成了。"},
-      {w:"consequently",ipa:"/ˈkɒnsɪkwəntli/",cn:"因此；结果",ex:"He didn't study; consequently he failed the exam.",exCn:"他没学习，结果考试不及格。"},
-      {w:"meanwhile",ipa:"/ˈmiːnwaɪl/",cn:"与此同时",ex:"I was cooking; meanwhile, he set the table.",exCn:"我在做饭，与此同时他在摆桌子。"},
-      {w:"otherwise",ipa:"/ˈʌðəwaɪz/",cn:"否则",ex:"Hurry up, otherwise you will miss the train.",exCn:"快点，否则你会错过火车。"},
-      {w:"whereas",ipa:"/ˌweərˈæz/",cn:"然而；而",ex:"He likes tea, whereas she prefers coffee.",exCn:"他喜欢茶，而她更喜欢咖啡。"},
-      {w:"regardless",ipa:"/rɪˈɡɑːdləs/",cn:"不管；不顾",ex:"We will go regardless of the weather.",exCn:"不管天气如何我们都会去。"},
-      {w:"eventually",ipa:"/ɪˈventʃuəli/",cn:"最终",ex:"Eventually they reached an agreement.",exCn:"最终他们达成了协议。"},
-      {w:"initially",ipa:"/ɪˈnɪʃəli/",cn:"最初",ex:"Initially I found the course difficult.",exCn:"最初我发现这门课很难。"},
-      {w:"particularly",ipa:"/pəˈtɪkjələli/",cn:"尤其；特别",ex:"I enjoy sports, particularly swimming.",exCn:"我喜欢运动，尤其是游泳。"},
-      {w:"specifically",ipa:"/spəˈsɪfɪkli/",cn:"具体地；特别地",ex:"She asked specifically for this book.",exCn:"她特别要求要这本书。"},
-      {w:"additionally",ipa:"/əˈdɪʃənəli/",cn:"另外",ex:"Additionally, we need to consider the cost.",exCn:"另外，我们还需要考虑成本。"},
-      {w:"similarly",ipa:"/ˈsɪmələli/",cn:"同样地",ex:"Similarly, this method can be used in other situations.",exCn:"同样地，这种方法可以用在其他情况。"},
-      {w:"ultimately",ipa:"/ˈʌltɪmətli/",cn:"最终；根本上",ex:"Ultimately, the decision is yours.",exCn:"最终，决定权在你。"},
-      {w:"apparently",ipa:"/əˈpærəntli/",cn:"显然；似乎",ex:"Apparently, the plan has been changed.",exCn:"显然，计划已经改变了。"}
-    ]
-  }
-};
-
-/* ============================================================
-   文章数据：按主题分类，持续扩展中
-   ============================================================ */
-const ARTICLE_DATA = {
-  junior: [
-    {
-      id:"j1", cat:"自然环保", title:"🌲 Trees That Talk — The Hidden Forest Network",
-      tags:["自然","科学","环保"], words:318,
-      hardWords:{
-        "communicate":{ipa:"/kəˈmjuːnɪkeɪt/",cn:"交流"},
-        "network":{ipa:"/ˈnetwɜːk/",cn:"网络"},
-        "nutrients":{ipa:"/ˈnjuːtriənts/",cn:"营养物质"},
-        "scientists":{ipa:"/ˈsaɪəntɪsts/",cn:"科学家"},
-        "underground":{ipa:"/ˌʌndəˈɡraʊnd/",cn:"地下的"},
-        "protect":{ipa:"/prəˈtekt/",cn:"保护"},
-        "environment":{ipa:"/ɪnˈvaɪrənmənt/",cn:"环境"},
-        "chemical":{ipa:"/ˈkemɪkl/",cn:"化学的；化学物质"},
-        "warning":{ipa:"/ˈwɔːnɪŋ/",cn:"警告"},
-        "precious":{ipa:"/ˈpreʃəs/",cn:"珍贵的"}
-      },
-      content:`Have you ever walked through a forest and felt that the trees were somehow alive in a special way? 🔬 Scientists have discovered that trees can actually communicate with each other!
-
-Under the ground, trees are connected by a huge network of tiny roots and fungi. This underground network is sometimes called the “Wood Wide Web”. Through this network, trees can share water and nutrients. When a young tree is weak, older trees nearby can send it extra food to help it grow stronger. Isn’t that amazing? 🌳
-
-Trees also send warnings about danger. If insects attack one tree, it can send chemical signals through the air and the roots. Other trees receive the message and start producing special chemicals to protect themselves. In this way, the whole forest works together like a big family.
-
-Why is this important for us? Forests help clean the air we breathe and give us oxygen. They also provide homes for many animals and plants. When we cut down too many trees, we break this beautiful network. That is why it is so important to protect forests and plant more trees.
-
-Next time you walk in a park or a forest, take a moment to look at the trees. Remember that under your feet, they may be quietly talking to each other, sharing food, and helping their neighbours. Nature is full of secrets, and the more we learn, the more we understand how precious our environment is. Let’s all try to take better care of the green world around us! 🌍`,
-      translation:`你有没有走过森林，感觉树木以某种特殊的方式活着？🔬 科学家们已经发现，树木其实可以互相交流！
-
-在地下，树木通过由细小根须和真菌组成的巨大网络连接在一起。这个地下网络有时被称为“树木互联网”。通过这个网络，树木可以分享水分和营养。当一棵小树较弱时，附近的大树可以给它额外的食物，帮助它长得更强壮。这是不是很神奇？🌳
-
-树木还会发出危险警告。如果昆虫攻击一棵树，它可以通过空气和根部发出化学信号。其他树木收到信息后，会开始产生特殊的化学物质来保护自己。这样，整片森林就像一个大家庭一样共同协作。
-
-这对我们为什么重要？森林帮助净化我们呼吸的空气，并提供氧气。它们还为许多动植物提供家园。当我们砍伐太多树木时，就会破坏这个美丽的网络。这就是为什么保护森林、多种树如此重要。
-
-下次你在公园或森林里散步时，花点时间看看那些树。记住，在你脚下，它们可能正在悄悄地互相交谈、分享食物、帮助邻居。大自然充满秘密，我们学得越多，就越能理解环境是多么珍贵。让我们都努力更好地照顾身边的绿色世界吧！🌍`,
-      questions:[
-        {q:"1. What is the “Wood Wide Web”?",options:["A network of roads in the forest","An underground network of roots and fungi that connects trees","A website about trees","A type of tree that grows under the ground"],answer:1,exp:"文章明确指出地下由根须和真菌组成的网络被称为 “Wood Wide Web”。"},
-        {q:"2. How do trees help a weak young tree?",options:["They cut it down","They send it extra food through the underground network","They move it to a better place","They stop growing themselves"],answer:1,exp:"文中提到 older trees can send it extra food to help it grow stronger。"},
-        {q:"3. What do trees do when insects attack one of them?",options:["They all fall down","They send chemical signals to warn other trees","They stop producing oxygen","They ask humans for help"],answer:1,exp:"Trees send chemical signals through the air and the roots to warn others。"},
-        {q:"4. Why should we protect forests according to the passage?",options:["Because trees are expensive","Because forests clean the air, provide oxygen and homes for animals","Because forests are only for decoration","Because trees can talk to people"],answer:1,exp:"文章强调森林净化空气、提供氧气和动物家园，因此需要保护。"}
-      ]
-    },
-    {
-      id:"j2", cat:"科技探索", title:"🚀 A Day of a Young Astronaut",
-      tags:["太空","梦想","科学"], words:312,
-      hardWords:{
-        "astronaut":{ipa:"/ˈæstrənɔːt/",cn:"宇航员"},
-        "gravity":{ipa:"/ˈɡrævəti/",cn:"重力"},
-        "experiment":{ipa:"/ɪkˈsperɪmənt/",cn:"实验"},
-        "spacecraft":{ipa:"/ˈspeɪskrɑːft/",cn:"航天器"},
-        "challenge":{ipa:"/ˈtʃælɪndʒ/",cn:"挑战"},
-        "training":{ipa:"/ˈtreɪnɪŋ/",cn:"训练"},
-        "explore":{ipa:"/ɪkˈsplɔː(r)/",cn:"探索"},
-        "universe":{ipa:"/ˈjuːnɪvɜːs/",cn:"宇宙"},
-        "schedule":{ipa:"/ˈʃedjuːl/",cn:"日程安排"},
-        "muscle":{ipa:"/ˈmʌsl/",cn:"肌肉"}
-      },
-      content:`Have you ever dreamed of becoming an astronaut and flying into space? 🌌 Let’s imagine a day in the life of a young astronaut on a space station.
-
-The day starts early. There is no sunrise or sunset in space the way we see them on Earth, but the astronaut still follows a schedule. First, she checks the systems of the spacecraft to make sure everything is working well. Then she has breakfast. In space, food comes in special packages, and there is no gravity, so drinks and crumbs float around if you are not careful!
-
-After breakfast, the astronaut begins her science experiments. She may study how plants grow without gravity, or how the human body changes in space. These experiments help scientists on Earth understand more about life and prepare for future journeys to the Moon or Mars. 🔬
-
-In the afternoon, she does physical training. Living without gravity makes muscles and bones weaker, so astronauts must exercise every day on special machines. It is hard work, but necessary to stay healthy.
-
-Later, she may look out of the window. From space, the Earth looks beautiful — blue oceans, white clouds, and green land. There are no borders visible. Many astronauts say this view makes them feel how important it is to protect our planet. 🌍
-
-In the evening, she talks with her family on Earth through video calls and writes in her journal. Before sleeping, she looks at the stars and thinks about how far humans have come, and how much more there is still to explore in the universe.
-
-Being an astronaut is full of challenges, but it is also one of the most exciting jobs in the world. Who knows? Maybe one day you will be the one floating among the stars! ✨`,
-      translation:`你有没有梦想过成为宇航员，飞向太空？🌌 让我们想象一下一位年轻宇航员在空间站的一天。
-
-一天很早开始。太空中没有我们在地球上看到的那种日出日落，但宇航员仍然遵循作息时间。首先，她检查航天器的系统，确保一切正常。然后吃早餐。在太空中，食物装在特殊包装里，没有重力，所以如果不小心，饮料和碎屑会飘得到处都是！
-
-早餐后，宇航员开始科学实验。她可能研究植物在没有重力的情况下如何生长，或者人体在太空中如何变化。这些实验帮助地球上的科学家更多地了解生命，并为未来前往月球或火星的旅程做准备。🔬
-
-下午，她进行体能训练。没有重力的生活会让肌肉和骨骼变弱，所以宇航员必须每天在特殊机器上锻炼。这很辛苦，但对保持健康很有必要。
-
-晚些时候，她可能会望向窗外。从太空看，地球美丽极了——蓝色的海洋、白色的云朵和绿色的陆地。看不到任何国界。许多宇航员说，这种景色让他们感受到保护我们星球是多么重要。🌍
-
-晚上，她通过视频通话与地球上的家人聊天，并写日记。睡觉前，她望着星星，思考人类已经走了多远，以及宇宙中还有多少值得探索的地方。
-
-成为宇航员充满挑战，但也是世界上最令人兴奋的工作之一。谁知道呢？也许有一天，飘浮在星空中的人就是你！✨`,
-      questions:[
-        {q:"1. Why do astronauts need to exercise every day in space?",options:["Because they want to become stronger than people on Earth","Because living without gravity makes muscles and bones weaker","Because there is too much free time","Because the food is not healthy"],answer:1,exp:"文中明确说明：Living without gravity makes muscles and bones weaker。"},
-        {q:"2. What can astronauts see when they look at the Earth from space?",options:["Only the dark side of the Earth","Blue oceans, white clouds and green land, with no visible borders","Many cities with bright lights only","Just the Moon and stars"],answer:1,exp:"From space, the Earth looks beautiful — blue oceans, white clouds, and green land. There are no borders visible。"},
-        {q:"3. What is one purpose of the science experiments on the space station?",options:["To make more food for astronauts","To help scientists understand life and prepare for future space journeys","To build a new spacecraft","To talk with family"],answer:1,exp:"These experiments help scientists on Earth understand more about life and prepare for future journeys to the Moon or Mars。"},
-        {q:"4. What does the passage mainly tell us?",options:["How to become an astronaut","A typical day of a young astronaut and why the job is meaningful","The history of space travel","How to grow plants on Earth"],answer:1,exp:"全文描述宇航员的一天，并强调其挑战与意义。"}
-      ]
-    },
-    {
-      id:"j3", cat:"成长习惯", title:"📚 The Magic Power of Reading",
-      tags:["阅读","成长","习惯"], words:308,
-      hardWords:{
-        "imagination":{ipa:"/ɪˌmædʒɪˈneɪʃn/",cn:"想象力"},
-        "knowledge":{ipa:"/ˈnɒlɪdʒ/",cn:"知识"},
-        "adventure":{ipa:"/ədˈventʃə(r)/",cn:"冒险"},
-        "character":{ipa:"/ˈkærəktə(r)/",cn:"人物；性格"},
-        "improve":{ipa:"/ɪmˈpruːv/",cn:"提高"},
-        "vocabulary":{ipa:"/vəˈkæbjələri/",cn:"词汇"},
-        "concentrate":{ipa:"/ˈkɒnsntreɪt/",cn:"集中注意力"},
-        "habit":{ipa:"/ˈhæbɪt/",cn:"习惯"},
-        "treasure":{ipa:"/ˈtreʒə(r)/",cn:"宝藏"},
-        "composition":{ipa:"/ˌkɒmpəˈzɪʃn/",cn:"作文"}
-      },
-      content:`Reading is like having a magic key that can open thousands of doors. 📖 With a book in your hand, you can travel to any place in the world, meet interesting people, and experience amazing adventures — all without leaving your chair!
-
-When you read a story, your imagination starts working. You can see the characters in your mind, hear their voices, and feel their feelings. A good book can make you laugh, cry, or think deeply about life. That is the special power of reading.
-
-Reading also helps you learn. Every book is full of new words and ideas. The more you read, the larger your vocabulary becomes, and the better you understand the world. Students who read a lot often find it easier to write good compositions and do well in exams, because they have more knowledge and better language skills.
-
-But reading is not only useful — it is also fun. There are books about animals, space, history, mystery, friendship, and almost everything else you can think of. You can choose what you like and enjoy it at your own speed. Unlike watching videos, reading lets you stop, think, and go back whenever you want.
-
-To become a good reader, you need to build a habit. Try to read for at least fifteen or twenty minutes every day. Find a quiet place, turn off your phone, and dive into the story. At first it may feel a little hard to concentrate, but soon you will find it hard to stop!
-
-Books are treasures that never grow old. The stories your grandparents loved can still touch your heart today. So open a book, and let the magic begin. Who knows what wonderful worlds you will discover next? ✨`,
-      translation:`阅读就像拥有一把能打开成千上万扇门的魔法钥匙。📖 手里拿着一本书，你可以去世界任何地方旅行，遇见有趣的人，体验奇妙的冒险——这一切都不需要离开你的椅子！
-
-当你读故事时，你的想象力开始运转。你可以在脑海中看到人物，听到他们的声音，感受他们的情感。一本好书可以让你开怀大笑、流泪，或者深入思考人生。这就是阅读的特殊力量。
-
-阅读还能帮助你学习。每本书都充满新单词和新想法。你读得越多，词汇量就越大，对世界的理解也越好。爱读书的学生往往更容易写出好作文、在考试中取得好成绩，因为他们知识更丰富，语言能力更强。
-
-但阅读不仅有用——它也很有趣。有关于动物、太空、历史、悬疑、友谊的书，几乎你能想到的一切都有。你可以选择自己喜欢的，按照自己的节奏去享受。与看视频不同，阅读可以让你随时停下来思考，或回过头再看。
-
-要成为一名好的读者，你需要养成习惯。试着每天至少读十五到二十分钟。找一个安静的地方，关掉手机，沉浸到故事中。一开始可能有点难集中注意力，但很快你就会发现停不下来！
-
-书是永不老去的宝藏。你祖父母曾经喜欢的故事，今天依然能触动你的心。所以打开一本书，让魔法开始吧。谁知道你接下来会发现怎样精彩的世界呢？✨`,
-      questions:[
-        {q:"1. According to the passage, what is the special power of reading?",options:["It can make you rich","It can make you laugh, cry or think deeply about life","It can replace all school lessons","It can help you sleep better only"],answer:1,exp:"文中说 A good book can make you laugh, cry, or think deeply about life. That is the special power of reading。"},
-        {q:"2. How does reading help students in their studies?",options:["It makes exams unnecessary","It increases vocabulary and knowledge, and improves writing and exam performance","It only helps with maths","It allows students to skip classes"],answer:1,exp:"The more you read, the larger your vocabulary becomes... students who read a lot often find it easier to write good compositions and do well in exams。"},
-        {q:"3. What advice does the writer give to become a good reader?",options:["Read only difficult books","Build a daily reading habit of at least 15–20 minutes in a quiet place","Read only on the phone","Never stop reading even when tired"],answer:1,exp:"Try to read for at least fifteen or twenty minutes every day. Find a quiet place..."},
-        {q:"4. Why does the writer compare books to treasures?",options:["Because books are expensive","Because good stories never grow old and can still touch people’s hearts","Because books are made of gold","Because only rich people can buy books"],answer:1,exp:"Books are treasures that never grow old. The stories your grandparents loved can still touch your heart today。"}
-      ]
-    },
-    {
-      id:"j4", cat:"自然环保", title:"🌊 Why the Ocean Matters to Us All",
-      tags:["海洋","环保","科学"], words:305,
-      hardWords:{
-        "oxygen":{ipa:"/ˈɒksɪdʒən/",cn:"氧气"},
-        "climate":{ipa:"/ˈklaɪmət/",cn:"气候"},
-        "pollution":{ipa:"/pəˈluːʃn/",cn:"污染"},
-        "plastic":{ipa:"/ˈplæstɪk/",cn:"塑料"},
-        "ecosystem":{ipa:"/ˈiːkəʊsɪstəm/",cn:"生态系统"},
-        "temperature":{ipa:"/ˈtemprətʃə(r)/",cn:"温度"},
-        "protect":{ipa:"/prəˈtekt/",cn:"保护"},
-        "recycle":{ipa:"/ˌriːˈsaɪkl/",cn:"回收利用"},
-        "habitat":{ipa:"/ˈhæbɪtæt/",cn:"栖息地"},
-        "balance":{ipa:"/ˈbæləns/",cn:"平衡"}
-      },
-      content:`The ocean covers more than 70 percent of the Earth’s surface. It is not just a beautiful blue place for swimming or fishing — it is essential for life on our planet. 🌊
-
-First, the ocean produces a large part of the oxygen we breathe. Tiny plants called phytoplankton live near the surface and make oxygen through photosynthesis, just like trees on land. Without the ocean, the air would not have enough oxygen for humans and animals.
-
-Second, the ocean helps control the Earth’s climate. It absorbs heat from the sun and moves that heat around the world through ocean currents. This keeps temperatures more stable in many places. The ocean also takes in a lot of carbon dioxide, which helps slow down climate change.
-
-However, the ocean is facing serious problems. Plastic pollution is one of the biggest threats. Millions of tons of plastic enter the ocean every year. Sea animals often mistake plastic for food, which can kill them. Oil spills and chemical waste also harm the ocean ecosystem.
-
-What can we do? We can reduce the use of single-use plastic bags and bottles. We can recycle more and join beach clean-up activities. Even small actions, when done by many people, can make a big difference.
-
-The ocean is our shared home. Protecting it means protecting ourselves and the future of our children. Let’s start today! 🌍`,
-      translation:`海洋覆盖了地球表面超过70%的面积。它不仅仅是游泳或钓鱼的美丽蓝色地方——它对地球上的生命至关重要。🌊
-
-首先，海洋产生了我们呼吸的大部分氧气。被称为浮游植物的微小植物生活在表层，通过光合作用制造氧气，就像陆地上的树木一样。没有海洋，空气就不会有足够的氧气供人类和动物呼吸。
-
-其次，海洋帮助控制地球气候。它吸收太阳的热量，并通过洋流将热量在全球范围内移动。这使许多地方的温度更稳定。海洋还吸收大量二氧化碳，有助于减缓气候变化。
-
-然而，海洋正面临严重问题。塑料污染是最大的威胁之一。每年有数百万吨塑料进入海洋。海洋动物经常把塑料误当成食物，这可能杀死它们。石油泄漏和化学废物也会危害海洋生态系统。
-
-我们能做什么？我们可以减少使用一次性塑料袋和瓶子。我们可以更多地回收，并参加海滩清洁活动。即使是小行动，当许多人一起做时，也能产生巨大影响。
-
-海洋是我们共同的家。保护它意味着保护我们自己和孩子们的未来。让我们从今天开始吧！🌍`,
-      questions:[
-        {q:"1. How does the ocean help us breathe?",options:["It produces most of the oxygen through phytoplankton","It filters dirty air","It only provides water","It has no effect on oxygen"],answer:0,exp:"Tiny plants called phytoplankton... make oxygen through photosynthesis。"},
-        {q:"2. What is one way the ocean helps control climate?",options:["By producing more clouds only","By absorbing heat and moving it through currents, and taking in carbon dioxide","By stopping all rain","By making the Earth colder everywhere"],answer:1,exp:"It absorbs heat... through ocean currents... also takes in a lot of carbon dioxide。"},
-        {q:"3. What is mentioned as a major threat to the ocean?",options:["Too many fish","Plastic pollution","Too much sunshine","Lack of water"],answer:1,exp:"Plastic pollution is one of the biggest threats。"},
-        {q:"4. What does the writer suggest we can do?",options:["Stop using the ocean","Reduce single-use plastic, recycle more and join clean-ups","Only swim in clean areas","Ignore the problem"],answer:1,exp:"We can reduce the use of single-use plastic... recycle more and join beach clean-up activities。"}
-      ]
-    },
-    {
-      id:"j5", cat:"人物故事", title:"💡 The Story of a Young Inventor",
-      tags:["发明","励志","科技"], words:310,
-      hardWords:{
-        "inventor":{ipa:"/ɪnˈventə(r)/",cn:"发明家"},
-        "invention":{ipa:"/ɪnˈvenʃn/",cn:"发明"},
-        "experiment":{ipa:"/ɪkˈsperɪmənt/",cn:"实验"},
-        "failure":{ipa:"/ˈfeɪljə(r)/",cn:"失败"},
-        "success":{ipa:"/səkˈses/",cn:"成功"},
-        "curious":{ipa:"/ˈkjʊəriəs/",cn:"好奇的"},
-        "encourage":{ipa:"/ɪnˈkʌrɪdʒ/",cn:"鼓励"},
-        "improve":{ipa:"/ɪmˈpruːv/",cn:"改进"},
-        "patient":{ipa:"/ˈpeɪʃnt/",cn:"有耐心的"},
-        "achieve":{ipa:"/əˈtʃiːv/",cn:"实现"}
-      },
-      content:`When Li Ming was twelve years old, he loved taking apart old machines to see how they worked. His parents sometimes worried, but they always encouraged his curiosity. One day he decided to invent something useful for his grandmother, who had trouble walking in the dark.
-
-After many experiments and failures, Li Ming finally made a simple walking stick that could light up automatically when it got dark. He used an old flashlight, some sensors, and a lot of patience. When his grandmother tried it, she was so happy that she cried.
-
-The invention won a prize in a school science competition. Teachers and classmates were amazed. But Li Ming said the real success was not the prize — it was seeing his grandmother walk more safely at night.
-
-This story teaches us something important. Great inventions often start with a small wish to help someone. Failure is not the end; it is part of the process. If we stay curious, keep trying, and care about others, we may also achieve something meaningful.
-
-Today Li Ming is still inventing. He believes that every young person has the power to create and to make the world a little better. What will you invent? 💡`,
-      translation:`李明十二岁时，喜欢拆开旧机器看它们如何工作。父母有时会担心，但总是鼓励他的好奇心。有一天，他决定为走路在黑暗中有困难的奶奶发明一些有用的东西。
-
-经过多次实验和失败后，李明终于做出了一根简单的拐杖，天黑时能自动亮灯。他用了一个旧手电筒、一些传感器和大量耐心。当奶奶试用时，她高兴得哭了。
-
-这项发明在学校科学竞赛中获奖。老师和同学都感到惊讶。但李明说真正的成功不是奖项——而是看到奶奶晚上走路更安全。
-
-这个故事告诉我们一些重要的事情。伟大的发明往往始于帮助某人的小小愿望。失败不是终点，而是过程的一部分。如果我们保持好奇、继续尝试并关心他人，我们也可能实现有意义的事情。
-
-今天李明仍在发明。他相信每个年轻人都有创造的力量，都能让世界变得好一点。你会发明什么呢？💡`,
-      questions:[
-        {q:"1. Why did Li Ming invent the walking stick?",options:["To win a prize","To help his grandmother walk safely in the dark","To sell it for money","To impress his teachers"],answer:1,exp:"he decided to invent something useful for his grandmother, who had trouble walking in the dark。"},
-        {q:"2. What does the story mainly teach us?",options:["Only adults can invent","Failure is the end of everything","Great inventions often start with a wish to help others, and failure is part of the process","Prizes are the most important thing"],answer:2,exp:"Great inventions often start with a small wish to help someone. Failure is not the end; it is part of the process。"},
-        {q:"3. How did Li Ming’s parents react to his curiosity?",options:["They stopped him","They encouraged him","They ignored him","They were angry"],answer:1,exp:"they always encouraged his curiosity。"},
-        {q:"4. What was the real success for Li Ming?",options:["The money he earned","Seeing his grandmother walk more safely at night","Becoming famous","Getting a high score"],answer:1,exp:"the real success was not the prize — it was seeing his grandmother walk more safely at night。"}
-      ]
-    }
-  ],
-  senior: [
-    {
-      id:"s1", cat:"科学环境", title:"🌊 The Ocean as Earth’s Climate Engine",
-      tags:["气候","科学","环境"], words:338,
-      hardWords:{
-        "circulation":{ipa:"/ˌsɜːkjəˈleɪʃn/",cn:"循环"},
-        "absorb":{ipa:"/əbˈzɔːb/",cn:"吸收"},
-        "carbon":{ipa:"/ˈkɑːbən/",cn:"碳"},
-        "ecosystem":{ipa:"/ˈiːkəʊsɪstəm/",cn:"生态系统"},
-        "vulnerable":{ipa:"/ˈvʌlnərəbl/",cn:"脆弱的"},
-        "consequence":{ipa:"/ˈkɒnsɪkwəns/",cn:"后果"},
-        "mitigate":{ipa:"/ˈmɪtɪɡeɪt/",cn:"缓解"},
-        "sustainable":{ipa:"/səˈsteɪnəbl/",cn:"可持续的"},
-        "phenomenon":{ipa:"/fəˈnɒmɪnən/",cn:"现象"},
-        "regulate":{ipa:"/ˈreɡjuleɪt/",cn:"调节"}
-      },
-      content:`The ocean covers more than 70 percent of our planet’s surface, yet many people still think of it mainly as a place for swimming or fishing. In reality, the ocean is one of the most powerful climate regulators on Earth. 🔬
-
-Ocean currents, driven by wind, temperature differences and the Earth’s rotation, move huge amounts of heat around the globe. Warm water travels from the equator toward the poles, while cold water returns toward the tropics. This continuous circulation helps keep temperatures in many regions moderate and stable. Without it, some places would be much hotter and others much colder.
-
-The ocean also absorbs a large share of the carbon dioxide that human activities release into the atmosphere. Phytoplankton — tiny plant-like organisms floating near the surface — take in carbon during photosynthesis. When they die, some of that carbon sinks to the deep ocean, where it can remain locked away for centuries. In this way, the ocean acts as a giant carbon sink that slows the pace of global warming.
-
-However, this vital system is under growing pressure. Rising temperatures cause seawater to expand and ice sheets to melt, contributing to sea-level rise. Warmer water holds less oxygen and can harm coral reefs and other marine ecosystems. At the same time, the ocean’s ability to absorb extra carbon is not unlimited; as it takes in more CO₂, the water becomes more acidic, threatening shellfish and the food chains that depend on them.
-
-Understanding these processes is essential if we want to mitigate climate change. Protecting marine ecosystems, reducing greenhouse-gas emissions and supporting sustainable fishing are all part of the solution. The ocean is not just a beautiful blue landscape — it is a dynamic engine that helps keep our planet livable. The more we learn about it, the clearer it becomes that caring for the ocean means caring for ourselves. 🌍`,
-      translation:`海洋覆盖了地球表面超过70%的面积，但许多人仍主要把它当作游泳或钓鱼的地方。实际上，海洋是地球上最强大的气候调节器之一。🔬
-
-由风、温度差异和地球自转驱动的洋流，在全球范围内输送着大量热量。温暖的海水从赤道流向两极，而冷水则返回热带。这种持续的循环有助于使许多地区的温度保持温和稳定。如果没有它，有些地方会热得多，另一些地方则冷得多。
-
-海洋还吸收了人类活动释放到大气中的大量二氧化碳。浮游植物——漂浮在表层的微小植物样生物——在光合作用过程中吸收碳。当它们死亡后，部分碳会沉入深海，并可能在那里封存数百年。这样，海洋就像一个巨大的碳汇，减缓了全球变暖的速度。
-
-然而，这个至关重要的系统正承受着越来越大的压力。气温上升导致海水膨胀、冰盖融化，从而加剧海平面上升。温暖的海水含氧量更低，并可能伤害珊瑚礁和其他海洋生态系统。同时，海洋吸收额外碳的能力并非无限；随着它吸收更多二氧化碳，海水会变得更酸，威胁贝类以及依赖它们的食物链。
-
-如果我们想缓解气候变化，理解这些过程至关重要。保护海洋生态系统、减少温室气体排放、支持可持续捕捞，都是解决方案的一部分。海洋不仅仅是美丽的蓝色风景——它是帮助维持我们星球宜居的动力引擎。我们对它了解得越多，就越清楚：关爱海洋就是关爱我们自己。🌍`,
-      questions:[
-        {q:"1. What is one major role of ocean currents mentioned in the passage?",options:["They produce most of the world’s oxygen","They move heat around the globe and help keep regional temperatures moderate","They prevent all storms from forming","They only affect the temperature of the poles"],answer:1,exp:"Ocean currents move huge amounts of heat... This continuous circulation helps keep temperatures in many regions moderate and stable。"},
-        {q:"2. How does the ocean help slow global warming?",options:["By reflecting all sunlight back into space","By absorbing a large share of carbon dioxide and storing some of it in the deep ocean","By producing more clouds","By cooling the land directly"],answer:1,exp:"The ocean absorbs a large share of the carbon dioxide... some of that carbon sinks to the deep ocean..."},
-        {q:"3. What negative effect does increased CO₂ absorption have on the ocean?",options:["It makes the water colder","It makes the water more acidic, threatening shellfish and related food chains","It increases the number of fish","It has no negative effects"],answer:1,exp:"as it takes in more CO₂, the water becomes more acidic, threatening shellfish and the food chains..."},
-        {q:"4. What is the main purpose of the passage?",options:["To describe popular beach activities","To explain the ocean’s role in regulating climate and why protecting it matters","To argue that oceans are more important than forests","To teach readers how to fish sustainably only"],answer:1,exp:"全文核心是海洋作为气候调节器的作用及保护的必要性。"},
-        {q:"5. Which of the following is suggested as part of the solution?",options:["Increasing greenhouse-gas emissions","Protecting marine ecosystems and reducing emissions","Ignoring sea-level rise","Stopping all scientific research on the ocean"],answer:1,exp:"Protecting marine ecosystems, reducing greenhouse-gas emissions and supporting sustainable fishing are all part of the solution。"}
-      ]
-    },
-    {
-      id:"s2", cat:"心理成长", title:"🧠 How Habits Quietly Shape Our Future",
-      tags:["心理","成长","习惯"], words:328,
-      hardWords:{
-        "automatic":{ipa:"/ˌɔːtəˈmætɪk/",cn:"自动的"},
-        "reinforce":{ipa:"/ˌriːɪnˈfɔːs/",cn:"强化"},
-        "discipline":{ipa:"/ˈdɪsəplɪn/",cn:"自律"},
-        "motivation":{ipa:"/ˌməʊtɪˈveɪʃn/",cn:"动机"},
-        "consistent":{ipa:"/kənˈsɪstənt/",cn:"持续的"},
-        "identity":{ipa:"/aɪˈdentəti/",cn:"身份认同"},
-        "transform":{ipa:"/trænsˈfɔːm/",cn:"转变"},
-        "compound":{ipa:"/ˈkɒmpaʊnd/",cn:"累积的"},
-        "intentional":{ipa:"/ɪnˈtenʃənl/",cn:"有意的"},
-        "resilience":{ipa:"/rɪˈzɪliəns/",cn:"韧性"}
-      },
-      content:`We often think of success as the result of big decisions or sudden inspiration. In truth, much of who we become is shaped by the small, repeated actions we take every day — our habits. 🔄
-
-A habit is a behaviour that has become automatic through repetition. When you first learn to ride a bicycle or type on a keyboard, every movement requires attention. With practice, the brain creates stronger neural pathways, and the action becomes almost effortless. The same process applies to studying, exercising, reading, or even negative patterns like procrastination.
-
-Because habits run largely on autopilot, they can work for us or against us. A student who reviews notes for twenty minutes every evening is quietly building knowledge and confidence. Another student who checks social media first thing every morning may be reinforcing distraction. Over months and years, these tiny differences compound into very different results.
-
-Changing a habit is possible, but it usually requires more than motivation alone. Motivation comes and goes; systems and environment matter more. Making the desired behaviour easier (for example, putting a book on your pillow) and the unwanted behaviour harder (leaving the phone in another room) increases the chance of success. Tracking progress and celebrating small wins also helps reinforce the new pattern.
-
-Perhaps the deepest power of habits lies in identity. When you repeatedly act like a reader, a runner, or a careful thinker, you begin to see yourself that way. The behaviour and the self-image support each other. In this sense, habits do not just change what we do — they gradually transform who we believe we are.
-
-Building good habits is therefore an act of long-term self-respect. It is not about perfection, but about consistent, intentional effort. The person you will be in five years is being shaped by the habits you practise today. Choose them wisely. 🌱`,
-      translation:`我们常常认为成功来自大的决定或突然的灵感。实际上，我们成为什么样的人，很大程度上是由每天重复的小行动——我们的习惯——塑造的。🔄
-
-习惯是一种通过重复变得自动化的行为。当你第一次学骑自行车或打字时，每一个动作都需要注意力。通过练习，大脑会建立更强的神经通路，动作几乎变得不费力。同样的过程也适用于学习、锻炼、阅读，甚至像拖延这样的负面模式。
-
-因为习惯很大程度上在“自动驾驶”状态下运行，它们既可以为我们服务，也可能与我们作对。一个每天晚上复习二十分钟笔记的学生，正在悄悄积累知识和自信。另一个每天早上第一件事就刷社交媒体的学生，可能在强化分心。几个月、几年后，这些微小的差异会累积成截然不同的结果。
-
-改变习惯是可能的，但通常需要的不只是动机。动机来了又走；系统和环境更重要。让期望的行为更容易（比如把书放在枕头上），让不想要的行为更难（把手机放在另一个房间），会提高成功的几率。记录进度并庆祝小胜利也有助于强化新模式。
-
-也许习惯最深层的力量在于身份认同。当你反复表现得像一个读者、跑步者或谨慎的思考者时，你开始以这种方式看待自己。行为与自我形象相互支持。从这个意义上说，习惯不仅改变我们做什么——它们逐渐转变我们认为自己是谁。
-
-因此，培养好习惯是一种长期的自我尊重。它不关乎完美，而关乎持续、有意识的努力。五年后的你，正被你今天实践的习惯所塑造。请明智地选择它们。🌱`,
-      questions:[
-        {q:"1. According to the passage, what mainly shapes who we become?",options:["Only big life decisions","Sudden inspiration","The small, repeated actions we take every day — our habits","Luck and talent alone"],answer:2,exp:"much of who we become is shaped by the small, repeated actions we take every day — our habits。"},
-        {q:"2. Why can habits work for us or against us?",options:["Because they are always positive","Because they run largely on autopilot and can reinforce either useful or harmful patterns","Because habits never change","Because only bad habits become automatic"],answer:1,exp:"Because habits run largely on autopilot, they can work for us or against us。"},
-        {q:"3. What does the writer suggest is more reliable than motivation for changing habits?",options:["Waiting for the right mood","Systems and environment that make good behaviours easier and bad ones harder","Only reading books about success","Changing everything overnight"],answer:1,exp:"Motivation comes and goes; systems and environment matter more。"},
-        {q:"4. How do habits relate to identity according to the passage?",options:["Habits have no connection to identity","Repeated behaviours gradually shape how we see ourselves, and identity then supports the behaviour","Identity is fixed at birth","Only other people define our identity"],answer:1,exp:"When you repeatedly act like a reader... you begin to see yourself that way. The behaviour and the self-image support each other。"}
-      ]
-    },
-    {
-      id:"s3", cat:"社会科技", title:"📱 The Double-Edged Sword of Social Media",
-      tags:["媒体","社会","青年"], words:320,
-      hardWords:{
-        "influence":{ipa:"/ˈɪnfluəns/",cn:"影响"},
-        "addiction":{ipa:"/əˈdɪkʃn/",cn:"上瘾"},
-        "privacy":{ipa:"/ˈprɪvəsi/",cn:"隐私"},
-        "comparison":{ipa:"/kəmˈpærɪsn/",cn:"比较"},
-        "anxiety":{ipa:"/æŋˈzaɪəti/",cn:"焦虑"},
-        "opportunity":{ipa:"/ˌɒpəˈtjuːnəti/",cn:"机会"},
-        "critical":{ipa:"/ˈkrɪtɪkl/",cn:"批判的"},
-        "balance":{ipa:"/ˈbæləns/",cn:"平衡"},
-        "distraction":{ipa:"/dɪˈstrækʃn/",cn:"分心"},
-        "awareness":{ipa:"/əˈweənəs/",cn:"意识"}
-      },
-      content:`Social media has become a central part of daily life for many teenagers. Platforms allow us to stay connected with friends, share ideas, and learn about the world. Yet this powerful tool is a double-edged sword. 📱
-
-On the positive side, social media can open doors. Students can join study groups, follow educational accounts, and discover new interests. During difficult times, online communities often provide emotional support. It can also give young people a voice on social issues that matter to them.
-
-However, the risks are real. Endless scrolling can waste time that could be spent on study, exercise or real-life conversation. Constant comparison with carefully edited lives online may increase anxiety and lower self-esteem. Privacy is another concern — personal information shared today may be hard to remove later. In some cases, social media use can even develop into a form of addiction.
-
-The key is not to reject social media completely, but to use it with awareness and balance. Setting time limits, turning off unnecessary notifications, and choosing content that truly adds value can help. It is also important to remember that what we see online is often only a small, polished part of reality.
-
-Critical thinking is essential. Before believing or sharing information, we should ask: Is this reliable? Who benefits from this message? Developing these habits early will serve us well in an increasingly digital world.
-
-Social media itself is neither purely good nor purely bad. How we choose to use it determines whether it becomes a helpful tool or a source of distraction. The power is in our hands. 🌱`,
-      translation:`社交媒体已成为许多青少年日常生活的核心部分。平台让我们与朋友保持联系、分享想法并了解世界。然而，这个强大的工具是一把双刃剑。📱
-
-从积极的一面看，社交媒体可以打开大门。学生可以加入学习小组、关注教育账号并发现新兴趣。在困难时期，在线社区常常提供情感支持。它也可以让年轻人在关心的社会问题上发出自己的声音。
-
-然而，风险是真实存在的。无休止的刷屏会浪费本可用于学习、锻炼或真实对话的时间。与网上精心编辑的生活不断比较，可能增加焦虑并降低自尊。隐私是另一个问题——今天分享的个人信息以后可能很难删除。在某些情况下，社交媒体使用甚至可能发展成一种上瘾。
-
-关键不是完全拒绝社交媒体，而是有意识和平衡地使用它。设定时间限制、关闭不必要的通知，并选择真正有价值的内容会有帮助。还要记住，我们在网上看到的往往只是现实中一小部分被美化的部分。
-
-批判性思维至关重要。在相信或分享信息之前，我们应该问：这可靠吗？谁从这条信息中获益？早早培养这些习惯将在日益数字化的世界中使我们受益。
-
-社交媒体本身既非纯粹好也非纯粹坏。我们如何选择使用它，决定了它会成为有用的工具还是分心的来源。力量在我们手中。🌱`,
-      questions:[
-        {q:"1. What does the writer mean by calling social media a “double-edged sword”?",options:["It is only dangerous","It has both positive and negative effects","It is completely useless","It is only for adults"],answer:1,exp:"Yet this powerful tool is a double-edged sword。后文分别论述了积极与消极方面。"},
-        {q:"2. Which of the following is mentioned as a risk of social media?",options:["It always improves study results","Endless scrolling can waste time and constant comparison may increase anxiety","It has no effect on privacy","It only helps people make friends"],answer:1,exp:"Endless scrolling can waste time... Constant comparison... may increase anxiety..."},
-        {q:"3. What does the writer suggest as a better way to use social media?",options:["Use it without any limits","Reject it completely","Use it with awareness, set time limits and choose valuable content","Only use it at night"],answer:2,exp:"The key is... to use it with awareness and balance. Setting time limits... choosing content that truly adds value..."},
-        {q:"4. Why is critical thinking important according to the passage?",options:["Because all online information is false","Because we should question reliability and who benefits before believing or sharing","Because we should never share anything","Because critical thinking is only for exams"],answer:1,exp:"Before believing or sharing information, we should ask: Is this reliable? Who benefits from this message?"}
-      ]
-    }
-  ]
-};
-
-/* ===== 状态与核心逻辑 ===== */
-let currentLevel = "junior";
-let currentMode = "words";
-let currentCat = null;
-let currentArtCat = "全部";
-let currentArticle = null;
-let userAnswers = {};
-
-function setLevel(level, btn) {
-  currentLevel = level;
-  document.querySelectorAll(".level-btn").forEach(b => {
-    b.classList.remove("active", "senior");
-    if (b.dataset.level === level) {
-      b.classList.add("active");
-      if (level === "senior") b.classList.add("senior");
-    }
-  });
-  currentCat = null;
-  currentArtCat = "全部";
-  if (currentMode === "words") renderWords();
-  else renderArtList();
-}
-
-function setMode(mode, btn) {
-  currentMode = mode;
-  document.querySelectorAll(".mode-btn").forEach(b => b.classList.toggle("active", b.dataset.mode === mode));
-  document.getElementById("wordsPanel").style.display = mode === "words" ? "block" : "none";
-  document.getElementById("readingPanel").style.display = mode === "reading" ? "block" : "none";
-  if (mode === "words") renderWords();
-  else {
-    document.getElementById("listView").style.display = "block";
-    document.getElementById("detailView").classList.remove("active");
-    renderArtList();
+const DATA_BASE='https://greatenglishbest-web.github.io/english-learning-app/data';
+const WORDS_URL=DATA_BASE+'/words.json';
+const ARTICLES_URL=DATA_BASE+'/articles.json';
+let WORD_DATA={},ARTICLE_DATA={},dataReady=false;
+let currentLevel='junior',currentMode='words',currentCat=null,currentArtCat='全部',currentArticle=null,userAnswers={};
+
+async function loadData(){
+  const status=document.getElementById('statusBar');
+  try{
+    const [wRes,aRes]=await Promise.all([fetch(WORDS_URL+'?t='+Date.now()),fetch(ARTICLES_URL+'?t='+Date.now())]);
+    if(!wRes.ok||!aRes.ok) throw new Error('HTTP '+wRes.status);
+    WORD_DATA=await wRes.json();
+    ARTICLE_DATA=await aRes.json();
+    dataReady=true;
+    status.innerText='数据来源：GitHub 云端（已成功加载）';
+    document.getElementById('loadingBox').style.display='none';
+    document.getElementById('wordsPanel').style.display='block';
+    renderWords();
+  }catch(e){
+    console.error(e);
+    status.innerText='云端加载失败，请检查网络或确认 JSON 文件已上传。';
+    document.getElementById('loadingBox').innerHTML='云端数据加载失败<br><small style="color:#94a3b8">请确认 data/words.json 和 data/articles.json 已正确上传到 GitHub</small>';
+    WORD_DATA={junior:{},senior:{}};
+    ARTICLE_DATA={junior:[],senior:[]};
+    dataReady=true;
   }
 }
 
-function speak(text, rate = 0.95) {
-  if (!("speechSynthesis" in window)) return;
+function setLevel(level,btn){
+  currentLevel=level;
+  document.querySelectorAll('.level-btn').forEach(b=>{b.classList.remove('active','senior');if(b.dataset.level===level){b.classList.add('active');if(level==='senior')b.classList.add('senior');}});
+  currentCat=null;currentArtCat='全部';
+  if(currentMode==='words')renderWords();else renderArtList();
+}
+function setMode(mode,btn){
+  currentMode=mode;
+  document.querySelectorAll('.mode-btn').forEach(b=>b.classList.toggle('active',b.dataset.mode===mode));
+  document.getElementById('wordsPanel').style.display=mode==='words'?'block':'none';
+  document.getElementById('readingPanel').style.display=mode==='reading'?'block':'none';
+  if(mode==='words')renderWords();
+  else{document.getElementById('listView').style.display='block';document.getElementById('detailView').classList.remove('active');renderArtList();}
+}
+function speak(text,rate=0.95){
+  if(!('speechSynthesis' in window))return;
   window.speechSynthesis.cancel();
-  const u = new SpeechSynthesisUtterance(text);
-  u.lang = "en-US";
-  u.rate = rate;
-  u.pitch = 1.05;
+  const u=new SpeechSynthesisUtterance(text);u.lang='en-US';u.rate=rate;u.pitch=1.05;
   window.speechSynthesis.speak(u);
 }
-function speakPopup(rate) {
-  speak(document.getElementById("pWord").innerText, rate);
-}
+function speakPopup(rate){speak(document.getElementById('pWord').innerText,rate);}
 
-/* ===== 单词渲染 ===== */
-function renderWords() {
-  const data = WORD_DATA[currentLevel];
-  const cats = Object.keys(data);
-  if (!currentCat || !cats.includes(currentCat)) currentCat = cats[0];
-  document.getElementById("catPills").innerHTML = cats.map(c =>
-    `<button class="pill ${c === currentCat ? "active" : ""}" onclick="selectCat('${c}')">${c}</button>`
-  ).join("");
-  filterWords();
-}
-function selectCat(cat) {
-  currentCat = cat;
-  renderWords();
-}
-function filterWords() {
-  const q = (document.getElementById("wordSearch").value || "").trim().toLowerCase();
-  const data = WORD_DATA[currentLevel];
-  let list = currentCat && data[currentCat] ? data[currentCat] : [];
-  if (!currentCat) Object.values(data).forEach(arr => list = list.concat(arr));
-  if (q) list = list.filter(item => item.w.toLowerCase().includes(q) || item.cn.includes(q) || (item.ex && item.ex.toLowerCase().includes(q)));
-  const total = Object.values(data).reduce((s, a) => s + a.length, 0);
-  document.getElementById("wordStats").innerHTML =
-    `<span>当前：${currentLevel === "junior" ? "中考" : "高考"} · ${currentCat} · 本类 ${list.length} 词</span>
-     <span style="color:#5eead4">词库总量约 ${total} 词（持续扩充中）</span>`;
-  const grid = document.getElementById("wordGrid");
-  if (!list.length) {
-    grid.innerHTML = `<div class="empty">没有找到匹配的单词，试试其他关键词吧～</div>`;
+function renderWords(){
+  if(!dataReady)return;
+  const data=WORD_DATA[currentLevel]||{};
+  const cats=Object.keys(data);
+  if(!cats.length){
+    document.getElementById('wordGrid').innerHTML='<div class="empty">暂无单词数据</div>';
+    document.getElementById('wordStats').innerText='当前无数据';
+    document.getElementById('catPills').innerHTML='';
     return;
   }
-  grid.innerHTML = list.map(item => `
+  if(!currentCat||!cats.includes(currentCat))currentCat=cats[0];
+  document.getElementById('catPills').innerHTML=cats.map(c=>`<button class="pill ${c===currentCat?'active':''}" onclick="selectCat('${c}')">${c}</button>`).join('');
+  filterWords();
+}
+function selectCat(cat){currentCat=cat;renderWords();}
+function filterWords(){
+  const q=(document.getElementById('wordSearch').value||'').trim().toLowerCase();
+  const data=WORD_DATA[currentLevel]||{};
+  let list=currentCat&&data[currentCat]?data[currentCat]:[];
+  if(q)list=list.filter(item=>item.w.toLowerCase().includes(q)||(item.cn&&item.cn.includes(q))||(item.ex&&item.ex.toLowerCase().includes(q)));
+  const total=Object.values(data).reduce((s,a)=>s+(a?a.length:0),0);
+  document.getElementById('wordStats').innerHTML=`<span>当前：${currentLevel==='junior'?'中考':'高考'} · ${currentCat||''} · 本类 ${list.length} 词</span><span style="color:#5eead4">词库总量 ${total} 词</span>`;
+  const grid=document.getElementById('wordGrid');
+  if(!list.length){grid.innerHTML='<div class="empty">没有找到匹配的单词</div>';return;}
+  grid.innerHTML=list.map(item=>`
     <div class="word-card">
       <div class="w-main">${item.w}</div>
-      <div class="w-ipa">${item.ipa}</div>
-      <div class="w-cn">${item.cn}</div>
-      <div class="w-ex" onclick="speak('${item.ex.replace(/'/g, "\\'")}', 0.9)" title="点击朗读例句">
-        <div class="en">${item.ex}</div>
-        <div class="cn">${item.exCn}</div>
+      <div class="w-ipa">${item.ipa||''}</div>
+      <div class="w-cn">${item.cn||''}</div>
+      <div class="w-ex" onclick="speak('${(item.ex||'').replace(/'/g,"\\'")}',0.9)">
+        <div class="en">${item.ex||''}</div>
+        <div class="cn">${item.exCn||''}</div>
         <div class="hint">🔊 点击例句可朗读</div>
       </div>
       <div class="w-actions">
-        <button class="btn btn-play" onclick="speak('${item.w}', 0.95)">🔊 常速</button>
-        <button class="btn btn-slow" onclick="speak('${item.w}', 0.58)">🐢 慢速</button>
+        <button class="btn btn-play" onclick="speak('${item.w}',0.95)">🔊 常速</button>
+        <button class="btn btn-slow" onclick="speak('${item.w}',0.58)">🐢 慢速</button>
       </div>
-    </div>
-  `).join("");
+    </div>`).join('');
 }
 
-/* ===== 阅读渲染 ===== */
-function renderArtList() {
-  const list = ARTICLE_DATA[currentLevel] || [];
-  const cats = ["全部", ...new Set(list.map(a => a.cat))];
-  document.getElementById("artCatPills").innerHTML = cats.map(c =>
-    `<button class="pill ${c === currentArtCat ? "active" : ""}" onclick="selectArtCat('${c}')">${c}</button>`
-  ).join("");
-  const filtered = currentArtCat === "全部" ? list : list.filter(a => a.cat === currentArtCat);
-  document.getElementById("artStats").innerText =
-    `${currentLevel === "junior" ? "中考" : "高考"}阶段 · ${currentArtCat} · 共 ${filtered.length} 篇（每篇≥300词，分类持续扩充）`;
-  const box = document.getElementById("artList");
-  if (!filtered.length) {
-    box.innerHTML = `<div class="empty">该分类暂无短文，请切换分类或级别～</div>`;
-    return;
-  }
-  box.innerHTML = filtered.map(a => `
+function renderArtList(){
+  if(!dataReady)return;
+  const list=ARTICLE_DATA[currentLevel]||[];
+  const cats=['全部',...new Set(list.map(a=>a.cat).filter(Boolean))];
+  document.getElementById('artCatPills').innerHTML=cats.map(c=>`<button class="pill ${c===currentArtCat?'active':''}" onclick="selectArtCat('${c}')">${c}</button>`).join('');
+  const filtered=currentArtCat==='全部'?list:list.filter(a=>a.cat===currentArtCat);
+  document.getElementById('artStats').innerText=`${currentLevel==='junior'?'中考':'高考'}阶段 · ${currentArtCat} · 共 ${filtered.length} 篇`;
+  const box=document.getElementById('artList');
+  if(!filtered.length){box.innerHTML='<div class="empty">该分类暂无短文</div>';return;}
+  box.innerHTML=filtered.map(a=>`
     <div class="art-card" onclick="openArticle('${a.id}')">
       <div class="t">${a.title}</div>
       <div class="meta">
-        <span class="tag words">${a.words} 词</span>
-        <span class="tag">${a.cat}</span>
-        ${a.tags.map(t => `<span class="tag">${t}</span>`).join("")}
+        <span class="tag words">${a.words||300} 词</span>
+        <span class="tag">${a.cat||''}</span>
+        ${(a.tags||[]).map(t=>`<span class="tag">${t}</span>`).join('')}
       </div>
-    </div>
-  `).join("");
+    </div>`).join('');
 }
-function selectArtCat(cat) {
-  currentArtCat = cat;
-  renderArtList();
-}
-function openArticle(id) {
-  const list = ARTICLE_DATA[currentLevel] || [];
-  currentArticle = list.find(a => a.id === id);
-  if (!currentArticle) return;
-  document.getElementById("listView").style.display = "none";
-  document.getElementById("detailView").classList.add("active");
-  document.getElementById("artTitle").innerText = currentArticle.title;
-  let html = currentArticle.content;
-  const hard = currentArticle.hardWords || {};
-  Object.keys(hard).sort((a, b) => b.length - a.length).forEach(w => {
-    const re = new RegExp(`\\b(${w})\\b`, "gi");
-    html = html.replace(re, (m) => {
-      const info = hard[w];
-      return `<span class="hard" data-word="${w}" data-ipa="${info.ipa}" data-cn="${info.cn}" onclick="showPopup(this)">${m}</span>`;
+function selectArtCat(cat){currentArtCat=cat;renderArtList();}
+function openArticle(id){
+  const list=ARTICLE_DATA[currentLevel]||[];
+  currentArticle=list.find(a=>a.id===id);
+  if(!currentArticle)return;
+  document.getElementById('listView').style.display='none';
+  document.getElementById('detailView').classList.add('active');
+  document.getElementById('artTitle').innerText=currentArticle.title;
+  let html=currentArticle.content||'';
+  const hard=currentArticle.hardWords||{};
+  Object.keys(hard).sort((a,b)=>b.length-a.length).forEach(w=>{
+    const re=new RegExp('\\b('+w+')\\b','gi');
+    html=html.replace(re,m=>{
+      const info=hard[w];
+      return `<span class="hard" data-word="${w}" data-ipa="${info.ipa||''}" data-cn="${info.cn||''}" onclick="showPopup(this)">${m}</span>`;
     });
   });
-  document.getElementById("artBody").innerHTML = html;
-  document.getElementById("artTrans").innerText = currentArticle.translation;
-  userAnswers = {};
-  document.getElementById("qBox").innerHTML = currentArticle.questions.map((q, qi) => `
+  document.getElementById('artBody').innerHTML=html;
+  document.getElementById('artTrans').innerText=currentArticle.translation||'';
+  userAnswers={};
+  const qs=currentArticle.questions||[];
+  document.getElementById('qBox').innerHTML=qs.map((q,qi)=>`
     <div class="q-card" id="qcard-${qi}">
       <div class="q-text">${q.q}</div>
-      ${q.options.map((opt, oi) => `
+      ${(q.options||[]).map((opt,oi)=>`
         <label class="q-opt" id="opt-${qi}-${oi}">
           <input type="radio" name="q${qi}" value="${oi}" onchange="userAnswers[${qi}]=${oi}">
           <span>${opt}</span>
-        </label>
-      `).join("")}
-    </div>
-  `).join("");
-  document.getElementById("scoreBanner").style.display = "none";
+        </label>`).join('')}
+    </div>`).join('');
+  document.getElementById('scoreBanner').style.display='none';
 }
-function backToList() {
-  document.getElementById("detailView").classList.remove("active");
-  document.getElementById("listView").style.display = "block";
-  currentArticle = null;
+function backToList(){
+  document.getElementById('detailView').classList.remove('active');
+  document.getElementById('listView').style.display='block';
+  currentArticle=null;
 }
-function showPopup(el) {
-  document.getElementById("pWord").innerText = el.dataset.word;
-  document.getElementById("pIpa").innerText = el.dataset.ipa;
-  document.getElementById("pCn").innerText = el.dataset.cn;
-  document.getElementById("popup").classList.add("show");
+function showPopup(el){
+  document.getElementById('pWord').innerText=el.dataset.word;
+  document.getElementById('pIpa').innerText=el.dataset.ipa;
+  document.getElementById('pCn').innerText=el.dataset.cn;
+  document.getElementById('popup').classList.add('show');
 }
-function closePopup() {
-  document.getElementById("popup").classList.remove("show");
-}
-function checkAnswers() {
-  if (!currentArticle) return;
-  const qs = currentArticle.questions;
-  let correct = 0;
-  qs.forEach((q, qi) => {
-    const selected = userAnswers[qi];
-    q.options.forEach((_, oi) => {
-      const el = document.getElementById(`opt-${qi}-${oi}`);
-      el.classList.remove("selected", "correct", "wrong");
-      if (oi === q.answer) el.classList.add("correct");
-      if (selected === oi && oi !== q.answer) el.classList.add("wrong");
-      if (selected === oi) el.classList.add("selected");
+function closePopup(){document.getElementById('popup').classList.remove('show');}
+function checkAnswers(){
+  if(!currentArticle)return;
+  const qs=currentArticle.questions||[];
+  let correct=0;
+  qs.forEach((q,qi)=>{
+    const selected=userAnswers[qi];
+    (q.options||[]).forEach((_,oi)=>{
+      const el=document.getElementById(`opt-${qi}-${oi}`);
+      if(!el)return;
+      el.classList.remove('selected','correct','wrong');
+      if(oi===q.answer)el.classList.add('correct');
+      if(selected===oi&&oi!==q.answer)el.classList.add('wrong');
+      if(selected===oi)el.classList.add('selected');
     });
-    if (selected === q.answer) correct++;
+    if(selected===q.answer)correct++;
   });
-  const total = qs.length;
-  const pct = Math.round(correct / total * 100);
-  const banner = document.getElementById("scoreBanner");
-  banner.style.display = "block";
-  banner.innerHTML = `得分：${correct} / ${total}（${pct}分）<br><small style="font-weight:600;color:#a7f3d0;">绿色为正确答案 · 红色为错选 · 可重读后再试</small>`;
-  qs.forEach((q, qi) => {
-    if (userAnswers[qi] !== q.answer) {
-      const card = document.getElementById(`qcard-${qi}`);
-      if (card && !card.querySelector(".exp")) {
-        const exp = document.createElement("div");
-        exp.className = "exp";
-        exp.style.cssText = "margin-top:8px;font-size:0.8rem;color:#fbbf24;line-height:1.4;";
-        exp.innerText = "💡 " + q.exp;
+  const total=qs.length,pct=total?Math.round(correct/total*100):0;
+  const banner=document.getElementById('scoreBanner');
+  banner.style.display='block';
+  banner.innerHTML=`得分：${correct} / ${total}（${pct}分）<br><small style="font-weight:600;color:#a7f3d0">绿色为正确答案 · 红色为错选</small>`;
+  qs.forEach((q,qi)=>{
+    if(userAnswers[qi]!==q.answer&&q.exp){
+      const card=document.getElementById(`qcard-${qi}`);
+      if(card&&!card.querySelector('.exp')){
+        const exp=document.createElement('div');
+        exp.className='exp';
+        exp.style.cssText='margin-top:8px;font-size:0.8rem;color:#fbbf24;line-height:1.4;';
+        exp.innerText='💡 '+q.exp;
         card.appendChild(exp);
       }
     }
   });
 }
-
-renderWords();
+loadData();
 </script>
 </body>
 </html>
