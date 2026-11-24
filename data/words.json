@@ -5375,6 +5375,1406 @@
         "cn": "赶上",
         "ex": "I need to catch up with my classmates.",
         "exCn": "我需要赶上同学。"
+      },
+      {
+        "w": "look for",
+        "ipa": "/lʊk fɔː(r)/",
+        "cn": "寻找",
+        "ex": "I'm looking for my keys.",
+        "exCn": "我在找钥匙。"
+      },
+      {
+        "w": "look out",
+        "ipa": "/lʊk aʊt/",
+        "cn": "小心",
+        "ex": "Look out! A car is coming.",
+        "exCn": "小心！车来了。"
+      },
+      {
+        "w": "take place",
+        "ipa": "/teɪk pleɪs/",
+        "cn": "发生",
+        "ex": "The meeting will take place tomorrow.",
+        "exCn": "会议明天举行。"
+      },
+      {
+        "w": "take up",
+        "ipa": "/teɪk ʌp/",
+        "cn": "开始从事；占据",
+        "ex": "She took up painting.",
+        "exCn": "她开始学画画。"
+      },
+      {
+        "w": "give out",
+        "ipa": "/ɡɪv aʊt/",
+        "cn": "分发",
+        "ex": "The teacher gave out the papers.",
+        "exCn": "老师发了试卷。"
+      },
+      {
+        "w": "give back",
+        "ipa": "/ɡɪv bæk/",
+        "cn": "归还",
+        "ex": "Please give the book back.",
+        "exCn": "请把书还回来。"
+      },
+      {
+        "w": "put away",
+        "ipa": "/pʊt əˈweɪ/",
+        "cn": "收好",
+        "ex": "Put away your toys.",
+        "exCn": "把玩具收好。"
+      },
+      {
+        "w": "put up",
+        "ipa": "/pʊt ʌp/",
+        "cn": "举起；搭建",
+        "ex": "They put up a tent.",
+        "exCn": "他们搭起了帐篷。"
+      },
+      {
+        "w": "get up",
+        "ipa": "/ɡet ʌp/",
+        "cn": "起床",
+        "ex": "I get up at six.",
+        "exCn": "我六点起床。"
+      },
+      {
+        "w": "get on",
+        "ipa": "/ɡet ɒn/",
+        "cn": "上车；进展",
+        "ex": "Get on the bus quickly.",
+        "exCn": "快上车。"
+      },
+      {
+        "w": "get off",
+        "ipa": "/ɡet ɒf/",
+        "cn": "下车",
+        "ex": "Get off at the next stop.",
+        "exCn": "下一站下车。"
+      },
+      {
+        "w": "get along with",
+        "ipa": "/ɡet əˈlɒŋ wɪð/",
+        "cn": "与…相处",
+        "ex": "She gets along well with classmates.",
+        "exCn": "她和同学相处很好。"
+      },
+      {
+        "w": "get ready for",
+        "ipa": "/ɡet ˈredi fɔː(r)/",
+        "cn": "为…做准备",
+        "ex": "Get ready for the exam.",
+        "exCn": "为考试做准备。"
+      },
+      {
+        "w": "come true",
+        "ipa": "/kʌm truː/",
+        "cn": "实现",
+        "ex": "His dream came true.",
+        "exCn": "他的梦想实现了。"
+      },
+      {
+        "w": "run after",
+        "ipa": "/rʌn ˈɑːftə(r)/",
+        "cn": "追赶",
+        "ex": "The dog ran after the ball.",
+        "exCn": "狗追着球跑。"
+      },
+      {
+        "w": "set off",
+        "ipa": "/set ɒf/",
+        "cn": "出发",
+        "ex": "We set off early.",
+        "exCn": "我们早早出发。"
+      },
+      {
+        "w": "carry out",
+        "ipa": "/ˈkæri aʊt/",
+        "cn": "执行",
+        "ex": "Carry out the plan.",
+        "exCn": "执行计划。"
+      },
+      {
+        "w": "pick out",
+        "ipa": "/pɪk aʊt/",
+        "cn": "挑选",
+        "ex": "Pick out a nice gift.",
+        "exCn": "挑选一份好礼物。"
+      },
+      {
+        "w": "hand in",
+        "ipa": "/hænd ɪn/",
+        "cn": "上交",
+        "ex": "Hand in your homework.",
+        "exCn": "交作业。"
+      },
+      {
+        "w": "hand out",
+        "ipa": "/hænd aʊt/",
+        "cn": "分发",
+        "ex": "Hand out the worksheets.",
+        "exCn": "分发练习纸。"
+      },
+      {
+        "w": "hold on",
+        "ipa": "/həʊld ɒn/",
+        "cn": "等一下；坚持",
+        "ex": "Hold on, please.",
+        "exCn": "请稍等。"
+      },
+      {
+        "w": "hold up",
+        "ipa": "/həʊld ʌp/",
+        "cn": "举起；耽搁",
+        "ex": "Hold up your hand.",
+        "exCn": "举起手。"
+      },
+      {
+        "w": "make sure",
+        "ipa": "/meɪk ʃʊə(r)/",
+        "cn": "确保",
+        "ex": "Make sure the door is locked.",
+        "exCn": "确保门锁好。"
+      },
+      {
+        "w": "make friends with",
+        "ipa": "/meɪk frendz wɪð/",
+        "cn": "与…交朋友",
+        "ex": "She made friends with him.",
+        "exCn": "她和他交了朋友。"
+      },
+      {
+        "w": "pay attention to",
+        "ipa": "/peɪ əˈtenʃn tuː/",
+        "cn": "注意",
+        "ex": "Pay attention to the teacher.",
+        "exCn": "注意听老师讲。"
+      },
+      {
+        "w": "pay for",
+        "ipa": "/peɪ fɔː(r)/",
+        "cn": "为…付款",
+        "ex": "I paid for the tickets.",
+        "exCn": "我付了票钱。"
+      },
+      {
+        "w": "depend on",
+        "ipa": "/dɪˈpend ɒn/",
+        "cn": "依靠",
+        "ex": "Success depends on effort.",
+        "exCn": "成功靠努力。"
+      },
+      {
+        "w": "agree with",
+        "ipa": "/əˈɡriː wɪð/",
+        "cn": "同意",
+        "ex": "I agree with you.",
+        "exCn": "我同意你。"
+      },
+      {
+        "w": "agree on",
+        "ipa": "/əˈɡriː ɒn/",
+        "cn": "就…达成一致",
+        "ex": "We agreed on the plan.",
+        "exCn": "我们就计划达成一致。"
+      },
+      {
+        "w": "belong to",
+        "ipa": "/bɪˈlɒŋ tuː/",
+        "cn": "属于",
+        "ex": "This book belongs to me.",
+        "exCn": "这本书是我的。"
+      },
+      {
+        "w": "listen to",
+        "ipa": "/ˈlɪsn tuː/",
+        "cn": "听",
+        "ex": "Listen to the music.",
+        "exCn": "听音乐。"
+      },
+      {
+        "w": "wait for",
+        "ipa": "/weɪt fɔː(r)/",
+        "cn": "等待",
+        "ex": "Wait for me at the gate.",
+        "exCn": "在门口等我。"
+      },
+      {
+        "w": "ask for",
+        "ipa": "/ɑːsk fɔː(r)/",
+        "cn": "请求",
+        "ex": "Ask for help if needed.",
+        "exCn": "需要时请求帮助。"
+      },
+      {
+        "w": "thanks to",
+        "ipa": "/θæŋks tuː/",
+        "cn": "多亏",
+        "ex": "Thanks to your help.",
+        "exCn": "多亏你的帮助。"
+      },
+      {
+        "w": "because of",
+        "ipa": "/bɪˈkɒz əv/",
+        "cn": "因为",
+        "ex": "We stayed home because of rain.",
+        "exCn": "因为下雨我们待在家里。"
+      },
+      {
+        "w": "instead of",
+        "ipa": "/ɪnˈsted əv/",
+        "cn": "代替",
+        "ex": "Walk instead of taking the bus.",
+        "exCn": "走路而不是坐公交。"
+      },
+      {
+        "w": "in front of",
+        "ipa": "/ɪn frʌnt əv/",
+        "cn": "在…前面",
+        "ex": "Stand in front of the class.",
+        "exCn": "站在全班前面。"
+      },
+      {
+        "w": "in the end",
+        "ipa": "/ɪn ði end/",
+        "cn": "最后",
+        "ex": "In the end, we succeeded.",
+        "exCn": "最后我们成功了。"
+      },
+      {
+        "w": "at least",
+        "ipa": "/ət liːst/",
+        "cn": "至少",
+        "ex": "At least try once.",
+        "exCn": "至少试一次。"
+      },
+      {
+        "w": "at once",
+        "ipa": "/ət wʌns/",
+        "cn": "立刻",
+        "ex": "Come here at once.",
+        "exCn": "立刻过来。"
+      },
+      {
+        "w": "all the time",
+        "ipa": "/ɔːl ðə taɪm/",
+        "cn": "一直",
+        "ex": "He talks all the time.",
+        "exCn": "他一直说话。"
+      },
+      {
+        "w": "from time to time",
+        "ipa": "/frəm taɪm tuː taɪm/",
+        "cn": "有时",
+        "ex": "I visit them from time to time.",
+        "exCn": "我有时去看他们。"
+      },
+      {
+        "w": "on time",
+        "ipa": "/ɒn taɪm/",
+        "cn": "准时",
+        "ex": "Arrive on time.",
+        "exCn": "准时到达。"
+      },
+      {
+        "w": "in time",
+        "ipa": "/ɪn taɪm/",
+        "cn": "及时",
+        "ex": "We arrived in time.",
+        "exCn": "我们及时到达。"
+      },
+      {
+        "w": "by the way",
+        "ipa": "/baɪ ðə weɪ/",
+        "cn": "顺便说",
+        "ex": "By the way, where is the library?",
+        "exCn": "顺便问一下，图书馆在哪？"
+      },
+      {
+        "w": "of course",
+        "ipa": "/əv kɔːs/",
+        "cn": "当然",
+        "ex": "Of course I will help.",
+        "exCn": "我当然会帮忙。"
+      },
+      {
+        "w": "a lot of",
+        "ipa": "/ə lɒt əv/",
+        "cn": "许多",
+        "ex": "There are a lot of books.",
+        "exCn": "有许多书。"
+      },
+      {
+        "w": "plenty of",
+        "ipa": "/ˈplenti əv/",
+        "cn": "充足的",
+        "ex": "We have plenty of time.",
+        "exCn": "我们有充足时间。"
+      },
+      {
+        "w": "too much",
+        "ipa": "/tuː mʌtʃ/",
+        "cn": "太多（不可数）",
+        "ex": "Don't eat too much sugar.",
+        "exCn": "不要吃太多糖。"
+      },
+      {
+        "w": "too many",
+        "ipa": "/tuː ˈmeni/",
+        "cn": "太多（可数）",
+        "ex": "There are too many people.",
+        "exCn": "人太多了。"
+      },
+      {
+        "w": "so that",
+        "ipa": "/səʊ ðæt/",
+        "cn": "以便",
+        "ex": "Study hard so that you can pass.",
+        "exCn": "努力学习以便通过。"
+      },
+      {
+        "w": "as soon as",
+        "ipa": "/əz suːn əz/",
+        "cn": "一…就",
+        "ex": "Call me as soon as you arrive.",
+        "exCn": "一到就给我打电话。"
+      },
+      {
+        "w": "as long as",
+        "ipa": "/əz lɒŋ əz/",
+        "cn": "只要",
+        "ex": "You can go as long as you finish.",
+        "exCn": "只要做完就可以走。"
+      },
+      {
+        "w": "even though",
+        "ipa": "/ˈiːvn ðəʊ/",
+        "cn": "即使",
+        "ex": "Even though it rained, we went.",
+        "exCn": "即使下雨我们也去了。"
+      },
+      {
+        "w": "no longer",
+        "ipa": "/nəʊ ˈlɒŋɡə(r)/",
+        "cn": "不再",
+        "ex": "He no longer lives here.",
+        "exCn": "他不再住这里。"
+      },
+      {
+        "w": "not only...but also",
+        "ipa": "/nɒt ˈəʊnli bʌt ˈɔːlsəʊ/",
+        "cn": "不仅…而且",
+        "ex": "She is not only smart but also kind.",
+        "exCn": "她不仅聪明而且善良。"
+      },
+      {
+        "w": "either...or",
+        "ipa": "/ˈaɪðə(r) ɔː(r)/",
+        "cn": "要么…要么",
+        "ex": "Either you or I will go.",
+        "exCn": "要么你去要么我去。"
+      },
+      {
+        "w": "neither...nor",
+        "ipa": "/ˈnaɪðə(r) nɔː(r)/",
+        "cn": "既不…也不",
+        "ex": "Neither he nor she knows.",
+        "exCn": "他和她都不知道。"
+      },
+      {
+        "w": "both...and",
+        "ipa": "/bəʊθ ænd/",
+        "cn": "既…又",
+        "ex": "Both Tom and Jerry like it.",
+        "exCn": "汤姆和杰瑞都喜欢。"
+      },
+      {
+        "w": "be proud of",
+        "ipa": "/bi praʊd əv/",
+        "cn": "为…骄傲",
+        "ex": "I am proud of you.",
+        "exCn": "我为你骄傲。"
+      },
+      {
+        "w": "be interested in",
+        "ipa": "/bi ˈɪntrəstɪd ɪn/",
+        "cn": "对…感兴趣",
+        "ex": "She is interested in science.",
+        "exCn": "她对科学感兴趣。"
+      },
+      {
+        "w": "be good at",
+        "ipa": "/bi ɡʊd æt/",
+        "cn": "擅长",
+        "ex": "He is good at maths.",
+        "exCn": "他擅长数学。"
+      },
+      {
+        "w": "be famous for",
+        "ipa": "/bi ˈfeɪməs fɔː(r)/",
+        "cn": "因…著名",
+        "ex": "The city is famous for its food.",
+        "exCn": "这座城市以美食著名。"
+      },
+      {
+        "w": "be full of",
+        "ipa": "/bi fʊl əv/",
+        "cn": "充满",
+        "ex": "The room is full of students.",
+        "exCn": "房间里满是学生。"
+      },
+      {
+        "w": "be afraid of",
+        "ipa": "/bi əˈfreɪd əv/",
+        "cn": "害怕",
+        "ex": "She is afraid of dogs.",
+        "exCn": "她怕狗。"
+      },
+      {
+        "w": "be similar to",
+        "ipa": "/bi ˈsɪmələ(r) tuː/",
+        "cn": "与…相似",
+        "ex": "This is similar to that.",
+        "exCn": "这个和那个相似。"
+      },
+      {
+        "w": "be different from",
+        "ipa": "/bi ˈdɪfrənt frəm/",
+        "cn": "与…不同",
+        "ex": "English is different from Chinese.",
+        "exCn": "英语和中文不同。"
+      },
+      {
+        "w": "be ready for",
+        "ipa": "/bi ˈredi fɔː(r)/",
+        "cn": "为…做好准备",
+        "ex": "Are you ready for the test?",
+        "exCn": "你准备好考试了吗？"
+      },
+      {
+        "w": "be used to",
+        "ipa": "/bi juːst tuː/",
+        "cn": "习惯于",
+        "ex": "I am used to getting up early.",
+        "exCn": "我习惯早起。"
+      },
+      {
+        "w": "used to",
+        "ipa": "/juːst tuː/",
+        "cn": "过去常常",
+        "ex": "He used to play football.",
+        "exCn": "他过去常常踢足球。"
+      },
+      {
+        "w": "would like to",
+        "ipa": "/wʊd laɪk tuː/",
+        "cn": "想要",
+        "ex": "I would like to join.",
+        "exCn": "我想加入。"
+      },
+      {
+        "w": "had better",
+        "ipa": "/hæd ˈbetə(r)/",
+        "cn": "最好",
+        "ex": "You had better leave now.",
+        "exCn": "你最好现在离开。"
+      },
+      {
+        "w": "be able to",
+        "ipa": "/bi ˈeɪbl tuː/",
+        "cn": "能够",
+        "ex": "She is able to swim.",
+        "exCn": "她会游泳。"
+      },
+      {
+        "w": "have to",
+        "ipa": "/hæv tuː/",
+        "cn": "不得不",
+        "ex": "I have to finish it today.",
+        "exCn": "我今天必须完成。"
+      },
+      {
+        "w": "ought to",
+        "ipa": "/ˈɔːt tuː/",
+        "cn": "应该",
+        "ex": "You ought to apologise.",
+        "exCn": "你应该道歉。"
+      },
+      {
+        "w": "in order to",
+        "ipa": "/ɪn ˈɔːdə(r) tuː/",
+        "cn": "为了",
+        "ex": "He studies hard in order to pass.",
+        "exCn": "他努力学习为了通过。"
+      },
+      {
+        "w": "so as to",
+        "ipa": "/səʊ æz tuː/",
+        "cn": "以便",
+        "ex": "Speak clearly so as to be understood.",
+        "exCn": "说清楚以便被理解。"
+      },
+      {
+        "w": "according to",
+        "ipa": "/əˈkɔːdɪŋ tuː/",
+        "cn": "根据",
+        "ex": "According to the report...",
+        "exCn": "根据报告……"
+      },
+      {
+        "w": "as a result",
+        "ipa": "/əz ə rɪˈzʌlt/",
+        "cn": "结果",
+        "ex": "He worked hard. As a result, he succeeded.",
+        "exCn": "他努力工作。结果，他成功了。"
+      },
+      {
+        "w": "for example",
+        "ipa": "/fɔːr ɪɡˈzɑːmpl/",
+        "cn": "例如",
+        "ex": "Many fruits, for example apples.",
+        "exCn": "许多水果，例如苹果。"
+      },
+      {
+        "w": "such as",
+        "ipa": "/sʌtʃ æz/",
+        "cn": "例如",
+        "ex": "Sports such as football.",
+        "exCn": "像足球这样的运动。"
+      },
+      {
+        "w": "in fact",
+        "ipa": "/ɪn fækt/",
+        "cn": "事实上",
+        "ex": "In fact, I agree.",
+        "exCn": "事实上，我同意。"
+      },
+      {
+        "w": "at first",
+        "ipa": "/æt fɜːst/",
+        "cn": "起初",
+        "ex": "At first I was nervous.",
+        "exCn": "起初我很紧张。"
+      },
+      {
+        "w": "at last",
+        "ipa": "/æt lɑːst/",
+        "cn": "终于",
+        "ex": "At last we finished.",
+        "exCn": "终于我们完成了。"
+      },
+      {
+        "w": "once again",
+        "ipa": "/wʌns əˈɡen/",
+        "cn": "再一次",
+        "ex": "Try once again.",
+        "exCn": "再试一次。"
+      },
+      {
+        "w": "all over the world",
+        "ipa": "/ɔːl ˈəʊvə(r) ðə wɜːld/",
+        "cn": "全世界",
+        "ex": "People all over the world.",
+        "exCn": "全世界的人。"
+      },
+      {
+        "w": "a number of",
+        "ipa": "/ə ˈnʌmbə(r) əv/",
+        "cn": "许多",
+        "ex": "A number of students joined.",
+        "exCn": "许多学生参加了。"
+      },
+      {
+        "w": "the number of",
+        "ipa": "/ðə ˈnʌmbə(r) əv/",
+        "cn": "…的数量",
+        "ex": "The number of students is 50.",
+        "exCn": "学生数量是50。"
+      },
+      {
+        "w": "more and more",
+        "ipa": "/mɔːr ænd mɔː(r)/",
+        "cn": "越来越",
+        "ex": "More and more people care.",
+        "exCn": "越来越多的人关心。"
+      },
+      {
+        "w": "less and less",
+        "ipa": "/les ænd les/",
+        "cn": "越来越少",
+        "ex": "There is less and less time.",
+        "exCn": "时间越来越少。"
+      },
+      {
+        "w": "one by one",
+        "ipa": "/wʌn baɪ wʌn/",
+        "cn": "一个接一个",
+        "ex": "They entered one by one.",
+        "exCn": "他们一个接一个进入。"
+      },
+      {
+        "w": "step by step",
+        "ipa": "/step baɪ step/",
+        "cn": "逐步",
+        "ex": "Learn step by step.",
+        "exCn": "逐步学习。"
+      },
+      {
+        "w": "day by day",
+        "ipa": "/deɪ baɪ deɪ/",
+        "cn": "一天天地",
+        "ex": "He improves day by day.",
+        "exCn": "他一天天进步。"
+      },
+      {
+        "w": "year after year",
+        "ipa": "/jɪə(r) ˈɑːftə(r) jɪə(r)/",
+        "cn": "年复一年",
+        "ex": "The festival is held year after year.",
+        "exCn": "节日年复一年举行。"
+      },
+      {
+        "w": "face to face",
+        "ipa": "/feɪs tuː feɪs/",
+        "cn": "面对面",
+        "ex": "Talk face to face.",
+        "exCn": "面对面交谈。"
+      },
+      {
+        "w": "side by side",
+        "ipa": "/saɪd baɪ saɪd/",
+        "cn": "并排",
+        "ex": "They walked side by side.",
+        "exCn": "他们并排走。"
+      },
+      {
+        "w": "hand in hand",
+        "ipa": "/hænd ɪn hænd/",
+        "cn": "手拉手",
+        "ex": "They walked hand in hand.",
+        "exCn": "他们手拉手走。"
+      },
+      {
+        "w": "heart and soul",
+        "ipa": "/hɑːt ænd səʊl/",
+        "cn": "全心全意",
+        "ex": "He works heart and soul.",
+        "exCn": "他全心全意工作。"
+      },
+      {
+        "w": "now and then",
+        "ipa": "/naʊ ænd ðen/",
+        "cn": "偶尔",
+        "ex": "I see him now and then.",
+        "exCn": "我偶尔见到他。"
+      },
+      {
+        "w": "here and there",
+        "ipa": "/hɪə(r) ænd ðeə(r)/",
+        "cn": "到处",
+        "ex": "Books are here and there.",
+        "exCn": "书到处都是。"
+      },
+      {
+        "w": "up and down",
+        "ipa": "/ʌp ænd daʊn/",
+        "cn": "上上下下",
+        "ex": "He walked up and down.",
+        "exCn": "他来回走。"
+      },
+      {
+        "w": "sooner or later",
+        "ipa": "/ˈsuːnə(r) ɔː(r) ˈleɪtə(r)/",
+        "cn": "迟早",
+        "ex": "You will succeed sooner or later.",
+        "exCn": "你迟早会成功。"
+      },
+      {
+        "w": "more or less",
+        "ipa": "/mɔː(r) ɔː(r) les/",
+        "cn": "差不多",
+        "ex": "It is more or less finished.",
+        "exCn": "差不多完成了。"
+      },
+      {
+        "w": "back and forth",
+        "ipa": "/bæk ænd fɔːθ/",
+        "cn": "来回",
+        "ex": "The pendulum swings back and forth.",
+        "exCn": "钟摆来回摆动。"
+      },
+      {
+        "w": "little by little",
+        "ipa": "/ˈlɪtl baɪ ˈlɪtl/",
+        "cn": "逐渐",
+        "ex": "He improved little by little.",
+        "exCn": "他逐渐进步。"
+      },
+      {
+        "w": "one after another",
+        "ipa": "/wʌn ˈɑːftə(r) əˈnʌðə(r)/",
+        "cn": "一个接一个",
+        "ex": "Problems came one after another.",
+        "exCn": "问题一个接一个来。"
+      },
+      {
+        "w": "in a hurry",
+        "ipa": "/ɪn ə ˈhʌri/",
+        "cn": "匆忙",
+        "ex": "He left in a hurry.",
+        "exCn": "他匆忙离开。"
+      },
+      {
+        "w": "in trouble",
+        "ipa": "/ɪn ˈtrʌbl/",
+        "cn": "处于困境",
+        "ex": "He is in trouble.",
+        "exCn": "他有麻烦。"
+      },
+      {
+        "w": "in danger",
+        "ipa": "/ɪn ˈdeɪndʒə(r)/",
+        "cn": "处于危险",
+        "ex": "The animal is in danger.",
+        "exCn": "动物处于危险中。"
+      },
+      {
+        "w": "in public",
+        "ipa": "/ɪn ˈpʌblɪk/",
+        "cn": "公开地",
+        "ex": "Don't shout in public.",
+        "exCn": "不要在公共场合大喊。"
+      },
+      {
+        "w": "in silence",
+        "ipa": "/ɪn ˈsaɪləns/",
+        "cn": "沉默地",
+        "ex": "They sat in silence.",
+        "exCn": "他们沉默地坐着。"
+      },
+      {
+        "w": "on duty",
+        "ipa": "/ɒn ˈdjuːti/",
+        "cn": "值班",
+        "ex": "Who is on duty today?",
+        "exCn": "今天谁值班？"
+      },
+      {
+        "w": "on holiday",
+        "ipa": "/ɒn ˈhɒlədeɪ/",
+        "cn": "度假",
+        "ex": "They are on holiday.",
+        "exCn": "他们在度假。"
+      },
+      {
+        "w": "on purpose",
+        "ipa": "/ɒn ˈpɜːpəs/",
+        "cn": "故意",
+        "ex": "He did it on purpose.",
+        "exCn": "他故意这样做。"
+      },
+      {
+        "w": "on foot",
+        "ipa": "/ɒn fʊt/",
+        "cn": "步行",
+        "ex": "I go to school on foot.",
+        "exCn": "我步行上学。"
+      },
+      {
+        "w": "by bus",
+        "ipa": "/baɪ bʌs/",
+        "cn": "乘公交",
+        "ex": "I go by bus.",
+        "exCn": "我乘公交去。"
+      },
+      {
+        "w": "by the way",
+        "ipa": "/baɪ ðə weɪ/",
+        "cn": "顺便",
+        "ex": "By the way, have you seen him?",
+        "exCn": "顺便问，你见过他吗？"
+      },
+      {
+        "w": "out of date",
+        "ipa": "/aʊt əv deɪt/",
+        "cn": "过时",
+        "ex": "This information is out of date.",
+        "exCn": "这信息过时了。"
+      },
+      {
+        "w": "up to date",
+        "ipa": "/ʌp tuː deɪt/",
+        "cn": "最新的",
+        "ex": "Keep your knowledge up to date.",
+        "exCn": "保持知识最新。"
+      },
+      {
+        "w": "all right",
+        "ipa": "/ɔːl raɪt/",
+        "cn": "好的",
+        "ex": "All right, I'll go.",
+        "exCn": "好的，我去。"
+      },
+      {
+        "w": "right away",
+        "ipa": "/raɪt əˈweɪ/",
+        "cn": "立刻",
+        "ex": "Do it right away.",
+        "exCn": "立刻做。"
+      },
+      {
+        "w": "right now",
+        "ipa": "/raɪt naʊ/",
+        "cn": "现在",
+        "ex": "I need it right now.",
+        "exCn": "我现在就需要。"
+      },
+      {
+        "w": "just now",
+        "ipa": "/dʒʌst naʊ/",
+        "cn": "刚才",
+        "ex": "I saw him just now.",
+        "exCn": "我刚才看见他。"
+      },
+      {
+        "w": "from now on",
+        "ipa": "/frəm naʊ ɒn/",
+        "cn": "从现在起",
+        "ex": "From now on, be careful.",
+        "exCn": "从现在起小心点。"
+      },
+      {
+        "w": "once in a while",
+        "ipa": "/wʌns ɪn ə waɪl/",
+        "cn": "偶尔",
+        "ex": "I eat out once in a while.",
+        "exCn": "我偶尔出去吃饭。"
+      },
+      {
+        "w": "again and again",
+        "ipa": "/əˈɡen ænd əˈɡen/",
+        "cn": "反复",
+        "ex": "He tried again and again.",
+        "exCn": "他反复尝试。"
+      },
+      {
+        "w": "over and over",
+        "ipa": "/ˈəʊvə(r) ænd ˈəʊvə(r)/",
+        "cn": "一遍又一遍",
+        "ex": "Practice over and over.",
+        "exCn": "一遍又一遍练习。"
+      },
+      {
+        "w": "time and again",
+        "ipa": "/taɪm ænd əˈɡen/",
+        "cn": "一再",
+        "ex": "He was warned time and again.",
+        "exCn": "他被一再警告。"
+      },
+      {
+        "w": "first of all",
+        "ipa": "/fɜːst əv ɔːl/",
+        "cn": "首先",
+        "ex": "First of all, introduce yourself.",
+        "exCn": "首先介绍自己。"
+      },
+      {
+        "w": "after all",
+        "ipa": "/ˈɑːftər ɔːl/",
+        "cn": "毕竟",
+        "ex": "He is young after all.",
+        "exCn": "他毕竟还年轻。"
+      },
+      {
+        "w": "above all",
+        "ipa": "/əˈbʌv ɔːl/",
+        "cn": "最重要的是",
+        "ex": "Above all, be honest.",
+        "exCn": "最重要的是诚实。"
+      },
+      {
+        "w": "in all",
+        "ipa": "/ɪn ɔːl/",
+        "cn": "总共",
+        "ex": "There are 30 in all.",
+        "exCn": "总共有30个。"
+      },
+      {
+        "w": "at all",
+        "ipa": "/æt ɔːl/",
+        "cn": "根本",
+        "ex": "I don't mind at all.",
+        "exCn": "我一点也不介意。"
+      },
+      {
+        "w": "not at all",
+        "ipa": "/nɒt æt ɔːl/",
+        "cn": "一点也不",
+        "ex": "Not at all.",
+        "exCn": "不客气。"
+      },
+      {
+        "w": "all of a sudden",
+        "ipa": "/ɔːl əv ə ˈsʌdn/",
+        "cn": "突然",
+        "ex": "All of a sudden, it rained.",
+        "exCn": "突然下雨了。"
+      },
+      {
+        "w": "as well",
+        "ipa": "/əz wel/",
+        "cn": "也",
+        "ex": "I like it as well.",
+        "exCn": "我也喜欢。"
+      },
+      {
+        "w": "as well as",
+        "ipa": "/əz wel əz/",
+        "cn": "以及",
+        "ex": "He speaks English as well as French.",
+        "exCn": "他会说英语以及法语。"
+      },
+      {
+        "w": "in addition",
+        "ipa": "/ɪn əˈdɪʃn/",
+        "cn": "另外",
+        "ex": "In addition, we need more time.",
+        "exCn": "另外，我们需要更多时间。"
+      },
+      {
+        "w": "what's more",
+        "ipa": "/wɒts mɔː(r)/",
+        "cn": "而且",
+        "ex": "What's more, it's free.",
+        "exCn": "而且，它是免费的。"
+      },
+      {
+        "w": "on the other hand",
+        "ipa": "/ɒn ði ˈʌðə(r) hænd/",
+        "cn": "另一方面",
+        "ex": "On the other hand, it is expensive.",
+        "exCn": "另一方面，它很贵。"
+      },
+      {
+        "w": "in other words",
+        "ipa": "/ɪn ˈʌðə(r) wɜːdz/",
+        "cn": "换句话说",
+        "ex": "In other words, he failed.",
+        "exCn": "换句话说，他失败了。"
+      },
+      {
+        "w": "that is to say",
+        "ipa": "/ðæt ɪz tuː seɪ/",
+        "cn": "也就是说",
+        "ex": "That is to say, we agree.",
+        "exCn": "也就是说，我们同意。"
+      },
+      {
+        "w": "to be honest",
+        "ipa": "/tuː bi ˈɒnɪst/",
+        "cn": "说实话",
+        "ex": "To be honest, I don't know.",
+        "exCn": "说实话，我不知道。"
+      },
+      {
+        "w": "in my opinion",
+        "ipa": "/ɪn maɪ əˈpɪnjən/",
+        "cn": "在我看来",
+        "ex": "In my opinion, it is good.",
+        "exCn": "在我看来，它很好。"
+      },
+      {
+        "w": "as far as I know",
+        "ipa": "/əz fɑːr əz aɪ nəʊ/",
+        "cn": "据我所知",
+        "ex": "As far as I know, he is fine.",
+        "exCn": "据我所知，他很好。"
+      },
+      {
+        "w": "to some extent",
+        "ipa": "/tuː sʌm ɪkˈstent/",
+        "cn": "在某种程度上",
+        "ex": "To some extent, you are right.",
+        "exCn": "在某种程度上，你是对的。"
+      },
+      {
+        "w": "in general",
+        "ipa": "/ɪn ˈdʒenrəl/",
+        "cn": "一般来说",
+        "ex": "In general, students like it.",
+        "exCn": "一般来说，学生喜欢它。"
+      },
+      {
+        "w": "on the whole",
+        "ipa": "/ɒn ðə həʊl/",
+        "cn": "总的来说",
+        "ex": "On the whole, it was successful.",
+        "exCn": "总的来说，它是成功的。"
+      },
+      {
+        "w": "as usual",
+        "ipa": "/əz ˈjuːʒuəl/",
+        "cn": "照常",
+        "ex": "He arrived late as usual.",
+        "exCn": "他照常迟到了。"
+      },
+      {
+        "w": "no doubt",
+        "ipa": "/nəʊ daʊt/",
+        "cn": "毫无疑问",
+        "ex": "No doubt he will win.",
+        "exCn": "毫无疑问他会赢。"
+      },
+      {
+        "w": "without doubt",
+        "ipa": "/wɪˈðaʊt daʊt/",
+        "cn": "毫无疑问",
+        "ex": "Without doubt, it is true.",
+        "exCn": "毫无疑问，这是真的。"
+      },
+      {
+        "w": "in short",
+        "ipa": "/ɪn ʃɔːt/",
+        "cn": "简而言之",
+        "ex": "In short, we succeeded.",
+        "exCn": "简而言之，我们成功了。"
+      },
+      {
+        "w": "in a word",
+        "ipa": "/ɪn ə wɜːd/",
+        "cn": "总之",
+        "ex": "In a word, it is useful.",
+        "exCn": "总之，它有用。"
+      },
+      {
+        "w": "to sum up",
+        "ipa": "/tuː sʌm ʌp/",
+        "cn": "总结",
+        "ex": "To sum up, practice is important.",
+        "exCn": "总结来说，练习很重要。"
+      },
+      {
+        "w": "all in all",
+        "ipa": "/ɔːl ɪn ɔːl/",
+        "cn": "总而言之",
+        "ex": "All in all, a good day.",
+        "exCn": "总而言之，美好的一天。"
+      },
+      {
+        "w": "last but not least",
+        "ipa": "/lɑːst bʌt nɒt liːst/",
+        "cn": "最后但同样重要",
+        "ex": "Last but not least, thank you.",
+        "exCn": "最后但同样重要，谢谢。"
+      },
+      {
+        "w": "on behalf of",
+        "ipa": "/ɒn bɪˈhɑːf əv/",
+        "cn": "代表",
+        "ex": "On behalf of the class, I thank you.",
+        "exCn": "代表全班，我感谢你。"
+      },
+      {
+        "w": "in charge of",
+        "ipa": "/ɪn tʃɑːdʒ əv/",
+        "cn": "负责",
+        "ex": "She is in charge of the project.",
+        "exCn": "她负责这个项目。"
+      },
+      {
+        "w": "in search of",
+        "ipa": "/ɪn sɜːtʃ əv/",
+        "cn": "寻找",
+        "ex": "They went in search of water.",
+        "exCn": "他们去寻找水。"
+      },
+      {
+        "w": "in need of",
+        "ipa": "/ɪn niːd əv/",
+        "cn": "需要",
+        "ex": "The school is in need of books.",
+        "exCn": "学校需要书。"
+      },
+      {
+        "w": "in favour of",
+        "ipa": "/ɪn ˈfeɪvə(r) əv/",
+        "cn": "支持",
+        "ex": "I am in favour of the plan.",
+        "exCn": "我支持这个计划。"
+      },
+      {
+        "w": "in spite of",
+        "ipa": "/ɪn spaɪt əv/",
+        "cn": "尽管",
+        "ex": "In spite of the rain, we went.",
+        "exCn": "尽管下雨，我们还是去了。"
+      },
+      {
+        "w": "regardless of",
+        "ipa": "/rɪˈɡɑːdləs əv/",
+        "cn": "不管",
+        "ex": "Regardless of the difficulty.",
+        "exCn": "不管困难。"
+      },
+      {
+        "w": "apart from",
+        "ipa": "/əˈpɑːt frəm/",
+        "cn": "除了",
+        "ex": "Apart from English, he learns French.",
+        "exCn": "除了英语，他还学法语。"
+      },
+      {
+        "w": "except for",
+        "ipa": "/ɪkˈsept fɔː(r)/",
+        "cn": "除了",
+        "ex": "Except for one, all passed.",
+        "exCn": "除了一个，都通过了。"
+      },
+      {
+        "w": "due to",
+        "ipa": "/djuː tuː/",
+        "cn": "由于",
+        "ex": "The delay was due to traffic.",
+        "exCn": "延误是由于交通。"
+      },
+      {
+        "w": "owing to",
+        "ipa": "/ˈəʊɪŋ tuː/",
+        "cn": "由于",
+        "ex": "Owing to the weather, we stayed.",
+        "exCn": "由于天气，我们留下了。"
+      },
+      {
+        "w": "thanks to",
+        "ipa": "/θæŋks tuː/",
+        "cn": "多亏",
+        "ex": "Thanks to hard work, we won.",
+        "exCn": "多亏努力，我们赢了。"
+      },
+      {
+        "w": "as for",
+        "ipa": "/əz fɔː(r)/",
+        "cn": "至于",
+        "ex": "As for me, I prefer tea.",
+        "exCn": "至于我，我更喜欢茶。"
+      },
+      {
+        "w": "as to",
+        "ipa": "/əz tuː/",
+        "cn": "关于",
+        "ex": "As to the plan, I agree.",
+        "exCn": "关于计划，我同意。"
+      },
+      {
+        "w": "with regard to",
+        "ipa": "/wɪð rɪˈɡɑːd tuː/",
+        "cn": "关于",
+        "ex": "With regard to your question...",
+        "exCn": "关于你的问题……"
+      },
+      {
+        "w": "in terms of",
+        "ipa": "/ɪn tɜːmz əv/",
+        "cn": "就…而言",
+        "ex": "In terms of quality, it is good.",
+        "exCn": "就质量而言，它很好。"
+      },
+      {
+        "w": "on account of",
+        "ipa": "/ɒn əˈkaʊnt əv/",
+        "cn": "因为",
+        "ex": "He was absent on account of illness.",
+        "exCn": "他因病缺席。"
+      },
+      {
+        "w": "by means of",
+        "ipa": "/baɪ miːnz əv/",
+        "cn": "通过",
+        "ex": "We communicate by means of email.",
+        "exCn": "我们通过邮件交流。"
+      },
+      {
+        "w": "in case of",
+        "ipa": "/ɪn keɪs əv/",
+        "cn": "万一",
+        "ex": "In case of fire, use the stairs.",
+        "exCn": "万一着火，走楼梯。"
+      },
+      {
+        "w": "in the case of",
+        "ipa": "/ɪn ðə keɪs əv/",
+        "cn": "在…情况下",
+        "ex": "In the case of emergency...",
+        "exCn": "在紧急情况下……"
+      },
+      {
+        "w": "for the sake of",
+        "ipa": "/fɔː(r) ðə seɪk əv/",
+        "cn": "为了",
+        "ex": "For the sake of safety.",
+        "exCn": "为了安全。"
+      },
+      {
+        "w": "on the point of",
+        "ipa": "/ɒn ðə pɔɪnt əv/",
+        "cn": "正要",
+        "ex": "I was on the point of leaving.",
+        "exCn": "我正要离开。"
+      },
+      {
+        "w": "in the middle of",
+        "ipa": "/ɪn ðə ˈmɪdl əv/",
+        "cn": "在…中间",
+        "ex": "We are in the middle of class.",
+        "exCn": "我们正在上课。"
+      },
+      {
+        "w": "at the end of",
+        "ipa": "/æt ði end əv/",
+        "cn": "在…结束时",
+        "ex": "At the end of the day.",
+        "exCn": "在一天结束时。"
+      },
+      {
+        "w": "at the beginning of",
+        "ipa": "/æt ðə bɪˈɡɪnɪŋ əv/",
+        "cn": "在…开始时",
+        "ex": "At the beginning of the term.",
+        "exCn": "在学期开始时。"
+      },
+      {
+        "w": "in the face of",
+        "ipa": "/ɪn ðə feɪs əv/",
+        "cn": "面对",
+        "ex": "Stay calm in the face of difficulty.",
+        "exCn": "面对困难保持冷静。"
+      },
+      {
+        "w": "on the basis of",
+        "ipa": "/ɒn ðə ˈbeɪsɪs əv/",
+        "cn": "在…基础上",
+        "ex": "Decide on the basis of facts.",
+        "exCn": "在事实基础上决定。"
+      },
+      {
+        "w": "with the help of",
+        "ipa": "/wɪð ðə help əv/",
+        "cn": "在…帮助下",
+        "ex": "With the help of the teacher.",
+        "exCn": "在老师的帮助下。"
+      },
+      {
+        "w": "under the control of",
+        "ipa": "/ˈʌndə(r) ðə kənˈtrəʊl əv/",
+        "cn": "在…控制下",
+        "ex": "The area is under the control of...",
+        "exCn": "该地区在…控制下。"
+      },
+      {
+        "w": "out of control",
+        "ipa": "/aʊt əv kənˈtrəʊl/",
+        "cn": "失去控制",
+        "ex": "The fire was out of control.",
+        "exCn": "火势失去控制。"
+      },
+      {
+        "w": "under control",
+        "ipa": "/ˈʌndə(r) kənˈtrəʊl/",
+        "cn": "处于控制中",
+        "ex": "The situation is under control.",
+        "exCn": "情况处于控制中。"
+      },
+      {
+        "w": "by accident",
+        "ipa": "/baɪ ˈæksɪdənt/",
+        "cn": "偶然",
+        "ex": "I met him by accident.",
+        "exCn": "我偶然遇见他。"
+      },
+      {
+        "w": "on purpose",
+        "ipa": "/ɒn ˈpɜːpəs/",
+        "cn": "故意",
+        "ex": "He broke it on purpose.",
+        "exCn": "他故意打破它。"
+      },
+      {
+        "w": "by chance",
+        "ipa": "/baɪ tʃɑːns/",
+        "cn": "碰巧",
+        "ex": "We met by chance.",
+        "exCn": "我们碰巧遇见。"
+      },
+      {
+        "w": "on schedule",
+        "ipa": "/ɒn ˈʃedjuːl/",
+        "cn": "按计划",
+        "ex": "The train arrived on schedule.",
+        "exCn": "火车按计划到达。"
+      },
+      {
+        "w": "ahead of schedule",
+        "ipa": "/əˈhed əv ˈʃedjuːl/",
+        "cn": "提前",
+        "ex": "We finished ahead of schedule.",
+        "exCn": "我们提前完成。"
+      },
+      {
+        "w": "behind schedule",
+        "ipa": "/bɪˈhaɪnd ˈʃedjuːl/",
+        "cn": "落后于计划",
+        "ex": "The project is behind schedule.",
+        "exCn": "项目落后于计划。"
+      },
+      {
+        "w": "in advance",
+        "ipa": "/ɪn ədˈvɑːns/",
+        "cn": "提前",
+        "ex": "Book in advance.",
+        "exCn": "提前预订。"
+      },
+      {
+        "w": "in detail",
+        "ipa": "/ɪn ˈdiːteɪl/",
+        "cn": "详细地",
+        "ex": "Explain in detail.",
+        "exCn": "详细解释。"
+      },
+      {
+        "w": "in brief",
+        "ipa": "/ɪn briːf/",
+        "cn": "简而言之",
+        "ex": "In brief, it worked.",
+        "exCn": "简而言之，它有效。"
+      },
+      {
+        "w": "in conclusion",
+        "ipa": "/ɪn kənˈkluːʒn/",
+        "cn": "总之",
+        "ex": "In conclusion, we should act.",
+        "exCn": "总之，我们应该行动。"
+      },
+      {
+        "w": "to begin with",
+        "ipa": "/tuː bɪˈɡɪn wɪð/",
+        "cn": "首先",
+        "ex": "To begin with, introduce yourself.",
+        "exCn": "首先介绍自己。"
+      },
+      {
+        "w": "to start with",
+        "ipa": "/tuː stɑːt wɪð/",
+        "cn": "首先",
+        "ex": "To start with, we need a plan.",
+        "exCn": "首先我们需要计划。"
+      },
+      {
+        "w": "for instance",
+        "ipa": "/fɔːr ˈɪnstəns/",
+        "cn": "例如",
+        "ex": "For instance, apples are healthy.",
+        "exCn": "例如，苹果是健康的。"
       }
     ]
   },
@@ -13990,6 +15390,2106 @@
         "cn": "在很大程度上",
         "ex": "Success depends to a large extent on effort.",
         "exCn": "成功在很大程度上取决于努力。"
+      },
+      {
+        "w": "account for",
+        "ipa": "/əˈkaʊnt fɔː(r)/",
+        "cn": "解释；占",
+        "ex": "How do you account for the delay?",
+        "exCn": "你如何解释延误？"
+      },
+      {
+        "w": "accuse of",
+        "ipa": "/əˈkjuːz əv/",
+        "cn": "指责",
+        "ex": "He was accused of cheating.",
+        "exCn": "他被指责作弊。"
+      },
+      {
+        "w": "adapt to",
+        "ipa": "/əˈdæpt tuː/",
+        "cn": "适应",
+        "ex": "It takes time to adapt to a new school.",
+        "exCn": "适应新学校需要时间。"
+      },
+      {
+        "w": "add to",
+        "ipa": "/æd tuː/",
+        "cn": "增加",
+        "ex": "This adds to the difficulty.",
+        "exCn": "这增加了难度。"
+      },
+      {
+        "w": "add up to",
+        "ipa": "/æd ʌp tuː/",
+        "cn": "总计",
+        "ex": "The costs add up to 100 yuan.",
+        "exCn": "费用总计100元。"
+      },
+      {
+        "w": "adhere to",
+        "ipa": "/ədˈhɪə(r) tuː/",
+        "cn": "坚持",
+        "ex": "Adhere to the rules.",
+        "exCn": "坚持规则。"
+      },
+      {
+        "w": "adjust to",
+        "ipa": "/əˈdʒʌst tuː/",
+        "cn": "适应",
+        "ex": "Adjust to the new environment.",
+        "exCn": "适应新环境。"
+      },
+      {
+        "w": "agree to",
+        "ipa": "/əˈɡriː tuː/",
+        "cn": "同意（计划等）",
+        "ex": "They agreed to the proposal.",
+        "exCn": "他们同意提议。"
+      },
+      {
+        "w": "aim at",
+        "ipa": "/eɪm æt/",
+        "cn": "旨在",
+        "ex": "The policy aims at reducing pollution.",
+        "exCn": "政策旨在减少污染。"
+      },
+      {
+        "w": "allow for",
+        "ipa": "/əˈlaʊ fɔː(r)/",
+        "cn": "考虑到",
+        "ex": "Allow for possible delays.",
+        "exCn": "考虑到可能的延误。"
+      },
+      {
+        "w": "amount to",
+        "ipa": "/əˈmaʊnt tuː/",
+        "cn": "总计；相当于",
+        "ex": "The loss amounts to millions.",
+        "exCn": "损失总计数百万。"
+      },
+      {
+        "w": "appeal to",
+        "ipa": "/əˈpiːl tuː/",
+        "cn": "呼吁；吸引",
+        "ex": "The idea appeals to young people.",
+        "exCn": "这个想法吸引年轻人。"
+      },
+      {
+        "w": "apply for",
+        "ipa": "/əˈplaɪ fɔː(r)/",
+        "cn": "申请",
+        "ex": "Apply for the scholarship.",
+        "exCn": "申请奖学金。"
+      },
+      {
+        "w": "apply to",
+        "ipa": "/əˈplaɪ tuː/",
+        "cn": "适用于",
+        "ex": "The rule applies to everyone.",
+        "exCn": "规则适用于每个人。"
+      },
+      {
+        "w": "approve of",
+        "ipa": "/əˈpruːv əv/",
+        "cn": "赞成",
+        "ex": "Parents approve of the plan.",
+        "exCn": "父母赞成这个计划。"
+      },
+      {
+        "w": "arise from",
+        "ipa": "/əˈraɪz frəm/",
+        "cn": "由…引起",
+        "ex": "Problems arise from poor communication.",
+        "exCn": "问题由沟通不良引起。"
+      },
+      {
+        "w": "ascribe to",
+        "ipa": "/əˈskraɪb tuː/",
+        "cn": "归因于",
+        "ex": "He ascribed his success to hard work.",
+        "exCn": "他把成功归因于努力。"
+      },
+      {
+        "w": "associate with",
+        "ipa": "/əˈsəʊʃieɪt wɪð/",
+        "cn": "与…联系",
+        "ex": "People associate the colour with joy.",
+        "exCn": "人们把这个颜色与快乐联系。"
+      },
+      {
+        "w": "attach to",
+        "ipa": "/əˈtætʃ tuː/",
+        "cn": "附上；重视",
+        "ex": "Attach importance to education.",
+        "exCn": "重视教育。"
+      },
+      {
+        "w": "attend to",
+        "ipa": "/əˈtend tuː/",
+        "cn": "处理；照料",
+        "ex": "Attend to the details.",
+        "exCn": "注意细节。"
+      },
+      {
+        "w": "attribute to",
+        "ipa": "/əˈtrɪbjuːt tuː/",
+        "cn": "归因于",
+        "ex": "The success is attributed to teamwork.",
+        "exCn": "成功归因于团队合作。"
+      },
+      {
+        "w": "base on",
+        "ipa": "/beɪs ɒn/",
+        "cn": "以…为基础",
+        "ex": "The decision is based on facts.",
+        "exCn": "决定以事实为基础。"
+      },
+      {
+        "w": "be aware of",
+        "ipa": "/bi əˈweə(r) əv/",
+        "cn": "意识到",
+        "ex": "Be aware of the risks.",
+        "exCn": "意识到风险。"
+      },
+      {
+        "w": "be capable of",
+        "ipa": "/bi ˈkeɪpəbl əv/",
+        "cn": "能够",
+        "ex": "She is capable of leading.",
+        "exCn": "她能够领导。"
+      },
+      {
+        "w": "be composed of",
+        "ipa": "/bi kəmˈpəʊzd əv/",
+        "cn": "由…组成",
+        "ex": "The team is composed of five members.",
+        "exCn": "团队由五名成员组成。"
+      },
+      {
+        "w": "be concerned about",
+        "ipa": "/bi kənˈsɜːnd əˈbaʊt/",
+        "cn": "关心",
+        "ex": "Parents are concerned about safety.",
+        "exCn": "父母关心安全。"
+      },
+      {
+        "w": "be confronted with",
+        "ipa": "/bi kənˈfrʌntɪd wɪð/",
+        "cn": "面临",
+        "ex": "We are confronted with challenges.",
+        "exCn": "我们面临挑战。"
+      },
+      {
+        "w": "be consistent with",
+        "ipa": "/bi kənˈsɪstənt wɪð/",
+        "cn": "与…一致",
+        "ex": "The results are consistent with the theory.",
+        "exCn": "结果与理论一致。"
+      },
+      {
+        "w": "be devoted to",
+        "ipa": "/bi dɪˈvəʊtɪd tuː/",
+        "cn": "致力于",
+        "ex": "She is devoted to education.",
+        "exCn": "她致力于教育。"
+      },
+      {
+        "w": "be engaged in",
+        "ipa": "/bi ɪnˈɡeɪdʒd ɪn/",
+        "cn": "从事",
+        "ex": "He is engaged in research.",
+        "exCn": "他从事研究。"
+      },
+      {
+        "w": "be equipped with",
+        "ipa": "/bi ɪˈkwɪpt wɪð/",
+        "cn": "配备",
+        "ex": "The lab is equipped with modern tools.",
+        "exCn": "实验室配备现代工具。"
+      },
+      {
+        "w": "be exposed to",
+        "ipa": "/bi ɪkˈspəʊzd tuː/",
+        "cn": "暴露于",
+        "ex": "Students are exposed to new ideas.",
+        "exCn": "学生接触新想法。"
+      },
+      {
+        "w": "be familiar with",
+        "ipa": "/bi fəˈmɪliə(r) wɪð/",
+        "cn": "熟悉",
+        "ex": "Are you familiar with the topic?",
+        "exCn": "你熟悉这个话题吗？"
+      },
+      {
+        "w": "be involved in",
+        "ipa": "/bi ɪnˈvɒlvd ɪn/",
+        "cn": "参与",
+        "ex": "She is involved in the project.",
+        "exCn": "她参与这个项目。"
+      },
+      {
+        "w": "be keen on",
+        "ipa": "/bi kiːn ɒn/",
+        "cn": "热衷于",
+        "ex": "He is keen on sports.",
+        "exCn": "他热衷于运动。"
+      },
+      {
+        "w": "be liable to",
+        "ipa": "/bi ˈlaɪəbl tuː/",
+        "cn": "易于",
+        "ex": "The area is liable to floods.",
+        "exCn": "该地区易于发生洪水。"
+      },
+      {
+        "w": "be opposed to",
+        "ipa": "/bi əˈpəʊzd tuː/",
+        "cn": "反对",
+        "ex": "Many are opposed to the plan.",
+        "exCn": "许多人反对这个计划。"
+      },
+      {
+        "w": "be relevant to",
+        "ipa": "/bi ˈreləvənt tuː/",
+        "cn": "与…相关",
+        "ex": "The question is relevant to the topic.",
+        "exCn": "问题与话题相关。"
+      },
+      {
+        "w": "be responsible for",
+        "ipa": "/bi rɪˈspɒnsəbl fɔː(r)/",
+        "cn": "对…负责",
+        "ex": "Who is responsible for this?",
+        "exCn": "谁对此负责？"
+      },
+      {
+        "w": "be subject to",
+        "ipa": "/bi ˈsʌbdʒɪkt tuː/",
+        "cn": "受…支配",
+        "ex": "The plan is subject to approval.",
+        "exCn": "计划需经批准。"
+      },
+      {
+        "w": "be supposed to",
+        "ipa": "/bi səˈpəʊzd tuː/",
+        "cn": "应该",
+        "ex": "You are supposed to arrive early.",
+        "exCn": "你应该早点到。"
+      },
+      {
+        "w": "benefit from",
+        "ipa": "/ˈbenɪfɪt frəm/",
+        "cn": "从…受益",
+        "ex": "Students benefit from practice.",
+        "exCn": "学生从练习中受益。"
+      },
+      {
+        "w": "break down",
+        "ipa": "/breɪk daʊn/",
+        "cn": "故障；分解",
+        "ex": "The car broke down.",
+        "exCn": "车坏了。"
+      },
+      {
+        "w": "break out",
+        "ipa": "/breɪk aʊt/",
+        "cn": "爆发",
+        "ex": "A fire broke out.",
+        "exCn": "火灾爆发了。"
+      },
+      {
+        "w": "break through",
+        "ipa": "/breɪk θruː/",
+        "cn": "突破",
+        "ex": "Scientists broke through the barrier.",
+        "exCn": "科学家突破了障碍。"
+      },
+      {
+        "w": "bring about",
+        "ipa": "/brɪŋ əˈbaʊt/",
+        "cn": "导致",
+        "ex": "The policy brought about change.",
+        "exCn": "政策带来了变化。"
+      },
+      {
+        "w": "bring up",
+        "ipa": "/brɪŋ ʌp/",
+        "cn": "提出；抚养",
+        "ex": "She brought up an important point.",
+        "exCn": "她提出了一个重要观点。"
+      },
+      {
+        "w": "call for",
+        "ipa": "/kɔːl fɔː(r)/",
+        "cn": "需要；呼吁",
+        "ex": "The situation calls for action.",
+        "exCn": "情况需要行动。"
+      },
+      {
+        "w": "call off",
+        "ipa": "/kɔːl ɒf/",
+        "cn": "取消",
+        "ex": "The meeting was called off.",
+        "exCn": "会议被取消了。"
+      },
+      {
+        "w": "call on",
+        "ipa": "/kɔːl ɒn/",
+        "cn": "号召；拜访",
+        "ex": "The teacher called on students to participate.",
+        "exCn": "老师号召学生参与。"
+      },
+      {
+        "w": "carry on",
+        "ipa": "/ˈkæri ɒn/",
+        "cn": "继续",
+        "ex": "Carry on with the discussion.",
+        "exCn": "继续讨论。"
+      },
+      {
+        "w": "catch up with",
+        "ipa": "/kætʃ ʌp wɪð/",
+        "cn": "赶上",
+        "ex": "Work hard to catch up with others.",
+        "exCn": "努力赶上他人。"
+      },
+      {
+        "w": "come about",
+        "ipa": "/kʌm əˈbaʊt/",
+        "cn": "发生",
+        "ex": "How did the accident come about?",
+        "exCn": "事故是怎么发生的？"
+      },
+      {
+        "w": "come into being",
+        "ipa": "/kʌm ˈɪntə ˈbiːɪŋ/",
+        "cn": "形成",
+        "ex": "The organisation came into being in 2000.",
+        "exCn": "组织于2000年成立。"
+      },
+      {
+        "w": "come up",
+        "ipa": "/kʌm ʌp/",
+        "cn": "出现；被提出",
+        "ex": "A new problem came up.",
+        "exCn": "新问题出现了。"
+      },
+      {
+        "w": "compensate for",
+        "ipa": "/ˈkɒmpenseɪt fɔː(r)/",
+        "cn": "补偿",
+        "ex": "Nothing can compensate for the loss.",
+        "exCn": "没有什么能补偿损失。"
+      },
+      {
+        "w": "concentrate on",
+        "ipa": "/ˈkɒnsntreɪt ɒn/",
+        "cn": "专注于",
+        "ex": "Concentrate on your studies.",
+        "exCn": "专注于学习。"
+      },
+      {
+        "w": "consist of",
+        "ipa": "/kənˈsɪst əv/",
+        "cn": "由…组成",
+        "ex": "The committee consists of ten members.",
+        "exCn": "委员会由十名成员组成。"
+      },
+      {
+        "w": "contribute to",
+        "ipa": "/kənˈtrɪbjuːt tuː/",
+        "cn": "有助于；贡献",
+        "ex": "Exercise contributes to health.",
+        "exCn": "锻炼有助于健康。"
+      },
+      {
+        "w": "cope with",
+        "ipa": "/kəʊp wɪð/",
+        "cn": "应对",
+        "ex": "Learn to cope with stress.",
+        "exCn": "学会应对压力。"
+      },
+      {
+        "w": "correspond to",
+        "ipa": "/ˌkɒrəˈspɒnd tuː/",
+        "cn": "对应",
+        "ex": "The results correspond to expectations.",
+        "exCn": "结果与预期对应。"
+      },
+      {
+        "w": "count on",
+        "ipa": "/kaʊnt ɒn/",
+        "cn": "依靠",
+        "ex": "You can count on me.",
+        "exCn": "你可以依靠我。"
+      },
+      {
+        "w": "cut down",
+        "ipa": "/kʌt daʊn/",
+        "cn": "削减",
+        "ex": "Cut down on sugar.",
+        "exCn": "减少糖的摄入。"
+      },
+      {
+        "w": "date back to",
+        "ipa": "/deɪt bæk tuː/",
+        "cn": "追溯到",
+        "ex": "The tradition dates back to ancient times.",
+        "exCn": "传统追溯到古代。"
+      },
+      {
+        "w": "deal with",
+        "ipa": "/diːl wɪð/",
+        "cn": "处理",
+        "ex": "How do you deal with pressure?",
+        "exCn": "你如何处理压力？"
+      },
+      {
+        "w": "dedicate to",
+        "ipa": "/ˈdedɪkeɪt tuː/",
+        "cn": "致力于",
+        "ex": "She dedicated her life to science.",
+        "exCn": "她把一生献给科学。"
+      },
+      {
+        "w": "depend on",
+        "ipa": "/dɪˈpend ɒn/",
+        "cn": "取决于",
+        "ex": "Success depends on effort.",
+        "exCn": "成功取决于努力。"
+      },
+      {
+        "w": "derive from",
+        "ipa": "/dɪˈraɪv frəm/",
+        "cn": "来源于",
+        "ex": "Many words derive from Latin.",
+        "exCn": "许多词来源于拉丁语。"
+      },
+      {
+        "w": "devote to",
+        "ipa": "/dɪˈvəʊt tuː/",
+        "cn": "奉献给",
+        "ex": "Devote more time to reading.",
+        "exCn": "把更多时间献给阅读。"
+      },
+      {
+        "w": "differ from",
+        "ipa": "/ˈdɪfə(r) frəm/",
+        "cn": "与…不同",
+        "ex": "Opinions differ from person to person.",
+        "exCn": "意见因人而异。"
+      },
+      {
+        "w": "dispose of",
+        "ipa": "/dɪˈspəʊz əv/",
+        "cn": "处理掉",
+        "ex": "Dispose of waste properly.",
+        "exCn": "正确处理废物。"
+      },
+      {
+        "w": "distinguish from",
+        "ipa": "/dɪˈstɪŋɡwɪʃ frəm/",
+        "cn": "区分",
+        "ex": "Distinguish fact from opinion.",
+        "exCn": "区分事实与观点。"
+      },
+      {
+        "w": "do away with",
+        "ipa": "/duː əˈweɪ wɪð/",
+        "cn": "废除",
+        "ex": "The old rule was done away with.",
+        "exCn": "旧规则被废除了。"
+      },
+      {
+        "w": "draw on",
+        "ipa": "/drɔː ɒn/",
+        "cn": "利用",
+        "ex": "Draw on past experience.",
+        "exCn": "利用过去的经验。"
+      },
+      {
+        "w": "drop out",
+        "ipa": "/drɒp aʊt/",
+        "cn": "退出",
+        "ex": "He dropped out of school.",
+        "exCn": "他辍学了。"
+      },
+      {
+        "w": "engage in",
+        "ipa": "/ɪnˈɡeɪdʒ ɪn/",
+        "cn": "从事",
+        "ex": "Engage in meaningful activities.",
+        "exCn": "从事有意义的活动。"
+      },
+      {
+        "w": "entitle to",
+        "ipa": "/ɪnˈtaɪtl tuː/",
+        "cn": "使有权",
+        "ex": "This ticket entitles you to a seat.",
+        "exCn": "这张票让你有权得到座位。"
+      },
+      {
+        "w": "expose to",
+        "ipa": "/ɪkˈspəʊz tuː/",
+        "cn": "使暴露",
+        "ex": "Do not expose children to violence.",
+        "exCn": "不要让儿童接触暴力。"
+      },
+      {
+        "w": "fall behind",
+        "ipa": "/fɔːl bɪˈhaɪnd/",
+        "cn": "落后",
+        "ex": "Don't fall behind in your studies.",
+        "exCn": "学习上不要落后。"
+      },
+      {
+        "w": "figure out",
+        "ipa": "/ˈfɪɡə(r) aʊt/",
+        "cn": "弄明白",
+        "ex": "Figure out the solution.",
+        "exCn": "弄明白解决方案。"
+      },
+      {
+        "w": "focus on",
+        "ipa": "/ˈfəʊkəs ɒn/",
+        "cn": "专注于",
+        "ex": "Focus on the main points.",
+        "exCn": "专注于要点。"
+      },
+      {
+        "w": "get across",
+        "ipa": "/ɡet əˈkrɒs/",
+        "cn": "使理解",
+        "ex": "Get your idea across clearly.",
+        "exCn": "清晰传达你的想法。"
+      },
+      {
+        "w": "get over",
+        "ipa": "/ɡet ˈəʊvə(r)/",
+        "cn": "克服",
+        "ex": "Get over the difficulty.",
+        "exCn": "克服困难。"
+      },
+      {
+        "w": "give rise to",
+        "ipa": "/ɡɪv raɪz tuː/",
+        "cn": "引起",
+        "ex": "The event gave rise to discussion.",
+        "exCn": "事件引起了讨论。"
+      },
+      {
+        "w": "go through",
+        "ipa": "/ɡəʊ θruː/",
+        "cn": "经历；检查",
+        "ex": "Go through the document carefully.",
+        "exCn": "仔细检查文件。"
+      },
+      {
+        "w": "hand over",
+        "ipa": "/hænd ˈəʊvə(r)/",
+        "cn": "移交",
+        "ex": "Hand over the responsibility.",
+        "exCn": "移交责任。"
+      },
+      {
+        "w": "hang on",
+        "ipa": "/hæŋ ɒn/",
+        "cn": "坚持；稍等",
+        "ex": "Hang on, I'll be back.",
+        "exCn": "稍等，我马上回来。"
+      },
+      {
+        "w": "hold back",
+        "ipa": "/həʊld bæk/",
+        "cn": "抑制；阻碍",
+        "ex": "Don't hold back your opinions.",
+        "exCn": "不要抑制你的观点。"
+      },
+      {
+        "w": "insist on",
+        "ipa": "/ɪnˈsɪst ɒn/",
+        "cn": "坚持",
+        "ex": "He insisted on paying.",
+        "exCn": "他坚持付钱。"
+      },
+      {
+        "w": "interfere with",
+        "ipa": "/ˌɪntəˈfɪə(r) wɪð/",
+        "cn": "干扰",
+        "ex": "Don't interfere with others' work.",
+        "exCn": "不要干扰他人工作。"
+      },
+      {
+        "w": "keep up with",
+        "ipa": "/kiːp ʌp wɪð/",
+        "cn": "跟上",
+        "ex": "Keep up with the latest news.",
+        "exCn": "跟上最新消息。"
+      },
+      {
+        "w": "lay off",
+        "ipa": "/leɪ ɒf/",
+        "cn": "解雇",
+        "ex": "The company laid off workers.",
+        "exCn": "公司解雇了工人。"
+      },
+      {
+        "w": "lead to",
+        "ipa": "/liːd tuː/",
+        "cn": "导致",
+        "ex": "Hard work leads to success.",
+        "exCn": "努力导致成功。"
+      },
+      {
+        "w": "live up to",
+        "ipa": "/lɪv ʌp tuː/",
+        "cn": "不辜负",
+        "ex": "Live up to expectations.",
+        "exCn": "不辜负期望。"
+      },
+      {
+        "w": "look down on",
+        "ipa": "/lʊk daʊn ɒn/",
+        "cn": "看不起",
+        "ex": "Don't look down on others.",
+        "exCn": "不要看不起他人。"
+      },
+      {
+        "w": "look into",
+        "ipa": "/lʊk ˈɪntə/",
+        "cn": "调查",
+        "ex": "Look into the matter.",
+        "exCn": "调查这件事。"
+      },
+      {
+        "w": "make for",
+        "ipa": "/meɪk fɔː(r)/",
+        "cn": "走向；有助于",
+        "ex": "The policy makes for better results.",
+        "exCn": "政策有助于更好结果。"
+      },
+      {
+        "w": "make out",
+        "ipa": "/meɪk aʊt/",
+        "cn": "辨认；理解",
+        "ex": "I can't make out the writing.",
+        "exCn": "我辨认不出字迹。"
+      },
+      {
+        "w": "object to",
+        "ipa": "/əbˈdʒekt tuː/",
+        "cn": "反对",
+        "ex": "They object to the plan.",
+        "exCn": "他们反对计划。"
+      },
+      {
+        "w": "originate from",
+        "ipa": "/əˈrɪdʒɪneɪt frəm/",
+        "cn": "起源于",
+        "ex": "The custom originates from ancient times.",
+        "exCn": "习俗起源于古代。"
+      },
+      {
+        "w": "participate in",
+        "ipa": "/pɑːˈtɪsɪpeɪt ɪn/",
+        "cn": "参与",
+        "ex": "Participate in the discussion.",
+        "exCn": "参与讨论。"
+      },
+      {
+        "w": "pass away",
+        "ipa": "/pɑːs əˈweɪ/",
+        "cn": "去世",
+        "ex": "The old man passed away peacefully.",
+        "exCn": "老人平静地去世了。"
+      },
+      {
+        "w": "pay off",
+        "ipa": "/peɪ ɒf/",
+        "cn": "得到回报",
+        "ex": "Hard work pays off.",
+        "exCn": "努力得到回报。"
+      },
+      {
+        "w": "persist in",
+        "ipa": "/pəˈsɪst ɪn/",
+        "cn": "坚持",
+        "ex": "Persist in your efforts.",
+        "exCn": "坚持你的努力。"
+      },
+      {
+        "w": "point out",
+        "ipa": "/pɔɪnt aʊt/",
+        "cn": "指出",
+        "ex": "Point out the mistakes.",
+        "exCn": "指出错误。"
+      },
+      {
+        "w": "prefer to",
+        "ipa": "/prɪˈfɜː(r) tuː/",
+        "cn": "更喜欢",
+        "ex": "I prefer to walk.",
+        "exCn": "我更喜欢走路。"
+      },
+      {
+        "w": "preside over",
+        "ipa": "/prɪˈzaɪd ˈəʊvə(r)/",
+        "cn": "主持",
+        "ex": "She presided over the meeting.",
+        "exCn": "她主持会议。"
+      },
+      {
+        "w": "prevent from",
+        "ipa": "/prɪˈvent frəm/",
+        "cn": "阻止",
+        "ex": "Prevent accidents from happening.",
+        "exCn": "防止事故发生。"
+      },
+      {
+        "w": "profit from",
+        "ipa": "/ˈprɒfɪt frəm/",
+        "cn": "从…获利",
+        "ex": "We can profit from the experience.",
+        "exCn": "我们可以从经验中获利。"
+      },
+      {
+        "w": "protect from",
+        "ipa": "/prəˈtekt frəm/",
+        "cn": "保护免受",
+        "ex": "Protect children from harm.",
+        "exCn": "保护儿童免受伤害。"
+      },
+      {
+        "w": "provide with",
+        "ipa": "/prəˈvaɪd wɪð/",
+        "cn": "提供",
+        "ex": "Provide students with resources.",
+        "exCn": "为学生提供资源。"
+      },
+      {
+        "w": "put forward",
+        "ipa": "/pʊt ˈfɔːwəd/",
+        "cn": "提出",
+        "ex": "Put forward a suggestion.",
+        "exCn": "提出建议。"
+      },
+      {
+        "w": "put up with",
+        "ipa": "/pʊt ʌp wɪð/",
+        "cn": "忍受",
+        "ex": "I can't put up with the noise.",
+        "exCn": "我无法忍受噪音。"
+      },
+      {
+        "w": "refer to",
+        "ipa": "/rɪˈfɜː(r) tuː/",
+        "cn": "参考；指",
+        "ex": "Refer to the notes.",
+        "exCn": "参考笔记。"
+      },
+      {
+        "w": "reflect on",
+        "ipa": "/rɪˈflekt ɒn/",
+        "cn": "反思",
+        "ex": "Reflect on your progress.",
+        "exCn": "反思你的进步。"
+      },
+      {
+        "w": "rely on",
+        "ipa": "/rɪˈlaɪ ɒn/",
+        "cn": "依靠",
+        "ex": "Rely on evidence.",
+        "exCn": "依靠证据。"
+      },
+      {
+        "w": "remind of",
+        "ipa": "/rɪˈmaɪnd əv/",
+        "cn": "使想起",
+        "ex": "This reminds me of childhood.",
+        "exCn": "这让我想起童年。"
+      },
+      {
+        "w": "resort to",
+        "ipa": "/rɪˈzɔːt tuː/",
+        "cn": "诉诸",
+        "ex": "Don't resort to violence.",
+        "exCn": "不要诉诸暴力。"
+      },
+      {
+        "w": "respond to",
+        "ipa": "/rɪˈspɒnd tuː/",
+        "cn": "回应",
+        "ex": "Respond to the question.",
+        "exCn": "回应问题。"
+      },
+      {
+        "w": "result from",
+        "ipa": "/rɪˈzʌlt frəm/",
+        "cn": "由…导致",
+        "ex": "The accident resulted from carelessness.",
+        "exCn": "事故由粗心导致。"
+      },
+      {
+        "w": "result in",
+        "ipa": "/rɪˈzʌlt ɪn/",
+        "cn": "导致",
+        "ex": "The mistake resulted in failure.",
+        "exCn": "错误导致失败。"
+      },
+      {
+        "w": "run into",
+        "ipa": "/rʌn ˈɪntə/",
+        "cn": "遇到",
+        "ex": "I ran into an old friend.",
+        "exCn": "我遇到一个老朋友。"
+      },
+      {
+        "w": "see to",
+        "ipa": "/siː tuː/",
+        "cn": "负责处理",
+        "ex": "See to the arrangements.",
+        "exCn": "负责安排。"
+      },
+      {
+        "w": "set about",
+        "ipa": "/set əˈbaʊt/",
+        "cn": "开始",
+        "ex": "Set about the task immediately.",
+        "exCn": "立刻开始任务。"
+      },
+      {
+        "w": "settle down",
+        "ipa": "/ˈsetl daʊn/",
+        "cn": "安定",
+        "ex": "He settled down in the city.",
+        "exCn": "他在城市安定下来。"
+      },
+      {
+        "w": "show up",
+        "ipa": "/ʃəʊ ʌp/",
+        "cn": "出现",
+        "ex": "He didn't show up.",
+        "exCn": "他没有出现。"
+      },
+      {
+        "w": "stand for",
+        "ipa": "/stænd fɔː(r)/",
+        "cn": "代表",
+        "ex": "What does the symbol stand for?",
+        "exCn": "这个符号代表什么？"
+      },
+      {
+        "w": "stand out",
+        "ipa": "/stænd aʊt/",
+        "cn": "突出",
+        "ex": "Her work stands out.",
+        "exCn": "她的工作很突出。"
+      },
+      {
+        "w": "stem from",
+        "ipa": "/stem frəm/",
+        "cn": "源于",
+        "ex": "The problem stems from poor planning.",
+        "exCn": "问题源于规划不良。"
+      },
+      {
+        "w": "stick to",
+        "ipa": "/stɪk tuː/",
+        "cn": "坚持",
+        "ex": "Stick to your principles.",
+        "exCn": "坚持你的原则。"
+      },
+      {
+        "w": "subject to",
+        "ipa": "/ˈsʌbdʒɪkt tuː/",
+        "cn": "受…支配",
+        "ex": "The plan is subject to change.",
+        "exCn": "计划可能更改。"
+      },
+      {
+        "w": "subscribe to",
+        "ipa": "/səbˈskraɪb tuː/",
+        "cn": "订阅；同意",
+        "ex": "I subscribe to that view.",
+        "exCn": "我同意那个观点。"
+      },
+      {
+        "w": "succeed in",
+        "ipa": "/səkˈsiːd ɪn/",
+        "cn": "成功",
+        "ex": "She succeeded in the exam.",
+        "exCn": "她考试成功了。"
+      },
+      {
+        "w": "suffer from",
+        "ipa": "/ˈsʌfə(r) frəm/",
+        "cn": "遭受",
+        "ex": "Many suffer from stress.",
+        "exCn": "许多人遭受压力。"
+      },
+      {
+        "w": "sum up",
+        "ipa": "/sʌm ʌp/",
+        "cn": "总结",
+        "ex": "Sum up the main points.",
+        "exCn": "总结要点。"
+      },
+      {
+        "w": "take advantage of",
+        "ipa": "/teɪk ədˈvɑːntɪdʒ əv/",
+        "cn": "利用",
+        "ex": "Take advantage of the opportunity.",
+        "exCn": "利用机会。"
+      },
+      {
+        "w": "take into account",
+        "ipa": "/teɪk ˈɪntə əˈkaʊnt/",
+        "cn": "考虑",
+        "ex": "Take all factors into account.",
+        "exCn": "考虑所有因素。"
+      },
+      {
+        "w": "take over",
+        "ipa": "/teɪk ˈəʊvə(r)/",
+        "cn": "接管",
+        "ex": "She took over the project.",
+        "exCn": "她接管了项目。"
+      },
+      {
+        "w": "testify to",
+        "ipa": "/ˈtestɪfaɪ tuː/",
+        "cn": "证明",
+        "ex": "The results testify to hard work.",
+        "exCn": "结果证明了努力。"
+      },
+      {
+        "w": "think of",
+        "ipa": "/θɪŋk əv/",
+        "cn": "想到",
+        "ex": "What do you think of the idea?",
+        "exCn": "你觉得这个想法怎么样？"
+      },
+      {
+        "w": "throw light on",
+        "ipa": "/θrəʊ laɪt ɒn/",
+        "cn": "阐明",
+        "ex": "The study throws light on the problem.",
+        "exCn": "研究阐明了问题。"
+      },
+      {
+        "w": "turn out",
+        "ipa": "/tɜːn aʊt/",
+        "cn": "结果是",
+        "ex": "It turned out to be true.",
+        "exCn": "结果证明是真的。"
+      },
+      {
+        "w": "turn to",
+        "ipa": "/tɜːn tuː/",
+        "cn": "求助于",
+        "ex": "Turn to teachers for help.",
+        "exCn": "向老师求助。"
+      },
+      {
+        "w": "underlie",
+        "ipa": "/ˌʌndəˈlaɪ/",
+        "cn": "构成…的基础",
+        "ex": "What principles underlie the theory?",
+        "exCn": "什么原则构成理论的基础？"
+      },
+      {
+        "w": "yield to",
+        "ipa": "/jiːld tuː/",
+        "cn": "屈服",
+        "ex": "Don't yield to pressure.",
+        "exCn": "不要屈服于压力。"
+      },
+      {
+        "w": "abide by",
+        "ipa": "/əˈbaɪd baɪ/",
+        "cn": "遵守",
+        "ex": "Abide by the rules.",
+        "exCn": "遵守规则。"
+      },
+      {
+        "w": "back up",
+        "ipa": "/bæk ʌp/",
+        "cn": "支持；备份",
+        "ex": "Back up your argument with evidence.",
+        "exCn": "用证据支持你的论点。"
+      },
+      {
+        "w": "bear in mind",
+        "ipa": "/beə(r) ɪn maɪnd/",
+        "cn": "记住",
+        "ex": "Bear in mind the deadline.",
+        "exCn": "记住截止日期。"
+      },
+      {
+        "w": "blow up",
+        "ipa": "/bləʊ ʌp/",
+        "cn": "爆炸；夸大",
+        "ex": "Don't blow up the problem.",
+        "exCn": "不要夸大问题。"
+      },
+      {
+        "w": "break away from",
+        "ipa": "/breɪk əˈweɪ frəm/",
+        "cn": "脱离",
+        "ex": "Break away from bad habits.",
+        "exCn": "摆脱坏习惯。"
+      },
+      {
+        "w": "bring forward",
+        "ipa": "/brɪŋ ˈfɔːwəd/",
+        "cn": "提出；提前",
+        "ex": "Bring forward the meeting.",
+        "exCn": "把会议提前。"
+      },
+      {
+        "w": "build up",
+        "ipa": "/bɪld ʌp/",
+        "cn": "建立；增强",
+        "ex": "Build up your vocabulary.",
+        "exCn": "积累词汇。"
+      },
+      {
+        "w": "burn out",
+        "ipa": "/bɜːn aʊt/",
+        "cn": "燃尽；精疲力竭",
+        "ex": "Don't burn out from overwork.",
+        "exCn": "不要因过度工作而精疲力竭。"
+      },
+      {
+        "w": "call up",
+        "ipa": "/kɔːl ʌp/",
+        "cn": "打电话；回忆",
+        "ex": "The photo calls up memories.",
+        "exCn": "照片唤起回忆。"
+      },
+      {
+        "w": "calm down",
+        "ipa": "/kɑːm daʊn/",
+        "cn": "冷静",
+        "ex": "Calm down and think.",
+        "exCn": "冷静下来思考。"
+      },
+      {
+        "w": "care for",
+        "ipa": "/keə(r) fɔː(r)/",
+        "cn": "关心；喜欢",
+        "ex": "Care for the elderly.",
+        "exCn": "关心老年人。"
+      },
+      {
+        "w": "carry through",
+        "ipa": "/ˈkæri θruː/",
+        "cn": "完成",
+        "ex": "Carry the plan through.",
+        "exCn": "完成计划。"
+      },
+      {
+        "w": "cast doubt on",
+        "ipa": "/kɑːst daʊt ɒn/",
+        "cn": "对…提出怀疑",
+        "ex": "New evidence casts doubt on the theory.",
+        "exCn": "新证据对理论提出怀疑。"
+      },
+      {
+        "w": "catch on",
+        "ipa": "/kætʃ ɒn/",
+        "cn": "理解；流行",
+        "ex": "The idea caught on quickly.",
+        "exCn": "这个想法很快流行。"
+      },
+      {
+        "w": "check out",
+        "ipa": "/tʃek aʊt/",
+        "cn": "检查；结账",
+        "ex": "Check out the new book.",
+        "exCn": "看看这本新书。"
+      },
+      {
+        "w": "cheer up",
+        "ipa": "/tʃɪə(r) ʌp/",
+        "cn": "振作",
+        "ex": "Cheer up! Things will improve.",
+        "exCn": "振作起来！情况会好转。"
+      },
+      {
+        "w": "clear up",
+        "ipa": "/klɪə(r) ʌp/",
+        "cn": "澄清；放晴",
+        "ex": "Clear up the misunderstanding.",
+        "exCn": "澄清误解。"
+      },
+      {
+        "w": "come down to",
+        "ipa": "/kʌm daʊn tuː/",
+        "cn": "归结为",
+        "ex": "It comes down to hard work.",
+        "exCn": "归根结底是努力。"
+      },
+      {
+        "w": "come out",
+        "ipa": "/kʌm aʊt/",
+        "cn": "出版；结果是",
+        "ex": "The book came out last year.",
+        "exCn": "书去年出版了。"
+      },
+      {
+        "w": "compensate for",
+        "ipa": "/ˈkɒmpenseɪt fɔː(r)/",
+        "cn": "弥补",
+        "ex": "Hard work can compensate for lack of talent.",
+        "exCn": "努力可以弥补天赋不足。"
+      },
+      {
+        "w": "comply with",
+        "ipa": "/kəmˈplaɪ wɪð/",
+        "cn": "遵守",
+        "ex": "Comply with the regulations.",
+        "exCn": "遵守规定。"
+      },
+      {
+        "w": "conceive of",
+        "ipa": "/kənˈsiːv əv/",
+        "cn": "构想",
+        "ex": "It is hard to conceive of such a plan.",
+        "exCn": "很难构想这样的计划。"
+      },
+      {
+        "w": "confine to",
+        "ipa": "/kənˈfaɪn tuː/",
+        "cn": "限制于",
+        "ex": "The discussion was confined to the topic.",
+        "exCn": "讨论限于这个话题。"
+      },
+      {
+        "w": "conform to",
+        "ipa": "/kənˈfɔːm tuː/",
+        "cn": "符合",
+        "ex": "Conform to the standards.",
+        "exCn": "符合标准。"
+      },
+      {
+        "w": "consent to",
+        "ipa": "/kənˈsent tuː/",
+        "cn": "同意",
+        "ex": "Parents consented to the trip.",
+        "exCn": "父母同意这次旅行。"
+      },
+      {
+        "w": "consist in",
+        "ipa": "/kənˈsɪst ɪn/",
+        "cn": "在于",
+        "ex": "Happiness consists in contentment.",
+        "exCn": "幸福在于知足。"
+      },
+      {
+        "w": "consult with",
+        "ipa": "/kənˈsʌlt wɪð/",
+        "cn": "与…商量",
+        "ex": "Consult with experts.",
+        "exCn": "与专家商量。"
+      },
+      {
+        "w": "contrast with",
+        "ipa": "/ˈkɒntrɑːst wɪð/",
+        "cn": "与…对比",
+        "ex": "Contrast this with the previous result.",
+        "exCn": "把这个与之前的结果对比。"
+      },
+      {
+        "w": "contribute to",
+        "ipa": "/kənˈtrɪbjuːt tuː/",
+        "cn": "促成",
+        "ex": "Many factors contribute to success.",
+        "exCn": "许多因素促成成功。"
+      },
+      {
+        "w": "convert into",
+        "ipa": "/kənˈvɜːt ˈɪntə/",
+        "cn": "转换成",
+        "ex": "Convert ideas into action.",
+        "exCn": "把想法转换成行动。"
+      },
+      {
+        "w": "convince of",
+        "ipa": "/kənˈvɪns əv/",
+        "cn": "使确信",
+        "ex": "Convince them of the importance.",
+        "exCn": "使他们确信重要性。"
+      },
+      {
+        "w": "cooperate with",
+        "ipa": "/kəʊˈɒpəreɪt wɪð/",
+        "cn": "与…合作",
+        "ex": "Cooperate with the team.",
+        "exCn": "与团队合作。"
+      },
+      {
+        "w": "cope with",
+        "ipa": "/kəʊp wɪð/",
+        "cn": "应付",
+        "ex": "Cope with the pressure.",
+        "exCn": "应付压力。"
+      },
+      {
+        "w": "correspond with",
+        "ipa": "/ˌkɒrəˈspɒnd wɪð/",
+        "cn": "与…通信；符合",
+        "ex": "The results correspond with the prediction.",
+        "exCn": "结果与预测相符。"
+      },
+      {
+        "w": "count for",
+        "ipa": "/kaʊnt fɔː(r)/",
+        "cn": "有价值",
+        "ex": "Experience counts for a lot.",
+        "exCn": "经验很有价值。"
+      },
+      {
+        "w": "cut off",
+        "ipa": "/kʌt ɒf/",
+        "cn": "切断",
+        "ex": "The power was cut off.",
+        "exCn": "电源被切断了。"
+      },
+      {
+        "w": "date from",
+        "ipa": "/deɪt frəm/",
+        "cn": "始于",
+        "ex": "The building dates from the 18th century.",
+        "exCn": "建筑始于18世纪。"
+      },
+      {
+        "w": "dawn on",
+        "ipa": "/dɔːn ɒn/",
+        "cn": "开始明白",
+        "ex": "It dawned on me that I was wrong.",
+        "exCn": "我开始明白我错了。"
+      },
+      {
+        "w": "depart from",
+        "ipa": "/dɪˈpɑːt frəm/",
+        "cn": "偏离",
+        "ex": "Depart from the usual practice.",
+        "exCn": "偏离通常做法。"
+      },
+      {
+        "w": "deprive of",
+        "ipa": "/dɪˈpraɪv əv/",
+        "cn": "剥夺",
+        "ex": "Don't deprive children of play.",
+        "exCn": "不要剥夺儿童玩耍。"
+      },
+      {
+        "w": "derive from",
+        "ipa": "/dɪˈraɪv frəm/",
+        "cn": "源自",
+        "ex": "Satisfaction derives from achievement.",
+        "exCn": "满足感源自成就。"
+      },
+      {
+        "w": "desist from",
+        "ipa": "/dɪˈsɪst frəm/",
+        "cn": "停止",
+        "ex": "Desist from the activity.",
+        "exCn": "停止该活动。"
+      },
+      {
+        "w": "detach from",
+        "ipa": "/dɪˈtætʃ frəm/",
+        "cn": "分离",
+        "ex": "Detach yourself from the problem.",
+        "exCn": "把自己从问题中分离。"
+      },
+      {
+        "w": "deter from",
+        "ipa": "/dɪˈtɜː(r) frəm/",
+        "cn": "阻止",
+        "ex": "Nothing can deter him from trying.",
+        "exCn": "没有什么能阻止他尝试。"
+      },
+      {
+        "w": "deviate from",
+        "ipa": "/ˈdiːvieɪt frəm/",
+        "cn": "偏离",
+        "ex": "Do not deviate from the plan.",
+        "exCn": "不要偏离计划。"
+      },
+      {
+        "w": "differ in",
+        "ipa": "/ˈdɪfə(r) ɪn/",
+        "cn": "在…方面不同",
+        "ex": "They differ in opinion.",
+        "exCn": "他们意见不同。"
+      },
+      {
+        "w": "dig into",
+        "ipa": "/dɪɡ ˈɪntə/",
+        "cn": "深入研究",
+        "ex": "Dig into the data.",
+        "exCn": "深入研究数据。"
+      },
+      {
+        "w": "dispense with",
+        "ipa": "/dɪˈspens wɪð/",
+        "cn": "免除",
+        "ex": "We can dispense with formalities.",
+        "exCn": "我们可以免除形式。"
+      },
+      {
+        "w": "dispose of",
+        "ipa": "/dɪˈspəʊz əv/",
+        "cn": "处置",
+        "ex": "Dispose of the waste safely.",
+        "exCn": "安全处置废物。"
+      },
+      {
+        "w": "distinguish between",
+        "ipa": "/dɪˈstɪŋɡwɪʃ bɪˈtwiːn/",
+        "cn": "区分",
+        "ex": "Distinguish between right and wrong.",
+        "exCn": "区分对错。"
+      },
+      {
+        "w": "do without",
+        "ipa": "/duː wɪˈðaʊt/",
+        "cn": "没有…也行",
+        "ex": "We can do without luxury.",
+        "exCn": "我们可以没有奢侈品。"
+      },
+      {
+        "w": "draw up",
+        "ipa": "/drɔː ʌp/",
+        "cn": "起草",
+        "ex": "Draw up a plan.",
+        "exCn": "起草计划。"
+      },
+      {
+        "w": "dwell on",
+        "ipa": "/dwel ɒn/",
+        "cn": "详述；老是想",
+        "ex": "Don't dwell on the past.",
+        "exCn": "不要老想着过去。"
+      },
+      {
+        "w": "elaborate on",
+        "ipa": "/ɪˈlæbəreɪt ɒn/",
+        "cn": "详细说明",
+        "ex": "Elaborate on your idea.",
+        "exCn": "详细说明你的想法。"
+      },
+      {
+        "w": "embark on",
+        "ipa": "/ɪmˈbɑːk ɒn/",
+        "cn": "开始",
+        "ex": "Embark on a new project.",
+        "exCn": "开始新项目。"
+      },
+      {
+        "w": "emerge from",
+        "ipa": "/ɪˈmɜːdʒ frəm/",
+        "cn": "从…出现",
+        "ex": "New ideas emerged from the discussion.",
+        "exCn": "新想法从讨论中出现。"
+      },
+      {
+        "w": "end up",
+        "ipa": "/end ʌp/",
+        "cn": "最终",
+        "ex": "He ended up winning.",
+        "exCn": "他最终赢了。"
+      },
+      {
+        "w": "engage with",
+        "ipa": "/ɪnˈɡeɪdʒ wɪð/",
+        "cn": "与…互动",
+        "ex": "Engage with the material actively.",
+        "exCn": "积极与材料互动。"
+      },
+      {
+        "w": "enquire into",
+        "ipa": "/ɪnˈkwaɪə(r) ˈɪntə/",
+        "cn": "调查",
+        "ex": "Enquire into the cause.",
+        "exCn": "调查原因。"
+      },
+      {
+        "w": "enter into",
+        "ipa": "/ˈentə(r) ˈɪntə/",
+        "cn": "进入；开始",
+        "ex": "Enter into an agreement.",
+        "exCn": "达成协议。"
+      },
+      {
+        "w": "excel in",
+        "ipa": "/ɪkˈsel ɪn/",
+        "cn": "擅长",
+        "ex": "She excels in mathematics.",
+        "exCn": "她擅长数学。"
+      },
+      {
+        "w": "exclude from",
+        "ipa": "/ɪkˈskluːd frəm/",
+        "cn": "排除",
+        "ex": "Exclude irrelevant information.",
+        "exCn": "排除无关信息。"
+      },
+      {
+        "w": "experiment with",
+        "ipa": "/ɪkˈsperɪment wɪð/",
+        "cn": "试验",
+        "ex": "Experiment with new methods.",
+        "exCn": "试验新方法。"
+      },
+      {
+        "w": "fade away",
+        "ipa": "/feɪd əˈweɪ/",
+        "cn": "逐渐消失",
+        "ex": "The sound faded away.",
+        "exCn": "声音逐渐消失。"
+      },
+      {
+        "w": "fall short of",
+        "ipa": "/fɔːl ʃɔːt əv/",
+        "cn": "未达到",
+        "ex": "The result fell short of expectations.",
+        "exCn": "结果未达预期。"
+      },
+      {
+        "w": "feed on",
+        "ipa": "/fiːd ɒn/",
+        "cn": "以…为食",
+        "ex": "The idea feeds on curiosity.",
+        "exCn": "想法以好奇心为养料。"
+      },
+      {
+        "w": "feel like",
+        "ipa": "/fiːl laɪk/",
+        "cn": "想要",
+        "ex": "I feel like taking a walk.",
+        "exCn": "我想散步。"
+      },
+      {
+        "w": "fight against",
+        "ipa": "/faɪt əˈɡenst/",
+        "cn": "与…斗争",
+        "ex": "Fight against inequality.",
+        "exCn": "与不平等作斗争。"
+      },
+      {
+        "w": "fill in",
+        "ipa": "/fɪl ɪn/",
+        "cn": "填写",
+        "ex": "Fill in the form.",
+        "exCn": "填写表格。"
+      },
+      {
+        "w": "find fault with",
+        "ipa": "/faɪnd fɔːlt wɪð/",
+        "cn": "挑剔",
+        "ex": "Don't find fault with others.",
+        "exCn": "不要挑剔他人。"
+      },
+      {
+        "w": "fit in",
+        "ipa": "/fɪt ɪn/",
+        "cn": "适应",
+        "ex": "It takes time to fit in.",
+        "exCn": "适应需要时间。"
+      },
+      {
+        "w": "focus upon",
+        "ipa": "/ˈfəʊkəs əˈpɒn/",
+        "cn": "聚焦于",
+        "ex": "Focus upon the essentials.",
+        "exCn": "聚焦于要点。"
+      },
+      {
+        "w": "follow up",
+        "ipa": "/ˈfɒləʊ ʌp/",
+        "cn": "跟进",
+        "ex": "Follow up on the suggestion.",
+        "exCn": "跟进建议。"
+      },
+      {
+        "w": "forbid from",
+        "ipa": "/fəˈbɪd frəm/",
+        "cn": "禁止",
+        "ex": "Students are forbidden from using phones.",
+        "exCn": "学生被禁止使用手机。"
+      },
+      {
+        "w": "free from",
+        "ipa": "/friː frəm/",
+        "cn": "免于",
+        "ex": "Free from worry.",
+        "exCn": "免于担忧。"
+      },
+      {
+        "w": "gain access to",
+        "ipa": "/ɡeɪn ˈækses tuː/",
+        "cn": "获得进入",
+        "ex": "Gain access to information.",
+        "exCn": "获得信息访问。"
+      },
+      {
+        "w": "get along",
+        "ipa": "/ɡet əˈlɒŋ/",
+        "cn": "相处",
+        "ex": "They get along well.",
+        "exCn": "他们相处很好。"
+      },
+      {
+        "w": "get away with",
+        "ipa": "/ɡet əˈweɪ wɪð/",
+        "cn": "逃脱惩罚",
+        "ex": "Don't think you can get away with it.",
+        "exCn": "别以为你可以逃脱。"
+      },
+      {
+        "w": "get by",
+        "ipa": "/ɡet baɪ/",
+        "cn": "勉强过",
+        "ex": "We can get by with what we have.",
+        "exCn": "我们可以用现有的勉强过。"
+      },
+      {
+        "w": "get down to",
+        "ipa": "/ɡet daʊn tuː/",
+        "cn": "开始认真做",
+        "ex": "Get down to work.",
+        "exCn": "开始认真工作。"
+      },
+      {
+        "w": "get rid of",
+        "ipa": "/ɡet rɪd əv/",
+        "cn": "摆脱",
+        "ex": "Get rid of bad habits.",
+        "exCn": "摆脱坏习惯。"
+      },
+      {
+        "w": "give in",
+        "ipa": "/ɡɪv ɪn/",
+        "cn": "屈服",
+        "ex": "Don't give in to pressure.",
+        "exCn": "不要屈服于压力。"
+      },
+      {
+        "w": "give way to",
+        "ipa": "/ɡɪv weɪ tuː/",
+        "cn": "让位于",
+        "ex": "Old methods gave way to new ones.",
+        "exCn": "旧方法让位于新方法。"
+      },
+      {
+        "w": "go about",
+        "ipa": "/ɡəʊ əˈbaʊt/",
+        "cn": "着手做",
+        "ex": "How do you go about solving it?",
+        "exCn": "你如何着手解决它？"
+      },
+      {
+        "w": "go against",
+        "ipa": "/ɡəʊ əˈɡenst/",
+        "cn": "违背",
+        "ex": "It goes against the rules.",
+        "exCn": "这违背规则。"
+      },
+      {
+        "w": "go in for",
+        "ipa": "/ɡəʊ ɪn fɔː(r)/",
+        "cn": "参加；爱好",
+        "ex": "She goes in for swimming.",
+        "exCn": "她爱好游泳。"
+      },
+      {
+        "w": "go over",
+        "ipa": "/ɡəʊ ˈəʊvə(r)/",
+        "cn": "复习",
+        "ex": "Go over the notes.",
+        "exCn": "复习笔记。"
+      },
+      {
+        "w": "go without",
+        "ipa": "/ɡəʊ wɪˈðaʊt/",
+        "cn": "没有…也行",
+        "ex": "We can go without dessert.",
+        "exCn": "我们可以不吃甜点。"
+      },
+      {
+        "w": "grow out of",
+        "ipa": "/ɡrəʊ aʊt əv/",
+        "cn": "源于；长大不再",
+        "ex": "The idea grew out of discussion.",
+        "exCn": "想法源于讨论。"
+      },
+      {
+        "w": "hand down",
+        "ipa": "/hænd daʊn/",
+        "cn": "传下来",
+        "ex": "Traditions are handed down.",
+        "exCn": "传统被传承下来。"
+      },
+      {
+        "w": "hang up",
+        "ipa": "/hæŋ ʌp/",
+        "cn": "挂断",
+        "ex": "Don't hang up.",
+        "exCn": "不要挂断。"
+      },
+      {
+        "w": "have access to",
+        "ipa": "/hæv ˈækses tuː/",
+        "cn": "有机会使用",
+        "ex": "Students have access to the library.",
+        "exCn": "学生可以使用图书馆。"
+      },
+      {
+        "w": "head for",
+        "ipa": "/hed fɔː(r)/",
+        "cn": "前往",
+        "ex": "We are heading for success.",
+        "exCn": "我们正走向成功。"
+      },
+      {
+        "w": "hear from",
+        "ipa": "/hɪə(r) frəm/",
+        "cn": "收到…的信",
+        "ex": "I haven't heard from him.",
+        "exCn": "我没收到他的消息。"
+      },
+      {
+        "w": "hold on to",
+        "ipa": "/həʊld ɒn tuː/",
+        "cn": "坚持",
+        "ex": "Hold on to your dreams.",
+        "exCn": "坚持你的梦想。"
+      },
+      {
+        "w": "impose on",
+        "ipa": "/ɪmˈpəʊz ɒn/",
+        "cn": "强加于",
+        "ex": "Don't impose your views on others.",
+        "exCn": "不要把你的观点强加于他人。"
+      },
+      {
+        "w": "improve on",
+        "ipa": "/ɪmˈpruːv ɒn/",
+        "cn": "改进",
+        "ex": "Improve on the previous result.",
+        "exCn": "改进之前的结果。"
+      },
+      {
+        "w": "indulge in",
+        "ipa": "/ɪnˈdʌldʒ ɪn/",
+        "cn": "沉溺于",
+        "ex": "Don't indulge in daydreaming.",
+        "exCn": "不要沉溺于白日梦。"
+      },
+      {
+        "w": "inform of",
+        "ipa": "/ɪnˈfɔːm əv/",
+        "cn": "告知",
+        "ex": "Inform them of the change.",
+        "exCn": "告知他们变化。"
+      },
+      {
+        "w": "inquire into",
+        "ipa": "/ɪnˈkwaɪə(r) ˈɪntə/",
+        "cn": "调查",
+        "ex": "Inquire into the matter.",
+        "exCn": "调查此事。"
+      },
+      {
+        "w": "insist upon",
+        "ipa": "/ɪnˈsɪst əˈpɒn/",
+        "cn": "坚持",
+        "ex": "Insist upon quality.",
+        "exCn": "坚持质量。"
+      },
+      {
+        "w": "interfere in",
+        "ipa": "/ˌɪntəˈfɪə(r) ɪn/",
+        "cn": "干涉",
+        "ex": "Don't interfere in others' affairs.",
+        "exCn": "不要干涉他人事务。"
+      },
+      {
+        "w": "invest in",
+        "ipa": "/ɪnˈvest ɪn/",
+        "cn": "投资于",
+        "ex": "Invest in education.",
+        "exCn": "投资于教育。"
+      },
+      {
+        "w": "involve in",
+        "ipa": "/ɪnˈvɒlv ɪn/",
+        "cn": "使参与",
+        "ex": "Involve students in the process.",
+        "exCn": "让学生参与过程。"
+      },
+      {
+        "w": "keep off",
+        "ipa": "/kiːp ɒf/",
+        "cn": "避开",
+        "ex": "Keep off the grass.",
+        "exCn": "勿踏草地。"
+      },
+      {
+        "w": "keep on",
+        "ipa": "/kiːp ɒn/",
+        "cn": "继续",
+        "ex": "Keep on trying.",
+        "exCn": "继续尝试。"
+      },
+      {
+        "w": "keep to",
+        "ipa": "/kiːp tuː/",
+        "cn": "遵守",
+        "ex": "Keep to the schedule.",
+        "exCn": "遵守时间表。"
+      },
+      {
+        "w": "knock down",
+        "ipa": "/nɒk daʊn/",
+        "cn": "撞倒；拆除",
+        "ex": "The old building was knocked down.",
+        "exCn": "旧建筑被拆除了。"
+      },
+      {
+        "w": "lay emphasis on",
+        "ipa": "/leɪ ˈemfəsɪs ɒn/",
+        "cn": "强调",
+        "ex": "Lay emphasis on practice.",
+        "exCn": "强调练习。"
+      },
+      {
+        "w": "lead up to",
+        "ipa": "/liːd ʌp tuː/",
+        "cn": "导致",
+        "ex": "Events led up to the decision.",
+        "exCn": "事件导致了决定。"
+      },
+      {
+        "w": "leave out",
+        "ipa": "/liːv aʊt/",
+        "cn": "遗漏",
+        "ex": "Don't leave out important details.",
+        "exCn": "不要遗漏重要细节。"
+      },
+      {
+        "w": "let down",
+        "ipa": "/let daʊn/",
+        "cn": "使失望",
+        "ex": "Don't let your parents down.",
+        "exCn": "不要让父母失望。"
+      },
+      {
+        "w": "live on",
+        "ipa": "/lɪv ɒn/",
+        "cn": "以…为生",
+        "ex": "Live on a small income.",
+        "exCn": "靠微薄收入生活。"
+      },
+      {
+        "w": "long for",
+        "ipa": "/lɒŋ fɔː(r)/",
+        "cn": "渴望",
+        "ex": "Long for peace.",
+        "exCn": "渴望和平。"
+      },
+      {
+        "w": "look back on",
+        "ipa": "/lʊk bæk ɒn/",
+        "cn": "回顾",
+        "ex": "Look back on the past year.",
+        "exCn": "回顾过去一年。"
+      },
+      {
+        "w": "look forward to",
+        "ipa": "/lʊk ˈfɔːwəd tuː/",
+        "cn": "期待",
+        "ex": "Look forward to the future.",
+        "exCn": "期待未来。"
+      },
+      {
+        "w": "lose sight of",
+        "ipa": "/luːz saɪt əv/",
+        "cn": "忽略",
+        "ex": "Don't lose sight of the goal.",
+        "exCn": "不要忽略目标。"
+      },
+      {
+        "w": "make sense of",
+        "ipa": "/meɪk sens əv/",
+        "cn": "理解",
+        "ex": "Make sense of the data.",
+        "exCn": "理解数据。"
+      },
+      {
+        "w": "make use of",
+        "ipa": "/meɪk juːs əv/",
+        "cn": "利用",
+        "ex": "Make use of available resources.",
+        "exCn": "利用可用资源。"
+      },
+      {
+        "w": "meet with",
+        "ipa": "/miːt wɪð/",
+        "cn": "遇到；会见",
+        "ex": "The plan met with approval.",
+        "exCn": "计划获得批准。"
+      },
+      {
+        "w": "mix up",
+        "ipa": "/mɪks ʌp/",
+        "cn": "混淆",
+        "ex": "Don't mix up the two concepts.",
+        "exCn": "不要混淆两个概念。"
+      },
+      {
+        "w": "name after",
+        "ipa": "/neɪm ˈɑːftə(r)/",
+        "cn": "以…命名",
+        "ex": "The school is named after a scientist.",
+        "exCn": "学校以一位科学家命名。"
+      },
+      {
+        "w": "object to",
+        "ipa": "/əbˈdʒekt tuː/",
+        "cn": "反对",
+        "ex": "I object to the proposal.",
+        "exCn": "我反对提议。"
+      },
+      {
+        "w": "occur to",
+        "ipa": "/əˈkɜː(r) tuː/",
+        "cn": "被想到",
+        "ex": "It occurred to me that...",
+        "exCn": "我突然想到……"
+      },
+      {
+        "w": "owe to",
+        "ipa": "/əʊ tuː/",
+        "cn": "归功于",
+        "ex": "I owe my success to my teachers.",
+        "exCn": "我的成功归功于老师。"
+      },
+      {
+        "w": "participate in",
+        "ipa": "/pɑːˈtɪsɪpeɪt ɪn/",
+        "cn": "参加",
+        "ex": "Participate actively in class.",
+        "exCn": "积极参加课堂。"
+      },
+      {
+        "w": "pass for",
+        "ipa": "/pɑːs fɔː(r)/",
+        "cn": "被认为是",
+        "ex": "He could pass for a native speaker.",
+        "exCn": "他可以被认为是母语者。"
+      },
+      {
+        "w": "pay back",
+        "ipa": "/peɪ bæk/",
+        "cn": "偿还",
+        "ex": "Pay back the money.",
+        "exCn": "还钱。"
+      },
+      {
+        "w": "pick up",
+        "ipa": "/pɪk ʌp/",
+        "cn": "学会；好转",
+        "ex": "Pick up new skills quickly.",
+        "exCn": "快速学会新技能。"
+      },
+      {
+        "w": "point to",
+        "ipa": "/pɔɪnt tuː/",
+        "cn": "指向",
+        "ex": "Evidence points to improvement.",
+        "exCn": "证据指向改善。"
+      },
+      {
+        "w": "preside over",
+        "ipa": "/prɪˈzaɪd ˈəʊvə(r)/",
+        "cn": "主持",
+        "ex": "Preside over the ceremony.",
+        "exCn": "主持仪式。"
+      },
+      {
+        "w": "prevail over",
+        "ipa": "/prɪˈveɪl ˈəʊvə(r)/",
+        "cn": "战胜",
+        "ex": "Reason prevailed over emotion.",
+        "exCn": "理性战胜了情感。"
+      },
+      {
+        "w": "pride oneself on",
+        "ipa": "/praɪd wʌnˈself ɒn/",
+        "cn": "以…自豪",
+        "ex": "She prides herself on honesty.",
+        "exCn": "她以诚实自豪。"
+      },
+      {
+        "w": "prohibit from",
+        "ipa": "/prəˈhɪbɪt frəm/",
+        "cn": "禁止",
+        "ex": "Students are prohibited from cheating.",
+        "exCn": "学生被禁止作弊。"
+      },
+      {
+        "w": "protect against",
+        "ipa": "/prəˈtekt əˈɡenst/",
+        "cn": "防御",
+        "ex": "Protect against infection.",
+        "exCn": "防御感染。"
+      },
+      {
+        "w": "provide for",
+        "ipa": "/prəˈvaɪd fɔː(r)/",
+        "cn": "供养；规定",
+        "ex": "Provide for the future.",
+        "exCn": "为未来做准备。"
+      },
+      {
+        "w": "pull through",
+        "ipa": "/pʊl θruː/",
+        "cn": "度过难关",
+        "ex": "He pulled through the illness.",
+        "exCn": "他度过了疾病难关。"
+      },
+      {
+        "w": "put aside",
+        "ipa": "/pʊt əˈsaɪd/",
+        "cn": "搁置；储蓄",
+        "ex": "Put aside some money.",
+        "exCn": "存一些钱。"
+      },
+      {
+        "w": "put down",
+        "ipa": "/pʊt daʊn/",
+        "cn": "写下；镇压",
+        "ex": "Put down your ideas.",
+        "exCn": "写下你的想法。"
+      },
+      {
+        "w": "put off",
+        "ipa": "/pʊt ɒf/",
+        "cn": "推迟",
+        "ex": "Don't put off until tomorrow.",
+        "exCn": "不要拖到明天。"
+      },
+      {
+        "w": "put out",
+        "ipa": "/pʊt aʊt/",
+        "cn": "熄灭；出版",
+        "ex": "Put out the fire.",
+        "exCn": "灭火。"
+      },
+      {
+        "w": "qualify for",
+        "ipa": "/ˈkwɒlɪfaɪ fɔː(r)/",
+        "cn": "有资格",
+        "ex": "Qualify for the competition.",
+        "exCn": "有资格参加比赛。"
+      },
+      {
+        "w": "react to",
+        "ipa": "/riˈækt tuː/",
+        "cn": "对…反应",
+        "ex": "How did they react to the news?",
+        "exCn": "他们对消息有何反应？"
+      },
+      {
+        "w": "recover from",
+        "ipa": "/rɪˈkʌvə(r) frəm/",
+        "cn": "从…恢复",
+        "ex": "Recover from the setback.",
+        "exCn": "从挫折中恢复。"
+      },
+      {
+        "w": "refer to",
+        "ipa": "/rɪˈfɜː(r) tuː/",
+        "cn": "提及",
+        "ex": "The article refers to recent studies.",
+        "exCn": "文章提及最近的研究。"
+      },
+      {
+        "w": "refrain from",
+        "ipa": "/rɪˈfreɪn frəm/",
+        "cn": "克制",
+        "ex": "Refrain from making noise.",
+        "exCn": "克制制造噪音。"
+      },
+      {
+        "w": "regard as",
+        "ipa": "/rɪˈɡɑːd æz/",
+        "cn": "视为",
+        "ex": "Regard challenges as opportunities.",
+        "exCn": "把挑战视为机会。"
+      },
+      {
+        "w": "relate to",
+        "ipa": "/rɪˈleɪt tuː/",
+        "cn": "与…有关",
+        "ex": "The story relates to real life.",
+        "exCn": "故事与现实生活有关。"
+      },
+      {
+        "w": "relieve of",
+        "ipa": "/rɪˈliːv əv/",
+        "cn": "解除",
+        "ex": "Relieve students of unnecessary pressure.",
+        "exCn": "解除学生不必要的压力。"
+      },
+      {
+        "w": "rely upon",
+        "ipa": "/rɪˈlaɪ əˈpɒn/",
+        "cn": "依赖",
+        "ex": "Rely upon scientific evidence.",
+        "exCn": "依赖科学证据。"
+      },
+      {
+        "w": "remind of",
+        "ipa": "/rɪˈmaɪnd əv/",
+        "cn": "提醒",
+        "ex": "This reminds me of a lesson.",
+        "exCn": "这让我想起一课。"
+      },
+      {
+        "w": "resign from",
+        "ipa": "/rɪˈzaɪn frəm/",
+        "cn": "辞职",
+        "ex": "He resigned from the position.",
+        "exCn": "他辞去了职位。"
+      },
+      {
+        "w": "resort to",
+        "ipa": "/rɪˈzɔːt tuː/",
+        "cn": "采取",
+        "ex": "Resort to peaceful means.",
+        "exCn": "采取和平手段。"
+      },
+      {
+        "w": "respond to",
+        "ipa": "/rɪˈspɒnd tuː/",
+        "cn": "对…作出反应",
+        "ex": "Respond positively to feedback.",
+        "exCn": "对反馈积极回应。"
+      },
+      {
+        "w": "result from",
+        "ipa": "/rɪˈzʌlt frəm/",
+        "cn": "起因于",
+        "ex": "Success results from effort.",
+        "exCn": "成功起因于努力。"
       }
     ],
     "综合补充": [
