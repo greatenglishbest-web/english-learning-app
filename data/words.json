@@ -9772,6 +9772,237 @@
         "cn": "显然；似乎",
         "ex": "Apparently, the plan has been changed.",
         "exCn": "显然，计划已经改变了。"
+      },
+      {
+        "w": "accordingly",
+        "ipa": "/əˈkɔːdɪŋli/",
+        "cn": "因此；相应地",
+        "ex": "He was late; accordingly, he missed the beginning.",
+        "exCn": "他迟到了，因此错过了开头。"
+      },
+      {
+        "w": "alternatively",
+        "ipa": "/ɔːlˈtɜːnətɪvli/",
+        "cn": "或者；作为选择",
+        "ex": "Alternatively, you can take the bus.",
+        "exCn": "或者，你可以坐公交车。"
+      },
+      {
+        "w": "approximately",
+        "ipa": "/əˈprɒksɪmətli/",
+        "cn": "大约",
+        "ex": "There are approximately 100 students.",
+        "exCn": "大约有100名学生。"
+      },
+      {
+        "w": "basically",
+        "ipa": "/ˈbeɪsɪkli/",
+        "cn": "基本上",
+        "ex": "Basically, the idea is simple.",
+        "exCn": "基本上，这个想法很简单。"
+      },
+      {
+        "w": "conversely",
+        "ipa": "/ˈkɒnvɜːsli/",
+        "cn": "相反地",
+        "ex": "Conversely, some people prefer the opposite.",
+        "exCn": "相反地，有些人更喜欢相反的。"
+      },
+      {
+        "w": "currently",
+        "ipa": "/ˈkʌrəntli/",
+        "cn": "目前",
+        "ex": "Currently, we are working on a new project.",
+        "exCn": "目前我们在做一个新项目。"
+      },
+      {
+        "w": "definitely",
+        "ipa": "/ˈdefɪnətli/",
+        "cn": "肯定地",
+        "ex": "I will definitely come.",
+        "exCn": "我肯定会来。"
+      },
+      {
+        "w": "evidently",
+        "ipa": "/ˈevɪdəntli/",
+        "cn": "明显地",
+        "ex": "Evidently, he was not prepared.",
+        "exCn": "显然他没有准备。"
+      },
+      {
+        "w": "fortunately",
+        "ipa": "/ˈfɔːtʃənətli/",
+        "cn": "幸运地",
+        "ex": "Fortunately, no one was hurt.",
+        "exCn": "幸运的是没有人受伤。"
+      },
+      {
+        "w": "generally",
+        "ipa": "/ˈdʒenrəli/",
+        "cn": "一般来说",
+        "ex": "Generally, students prefer interactive classes.",
+        "exCn": "一般来说，学生更喜欢互动课堂。"
+      },
+      {
+        "w": "hence",
+        "ipa": "/hens/",
+        "cn": "因此",
+        "ex": "The road was blocked; hence the delay.",
+        "exCn": "道路被堵，因此延误。"
+      },
+      {
+        "w": "however",
+        "ipa": "/haʊˈevə(r)/",
+        "cn": "然而",
+        "ex": "The plan is good; however, it needs more time.",
+        "exCn": "计划很好，然而需要更多时间。"
+      },
+      {
+        "w": "immediately",
+        "ipa": "/ɪˈmiːdiətli/",
+        "cn": "立即",
+        "ex": "Please reply immediately.",
+        "exCn": "请立即回复。"
+      },
+      {
+        "w": "indeed",
+        "ipa": "/ɪnˈdiːd/",
+        "cn": "确实",
+        "ex": "It is indeed a difficult problem.",
+        "exCn": "这确实是一个难题。"
+      },
+      {
+        "w": "instead",
+        "ipa": "/ɪnˈsted/",
+        "cn": "代替",
+        "ex": "Take a walk instead of watching TV.",
+        "exCn": "散步而不是看电视。"
+      },
+      {
+        "w": "likewise",
+        "ipa": "/ˈlaɪkwaɪz/",
+        "cn": "同样地",
+        "ex": "Likewise, this method can be used elsewhere.",
+        "exCn": "同样地，这个方法可以用在别处。"
+      },
+      {
+        "w": "moreover",
+        "ipa": "/mɔːrˈəʊvə(r)/",
+        "cn": "此外",
+        "ex": "Moreover, the quality is excellent.",
+        "exCn": "此外，质量非常好。"
+      },
+      {
+        "w": "obviously",
+        "ipa": "/ˈɒbviəsli/",
+        "cn": "显然",
+        "ex": "Obviously, we need more practice.",
+        "exCn": "显然我们需要更多练习。"
+      },
+      {
+        "w": "occasionally",
+        "ipa": "/əˈkeɪʒnəli/",
+        "cn": "偶尔",
+        "ex": "I occasionally visit museums.",
+        "exCn": "我偶尔参观博物馆。"
+      },
+      {
+        "w": "overall",
+        "ipa": "/ˌəʊvərˈɔːl/",
+        "cn": "总体来说",
+        "ex": "Overall, the result is satisfactory.",
+        "exCn": "总体来说结果令人满意。"
+      },
+      {
+        "w": "previously",
+        "ipa": "/ˈpriːviəsli/",
+        "cn": "以前",
+        "ex": "Previously, the method was different.",
+        "exCn": "以前方法不同。"
+      },
+      {
+        "w": "primarily",
+        "ipa": "/praɪˈmerəli/",
+        "cn": "主要地",
+        "ex": "The book is primarily for students.",
+        "exCn": "这本书主要面向学生。"
+      },
+      {
+        "w": "probably",
+        "ipa": "/ˈprɒbəbli/",
+        "cn": "可能",
+        "ex": "It will probably rain tomorrow.",
+        "exCn": "明天可能下雨。"
+      },
+      {
+        "w": "rarely",
+        "ipa": "/ˈreəli/",
+        "cn": "很少",
+        "ex": "He rarely makes mistakes.",
+        "exCn": "他很少犯错。"
+      },
+      {
+        "w": "recently",
+        "ipa": "/ˈriːsntli/",
+        "cn": "最近",
+        "ex": "I recently finished the book.",
+        "exCn": "我最近读完了这本书。"
+      },
+      {
+        "w": "relatively",
+        "ipa": "/ˈrelətɪvli/",
+        "cn": "相对地",
+        "ex": "The problem is relatively simple.",
+        "exCn": "问题相对简单。"
+      },
+      {
+        "w": "respectively",
+        "ipa": "/rɪˈspektɪvli/",
+        "cn": "分别地",
+        "ex": "A and B scored 90 and 85 respectively.",
+        "exCn": "A和B分别得了90和85分。"
+      },
+      {
+        "w": "subsequently",
+        "ipa": "/ˈsʌbsɪkwəntli/",
+        "cn": "随后",
+        "ex": "He graduated and subsequently found a job.",
+        "exCn": "他毕业了，随后找到了工作。"
+      },
+      {
+        "w": "therefore",
+        "ipa": "/ˈðeəfɔː(r)/",
+        "cn": "因此",
+        "ex": "It was raining; therefore, we stayed home.",
+        "exCn": "在下雨，因此我们待在家里。"
+      },
+      {
+        "w": "thus",
+        "ipa": "/ðʌs/",
+        "cn": "因此",
+        "ex": "He worked hard; thus, he succeeded.",
+        "exCn": "他努力工作，因此成功了。"
+      },
+      {
+        "w": "undoubtedly",
+        "ipa": "/ʌnˈdaʊtɪdli/",
+        "cn": "毫无疑问",
+        "ex": "She is undoubtedly talented.",
+        "exCn": "她毫无疑问很有才华。"
+      },
+      {
+        "w": "unfortunately",
+        "ipa": "/ʌnˈfɔːtʃənətli/",
+        "cn": "不幸地",
+        "ex": "Unfortunately, the event was cancelled.",
+        "exCn": "不幸的是活动取消了。"
+      },
+      {
+        "w": "whereby",
+        "ipa": "/weəˈbaɪ/",
+        "cn": "借以",
+        "ex": "They made a plan whereby everyone could participate.",
+        "exCn": "他们制定了一个让每个人都能参与的计划。"
       }
     ]
   }
