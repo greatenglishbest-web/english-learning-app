@@ -605,6 +605,208 @@
           "exp": "We can plant more flowers that bees like. We can avoid using harmful chemicals..."
         }
       ]
+    },
+    {
+      "id": "j7",
+      "cat": "人物励志",
+      "title": "🌟 Never Give Up — The Story of a Young Inventor",
+      "tags": [
+        "励志",
+        "发明",
+        "坚持"
+      ],
+      "words": 308,
+      "hardWords": {
+        "inventor": {
+          "ipa": "/ɪnˈventə(r)/",
+          "cn": "发明家"
+        },
+        "experiment": {
+          "ipa": "/ɪkˈsperɪmənt/",
+          "cn": "实验"
+        },
+        "fail": {
+          "ipa": "/feɪl/",
+          "cn": "失败"
+        },
+        "success": {
+          "ipa": "/səkˈses/",
+          "cn": "成功"
+        },
+        "encourage": {
+          "ipa": "/ɪnˈkʌrɪdʒ/",
+          "cn": "鼓励"
+        },
+        "continue": {
+          "ipa": "/kənˈtɪnjuː/",
+          "cn": "继续"
+        },
+        "discover": {
+          "ipa": "/dɪˈskʌvə(r)/",
+          "cn": "发现"
+        },
+        "improve": {
+          "ipa": "/ɪmˈpruːv/",
+          "cn": "改进"
+        },
+        "achieve": {
+          "ipa": "/əˈtʃiːv/",
+          "cn": "实现"
+        },
+        "inspire": {
+          "ipa": "/ɪnˈspaɪə(r)/",
+          "cn": "激励"
+        }
+      },
+      "content": "Have you ever tried something and failed? Many great inventors failed many times before they succeeded. One famous example is Thomas Edison, who invented the electric light. He tried thousands of materials before he found the right one. 💡\n\nA modern young inventor named Xiaoming had a similar experience. When he was 14, he wanted to invent a small machine that could clean the air in classrooms. His first design did not work. The second one made too much noise. The third one was too expensive. Many people told him to give up.\n\nBut Xiaoming did not stop. He read books, watched science videos, and asked teachers for advice. He improved his design again and again. After two years of hard work, his machine finally worked well. It was quiet, cheap, and effective. His school started using it, and later other schools became interested too.\n\nXiaoming’s story teaches us an important lesson: failure is not the end. It is part of the journey to success. Every time we fail, we can learn something new. If we continue trying and improving, we may achieve our goals.\n\nSo next time you fail a test or lose a game, remember Xiaoming. Don’t give up. Keep learning, keep trying, and keep believing in yourself. Success often comes to those who refuse to quit. 🌟",
+      "translation": "你有没有尝试过什么却失败了？许多伟大的发明家在成功之前都失败过很多次。一个著名的例子是发明电灯的托马斯·爱迪生。他尝试了数千种材料才找到合适的。💡\n\n一位叫小明的现代年轻发明家有类似的经历。他14岁时想发明一种可以净化教室空气的小机器。他的第一个设计没有用。第二个噪音太大。第三个太贵。许多人劝他放弃。\n\n但小明没有停止。他读书、看科学视频、向老师请教。他一次又一次改进设计。经过两年努力，他的机器终于运行良好。它安静、便宜、有效。他的学校开始使用，后来其他学校也感兴趣了。\n\n小明的故事告诉我们一个重要道理：失败不是终点。它是通往成功路上的一部分。每次失败，我们都能学到新东西。如果我们继续尝试和改进，就可能实现目标。\n\n所以下次你考试失败或比赛输掉时，想想小明。不要放弃。继续学习、继续尝试、继续相信自己。成功往往属于那些拒绝放弃的人。🌟",
+      "questions": [
+        {
+          "q": "1. What did Xiaoming want to invent?",
+          "options": [
+            "A flying machine",
+            "A machine that could clean the air in classrooms",
+            "A new type of phone",
+            "A robot teacher"
+          ],
+          "answer": 1,
+          "exp": "he wanted to invent a small machine that could clean the air in classrooms."
+        },
+        {
+          "q": "2. What happened to Xiaoming’s first designs?",
+          "options": [
+            "They all worked perfectly",
+            "They failed for different reasons",
+            "They were sold immediately",
+            "They were too simple"
+          ],
+          "answer": 1,
+          "exp": "His first design did not work. The second one made too much noise. The third one was too expensive."
+        },
+        {
+          "q": "3. How long did Xiaoming work on his invention?",
+          "options": [
+            "One month",
+            "Two years",
+            "Ten years",
+            "One week"
+          ],
+          "answer": 1,
+          "exp": "After two years of hard work, his machine finally worked well."
+        },
+        {
+          "q": "4. What is the main lesson of the story?",
+          "options": [
+            "Invention is easy",
+            "Failure is part of the journey to success; don’t give up",
+            "Only geniuses can invent",
+            "Schools should not use new machines"
+          ],
+          "answer": 1,
+          "exp": "failure is not the end. It is part of the journey to success... Don’t give up."
+        }
+      ]
+    },
+    {
+      "id": "j8",
+      "cat": "文化生活",
+      "title": "📚 The Joy of Reading Paper Books",
+      "tags": [
+        "阅读",
+        "文化",
+        "习惯"
+      ],
+      "words": 300,
+      "hardWords": {
+        "digital": {
+          "ipa": "/ˈdɪdʒɪtl/",
+          "cn": "数字的"
+        },
+        "screen": {
+          "ipa": "/skriːn/",
+          "cn": "屏幕"
+        },
+        "concentrate": {
+          "ipa": "/ˈkɒnsntreɪt/",
+          "cn": "集中注意力"
+        },
+        "imagination": {
+          "ipa": "/ɪˌmædʒɪˈneɪʃn/",
+          "cn": "想象力"
+        },
+        "experience": {
+          "ipa": "/ɪkˈspɪəriəns/",
+          "cn": "体验"
+        },
+        "prefer": {
+          "ipa": "/prɪˈfɜː(r)/",
+          "cn": "更喜欢"
+        },
+        "library": {
+          "ipa": "/ˈlaɪbrəri/",
+          "cn": "图书馆"
+        },
+        "comfortable": {
+          "ipa": "/ˈkʌmftəbl/",
+          "cn": "舒适的"
+        },
+        "knowledge": {
+          "ipa": "/ˈnɒlɪdʒ/",
+          "cn": "知识"
+        },
+        "treasure": {
+          "ipa": "/ˈtreʒə(r)/",
+          "cn": "宝藏"
+        }
+      },
+      "content": "In the age of phones and tablets, many people read on screens. Digital books are convenient—you can carry hundreds of books in one device. But more and more students are rediscovering the joy of reading paper books. 📖\n\nWhy do some people prefer paper? First, paper books are easier on the eyes. Looking at screens for a long time can make eyes tired. With a paper book, you can read longer and feel more comfortable. Second, paper books help you concentrate. There are no messages or videos popping up to distract you. You can fully enter the world of the story.\n\nPaper books also give a special feeling. You can touch the pages, smell the paper, and write notes in the margins. Turning a page feels different from swiping a screen. Many readers say this physical experience makes the story more memorable.\n\nLibraries and bookshops are wonderful places. Walking among shelves of books, choosing one that looks interesting, and sitting down to read—these simple actions bring quiet happiness. Sharing a paper book with a friend is also a warm way to connect.\n\nOf course, digital reading has its advantages. But paper books still have a unique place in our lives. They are treasures of knowledge and imagination that we can hold in our hands. Next time you have free time, try opening a real book. You may fall in love with reading all over again. ✨",
+      "translation": "在手机和平板的时代，许多人在屏幕上阅读。电子书很方便——你可以在一个设备里携带数百本书。但越来越多的学生正在重新发现阅读纸质书的乐趣。📖\n\n为什么有些人更喜欢纸质书？首先，纸质书对眼睛更友好。长时间看屏幕会让眼睛疲劳。用纸质书，你可以读得更久，感觉更舒适。其次，纸质书帮助你集中注意力。没有消息或视频弹出来打扰你。你可以完全进入故事的世界。\n\n纸质书也给人特别的感觉。你可以触摸书页、闻纸张的味道、在空白处写笔记。翻页的感觉不同于滑动屏幕。许多读者说，这种身体体验让故事更难忘。\n\n图书馆和书店是美妙的地方。走在书架之间，挑选一本看起来有趣的书，坐下来阅读——这些简单的行动带来安静的快乐。与朋友分享一本纸质书也是温暖的联系方式。\n\n当然，数字阅读有其优势。但纸质书在我们生活中仍有独特位置。它们是我们可以握在手中的知识和想象力的宝藏。下次有空时，试着打开一本真正的书。你可能会重新爱上阅读。✨",
+      "questions": [
+        {
+          "q": "1. What is one advantage of paper books over screens?",
+          "options": [
+            "They are heavier",
+            "They are easier on the eyes and help concentration",
+            "They can hold more books",
+            "They are always free"
+          ],
+          "answer": 1,
+          "exp": "paper books are easier on the eyes... help you concentrate."
+        },
+        {
+          "q": "2. Why do paper books help concentration?",
+          "options": [
+            "Because they are boring",
+            "Because there are no messages or videos popping up",
+            "Because they are expensive",
+            "Because they have no pictures"
+          ],
+          "answer": 1,
+          "exp": "There are no messages or videos popping up to distract you."
+        },
+        {
+          "q": "3. What special feeling do paper books give?",
+          "options": [
+            "Only digital feeling",
+            "You can touch pages, smell paper, and write notes",
+            "They play music",
+            "They change the story automatically"
+          ],
+          "answer": 1,
+          "exp": "You can touch the pages, smell the paper, and write notes in the margins."
+        },
+        {
+          "q": "4. What is the writer’s main suggestion?",
+          "options": [
+            "Only read on phones",
+            "Try opening a real paper book",
+            "Never go to libraries",
+            "Stop reading completely"
+          ],
+          "answer": 1,
+          "exp": "Next time you have free time, try opening a real book."
+        }
+      ]
     }
   ],
   "senior": [
@@ -1042,6 +1244,230 @@
           ],
           "answer": 1,
           "exp": "全文强调共同责任与多层次行动。"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "cat": "心理成长",
+      "title": "🧠 Growth Mindset: How Beliefs Shape Success",
+      "tags": [
+        "心理",
+        "成长",
+        "学习"
+      ],
+      "words": 345,
+      "hardWords": {
+        "mindset": {
+          "ipa": "/ˈmaɪndset/",
+          "cn": "思维模式"
+        },
+        "belief": {
+          "ipa": "/bɪˈliːf/",
+          "cn": "信念"
+        },
+        "ability": {
+          "ipa": "/əˈbɪləti/",
+          "cn": "能力"
+        },
+        "challenge": {
+          "ipa": "/ˈtʃælɪndʒ/",
+          "cn": "挑战"
+        },
+        "effort": {
+          "ipa": "/ˈefət/",
+          "cn": "努力"
+        },
+        "feedback": {
+          "ipa": "/ˈfiːdbæk/",
+          "cn": "反馈"
+        },
+        "potential": {
+          "ipa": "/pəˈtenʃl/",
+          "cn": "潜力"
+        },
+        "persist": {
+          "ipa": "/pəˈsɪst/",
+          "cn": "坚持"
+        },
+        "improve": {
+          "ipa": "/ɪmˈpruːv/",
+          "cn": "提高"
+        },
+        "achieve": {
+          "ipa": "/əˈtʃiːv/",
+          "cn": "实现"
+        }
+      },
+      "content": "Have you ever thought “I’m just not good at maths” or “I’ll never be able to speak English fluently”? These thoughts reflect what psychologists call a fixed mindset—the belief that abilities are fixed and cannot change much. In contrast, a growth mindset is the belief that abilities can be developed through effort, learning, and persistence. 🧠\n\nResearch shows that students with a growth mindset tend to achieve more. When they face a difficult problem, they see it as a challenge to learn from, not as proof that they are not smart enough. They are more willing to try different strategies, ask for help, and keep practising. Students with a fixed mindset, however, often avoid challenges because failure feels like a judgment of their intelligence.\n\nHow can we develop a growth mindset? First, notice your inner voice. When you catch yourself saying “I can’t do this,” add the word “yet”—“I can’t do this yet.” This small change opens the door to future improvement. Second, value effort and strategy more than natural talent. Praise yourself and others for hard work and smart methods, not only for high scores. Third, treat mistakes as information. Every error tells you what to practise next.\n\nTeachers and parents can also help. When feedback focuses on process—“You used a good method” or “You improved because you practised”—students learn that growth is possible. When feedback only praises results—“You’re so smart”—students may fear challenges that could threaten that label.\n\nA growth mindset does not mean that everyone will become a genius. It means that with deliberate practice and the right strategies, most people can improve significantly in areas they care about. The belief that you can grow is itself a powerful tool for learning and life. 🌱",
+      "translation": "你有没有想过“我就是不擅长数学”或“我永远无法流利说英语”？这些想法反映了心理学家所说的固定型思维——相信能力是固定的，无法有太大改变。相反，成长型思维是相信能力可以通过努力、学习和坚持得到发展。🧠\n\n研究表明，拥有成长型思维的学生往往取得更多成就。当他们面对难题时，他们把它看作学习的挑战，而不是证明自己不够聪明。他们更愿意尝试不同策略、寻求帮助并持续练习。而固定型思维的学生常常回避挑战，因为失败感觉像是对智力的评判。\n\n我们如何培养成长型思维？首先，注意内心的声音。当你发现自己说“我做不到”时，加上“还”——“我还做不到”。这个小改变打开了未来进步的大门。其次，更看重努力和策略，而不是天赋。表扬自己和他人的努力与聪明方法，而不只是高分。第三，把错误当作信息。每个错误都告诉你下一步该练习什么。\n\n老师和家长也可以帮助。当反馈关注过程——“你用了好方法”或“你进步是因为练习”——学生会学到成长是可能的。当反馈只表扬结果——“你真聪明”——学生可能害怕会威胁这个标签的挑战。\n\n成长型思维并不意味着每个人都会成为天才。它意味着通过刻意练习和正确策略，大多数人可以在自己关心的领域显著提高。相信自己可以成长，本身就是学习和生活的强大工具。🌱",
+      "questions": [
+        {
+          "q": "1. What is a fixed mindset?",
+          "options": [
+            "The belief that abilities can grow",
+            "The belief that abilities are fixed and cannot change much",
+            "The belief that only talent matters",
+            "The belief that effort is useless"
+          ],
+          "answer": 1,
+          "exp": "a fixed mindset—the belief that abilities are fixed and cannot change much."
+        },
+        {
+          "q": "2. How do students with a growth mindset view difficult problems?",
+          "options": [
+            "As proof they are not smart",
+            "As challenges to learn from",
+            "As reasons to give up",
+            "As something to avoid"
+          ],
+          "answer": 1,
+          "exp": "they see it as a challenge to learn from, not as proof that they are not smart enough."
+        },
+        {
+          "q": "3. What does adding “yet” to “I can’t do this” achieve?",
+          "options": [
+            "It makes the task harder",
+            "It opens the door to future improvement",
+            "It means you should stop trying",
+            "It changes nothing"
+          ],
+          "answer": 1,
+          "exp": "add the word “yet”—“I can’t do this yet.” This small change opens the door to future improvement."
+        },
+        {
+          "q": "4. What kind of feedback helps develop a growth mindset?",
+          "options": [
+            "Only praising high scores",
+            "Focusing on process, effort and methods",
+            "Saying “You’re so smart” only",
+            "Ignoring mistakes"
+          ],
+          "answer": 1,
+          "exp": "When feedback focuses on process—“You used a good method”... students learn that growth is possible."
+        },
+        {
+          "q": "5. What is the main idea of the passage?",
+          "options": [
+            "Talent is everything",
+            "A growth mindset—the belief that abilities can develop—helps learning and success",
+            "Fixed mindset is better",
+            "Only geniuses can improve"
+          ],
+          "answer": 1,
+          "exp": "全文核心是成长型思维对学习与成功的作用。"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "cat": "社会议题",
+      "title": "🤝 The Value of Volunteering",
+      "tags": [
+        "社会",
+        "责任",
+        "成长"
+      ],
+      "words": 320,
+      "hardWords": {
+        "volunteer": {
+          "ipa": "/ˌvɒlənˈtɪə(r)/",
+          "cn": "志愿者"
+        },
+        "community": {
+          "ipa": "/kəˈmjuːnəti/",
+          "cn": "社区"
+        },
+        "contribution": {
+          "ipa": "/ˌkɒntrɪˈbjuːʃn/",
+          "cn": "贡献"
+        },
+        "responsibility": {
+          "ipa": "/rɪˌspɒnsəˈbɪləti/",
+          "cn": "责任"
+        },
+        "empathy": {
+          "ipa": "/ˈempəθi/",
+          "cn": "同理心"
+        },
+        "experience": {
+          "ipa": "/ɪkˈspɪəriəns/",
+          "cn": "经历"
+        },
+        "organize": {
+          "ipa": "/ˈɔːɡənaɪz/",
+          "cn": "组织"
+        },
+        "benefit": {
+          "ipa": "/ˈbenɪfɪt/",
+          "cn": "益处"
+        },
+        "society": {
+          "ipa": "/səˈsaɪəti/",
+          "cn": "社会"
+        },
+        "participation": {
+          "ipa": "/pɑːˌtɪsɪˈpeɪʃn/",
+          "cn": "参与"
+        }
+      },
+      "content": "Volunteering means offering your time and energy to help others without expecting payment. It may seem like a small act, but its impact on both the helper and the community can be profound. 🤝\n\nFor the people who receive help, volunteers can make a real difference. A student tutoring a younger child in English may improve that child’s confidence and grades. A group cleaning a park makes the neighbourhood more pleasant for everyone. During natural disasters, volunteers often provide food, shelter, and emotional support when official help is limited.\n\nFor the volunteers themselves, the benefits are equally valuable. Volunteering builds skills such as communication, teamwork, and problem-solving. It also develops empathy—the ability to understand other people’s feelings. Many students discover new interests and even future career directions through volunteer work. In addition, helping others often brings a sense of purpose and happiness that is hard to get from other activities.\n\nSchools and communities increasingly encourage youth participation in volunteering. Some schools include community service as part of the curriculum. Online platforms make it easier to find opportunities that match personal interests, whether teaching, environmental protection, or caring for the elderly.\n\nOf course, volunteering should be meaningful and well organized. Short, one-time actions are good, but long-term commitment often creates deeper impact. Reflection after volunteering—thinking about what was learned and what could be improved—helps turn experience into personal growth.\n\nIn a society that sometimes focuses too much on competition and individual success, volunteering reminds us of our shared responsibility. When more people choose to give a little of their time, the whole community becomes stronger and warmer. 🌱",
+      "translation": "志愿服务意味着在不期望报酬的情况下，贡献时间和精力帮助他人。它看起来可能只是小行动，但对帮助者和社区的影响都可以很深远。🤝\n\n对于接受帮助的人，志愿者可以带来真正的改变。一个学生辅导低年级孩子英语，可能提高那个孩子的自信和成绩。一个清理公园的团体让整个社区更宜人。在自然灾害中，志愿者常常在官方帮助有限时提供食物、住所和情感支持。\n\n对志愿者自己，益处同样宝贵。志愿服务培养沟通、团队合作和解决问题等技能。它也培养同理心——理解他人感受的能力。许多学生通过志愿工作发现新兴趣甚至未来职业方向。此外，帮助他人往往带来其他活动难以获得的目标感和幸福感。\n\n学校和社区越来越鼓励青少年参与志愿服务。一些学校把社区服务纳入课程。在线平台让寻找匹配个人兴趣的机会更容易，无论是教学、环保还是照顾老人。\n\n当然，志愿服务应该有意义且组织良好。短期、一次性行动很好，但长期承诺往往产生更深影响。志愿服务后的反思——思考学到了什么、可以改进什么——有助于把经历转化为个人成长。\n\n在一个有时过于关注竞争和个人成功的社会里，志愿服务提醒我们共同的责任。当更多人选择贡献一点时间时，整个社区会变得更强大、更温暖。🌱",
+      "questions": [
+        {
+          "q": "1. What does volunteering mean according to the passage?",
+          "options": [
+            "Working for high pay",
+            "Offering time and energy to help others without expecting payment",
+            "Only helping family members",
+            "Competing with others"
+          ],
+          "answer": 1,
+          "exp": "Volunteering means offering your time and energy to help others without expecting payment."
+        },
+        {
+          "q": "2. What benefit can volunteers themselves gain?",
+          "options": [
+            "Only money",
+            "Skills, empathy, new interests, and a sense of purpose",
+            "Nothing",
+            "Less free time only"
+          ],
+          "answer": 1,
+          "exp": "builds skills... develops empathy... discover new interests... sense of purpose and happiness."
+        },
+        {
+          "q": "3. How do schools encourage volunteering?",
+          "options": [
+            "By banning it",
+            "By including community service in the curriculum and using online platforms",
+            "By only allowing adults",
+            "By making it competitive only"
+          ],
+          "answer": 1,
+          "exp": "Some schools include community service as part of the curriculum. Online platforms make it easier..."
+        },
+        {
+          "q": "4. Why is long-term commitment often better?",
+          "options": [
+            "It is easier",
+            "It often creates deeper impact",
+            "It requires no effort",
+            "It is only for professionals"
+          ],
+          "answer": 1,
+          "exp": "long-term commitment often creates deeper impact."
+        },
+        {
+          "q": "5. What is the main message of the passage?",
+          "options": [
+            "Volunteering is a waste of time",
+            "Volunteering benefits both receivers and volunteers and strengthens community",
+            "Only money matters",
+            "Competition is more important than helping"
+          ],
+          "answer": 1,
+          "exp": "全文强调志愿服务对双方与社区的价值。"
         }
       ]
     }
