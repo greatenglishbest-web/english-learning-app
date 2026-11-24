@@ -1,0 +1,815 @@
+{
+  "junior": {
+    "easy": {
+      "wordChoice": [
+        {
+          "id": "jwe1",
+          "audio": "apple",
+          "options": [
+            "apple",
+            "apply",
+            "appeal",
+            "appear"
+          ],
+          "answer": 0,
+          "exp": "apple 苹果"
+        },
+        {
+          "id": "jwe2",
+          "audio": "book",
+          "options": [
+            "book",
+            "boot",
+            "boat",
+            "cook"
+          ],
+          "answer": 0,
+          "exp": "book 书"
+        },
+        {
+          "id": "jwe3",
+          "audio": "school",
+          "options": [
+            "school",
+            "skill",
+            "scale",
+            "skull"
+          ],
+          "answer": 0,
+          "exp": "school 学校"
+        },
+        {
+          "id": "jwe4",
+          "audio": "friend",
+          "options": [
+            "friend",
+            "front",
+            "fried",
+            "freed"
+          ],
+          "answer": 0,
+          "exp": "friend 朋友"
+        },
+        {
+          "id": "jwe5",
+          "audio": "happy",
+          "options": [
+            "happy",
+            "happen",
+            "heavy",
+            "hobby"
+          ],
+          "answer": 0,
+          "exp": "happy 高兴的"
+        }
+      ],
+      "sentenceOrder": [
+        {
+          "id": "jse1",
+          "audio": "I like reading books.",
+          "words": [
+            "I",
+            "like",
+            "reading",
+            "books"
+          ],
+          "exp": "我喜欢读书。"
+        },
+        {
+          "id": "jse2",
+          "audio": "She goes to school every day.",
+          "words": [
+            "She",
+            "goes",
+            "to",
+            "school",
+            "every",
+            "day"
+          ],
+          "exp": "她每天去上学。"
+        },
+        {
+          "id": "jse3",
+          "audio": "We are good friends.",
+          "words": [
+            "We",
+            "are",
+            "good",
+            "friends"
+          ],
+          "exp": "我们是好朋友。"
+        },
+        {
+          "id": "jse4",
+          "audio": "Please open the window.",
+          "words": [
+            "Please",
+            "open",
+            "the",
+            "window"
+          ],
+          "exp": "请打开窗户。"
+        }
+      ],
+      "passage": [
+        {
+          "id": "jpe1",
+          "title": "A Sunny Day",
+          "audio": "It is a sunny day. Tom and his friends go to the park. They play football and have a picnic. Everyone is happy.",
+          "transcript": "It is a sunny day. Tom and his friends go to the park. They play football and have a picnic. Everyone is happy.",
+          "questions": [
+            {
+              "q": "What is the weather like?",
+              "options": [
+                "Rainy",
+                "Sunny",
+                "Cloudy",
+                "Windy"
+              ],
+              "answer": 1,
+              "exp": "It is a sunny day."
+            },
+            {
+              "q": "Where do they go?",
+              "options": [
+                "School",
+                "Park",
+                "Home",
+                "Library"
+              ],
+              "answer": 1,
+              "exp": "They go to the park."
+            },
+            {
+              "q": "What do they do?",
+              "options": [
+                "Study",
+                "Play football and picnic",
+                "Sleep",
+                "Watch TV"
+              ],
+              "answer": 1,
+              "exp": "They play football and have a picnic."
+            }
+          ]
+        }
+      ]
+    },
+    "medium": {
+      "wordChoice": [
+        {
+          "id": "jwm1",
+          "audio": "important",
+          "options": [
+            "important",
+            "import",
+            "improve",
+            "impress"
+          ],
+          "answer": 0,
+          "exp": "important 重要的"
+        },
+        {
+          "id": "jwm2",
+          "audio": "beautiful",
+          "options": [
+            "beautiful",
+            "beauty",
+            "because",
+            "before"
+          ],
+          "answer": 0,
+          "exp": "beautiful 美丽的"
+        },
+        {
+          "id": "jwm3",
+          "audio": "different",
+          "options": [
+            "different",
+            "difference",
+            "difficult",
+            "direction"
+          ],
+          "answer": 0,
+          "exp": "different 不同的"
+        },
+        {
+          "id": "jwm4",
+          "audio": "interesting",
+          "options": [
+            "interesting",
+            "interest",
+            "internet",
+            "interview"
+          ],
+          "answer": 0,
+          "exp": "interesting 有趣的"
+        }
+      ],
+      "sentenceOrder": [
+        {
+          "id": "jsm1",
+          "audio": "Learning English is very useful.",
+          "words": [
+            "Learning",
+            "English",
+            "is",
+            "very",
+            "useful"
+          ],
+          "exp": "学习英语非常有用。"
+        },
+        {
+          "id": "jsm2",
+          "audio": "We should protect the environment.",
+          "words": [
+            "We",
+            "should",
+            "protect",
+            "the",
+            "environment"
+          ],
+          "exp": "我们应该保护环境。"
+        },
+        {
+          "id": "jsm3",
+          "audio": "Reading books can improve your knowledge.",
+          "words": [
+            "Reading",
+            "books",
+            "can",
+            "improve",
+            "your",
+            "knowledge"
+          ],
+          "exp": "读书可以提高你的知识。"
+        }
+      ],
+      "passage": [
+        {
+          "id": "jpm1",
+          "title": "Healthy Habits",
+          "audio": "Good habits are important for students. Eating breakfast, drinking water, and getting enough sleep help you study better. Exercise also keeps your body strong. Try to build one healthy habit at a time.",
+          "transcript": "Good habits are important for students. Eating breakfast, drinking water, and getting enough sleep help you study better. Exercise also keeps your body strong. Try to build one healthy habit at a time.",
+          "questions": [
+            {
+              "q": "What helps students study better?",
+              "options": [
+                "Only games",
+                "Breakfast, water and sleep",
+                "Staying up late",
+                "Skipping meals"
+              ],
+              "answer": 1,
+              "exp": "Eating breakfast, drinking water, and getting enough sleep help you study better."
+            },
+            {
+              "q": "What does exercise do?",
+              "options": [
+                "Makes you tired only",
+                "Keeps your body strong",
+                "Stops learning",
+                "Is unnecessary"
+              ],
+              "answer": 1,
+              "exp": "Exercise also keeps your body strong."
+            },
+            {
+              "q": "What advice is given?",
+              "options": [
+                "Change everything at once",
+                "Build one healthy habit at a time",
+                "Never exercise",
+                "Ignore sleep"
+              ],
+              "answer": 1,
+              "exp": "Try to build one healthy habit at a time."
+            }
+          ]
+        }
+      ]
+    },
+    "hard": {
+      "wordChoice": [
+        {
+          "id": "jwh1",
+          "audio": "environment",
+          "options": [
+            "environment",
+            "environmental",
+            "experiment",
+            "equipment"
+          ],
+          "answer": 0,
+          "exp": "environment 环境"
+        },
+        {
+          "id": "jwh2",
+          "audio": "opportunity",
+          "options": [
+            "opportunity",
+            "opposite",
+            "opinion",
+            "operation"
+          ],
+          "answer": 0,
+          "exp": "opportunity 机会"
+        },
+        {
+          "id": "jwh3",
+          "audio": "communicate",
+          "options": [
+            "communicate",
+            "communication",
+            "community",
+            "company"
+          ],
+          "answer": 0,
+          "exp": "communicate 交流"
+        }
+      ],
+      "sentenceOrder": [
+        {
+          "id": "jsh1",
+          "audio": "Students should develop good learning habits from an early age.",
+          "words": [
+            "Students",
+            "should",
+            "develop",
+            "good",
+            "learning",
+            "habits",
+            "from",
+            "an",
+            "early",
+            "age"
+          ],
+          "exp": "学生应该从小养成良好的学习习惯。"
+        },
+        {
+          "id": "jsh2",
+          "audio": "Protecting the environment is everyone's responsibility.",
+          "words": [
+            "Protecting",
+            "the",
+            "environment",
+            "is",
+            "everyone's",
+            "responsibility"
+          ],
+          "exp": "保护环境是每个人的责任。"
+        }
+      ],
+      "passage": [
+        {
+          "id": "jph1",
+          "title": "The Value of Reading",
+          "audio": "Reading widely helps students in many ways. It improves vocabulary and comprehension. Different books open different windows to the world. Even twenty minutes a day can make a big difference over time. Start with topics you enjoy, then try more challenging materials.",
+          "transcript": "Reading widely helps students in many ways. It improves vocabulary and comprehension. Different books open different windows to the world. Even twenty minutes a day can make a big difference over time. Start with topics you enjoy, then try more challenging materials.",
+          "questions": [
+            {
+              "q": "What does reading widely improve?",
+              "options": [
+                "Only handwriting",
+                "Vocabulary and comprehension",
+                "Only speed",
+                "Nothing"
+              ],
+              "answer": 1,
+              "exp": "It improves vocabulary and comprehension."
+            },
+            {
+              "q": "How much reading is suggested?",
+              "options": [
+                "Several hours",
+                "Even twenty minutes a day",
+                "Only weekends",
+                "Never"
+              ],
+              "answer": 1,
+              "exp": "Even twenty minutes a day can make a big difference."
+            },
+            {
+              "q": "What is the advice for starting?",
+              "options": [
+                "Only hard books",
+                "Start with topics you enjoy",
+                "Avoid all books",
+                "Only textbooks"
+              ],
+              "answer": 1,
+              "exp": "Start with topics you enjoy, then try more challenging materials."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "senior": {
+    "easy": {
+      "wordChoice": [
+        {
+          "id": "swe1",
+          "audio": "achieve",
+          "options": [
+            "achieve",
+            "active",
+            "actual",
+            "accept"
+          ],
+          "answer": 0,
+          "exp": "achieve 实现"
+        },
+        {
+          "id": "swe2",
+          "audio": "benefit",
+          "options": [
+            "benefit",
+            "before",
+            "begin",
+            "behind"
+          ],
+          "answer": 0,
+          "exp": "benefit 益处"
+        },
+        {
+          "id": "swe3",
+          "audio": "challenge",
+          "options": [
+            "challenge",
+            "change",
+            "chance",
+            "charge"
+          ],
+          "answer": 0,
+          "exp": "challenge 挑战"
+        },
+        {
+          "id": "swe4",
+          "audio": "develop",
+          "options": [
+            "develop",
+            "device",
+            "decide",
+            "depend"
+          ],
+          "answer": 0,
+          "exp": "develop 发展"
+        }
+      ],
+      "sentenceOrder": [
+        {
+          "id": "sse1",
+          "audio": "Hard work leads to success.",
+          "words": [
+            "Hard",
+            "work",
+            "leads",
+            "to",
+            "success"
+          ],
+          "exp": "努力带来成功。"
+        },
+        {
+          "id": "sse2",
+          "audio": "We need to protect our environment.",
+          "words": [
+            "We",
+            "need",
+            "to",
+            "protect",
+            "our",
+            "environment"
+          ],
+          "exp": "我们需要保护我们的环境。"
+        },
+        {
+          "id": "sse3",
+          "audio": "Learning a foreign language takes time.",
+          "words": [
+            "Learning",
+            "a",
+            "foreign",
+            "language",
+            "takes",
+            "time"
+          ],
+          "exp": "学习一门外语需要时间。"
+        }
+      ],
+      "passage": [
+        {
+          "id": "spe1",
+          "title": "Setting Goals",
+          "audio": "Setting clear goals helps students focus. A good goal is specific and realistic. Breaking a large goal into small steps makes it easier to achieve. Review your progress regularly and adjust when necessary. Clear goals turn hopes into actions.",
+          "transcript": "Setting clear goals helps students focus. A good goal is specific and realistic. Breaking a large goal into small steps makes it easier to achieve. Review your progress regularly and adjust when necessary. Clear goals turn hopes into actions.",
+          "questions": [
+            {
+              "q": "What makes a good goal?",
+              "options": [
+                "Vague",
+                "Specific and realistic",
+                "Impossible",
+                "Only written once"
+              ],
+              "answer": 1,
+              "exp": "A good goal is specific and realistic."
+            },
+            {
+              "q": "Why break large goals into steps?",
+              "options": [
+                "It makes them harder",
+                "It makes them easier to achieve",
+                "It wastes time",
+                "It is unnecessary"
+              ],
+              "answer": 1,
+              "exp": "Breaking a large goal into small steps makes it easier to achieve."
+            },
+            {
+              "q": "What do clear goals do?",
+              "options": [
+                "Create confusion",
+                "Turn hopes into actions",
+                "Stop progress",
+                "Only help adults"
+              ],
+              "answer": 1,
+              "exp": "Clear goals turn hopes into actions."
+            }
+          ]
+        }
+      ]
+    },
+    "medium": {
+      "wordChoice": [
+        {
+          "id": "swm1",
+          "audio": "significant",
+          "options": [
+            "significant",
+            "signature",
+            "similar",
+            "simple"
+          ],
+          "answer": 0,
+          "exp": "significant 重要的"
+        },
+        {
+          "id": "swm2",
+          "audio": "contribute",
+          "options": [
+            "contribute",
+            "contribution",
+            "control",
+            "continue"
+          ],
+          "answer": 0,
+          "exp": "contribute 贡献"
+        },
+        {
+          "id": "swm3",
+          "audio": "perspective",
+          "options": [
+            "perspective",
+            "perfect",
+            "perform",
+            "perhaps"
+          ],
+          "answer": 0,
+          "exp": "perspective 视角"
+        },
+        {
+          "id": "swm4",
+          "audio": "sustainable",
+          "options": [
+            "sustainable",
+            "sustain",
+            "suspect",
+            "success"
+          ],
+          "answer": 0,
+          "exp": "sustainable 可持续的"
+        }
+      ],
+      "sentenceOrder": [
+        {
+          "id": "ssm1",
+          "audio": "Critical thinking is essential for academic success.",
+          "words": [
+            "Critical",
+            "thinking",
+            "is",
+            "essential",
+            "for",
+            "academic",
+            "success"
+          ],
+          "exp": "批判性思维对学业成功至关重要。"
+        },
+        {
+          "id": "ssm2",
+          "audio": "Technology can both help and challenge traditional education.",
+          "words": [
+            "Technology",
+            "can",
+            "both",
+            "help",
+            "and",
+            "challenge",
+            "traditional",
+            "education"
+          ],
+          "exp": "技术既能帮助也能挑战传统教育。"
+        },
+        {
+          "id": "ssm3",
+          "audio": "Students should develop the ability to learn continuously.",
+          "words": [
+            "Students",
+            "should",
+            "develop",
+            "the",
+            "ability",
+            "to",
+            "learn",
+            "continuously"
+          ],
+          "exp": "学生应该培养持续学习的能力。"
+        }
+      ],
+      "passage": [
+        {
+          "id": "spm1",
+          "title": "Active Recall",
+          "audio": "Active recall is a powerful study technique. Instead of rereading notes, try to remember the information without looking. This effort strengthens memory. Combining active recall with spaced repetition produces even better long-term results. Students who practise retrieval often perform better on exams.",
+          "transcript": "Active recall is a powerful study technique. Instead of rereading notes, try to remember the information without looking. This effort strengthens memory. Combining active recall with spaced repetition produces even better long-term results. Students who practise retrieval often perform better on exams.",
+          "questions": [
+            {
+              "q": "What is active recall?",
+              "options": [
+                "Only rereading",
+                "Trying to remember without looking",
+                "Highlighting only",
+                "Listening passively"
+              ],
+              "answer": 1,
+              "exp": "try to remember the information without looking."
+            },
+            {
+              "q": "What strengthens memory according to the passage?",
+              "options": [
+                "Passive review only",
+                "The effort of trying to recall",
+                "Avoiding practice",
+                "Only cramming"
+              ],
+              "answer": 1,
+              "exp": "This effort strengthens memory."
+            },
+            {
+              "q": "What combination is recommended?",
+              "options": [
+                "Only one method",
+                "Active recall with spaced repetition",
+                "No review",
+                "Only group study"
+              ],
+              "answer": 1,
+              "exp": "Combining active recall with spaced repetition produces even better long-term results."
+            }
+          ]
+        }
+      ]
+    },
+    "hard": {
+      "wordChoice": [
+        {
+          "id": "swh1",
+          "audio": "intellectual",
+          "options": [
+            "intellectual",
+            "intelligent",
+            "interest",
+            "internal"
+          ],
+          "answer": 0,
+          "exp": "intellectual 智力的"
+        },
+        {
+          "id": "swh2",
+          "audio": "infrastructure",
+          "options": [
+            "infrastructure",
+            "instruction",
+            "instrument",
+            "international"
+          ],
+          "answer": 0,
+          "exp": "infrastructure 基础设施"
+        },
+        {
+          "id": "swh3",
+          "audio": "sustainability",
+          "options": [
+            "sustainability",
+            "sustainable",
+            "substance",
+            "substitute"
+          ],
+          "answer": 0,
+          "exp": "sustainability 可持续性"
+        }
+      ],
+      "sentenceOrder": [
+        {
+          "id": "ssh1",
+          "audio": "Distinguishing correlation from causation is a fundamental critical thinking skill.",
+          "words": [
+            "Distinguishing",
+            "correlation",
+            "from",
+            "causation",
+            "is",
+            "a",
+            "fundamental",
+            "critical",
+            "thinking",
+            "skill"
+          ],
+          "exp": "区分相关与因果是一项基本的批判性思维技能。"
+        },
+        {
+          "id": "ssh2",
+          "audio": "Sustainable development requires balancing economic, social and environmental needs.",
+          "words": [
+            "Sustainable",
+            "development",
+            "requires",
+            "balancing",
+            "economic",
+            "social",
+            "and",
+            "environmental",
+            "needs"
+          ],
+          "exp": "可持续发展需要平衡经济、社会和环境需求。"
+        }
+      ],
+      "passage": [
+        {
+          "id": "sph1",
+          "title": "Media Literacy",
+          "audio": "In the digital age, media literacy has become essential. Not all information online is reliable. Evaluating sources, checking evidence, and recognising bias help people make better judgements. Algorithms can create filter bubbles that reinforce existing views. Developing critical habits protects both personal understanding and public discourse.",
+          "transcript": "In the digital age, media literacy has become essential. Not all information online is reliable. Evaluating sources, checking evidence, and recognising bias help people make better judgements. Algorithms can create filter bubbles that reinforce existing views. Developing critical habits protects both personal understanding and public discourse.",
+          "questions": [
+            {
+              "q": "Why is media literacy essential?",
+              "options": [
+                "Because all online information is true",
+                "Because not all information is reliable",
+                "Because algorithms are always fair",
+                "Because no one needs it"
+              ],
+              "answer": 1,
+              "exp": "Not all information online is reliable."
+            },
+            {
+              "q": "What can algorithms create?",
+              "options": [
+                "Only balanced views",
+                "Filter bubbles that reinforce existing views",
+                "Perfect information",
+                "No effect"
+              ],
+              "answer": 1,
+              "exp": "Algorithms can create filter bubbles that reinforce existing views."
+            },
+            {
+              "q": "What do critical habits protect?",
+              "options": [
+                "Only personal privacy",
+                "Personal understanding and public discourse",
+                "Only exam scores",
+                "Nothing important"
+              ],
+              "answer": 1,
+              "exp": "Developing critical habits protects both personal understanding and public discourse."
+            },
+            {
+              "q": "What should people do when evaluating information?",
+              "options": [
+                "Accept everything",
+                "Evaluate sources, check evidence and recognise bias",
+                "Ignore all sources",
+                "Only trust social media"
+              ],
+              "answer": 1,
+              "exp": "Evaluating sources, checking evidence, and recognising bias help people make better judgements."
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
