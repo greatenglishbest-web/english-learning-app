@@ -2137,6 +2137,1357 @@
         "cn": "明智的",
         "ex": "It is wise to save money.",
         "exCn": "存钱是明智的。"
+      },
+      {
+        "w": "absent",
+        "ipa": "/ˈæbsənt/",
+        "cn": "缺席的",
+        "ex": "He was absent from class.",
+        "exCn": "他缺席了课。"
+      },
+      {
+        "w": "alive",
+        "ipa": "/əˈlaɪv/",
+        "cn": "活着的",
+        "ex": "The plant is still alive.",
+        "exCn": "植物还活着。"
+      },
+      {
+        "w": "asleep",
+        "ipa": "/əˈsliːp/",
+        "cn": "睡着的",
+        "ex": "The baby is asleep.",
+        "exCn": "婴儿睡着了。"
+      },
+      {
+        "w": "awake",
+        "ipa": "/əˈweɪk/",
+        "cn": "醒着的",
+        "ex": "I was awake all night.",
+        "exCn": "我整晚醒着。"
+      },
+      {
+        "w": "blind",
+        "ipa": "/blaɪnd/",
+        "cn": "盲的",
+        "ex": "The blind man has a guide dog.",
+        "exCn": "盲人有导盲犬。"
+      },
+      {
+        "w": "calm",
+        "ipa": "/kɑːm/",
+        "cn": "平静的",
+        "ex": "Please stay calm.",
+        "exCn": "请保持平静。"
+      },
+      {
+        "w": "central",
+        "ipa": "/ˈsentrəl/",
+        "cn": "中心的",
+        "ex": "The library is in a central location.",
+        "exCn": "图书馆位于中心位置。"
+      },
+      {
+        "w": "certain",
+        "ipa": "/ˈsɜːtn/",
+        "cn": "确定的",
+        "ex": "I am certain about the answer.",
+        "exCn": "我对答案很确定。"
+      },
+      {
+        "w": "close",
+        "ipa": "/kləʊs/",
+        "cn": "近的",
+        "ex": "The school is close to my home.",
+        "exCn": "学校离我家很近。"
+      },
+      {
+        "w": "daily",
+        "ipa": "/ˈdeɪli/",
+        "cn": "每天的",
+        "ex": "Exercise is part of my daily routine.",
+        "exCn": "锻炼是我的日常习惯。"
+      },
+      {
+        "w": "dead",
+        "ipa": "/ded/",
+        "cn": "死的",
+        "ex": "The battery is dead.",
+        "exCn": "电池没电了。"
+      },
+      {
+        "w": "deep",
+        "ipa": "/diːp/",
+        "cn": "深的",
+        "ex": "The river is deep.",
+        "exCn": "河很深。"
+      },
+      {
+        "w": "direct",
+        "ipa": "/dəˈrekt/",
+        "cn": "直接的",
+        "ex": "Please give a direct answer.",
+        "exCn": "请直接回答。"
+      },
+      {
+        "w": "double",
+        "ipa": "/ˈdʌbl/",
+        "cn": "双倍的",
+        "ex": "The price is double.",
+        "exCn": "价格是双倍。"
+      },
+      {
+        "w": "dry",
+        "ipa": "/draɪ/",
+        "cn": "干的",
+        "ex": "The clothes are dry.",
+        "exCn": "衣服干了。"
+      },
+      {
+        "w": "eager",
+        "ipa": "/ˈiːɡə(r)/",
+        "cn": "渴望的",
+        "ex": "She is eager to learn.",
+        "exCn": "她渴望学习。"
+      },
+      {
+        "w": "eastern",
+        "ipa": "/ˈiːstən/",
+        "cn": "东方的",
+        "ex": "The sun rises in the eastern sky.",
+        "exCn": "太阳从东方天空升起。"
+      },
+      {
+        "w": "electric",
+        "ipa": "/ɪˈlektrɪk/",
+        "cn": "电的",
+        "ex": "This is an electric car.",
+        "exCn": "这是电动车。"
+      },
+      {
+        "w": "entire",
+        "ipa": "/ɪnˈtaɪə(r)/",
+        "cn": "整个的",
+        "ex": "I spent the entire day reading.",
+        "exCn": "我花了整天阅读。"
+      },
+      {
+        "w": "equal",
+        "ipa": "/ˈiːkwəl/",
+        "cn": "平等的",
+        "ex": "All students are equal.",
+        "exCn": "所有学生平等。"
+      },
+      {
+        "w": "exact",
+        "ipa": "/ɪɡˈzækt/",
+        "cn": "确切的",
+        "ex": "What is the exact time?",
+        "exCn": "确切时间是多少？"
+      },
+      {
+        "w": "fair",
+        "ipa": "/feə(r)/",
+        "cn": "公平的",
+        "ex": "The teacher is fair.",
+        "exCn": "老师很公平。"
+      },
+      {
+        "w": "far",
+        "ipa": "/fɑː(r)/",
+        "cn": "远的",
+        "ex": "The station is far from here.",
+        "exCn": "车站离这里很远。"
+      },
+      {
+        "w": "fine",
+        "ipa": "/faɪn/",
+        "cn": "好的",
+        "ex": "I feel fine.",
+        "exCn": "我感觉很好。"
+      },
+      {
+        "w": "flat",
+        "ipa": "/flæt/",
+        "cn": "平的",
+        "ex": "The road is flat.",
+        "exCn": "路很平。"
+      },
+      {
+        "w": "general",
+        "ipa": "/ˈdʒenrəl/",
+        "cn": "一般的",
+        "ex": "In general, the plan is good.",
+        "exCn": "总的来说计划很好。"
+      },
+      {
+        "w": "glad",
+        "ipa": "/ɡlæd/",
+        "cn": "高兴的",
+        "ex": "I am glad to see you.",
+        "exCn": "见到你我很高兴。"
+      },
+      {
+        "w": "golden",
+        "ipa": "/ˈɡəʊldən/",
+        "cn": "金色的",
+        "ex": "The golden sun is setting.",
+        "exCn": "金色的太阳正在落下。"
+      },
+      {
+        "w": "great",
+        "ipa": "/ɡreɪt/",
+        "cn": "伟大的",
+        "ex": "She is a great teacher.",
+        "exCn": "她是一位伟大的老师。"
+      },
+      {
+        "w": "green",
+        "ipa": "/ɡriːn/",
+        "cn": "绿色的",
+        "ex": "The trees are green.",
+        "exCn": "树是绿色的。"
+      },
+      {
+        "w": "grey",
+        "ipa": "/ɡreɪ/",
+        "cn": "灰色的",
+        "ex": "The sky is grey.",
+        "exCn": "天空是灰色的。"
+      },
+      {
+        "w": "high",
+        "ipa": "/haɪ/",
+        "cn": "高的",
+        "ex": "The mountain is high.",
+        "exCn": "山很高。"
+      },
+      {
+        "w": "hot",
+        "ipa": "/hɒt/",
+        "cn": "热的",
+        "ex": "The weather is hot.",
+        "exCn": "天气很热。"
+      },
+      {
+        "w": "huge",
+        "ipa": "/hjuːdʒ/",
+        "cn": "巨大的",
+        "ex": "There is a huge difference.",
+        "exCn": "有巨大差异。"
+      },
+      {
+        "w": "ill",
+        "ipa": "/ɪl/",
+        "cn": "生病的",
+        "ex": "She is ill today.",
+        "exCn": "她今天生病了。"
+      },
+      {
+        "w": "indoor",
+        "ipa": "/ˈɪndɔː(r)/",
+        "cn": "室内的",
+        "ex": "We play indoor sports.",
+        "exCn": "我们做室内运动。"
+      },
+      {
+        "w": "international",
+        "ipa": "/ˌɪntəˈnæʃnəl/",
+        "cn": "国际的",
+        "ex": "English is an international language.",
+        "exCn": "英语是国际语言。"
+      },
+      {
+        "w": "joint",
+        "ipa": "/dʒɔɪnt/",
+        "cn": "共同的",
+        "ex": "This is a joint project.",
+        "exCn": "这是一个共同项目。"
+      },
+      {
+        "w": "just",
+        "ipa": "/dʒʌst/",
+        "cn": "公正的",
+        "ex": "A just decision was made.",
+        "exCn": "做出了公正的决定。"
+      },
+      {
+        "w": "kind",
+        "ipa": "/kaɪnd/",
+        "cn": "友善的",
+        "ex": "She is a kind person.",
+        "exCn": "她是一个友善的人。"
+      },
+      {
+        "w": "last",
+        "ipa": "/lɑːst/",
+        "cn": "最后的",
+        "ex": "This is the last question.",
+        "exCn": "这是最后一个问题。"
+      },
+      {
+        "w": "latter",
+        "ipa": "/ˈlætə(r)/",
+        "cn": "后者的",
+        "ex": "Of the two, I prefer the latter.",
+        "exCn": "两者中我更喜欢后者。"
+      },
+      {
+        "w": "least",
+        "ipa": "/liːst/",
+        "cn": "最少的",
+        "ex": "This is the least expensive option.",
+        "exCn": "这是最便宜的选择。"
+      },
+      {
+        "w": "left",
+        "ipa": "/left/",
+        "cn": "左边的",
+        "ex": "Turn left at the corner.",
+        "exCn": "在拐角处左转。"
+      },
+      {
+        "w": "likely",
+        "ipa": "/ˈlaɪkli/",
+        "cn": "可能的",
+        "ex": "It is likely to rain.",
+        "exCn": "可能会下雨。"
+      },
+      {
+        "w": "little",
+        "ipa": "/ˈlɪtl/",
+        "cn": "小的；少的",
+        "ex": "There is little time left.",
+        "exCn": "剩下的时间很少。"
+      },
+      {
+        "w": "local",
+        "ipa": "/ˈləʊkl/",
+        "cn": "当地的",
+        "ex": "Support local businesses.",
+        "exCn": "支持本地企业。"
+      },
+      {
+        "w": "long",
+        "ipa": "/lɒŋ/",
+        "cn": "长的",
+        "ex": "The river is long.",
+        "exCn": "河很长。"
+      },
+      {
+        "w": "loose",
+        "ipa": "/luːs/",
+        "cn": "松的",
+        "ex": "The rope is loose.",
+        "exCn": "绳子是松的。"
+      },
+      {
+        "w": "lovely",
+        "ipa": "/ˈlʌvli/",
+        "cn": "可爱的",
+        "ex": "What a lovely day!",
+        "exCn": "多么美好的一天！"
+      },
+      {
+        "w": "low",
+        "ipa": "/ləʊ/",
+        "cn": "低的",
+        "ex": "The price is low.",
+        "exCn": "价格低。"
+      },
+      {
+        "w": "mad",
+        "ipa": "/mæd/",
+        "cn": "生气的；疯狂的",
+        "ex": "Don't get mad.",
+        "exCn": "不要生气。"
+      },
+      {
+        "w": "main",
+        "ipa": "/meɪn/",
+        "cn": "主要的",
+        "ex": "What is the main idea?",
+        "exCn": "主旨是什么？"
+      },
+      {
+        "w": "major",
+        "ipa": "/ˈmeɪdʒə(r)/",
+        "cn": "主要的",
+        "ex": "This is a major problem.",
+        "exCn": "这是一个主要问题。"
+      },
+      {
+        "w": "male",
+        "ipa": "/meɪl/",
+        "cn": "男性的",
+        "ex": "The male bird is colourful.",
+        "exCn": "雄鸟色彩鲜艳。"
+      },
+      {
+        "w": "medical",
+        "ipa": "/ˈmedɪkl/",
+        "cn": "医学的",
+        "ex": "She needs medical help.",
+        "exCn": "她需要医疗帮助。"
+      },
+      {
+        "w": "medium",
+        "ipa": "/ˈmiːdiəm/",
+        "cn": "中等的",
+        "ex": "Choose a medium size.",
+        "exCn": "选择中等尺寸。"
+      },
+      {
+        "w": "mild",
+        "ipa": "/maɪld/",
+        "cn": "温和的",
+        "ex": "The weather is mild.",
+        "exCn": "天气温和。"
+      },
+      {
+        "w": "minor",
+        "ipa": "/ˈmaɪnə(r)/",
+        "cn": "较小的",
+        "ex": "This is a minor issue.",
+        "exCn": "这是一个小问题。"
+      },
+      {
+        "w": "missing",
+        "ipa": "/ˈmɪsɪŋ/",
+        "cn": "失踪的",
+        "ex": "The key is missing.",
+        "exCn": "钥匙不见了。"
+      },
+      {
+        "w": "narrow",
+        "ipa": "/ˈnærəʊ/",
+        "cn": "窄的",
+        "ex": "The road is narrow.",
+        "exCn": "路很窄。"
+      },
+      {
+        "w": "national",
+        "ipa": "/ˈnæʃnəl/",
+        "cn": "国家的",
+        "ex": "This is a national holiday.",
+        "exCn": "这是国家节日。"
+      },
+      {
+        "w": "native",
+        "ipa": "/ˈneɪtɪv/",
+        "cn": "本地的",
+        "ex": "English is not my native language.",
+        "exCn": "英语不是我的母语。"
+      },
+      {
+        "w": "nearby",
+        "ipa": "/ˌnɪəˈbaɪ/",
+        "cn": "附近的",
+        "ex": "There is a park nearby.",
+        "exCn": "附近有公园。"
+      },
+      {
+        "w": "neat",
+        "ipa": "/niːt/",
+        "cn": "整洁的",
+        "ex": "Keep your desk neat.",
+        "exCn": "保持桌子整洁。"
+      },
+      {
+        "w": "negative",
+        "ipa": "/ˈneɡətɪv/",
+        "cn": "负面的",
+        "ex": "Don't be negative.",
+        "exCn": "不要消极。"
+      },
+      {
+        "w": "neither",
+        "ipa": "/ˈnaɪðə(r)/",
+        "cn": "两者都不",
+        "ex": "Neither answer is correct.",
+        "exCn": "两个答案都不对。"
+      },
+      {
+        "w": "new",
+        "ipa": "/njuː/",
+        "cn": "新的",
+        "ex": "I have a new book.",
+        "exCn": "我有一本新书。"
+      },
+      {
+        "w": "next",
+        "ipa": "/nekst/",
+        "cn": "下一个的",
+        "ex": "What is the next step?",
+        "exCn": "下一步是什么？"
+      },
+      {
+        "w": "nice",
+        "ipa": "/naɪs/",
+        "cn": "好的",
+        "ex": "Have a nice day!",
+        "exCn": "祝你有美好的一天！"
+      },
+      {
+        "w": "northern",
+        "ipa": "/ˈnɔːðən/",
+        "cn": "北方的",
+        "ex": "He lives in the northern part.",
+        "exCn": "他住在北部。"
+      },
+      {
+        "w": "obvious",
+        "ipa": "/ˈɒbviəs/",
+        "cn": "明显的",
+        "ex": "It is obvious that he is tired.",
+        "exCn": "显然他很累。"
+      },
+      {
+        "w": "official",
+        "ipa": "/əˈfɪʃl/",
+        "cn": "官方的",
+        "ex": "This is the official statement.",
+        "exCn": "这是官方声明。"
+      },
+      {
+        "w": "old",
+        "ipa": "/əʊld/",
+        "cn": "老的",
+        "ex": "This is an old building.",
+        "exCn": "这是一座老建筑。"
+      },
+      {
+        "w": "only",
+        "ipa": "/ˈəʊnli/",
+        "cn": "唯一的",
+        "ex": "This is the only way.",
+        "exCn": "这是唯一的方法。"
+      },
+      {
+        "w": "open",
+        "ipa": "/ˈəʊpən/",
+        "cn": "开放的",
+        "ex": "The door is open.",
+        "exCn": "门是开的。"
+      },
+      {
+        "w": "opposite",
+        "ipa": "/ˈɒpəzɪt/",
+        "cn": "相反的",
+        "ex": "They have opposite views.",
+        "exCn": "他们观点相反。"
+      },
+      {
+        "w": "ordinary",
+        "ipa": "/ˈɔːdnri/",
+        "cn": "普通的",
+        "ex": "He is an ordinary person.",
+        "exCn": "他是普通人。"
+      },
+      {
+        "w": "other",
+        "ipa": "/ˈʌðə(r)/",
+        "cn": "其他的",
+        "ex": "Do you have other questions?",
+        "exCn": "你有其他问题吗？"
+      },
+      {
+        "w": "outdoor",
+        "ipa": "/ˈaʊtdɔː(r)/",
+        "cn": "户外的",
+        "ex": "We enjoy outdoor activities.",
+        "exCn": "我们喜欢户外活动。"
+      },
+      {
+        "w": "own",
+        "ipa": "/əʊn/",
+        "cn": "自己的",
+        "ex": "This is my own book.",
+        "exCn": "这是我自己的书。"
+      },
+      {
+        "w": "pale",
+        "ipa": "/peɪl/",
+        "cn": "苍白的",
+        "ex": "She looks pale.",
+        "exCn": "她看起来苍白。"
+      },
+      {
+        "w": "particular",
+        "ipa": "/pəˈtɪkjələ(r)/",
+        "cn": "特定的",
+        "ex": "Is there a particular reason?",
+        "exCn": "有特定原因吗？"
+      },
+      {
+        "w": "past",
+        "ipa": "/pɑːst/",
+        "cn": "过去的",
+        "ex": "In the past, life was different.",
+        "exCn": "过去生活不同。"
+      },
+      {
+        "w": "perfect",
+        "ipa": "/ˈpɜːfɪkt/",
+        "cn": "完美的",
+        "ex": "Nobody is perfect.",
+        "exCn": "没有人是完美的。"
+      },
+      {
+        "w": "personal",
+        "ipa": "/ˈpɜːsənl/",
+        "cn": "个人的",
+        "ex": "This is a personal opinion.",
+        "exCn": "这是个人意见。"
+      },
+      {
+        "w": "physical",
+        "ipa": "/ˈfɪzɪkl/",
+        "cn": "身体的",
+        "ex": "Physical exercise is important.",
+        "exCn": "体育锻炼很重要。"
+      },
+      {
+        "w": "plain",
+        "ipa": "/pleɪn/",
+        "cn": "简单的；平原",
+        "ex": "Please use plain language.",
+        "exCn": "请使用简单语言。"
+      },
+      {
+        "w": "pleasant",
+        "ipa": "/ˈpleznt/",
+        "cn": "愉快的",
+        "ex": "We had a pleasant trip.",
+        "exCn": "我们有一次愉快的旅行。"
+      },
+      {
+        "w": "pleased",
+        "ipa": "/pliːzd/",
+        "cn": "高兴的",
+        "ex": "I am pleased with the result.",
+        "exCn": "我对结果满意。"
+      },
+      {
+        "w": "plenty",
+        "ipa": "/ˈplenti/",
+        "cn": "充足的",
+        "ex": "There is plenty of time.",
+        "exCn": "有充足的时间。"
+      },
+      {
+        "w": "positive",
+        "ipa": "/ˈpɒzətɪv/",
+        "cn": "积极的",
+        "ex": "Keep a positive attitude.",
+        "exCn": "保持积极态度。"
+      },
+      {
+        "w": "powerful",
+        "ipa": "/ˈpaʊəfl/",
+        "cn": "强大的",
+        "ex": "Education is a powerful tool.",
+        "exCn": "教育是强大的工具。"
+      },
+      {
+        "w": "practical",
+        "ipa": "/ˈpræktɪkl/",
+        "cn": "实用的",
+        "ex": "This is a practical solution.",
+        "exCn": "这是实用解决方案。"
+      },
+      {
+        "w": "present",
+        "ipa": "/ˈpreznt/",
+        "cn": "现在的",
+        "ex": "At present, we are busy.",
+        "exCn": "目前我们很忙。"
+      },
+      {
+        "w": "private",
+        "ipa": "/ˈpraɪvət/",
+        "cn": "私人的",
+        "ex": "This is a private matter.",
+        "exCn": "这是私事。"
+      },
+      {
+        "w": "public",
+        "ipa": "/ˈpʌblɪk/",
+        "cn": "公共的",
+        "ex": "This is a public park.",
+        "exCn": "这是公共公园。"
+      },
+      {
+        "w": "pure",
+        "ipa": "/pjʊə(r)/",
+        "cn": "纯净的",
+        "ex": "The water is pure.",
+        "exCn": "水是纯净的。"
+      },
+      {
+        "w": "quick",
+        "ipa": "/kwɪk/",
+        "cn": "快的",
+        "ex": "Be quick!",
+        "exCn": "快点！"
+      },
+      {
+        "w": "rare",
+        "ipa": "/reə(r)/",
+        "cn": "稀有的",
+        "ex": "This is a rare opportunity.",
+        "exCn": "这是难得机会。"
+      },
+      {
+        "w": "real",
+        "ipa": "/ˈriːəl/",
+        "cn": "真实的",
+        "ex": "Is this real?",
+        "exCn": "这是真的吗？"
+      },
+      {
+        "w": "recent",
+        "ipa": "/ˈriːsnt/",
+        "cn": "最近的",
+        "ex": "In recent years, technology has developed.",
+        "exCn": "近年来技术发展了。"
+      },
+      {
+        "w": "regular",
+        "ipa": "/ˈreɡjələ(r)/",
+        "cn": "规律的",
+        "ex": "Regular exercise is good.",
+        "exCn": "规律锻炼很好。"
+      },
+      {
+        "w": "related",
+        "ipa": "/rɪˈleɪtɪd/",
+        "cn": "相关的",
+        "ex": "These problems are related.",
+        "exCn": "这些问题相关。"
+      },
+      {
+        "w": "relative",
+        "ipa": "/ˈrelətɪv/",
+        "cn": "相对的",
+        "ex": "Success is relative.",
+        "exCn": "成功是相对的。"
+      },
+      {
+        "w": "relaxed",
+        "ipa": "/rɪˈlækst/",
+        "cn": "放松的",
+        "ex": "I feel relaxed.",
+        "exCn": "我感到放松。"
+      },
+      {
+        "w": "relevant",
+        "ipa": "/ˈreləvənt/",
+        "cn": "相关的",
+        "ex": "Please only include relevant information.",
+        "exCn": "请只包含相关信息。"
+      },
+      {
+        "w": "reliable",
+        "ipa": "/rɪˈlaɪəbl/",
+        "cn": "可靠的",
+        "ex": "He is a reliable friend.",
+        "exCn": "他是可靠的朋友。"
+      },
+      {
+        "w": "remaining",
+        "ipa": "/rɪˈmeɪnɪŋ/",
+        "cn": "剩余的",
+        "ex": "Use the remaining time wisely.",
+        "exCn": "明智使用剩余时间。"
+      },
+      {
+        "w": "remarkable",
+        "ipa": "/rɪˈmɑːkəbl/",
+        "cn": "非凡的",
+        "ex": "She made remarkable progress.",
+        "exCn": "她取得非凡进步。"
+      },
+      {
+        "w": "remote",
+        "ipa": "/rɪˈməʊt/",
+        "cn": "遥远的",
+        "ex": "They live in a remote village.",
+        "exCn": "他们住在偏远村庄。"
+      },
+      {
+        "w": "responsible",
+        "ipa": "/rɪˈspɒnsəbl/",
+        "cn": "负责的",
+        "ex": "Be responsible for your actions.",
+        "exCn": "对自己的行为负责。"
+      },
+      {
+        "w": "right",
+        "ipa": "/raɪt/",
+        "cn": "正确的；右边的",
+        "ex": "Turn right.",
+        "exCn": "右转。"
+      },
+      {
+        "w": "rough",
+        "ipa": "/rʌf/",
+        "cn": "粗糙的",
+        "ex": "The surface is rough.",
+        "exCn": "表面粗糙。"
+      },
+      {
+        "w": "round",
+        "ipa": "/raʊnd/",
+        "cn": "圆的",
+        "ex": "The earth is round.",
+        "exCn": "地球是圆的。"
+      },
+      {
+        "w": "rural",
+        "ipa": "/ˈrʊərəl/",
+        "cn": "农村的",
+        "ex": "He grew up in a rural area.",
+        "exCn": "他在农村长大。"
+      },
+      {
+        "w": "same",
+        "ipa": "/seɪm/",
+        "cn": "相同的",
+        "ex": "We have the same idea.",
+        "exCn": "我们有相同想法。"
+      },
+      {
+        "w": "satisfied",
+        "ipa": "/ˈsætɪsfaɪd/",
+        "cn": "满意的",
+        "ex": "I am satisfied with the result.",
+        "exCn": "我对结果满意。"
+      },
+      {
+        "w": "scientific",
+        "ipa": "/ˌsaɪənˈtɪfɪk/",
+        "cn": "科学的",
+        "ex": "This is a scientific method.",
+        "exCn": "这是科学方法。"
+      },
+      {
+        "w": "secondary",
+        "ipa": "/ˈsekəndri/",
+        "cn": "次要的；中等的",
+        "ex": "Secondary education is important.",
+        "exCn": "中等教育很重要。"
+      },
+      {
+        "w": "secret",
+        "ipa": "/ˈsiːkrət/",
+        "cn": "秘密的",
+        "ex": "This is a secret plan.",
+        "exCn": "这是秘密计划。"
+      },
+      {
+        "w": "secure",
+        "ipa": "/sɪˈkjʊə(r)/",
+        "cn": "安全的",
+        "ex": "Keep your data secure.",
+        "exCn": "确保数据安全。"
+      },
+      {
+        "w": "selfish",
+        "ipa": "/ˈselfɪʃ/",
+        "cn": "自私的",
+        "ex": "Don't be selfish.",
+        "exCn": "不要自私。"
+      },
+      {
+        "w": "senior",
+        "ipa": "/ˈsiːniə(r)/",
+        "cn": "年长的",
+        "ex": "He is a senior student.",
+        "exCn": "他是高年级学生。"
+      },
+      {
+        "w": "separate",
+        "ipa": "/ˈseprət/",
+        "cn": "分开的",
+        "ex": "Keep them separate.",
+        "exCn": "让它们分开。"
+      },
+      {
+        "w": "several",
+        "ipa": "/ˈsevrəl/",
+        "cn": "几个",
+        "ex": "I have several questions.",
+        "exCn": "我有几个问题。"
+      },
+      {
+        "w": "sharp",
+        "ipa": "/ʃɑːp/",
+        "cn": "锋利的",
+        "ex": "Be careful with the sharp knife.",
+        "exCn": "小心锋利的刀。"
+      },
+      {
+        "w": "short",
+        "ipa": "/ʃɔːt/",
+        "cn": "短的",
+        "ex": "The story is short.",
+        "exCn": "故事很短。"
+      },
+      {
+        "w": "shy",
+        "ipa": "/ʃaɪ/",
+        "cn": "害羞的",
+        "ex": "She is shy.",
+        "exCn": "她害羞。"
+      },
+      {
+        "w": "silent",
+        "ipa": "/ˈsaɪlənt/",
+        "cn": "沉默的",
+        "ex": "Please keep silent.",
+        "exCn": "请保持沉默。"
+      },
+      {
+        "w": "silly",
+        "ipa": "/ˈsɪli/",
+        "cn": "傻的",
+        "ex": "Don't be silly.",
+        "exCn": "不要傻。"
+      },
+      {
+        "w": "single",
+        "ipa": "/ˈsɪŋɡl/",
+        "cn": "单一的",
+        "ex": "I need a single room.",
+        "exCn": "我需要单人间。"
+      },
+      {
+        "w": "slight",
+        "ipa": "/slaɪt/",
+        "cn": "轻微的",
+        "ex": "There is a slight difference.",
+        "exCn": "有轻微差异。"
+      },
+      {
+        "w": "small",
+        "ipa": "/smɔːl/",
+        "cn": "小的",
+        "ex": "This is a small town.",
+        "exCn": "这是一个小镇。"
+      },
+      {
+        "w": "smart",
+        "ipa": "/smɑːt/",
+        "cn": "聪明的",
+        "ex": "She is smart.",
+        "exCn": "她很聪明。"
+      },
+      {
+        "w": "smooth",
+        "ipa": "/smuːð/",
+        "cn": "光滑的",
+        "ex": "The surface is smooth.",
+        "exCn": "表面光滑。"
+      },
+      {
+        "w": "social",
+        "ipa": "/ˈsəʊʃl/",
+        "cn": "社会的",
+        "ex": "Social media is popular.",
+        "exCn": "社交媒体很流行。"
+      },
+      {
+        "w": "solid",
+        "ipa": "/ˈsɒlɪd/",
+        "cn": "固体的",
+        "ex": "Ice is solid water.",
+        "exCn": "冰是固体水。"
+      },
+      {
+        "w": "sorry",
+        "ipa": "/ˈsɒri/",
+        "cn": "抱歉的",
+        "ex": "I am sorry.",
+        "exCn": "我很抱歉。"
+      },
+      {
+        "w": "southern",
+        "ipa": "/ˈsʌðən/",
+        "cn": "南方的",
+        "ex": "He lives in the southern part.",
+        "exCn": "他住在南部。"
+      },
+      {
+        "w": "specific",
+        "ipa": "/spəˈsɪfɪk/",
+        "cn": "具体的",
+        "ex": "Please give a specific example.",
+        "exCn": "请给出具体例子。"
+      },
+      {
+        "w": "standard",
+        "ipa": "/ˈstændəd/",
+        "cn": "标准的",
+        "ex": "This is the standard procedure.",
+        "exCn": "这是标准程序。"
+      },
+      {
+        "w": "strange",
+        "ipa": "/streɪndʒ/",
+        "cn": "奇怪的",
+        "ex": "I heard a strange sound.",
+        "exCn": "我听到奇怪的声音。"
+      },
+      {
+        "w": "sudden",
+        "ipa": "/ˈsʌdn/",
+        "cn": "突然的",
+        "ex": "There was a sudden change.",
+        "exCn": "有突然变化。"
+      },
+      {
+        "w": "sufficient",
+        "ipa": "/səˈfɪʃnt/",
+        "cn": "足够的",
+        "ex": "We have sufficient evidence.",
+        "exCn": "我们有足够证据。"
+      },
+      {
+        "w": "suitable",
+        "ipa": "/ˈsuːtəbl/",
+        "cn": "合适的",
+        "ex": "This is a suitable place.",
+        "exCn": "这是合适的地方。"
+      },
+      {
+        "w": "sunny",
+        "ipa": "/ˈsʌni/",
+        "cn": "晴朗的",
+        "ex": "It is a sunny day.",
+        "exCn": "今天晴天。"
+      },
+      {
+        "w": "super",
+        "ipa": "/ˈsuːpə(r)/",
+        "cn": "超级的",
+        "ex": "That is a super idea.",
+        "exCn": "那是超棒的主意。"
+      },
+      {
+        "w": "surprised",
+        "ipa": "/səˈpraɪzd/",
+        "cn": "惊讶的",
+        "ex": "I was surprised.",
+        "exCn": "我很惊讶。"
+      },
+      {
+        "w": "terrible",
+        "ipa": "/ˈterəbl/",
+        "cn": "糟糕的",
+        "ex": "The weather is terrible.",
+        "exCn": "天气糟糕。"
+      },
+      {
+        "w": "thick",
+        "ipa": "/θɪk/",
+        "cn": "厚的",
+        "ex": "The book is thick.",
+        "exCn": "书很厚。"
+      },
+      {
+        "w": "thin",
+        "ipa": "/θɪn/",
+        "cn": "薄的",
+        "ex": "The paper is thin.",
+        "exCn": "纸很薄。"
+      },
+      {
+        "w": "tight",
+        "ipa": "/taɪt/",
+        "cn": "紧的",
+        "ex": "The lid is tight.",
+        "exCn": "盖子很紧。"
+      },
+      {
+        "w": "tiny",
+        "ipa": "/ˈtaɪni/",
+        "cn": "微小的",
+        "ex": "There is a tiny insect.",
+        "exCn": "有一只微小的昆虫。"
+      },
+      {
+        "w": "total",
+        "ipa": "/ˈtəʊtl/",
+        "cn": "总的",
+        "ex": "What is the total cost?",
+        "exCn": "总成本是多少？"
+      },
+      {
+        "w": "tough",
+        "ipa": "/tʌf/",
+        "cn": "艰难的",
+        "ex": "This is a tough problem.",
+        "exCn": "这是难题。"
+      },
+      {
+        "w": "typical",
+        "ipa": "/ˈtɪpɪkl/",
+        "cn": "典型的",
+        "ex": "This is a typical example.",
+        "exCn": "这是典型例子。"
+      },
+      {
+        "w": "ugly",
+        "ipa": "/ˈʌɡli/",
+        "cn": "丑陋的",
+        "ex": "Don't say ugly things.",
+        "exCn": "不要说难听的话。"
+      },
+      {
+        "w": "unable",
+        "ipa": "/ʌnˈeɪbl/",
+        "cn": "不能的",
+        "ex": "I am unable to come.",
+        "exCn": "我不能来。"
+      },
+      {
+        "w": "unfair",
+        "ipa": "/ˌʌnˈfeə(r)/",
+        "cn": "不公平的",
+        "ex": "The decision is unfair.",
+        "exCn": "决定不公平。"
+      },
+      {
+        "w": "unhappy",
+        "ipa": "/ʌnˈhæpi/",
+        "cn": "不快乐的",
+        "ex": "She looks unhappy.",
+        "exCn": "她看起来不快乐。"
+      },
+      {
+        "w": "unique",
+        "ipa": "/juˈniːk/",
+        "cn": "独特的",
+        "ex": "Each person is unique.",
+        "exCn": "每个人都是独特的。"
+      },
+      {
+        "w": "united",
+        "ipa": "/juˈnaɪtɪd/",
+        "cn": "联合的",
+        "ex": "We are a united team.",
+        "exCn": "我们是联合团队。"
+      },
+      {
+        "w": "universal",
+        "ipa": "/ˌjuːnɪˈvɜːsl/",
+        "cn": "普遍的",
+        "ex": "Music is a universal language.",
+        "exCn": "音乐是普遍语言。"
+      },
+      {
+        "w": "unknown",
+        "ipa": "/ˌʌnˈnəʊn/",
+        "cn": "未知的",
+        "ex": "The cause is unknown.",
+        "exCn": "原因未知。"
+      },
+      {
+        "w": "unusual",
+        "ipa": "/ʌnˈjuːʒuəl/",
+        "cn": "不寻常的",
+        "ex": "This is an unusual situation.",
+        "exCn": "这是不寻常的情况。"
+      },
+      {
+        "w": "upper",
+        "ipa": "/ˈʌpə(r)/",
+        "cn": "上面的",
+        "ex": "The upper floor is quiet.",
+        "exCn": "上面楼层安静。"
+      },
+      {
+        "w": "upset",
+        "ipa": "/ʌpˈset/",
+        "cn": "心烦的",
+        "ex": "Don't be upset.",
+        "exCn": "不要心烦。"
+      },
+      {
+        "w": "upward",
+        "ipa": "/ˈʌpwəd/",
+        "cn": "向上的",
+        "ex": "There is an upward trend.",
+        "exCn": "有上升趋势。"
+      },
+      {
+        "w": "urban",
+        "ipa": "/ˈɜːbən/",
+        "cn": "城市的",
+        "ex": "Urban life is busy.",
+        "exCn": "城市生活忙碌。"
+      },
+      {
+        "w": "urgent",
+        "ipa": "/ˈɜːdʒənt/",
+        "cn": "紧急的",
+        "ex": "This is urgent.",
+        "exCn": "这很紧急。"
+      },
+      {
+        "w": "usual",
+        "ipa": "/ˈjuːʒuəl/",
+        "cn": "通常的",
+        "ex": "As usual, he was late.",
+        "exCn": "像往常一样，他迟到了。"
+      },
+      {
+        "w": "vast",
+        "ipa": "/vɑːst/",
+        "cn": "广阔的",
+        "ex": "The desert is vast.",
+        "exCn": "沙漠广阔。"
+      },
+      {
+        "w": "vertical",
+        "ipa": "/ˈvɜːtɪkl/",
+        "cn": "垂直的",
+        "ex": "Draw a vertical line.",
+        "exCn": "画一条垂直线。"
+      },
+      {
+        "w": "violent",
+        "ipa": "/ˈvaɪələnt/",
+        "cn": "暴力的",
+        "ex": "Violent behaviour is not acceptable.",
+        "exCn": "暴力行为不可接受。"
+      },
+      {
+        "w": "visible",
+        "ipa": "/ˈvɪzəbl/",
+        "cn": "可见的",
+        "ex": "The mountain is visible.",
+        "exCn": "山可见。"
+      },
+      {
+        "w": "visual",
+        "ipa": "/ˈvɪʒuəl/",
+        "cn": "视觉的",
+        "ex": "Visual aids help learning.",
+        "exCn": "视觉辅助有助于学习。"
+      },
+      {
+        "w": "vital",
+        "ipa": "/ˈvaɪtl/",
+        "cn": "至关重要的",
+        "ex": "It is vital to stay calm.",
+        "exCn": "保持冷静至关重要。"
+      },
+      {
+        "w": "wealthy",
+        "ipa": "/ˈwelθi/",
+        "cn": "富有的",
+        "ex": "He is a wealthy man.",
+        "exCn": "他是富人。"
+      },
+      {
+        "w": "weird",
+        "ipa": "/wɪəd/",
+        "cn": "奇怪的",
+        "ex": "That is a weird idea.",
+        "exCn": "那是奇怪的想法。"
+      },
+      {
+        "w": "welcome",
+        "ipa": "/ˈwelkəm/",
+        "cn": "受欢迎的",
+        "ex": "You are welcome.",
+        "exCn": "不客气。"
+      },
+      {
+        "w": "western",
+        "ipa": "/ˈwestən/",
+        "cn": "西方的",
+        "ex": "Western culture is different.",
+        "exCn": "西方文化不同。"
+      },
+      {
+        "w": "whole",
+        "ipa": "/həʊl/",
+        "cn": "整个的",
+        "ex": "I spent the whole day studying.",
+        "exCn": "我花了整天学习。"
+      },
+      {
+        "w": "wild",
+        "ipa": "/waɪld/",
+        "cn": "野生的",
+        "ex": "Protect wild animals.",
+        "exCn": "保护野生动物。"
+      },
+      {
+        "w": "willing",
+        "ipa": "/ˈwɪlɪŋ/",
+        "cn": "愿意的",
+        "ex": "I am willing to help.",
+        "exCn": "我愿意帮助。"
+      },
+      {
+        "w": "wooden",
+        "ipa": "/ˈwʊdn/",
+        "cn": "木制的",
+        "ex": "This is a wooden table.",
+        "exCn": "这是木桌。"
+      },
+      {
+        "w": "worried",
+        "ipa": "/ˈwʌrid/",
+        "cn": "担心的",
+        "ex": "Don't be worried.",
+        "exCn": "不要担心。"
+      },
+      {
+        "w": "worse",
+        "ipa": "/wɜːs/",
+        "cn": "更差的",
+        "ex": "The situation is getting worse.",
+        "exCn": "情况变得更差。"
+      },
+      {
+        "w": "worst",
+        "ipa": "/wɜːst/",
+        "cn": "最差的",
+        "ex": "This is the worst result.",
+        "exCn": "这是最差结果。"
+      },
+      {
+        "w": "worth",
+        "ipa": "/wɜːθ/",
+        "cn": "值得的",
+        "ex": "The book is worth reading.",
+        "exCn": "这本书值得读。"
+      },
+      {
+        "w": "worthy",
+        "ipa": "/ˈwɜːði/",
+        "cn": "值得的",
+        "ex": "He is a worthy friend.",
+        "exCn": "他是值得的朋友。"
+      },
+      {
+        "w": "wrong",
+        "ipa": "/rɒŋ/",
+        "cn": "错误的",
+        "ex": "Your answer is wrong.",
+        "exCn": "你的答案错误。"
+      },
+      {
+        "w": "young",
+        "ipa": "/jʌŋ/",
+        "cn": "年轻的",
+        "ex": "She is young.",
+        "exCn": "她年轻。"
       }
     ],
     "中考核心名词": [
@@ -3742,6 +5093,288 @@
         "cn": "年",
         "ex": "Happy New Year!",
         "exCn": "新年快乐！"
+      }
+    ],
+    "中考短语动词": [
+      {
+        "w": "break down",
+        "ipa": "/breɪk daʊn/",
+        "cn": "出故障；分解",
+        "ex": "My bike broke down on the way.",
+        "exCn": "我的自行车在路上坏了。"
+      },
+      {
+        "w": "bring up",
+        "ipa": "/brɪŋ ʌp/",
+        "cn": "抚养；提出",
+        "ex": "She was brought up by her grandparents.",
+        "exCn": "她由祖父母抚养长大。"
+      },
+      {
+        "w": "call off",
+        "ipa": "/kɔːl ɒf/",
+        "cn": "取消",
+        "ex": "They called off the meeting.",
+        "exCn": "他们取消了会议。"
+      },
+      {
+        "w": "carry on",
+        "ipa": "/ˈkæri ɒn/",
+        "cn": "继续",
+        "ex": "Please carry on with your work.",
+        "exCn": "请继续你的工作。"
+      },
+      {
+        "w": "come across",
+        "ipa": "/kʌm əˈkrɒs/",
+        "cn": "偶然遇到",
+        "ex": "I came across an old friend yesterday.",
+        "exCn": "我昨天偶然遇到一位老朋友。"
+      },
+      {
+        "w": "come up with",
+        "ipa": "/kʌm ʌp wɪð/",
+        "cn": "想出",
+        "ex": "She came up with a good idea.",
+        "exCn": "她想出了一个好主意。"
+      },
+      {
+        "w": "cut down",
+        "ipa": "/kʌt daʊn/",
+        "cn": "削减；砍倒",
+        "ex": "We should cut down on sugar.",
+        "exCn": "我们应该少吃糖。"
+      },
+      {
+        "w": "find out",
+        "ipa": "/faɪnd aʊt/",
+        "cn": "查明",
+        "ex": "Please find out the truth.",
+        "exCn": "请查明真相。"
+      },
+      {
+        "w": "get along",
+        "ipa": "/ɡet əˈlɒŋ/",
+        "cn": "相处",
+        "ex": "I get along well with my classmates.",
+        "exCn": "我和同学相处很好。"
+      },
+      {
+        "w": "get over",
+        "ipa": "/ɡet ˈəʊvə(r)/",
+        "cn": "克服；恢复",
+        "ex": "It took time to get over the illness.",
+        "exCn": "恢复健康花了一些时间。"
+      },
+      {
+        "w": "give up",
+        "ipa": "/ɡɪv ʌp/",
+        "cn": "放弃",
+        "ex": "Don't give up your dream.",
+        "exCn": "不要放弃梦想。"
+      },
+      {
+        "w": "go on",
+        "ipa": "/ɡəʊ ɒn/",
+        "cn": "继续",
+        "ex": "Please go on reading.",
+        "exCn": "请继续读。"
+      },
+      {
+        "w": "grow up",
+        "ipa": "/ɡrəʊ ʌp/",
+        "cn": "成长",
+        "ex": "I grew up in a small town.",
+        "exCn": "我在一个小镇长大。"
+      },
+      {
+        "w": "look after",
+        "ipa": "/lʊk ˈɑːftə(r)/",
+        "cn": "照顾",
+        "ex": "Please look after your sister.",
+        "exCn": "请照顾你妹妹。"
+      },
+      {
+        "w": "look forward to",
+        "ipa": "/lʊk ˈfɔːwəd tuː/",
+        "cn": "期待",
+        "ex": "I look forward to seeing you.",
+        "exCn": "我期待见到你。"
+      },
+      {
+        "w": "look up",
+        "ipa": "/lʊk ʌp/",
+        "cn": "查阅",
+        "ex": "Please look up the word in the dictionary.",
+        "exCn": "请在词典里查这个词。"
+      },
+      {
+        "w": "make up",
+        "ipa": "/meɪk ʌp/",
+        "cn": "编造；弥补",
+        "ex": "Don't make up stories.",
+        "exCn": "不要编故事。"
+      },
+      {
+        "w": "pick up",
+        "ipa": "/pɪk ʌp/",
+        "cn": "捡起；学会",
+        "ex": "I picked up some French in Paris.",
+        "exCn": "我在巴黎学了点法语。"
+      },
+      {
+        "w": "put off",
+        "ipa": "/pʊt ɒf/",
+        "cn": "推迟",
+        "ex": "Don't put off today's work.",
+        "exCn": "不要把今天的工作推迟。"
+      },
+      {
+        "w": "put on",
+        "ipa": "/pʊt ɒn/",
+        "cn": "穿上；增加",
+        "ex": "Please put on your coat.",
+        "exCn": "请穿上外套。"
+      },
+      {
+        "w": "put up with",
+        "ipa": "/pʊt ʌp wɪð/",
+        "cn": "忍受",
+        "ex": "I can't put up with the noise.",
+        "exCn": "我无法忍受这噪音。"
+      },
+      {
+        "w": "run out of",
+        "ipa": "/rʌn aʊt əv/",
+        "cn": "用完",
+        "ex": "We ran out of milk.",
+        "exCn": "我们的牛奶用完了。"
+      },
+      {
+        "w": "set up",
+        "ipa": "/set ʌp/",
+        "cn": "建立",
+        "ex": "They set up a new club.",
+        "exCn": "他们建立了一个新社团。"
+      },
+      {
+        "w": "take after",
+        "ipa": "/teɪk ˈɑːftə(r)/",
+        "cn": "像（长辈）",
+        "ex": "She takes after her mother.",
+        "exCn": "她长得像妈妈。"
+      },
+      {
+        "w": "take off",
+        "ipa": "/teɪk ɒf/",
+        "cn": "起飞；脱下",
+        "ex": "The plane took off on time.",
+        "exCn": "飞机准时起飞。"
+      },
+      {
+        "w": "take part in",
+        "ipa": "/teɪk pɑːt ɪn/",
+        "cn": "参加",
+        "ex": "I take part in the sports meeting.",
+        "exCn": "我参加运动会。"
+      },
+      {
+        "w": "turn down",
+        "ipa": "/tɜːn daʊn/",
+        "cn": "拒绝；调低",
+        "ex": "He turned down the invitation.",
+        "exCn": "他拒绝了邀请。"
+      },
+      {
+        "w": "turn off",
+        "ipa": "/tɜːn ɒf/",
+        "cn": "关掉",
+        "ex": "Please turn off the light.",
+        "exCn": "请关灯。"
+      },
+      {
+        "w": "turn on",
+        "ipa": "/tɜːn ɒn/",
+        "cn": "打开",
+        "ex": "Please turn on the TV.",
+        "exCn": "请打开电视。"
+      },
+      {
+        "w": "turn up",
+        "ipa": "/tɜːn ʌp/",
+        "cn": "出现；调高",
+        "ex": "He turned up late.",
+        "exCn": "他迟到出现。"
+      },
+      {
+        "w": "work out",
+        "ipa": "/wɜːk aʊt/",
+        "cn": "解决；锻炼",
+        "ex": "I work out every morning.",
+        "exCn": "我每天早上锻炼。"
+      },
+      {
+        "w": "end up",
+        "ipa": "/end ʌp/",
+        "cn": "最终成为",
+        "ex": "He ended up becoming a teacher.",
+        "exCn": "他最终成为了老师。"
+      },
+      {
+        "w": "figure out",
+        "ipa": "/ˈfɪɡə aʊt/",
+        "cn": "弄明白",
+        "ex": "I can't figure out this problem.",
+        "exCn": "我弄不明白这个问题。"
+      },
+      {
+        "w": "hang out",
+        "ipa": "/hæŋ aʊt/",
+        "cn": "闲逛",
+        "ex": "We often hang out at the park.",
+        "exCn": "我们经常在公园闲逛。"
+      },
+      {
+        "w": "keep on",
+        "ipa": "/kiːp ɒn/",
+        "cn": "继续",
+        "ex": "Keep on trying.",
+        "exCn": "继续尝试。"
+      },
+      {
+        "w": "pass away",
+        "ipa": "/pɑːs əˈweɪ/",
+        "cn": "去世",
+        "ex": "His grandfather passed away last year.",
+        "exCn": "他祖父去年去世了。"
+      },
+      {
+        "w": "show up",
+        "ipa": "/ʃəʊ ʌp/",
+        "cn": "出现",
+        "ex": "He didn't show up at the party.",
+        "exCn": "他没有出现在派对上。"
+      },
+      {
+        "w": "stand for",
+        "ipa": "/stænd fɔː(r)/",
+        "cn": "代表",
+        "ex": "UN stands for United Nations.",
+        "exCn": "UN代表联合国。"
+      },
+      {
+        "w": "take care of",
+        "ipa": "/teɪk keə əv/",
+        "cn": "照顾",
+        "ex": "Please take care of yourself.",
+        "exCn": "请照顾好自己。"
+      },
+      {
+        "w": "catch up with",
+        "ipa": "/kætʃ ʌp wɪð/",
+        "cn": "赶上",
+        "ex": "I need to catch up with my classmates.",
+        "exCn": "我需要赶上同学。"
       }
     ]
   },
@@ -6849,6 +8482,930 @@
         "cn": "广泛的",
         "ex": "The problem is widespread.",
         "exCn": "问题很普遍。"
+      },
+      {
+        "w": "absolute",
+        "ipa": "/ˈæbsəluːt/",
+        "cn": "绝对的",
+        "ex": "There is no absolute truth.",
+        "exCn": "没有绝对真理。"
+      },
+      {
+        "w": "academic",
+        "ipa": "/ˌækəˈdemɪk/",
+        "cn": "学术的",
+        "ex": "She has a strong academic background.",
+        "exCn": "她有扎实学术背景。"
+      },
+      {
+        "w": "acceptable",
+        "ipa": "/əkˈseptəbl/",
+        "cn": "可接受的",
+        "ex": "This is an acceptable solution.",
+        "exCn": "这是可接受的解决方案。"
+      },
+      {
+        "w": "accessible",
+        "ipa": "/əkˈsesəbl/",
+        "cn": "可获得的",
+        "ex": "The building is accessible to all.",
+        "exCn": "建筑对所有人可及。"
+      },
+      {
+        "w": "active",
+        "ipa": "/ˈæktɪv/",
+        "cn": "积极的",
+        "ex": "She is an active member.",
+        "exCn": "她是积极成员。"
+      },
+      {
+        "w": "actual",
+        "ipa": "/ˈæktʃuəl/",
+        "cn": "实际的",
+        "ex": "What is the actual cost?",
+        "exCn": "实际成本是多少？"
+      },
+      {
+        "w": "additional",
+        "ipa": "/əˈdɪʃənl/",
+        "cn": "额外的",
+        "ex": "We need additional time.",
+        "exCn": "我们需要额外时间。"
+      },
+      {
+        "w": "administrative",
+        "ipa": "/ədˈmɪnɪstrətɪv/",
+        "cn": "行政的",
+        "ex": "He works in an administrative role.",
+        "exCn": "他从事行政工作。"
+      },
+      {
+        "w": "adult",
+        "ipa": "/ˈædʌlt/",
+        "cn": "成年的",
+        "ex": "This is for adult readers.",
+        "exCn": "这面向成年读者。"
+      },
+      {
+        "w": "adverse",
+        "ipa": "/ˈædvɜːs/",
+        "cn": "不利的",
+        "ex": "Adverse weather delayed the flight.",
+        "exCn": "不利天气延误了航班。"
+      },
+      {
+        "w": "aesthetic",
+        "ipa": "/iːsˈθetɪk/",
+        "cn": "美学的",
+        "ex": "The design has aesthetic value.",
+        "exCn": "设计有美学价值。"
+      },
+      {
+        "w": "affordable",
+        "ipa": "/əˈfɔːdəbl/",
+        "cn": "负担得起的",
+        "ex": "We need affordable housing.",
+        "exCn": "我们需要负担得起的住房。"
+      },
+      {
+        "w": "agricultural",
+        "ipa": "/ˌæɡrɪˈkʌltʃərəl/",
+        "cn": "农业的",
+        "ex": "Agricultural development is important.",
+        "exCn": "农业发展很重要。"
+      },
+      {
+        "w": "alert",
+        "ipa": "/əˈlɜːt/",
+        "cn": "警觉的",
+        "ex": "Stay alert while driving.",
+        "exCn": "开车时保持警觉。"
+      },
+      {
+        "w": "ambiguous",
+        "ipa": "/æmˈbɪɡjuəs/",
+        "cn": "模糊的",
+        "ex": "The meaning is ambiguous.",
+        "exCn": "意思模糊。"
+      },
+      {
+        "w": "annual",
+        "ipa": "/ˈænjuəl/",
+        "cn": "每年的",
+        "ex": "This is an annual event.",
+        "exCn": "这是年度活动。"
+      },
+      {
+        "w": "anxious",
+        "ipa": "/ˈæŋkʃəs/",
+        "cn": "焦虑的",
+        "ex": "I feel anxious before exams.",
+        "exCn": "考试前我焦虑。"
+      },
+      {
+        "w": "applicable",
+        "ipa": "/əˈplɪkəbl/",
+        "cn": "适用的",
+        "ex": "This rule is applicable to all.",
+        "exCn": "此规则适用于所有人。"
+      },
+      {
+        "w": "arbitrary",
+        "ipa": "/ˈɑːbɪtrəri/",
+        "cn": "任意的",
+        "ex": "Don't make arbitrary decisions.",
+        "exCn": "不要做任意决定。"
+      },
+      {
+        "w": "architectural",
+        "ipa": "/ˌɑːkɪˈtektʃərəl/",
+        "cn": "建筑的",
+        "ex": "The building has architectural beauty.",
+        "exCn": "建筑有建筑美。"
+      },
+      {
+        "w": "artistic",
+        "ipa": "/ɑːˈtɪstɪk/",
+        "cn": "艺术的",
+        "ex": "She has artistic talent.",
+        "exCn": "她有艺术天赋。"
+      },
+      {
+        "w": "associated",
+        "ipa": "/əˈsəʊsieɪtɪd/",
+        "cn": "相关的",
+        "ex": "Smoking is associated with health risks.",
+        "exCn": "吸烟与健康风险相关。"
+      },
+      {
+        "w": "athletic",
+        "ipa": "/æθˈletɪk/",
+        "cn": "运动的",
+        "ex": "He is athletic.",
+        "exCn": "他擅长运动。"
+      },
+      {
+        "w": "atomic",
+        "ipa": "/əˈtɒmɪk/",
+        "cn": "原子的",
+        "ex": "Atomic energy is powerful.",
+        "exCn": "原子能强大。"
+      },
+      {
+        "w": "attractive",
+        "ipa": "/əˈtræktɪv/",
+        "cn": "有吸引力的",
+        "ex": "The offer is attractive.",
+        "exCn": "报价有吸引力。"
+      },
+      {
+        "w": "authentic",
+        "ipa": "/ɔːˈθentɪk/",
+        "cn": "真实的",
+        "ex": "This is an authentic document.",
+        "exCn": "这是真实文件。"
+      },
+      {
+        "w": "automatic",
+        "ipa": "/ˌɔːtəˈmætɪk/",
+        "cn": "自动的",
+        "ex": "The process is automatic.",
+        "exCn": "过程是自动的。"
+      },
+      {
+        "w": "awkward",
+        "ipa": "/ˈɔːkwəd/",
+        "cn": "尴尬的",
+        "ex": "There was an awkward silence.",
+        "exCn": "有尴尬的沉默。"
+      },
+      {
+        "w": "biological",
+        "ipa": "/ˌbaɪəˈlɒdʒɪkl/",
+        "cn": "生物的",
+        "ex": "Biological diversity is important.",
+        "exCn": "生物多样性重要。"
+      },
+      {
+        "w": "brilliant",
+        "ipa": "/ˈbrɪliənt/",
+        "cn": "杰出的",
+        "ex": "She has a brilliant mind.",
+        "exCn": "她头脑杰出。"
+      },
+      {
+        "w": "careful",
+        "ipa": "/ˈkeəfl/",
+        "cn": "小心的",
+        "ex": "Be careful.",
+        "exCn": "小心。"
+      },
+      {
+        "w": "casual",
+        "ipa": "/ˈkæʒuəl/",
+        "cn": "随意的",
+        "ex": "Wear casual clothes.",
+        "exCn": "穿休闲衣服。"
+      },
+      {
+        "w": "chemical",
+        "ipa": "/ˈkemɪkl/",
+        "cn": "化学的",
+        "ex": "Chemical reactions are interesting.",
+        "exCn": "化学反应有趣。"
+      },
+      {
+        "w": "civil",
+        "ipa": "/ˈsɪvl/",
+        "cn": "公民的",
+        "ex": "Civil rights are important.",
+        "exCn": "公民权利重要。"
+      },
+      {
+        "w": "clean",
+        "ipa": "/kliːn/",
+        "cn": "干净的",
+        "ex": "Keep the room clean.",
+        "exCn": "保持房间干净。"
+      },
+      {
+        "w": "clear",
+        "ipa": "/klɪə(r)/",
+        "cn": "清楚的",
+        "ex": "The instructions are clear.",
+        "exCn": "说明清楚。"
+      },
+      {
+        "w": "clinical",
+        "ipa": "/ˈklɪnɪkl/",
+        "cn": "临床的",
+        "ex": "Clinical trials are ongoing.",
+        "exCn": "临床试验在进行。"
+      },
+      {
+        "w": "close",
+        "ipa": "/kləʊs/",
+        "cn": "近的",
+        "ex": "The school is close.",
+        "exCn": "学校很近。"
+      },
+      {
+        "w": "coastal",
+        "ipa": "/ˈkəʊstl/",
+        "cn": "沿海的",
+        "ex": "Coastal areas are beautiful.",
+        "exCn": "沿海地区美丽。"
+      },
+      {
+        "w": "cognitive",
+        "ipa": "/ˈkɒɡnətɪv/",
+        "cn": "认知的",
+        "ex": "Cognitive skills develop with age.",
+        "exCn": "认知技能随年龄发展。"
+      },
+      {
+        "w": "collective",
+        "ipa": "/kəˈlektɪv/",
+        "cn": "集体的",
+        "ex": "This is a collective effort.",
+        "exCn": "这是集体努力。"
+      },
+      {
+        "w": "comparable",
+        "ipa": "/ˈkɒmpərəbl/",
+        "cn": "可比较的",
+        "ex": "The two results are comparable.",
+        "exCn": "两个结果可比较。"
+      },
+      {
+        "w": "comparative",
+        "ipa": "/kəmˈpærətɪv/",
+        "cn": "比较的",
+        "ex": "A comparative study is useful.",
+        "exCn": "比较研究有用。"
+      },
+      {
+        "w": "compatible",
+        "ipa": "/kəmˈpætəbl/",
+        "cn": "兼容的",
+        "ex": "The software is compatible.",
+        "exCn": "软件兼容。"
+      },
+      {
+        "w": "competent",
+        "ipa": "/ˈkɒmpɪtənt/",
+        "cn": "有能力的",
+        "ex": "She is a competent teacher.",
+        "exCn": "她是有能力的老师。"
+      },
+      {
+        "w": "competitive",
+        "ipa": "/kəmˈpetətɪv/",
+        "cn": "竞争的",
+        "ex": "The market is competitive.",
+        "exCn": "市场竞争激烈。"
+      },
+      {
+        "w": "complete",
+        "ipa": "/kəmˈpliːt/",
+        "cn": "完整的",
+        "ex": "Please give a complete answer.",
+        "exCn": "请给出完整答案。"
+      },
+      {
+        "w": "complicated",
+        "ipa": "/ˈkɒmplɪkeɪtɪd/",
+        "cn": "复杂的",
+        "ex": "The situation is complicated.",
+        "exCn": "情况复杂。"
+      },
+      {
+        "w": "compulsory",
+        "ipa": "/kəmˈpʌlsəri/",
+        "cn": "强制的",
+        "ex": "Education is compulsory.",
+        "exCn": "教育是强制的。"
+      },
+      {
+        "w": "conceptual",
+        "ipa": "/kənˈseptʃuəl/",
+        "cn": "概念的",
+        "ex": "This is a conceptual framework.",
+        "exCn": "这是概念框架。"
+      },
+      {
+        "w": "concrete",
+        "ipa": "/ˈkɒŋkriːt/",
+        "cn": "具体的",
+        "ex": "Give concrete examples.",
+        "exCn": "给出具体例子。"
+      },
+      {
+        "w": "confidential",
+        "ipa": "/ˌkɒnfɪˈdenʃl/",
+        "cn": "机密的",
+        "ex": "This is confidential information.",
+        "exCn": "这是机密信息。"
+      },
+      {
+        "w": "consecutive",
+        "ipa": "/kənˈsekjətɪv/",
+        "cn": "连续的",
+        "ex": "We won three consecutive games.",
+        "exCn": "我们连赢三场。"
+      },
+      {
+        "w": "conservative",
+        "ipa": "/kənˈsɜːvətɪv/",
+        "cn": "保守的",
+        "ex": "He has conservative views.",
+        "exCn": "他观点保守。"
+      },
+      {
+        "w": "considerable",
+        "ipa": "/kənˈsɪdərəbl/",
+        "cn": "相当大的",
+        "ex": "There is considerable progress.",
+        "exCn": "有相当大的进步。"
+      },
+      {
+        "w": "constitutional",
+        "ipa": "/ˌkɒnstɪˈtjuːʃənl/",
+        "cn": "宪法的",
+        "ex": "This is a constitutional right.",
+        "exCn": "这是宪法权利。"
+      },
+      {
+        "w": "constructive",
+        "ipa": "/kənˈstrʌktɪv/",
+        "cn": "建设性的",
+        "ex": "Give constructive feedback.",
+        "exCn": "给出建设性反馈。"
+      },
+      {
+        "w": "continuous",
+        "ipa": "/kənˈtɪnjuəs/",
+        "cn": "连续的",
+        "ex": "Continuous effort leads to success.",
+        "exCn": "持续努力通向成功。"
+      },
+      {
+        "w": "contrary",
+        "ipa": "/ˈkɒntrəri/",
+        "cn": "相反的",
+        "ex": "Contrary to expectation, he won.",
+        "exCn": "与预期相反，他赢了。"
+      },
+      {
+        "w": "convincing",
+        "ipa": "/kənˈvɪnsɪŋ/",
+        "cn": "有说服力的",
+        "ex": "His argument is convincing.",
+        "exCn": "他的论点有说服力。"
+      },
+      {
+        "w": "cooperative",
+        "ipa": "/kəʊˈɒpərətɪv/",
+        "cn": "合作的",
+        "ex": "Be cooperative in the team.",
+        "exCn": "在团队中合作。"
+      },
+      {
+        "w": "corporate",
+        "ipa": "/ˈkɔːpərət/",
+        "cn": "公司的",
+        "ex": "Corporate culture is important.",
+        "exCn": "企业文化重要。"
+      },
+      {
+        "w": "correct",
+        "ipa": "/kəˈrekt/",
+        "cn": "正确的",
+        "ex": "Your answer is correct.",
+        "exCn": "答案正确。"
+      },
+      {
+        "w": "corresponding",
+        "ipa": "/ˌkɒrəˈspɒndɪŋ/",
+        "cn": "相应的",
+        "ex": "Find the corresponding number.",
+        "exCn": "找到相应数字。"
+      },
+      {
+        "w": "cultural",
+        "ipa": "/ˈkʌltʃərəl/",
+        "cn": "文化的",
+        "ex": "Cultural exchange is valuable.",
+        "exCn": "文化交流有价值。"
+      },
+      {
+        "w": "daily",
+        "ipa": "/ˈdeɪli/",
+        "cn": "每天的",
+        "ex": "Exercise is part of daily life.",
+        "exCn": "锻炼是日常生活的一部分。"
+      },
+      {
+        "w": "dangerous",
+        "ipa": "/ˈdeɪndʒərəs/",
+        "cn": "危险的",
+        "ex": "The road is dangerous.",
+        "exCn": "路危险。"
+      },
+      {
+        "w": "decisive",
+        "ipa": "/dɪˈsaɪsɪv/",
+        "cn": "决定性的",
+        "ex": "This is a decisive moment.",
+        "exCn": "这是决定性时刻。"
+      },
+      {
+        "w": "educational",
+        "ipa": "/ˌedʒuˈkeɪʃənl/",
+        "cn": "教育的",
+        "ex": "This is an educational programme.",
+        "exCn": "这是教育节目。"
+      },
+      {
+        "w": "empirical",
+        "ipa": "/ɪmˈpɪrɪkl/",
+        "cn": "经验的",
+        "ex": "We need empirical evidence.",
+        "exCn": "我们需要经验证据。"
+      },
+      {
+        "w": "ethical",
+        "ipa": "/ˈeθɪkl/",
+        "cn": "伦理的",
+        "ex": "This is an ethical issue.",
+        "exCn": "这是伦理问题。"
+      },
+      {
+        "w": "ethnic",
+        "ipa": "/ˈeθnɪk/",
+        "cn": "民族的",
+        "ex": "Ethnic diversity is valuable.",
+        "exCn": "民族多样性有价值。"
+      },
+      {
+        "w": "eventual",
+        "ipa": "/ɪˈventʃuəl/",
+        "cn": "最终的",
+        "ex": "The eventual result was success.",
+        "exCn": "最终结果是成功。"
+      },
+      {
+        "w": "evolutionary",
+        "ipa": "/ˌiːvəˈluːʃənri/",
+        "cn": "进化的",
+        "ex": "Evolutionary theory is important.",
+        "exCn": "进化论重要。"
+      },
+      {
+        "w": "exclusive",
+        "ipa": "/ɪkˈskluːsɪv/",
+        "cn": "独家的",
+        "ex": "This is exclusive information.",
+        "exCn": "这是独家信息。"
+      },
+      {
+        "w": "experimental",
+        "ipa": "/ɪkˌsperɪˈmentl/",
+        "cn": "实验的",
+        "ex": "This is an experimental method.",
+        "exCn": "这是实验方法。"
+      },
+      {
+        "w": "explicit",
+        "ipa": "/ɪkˈsplɪsɪt/",
+        "cn": "明确的",
+        "ex": "Please be explicit.",
+        "exCn": "请明确。"
+      },
+      {
+        "w": "fantastic",
+        "ipa": "/fænˈtæstɪk/",
+        "cn": "极好的",
+        "ex": "That is a fantastic idea.",
+        "exCn": "那是极好主意。"
+      },
+      {
+        "w": "favourable",
+        "ipa": "/ˈfeɪvərəbl/",
+        "cn": "有利的",
+        "ex": "The weather is favourable.",
+        "exCn": "天气有利。"
+      },
+      {
+        "w": "federal",
+        "ipa": "/ˈfedərəl/",
+        "cn": "联邦的",
+        "ex": "This is a federal law.",
+        "exCn": "这是联邦法律。"
+      },
+      {
+        "w": "final",
+        "ipa": "/ˈfaɪnl/",
+        "cn": "最终的",
+        "ex": "This is the final decision.",
+        "exCn": "这是最终决定。"
+      },
+      {
+        "w": "financial",
+        "ipa": "/faɪˈnænʃl/",
+        "cn": "财务的",
+        "ex": "Financial planning is important.",
+        "exCn": "财务规划重要。"
+      },
+      {
+        "w": "fortunate",
+        "ipa": "/ˈfɔːtʃənət/",
+        "cn": "幸运的",
+        "ex": "We are fortunate.",
+        "exCn": "我们幸运。"
+      },
+      {
+        "w": "functional",
+        "ipa": "/ˈfʌŋkʃənl/",
+        "cn": "功能的",
+        "ex": "The design is functional.",
+        "exCn": "设计实用。"
+      },
+      {
+        "w": "genetic",
+        "ipa": "/dʒəˈnetɪk/",
+        "cn": "遗传的",
+        "ex": "Genetic research is advancing.",
+        "exCn": "遗传研究在进步。"
+      },
+      {
+        "w": "genuine",
+        "ipa": "/ˈdʒenjuɪn/",
+        "cn": "真正的",
+        "ex": "This is a genuine product.",
+        "exCn": "这是真品。"
+      },
+      {
+        "w": "graphic",
+        "ipa": "/ˈɡræfɪk/",
+        "cn": "图形的",
+        "ex": "Graphic design is interesting.",
+        "exCn": "平面设计有趣。"
+      },
+      {
+        "w": "grateful",
+        "ipa": "/ˈɡreɪtfl/",
+        "cn": "感激的",
+        "ex": "I am grateful for your help.",
+        "exCn": "我感谢你的帮助。"
+      },
+      {
+        "w": "healthy",
+        "ipa": "/ˈhelθi/",
+        "cn": "健康的",
+        "ex": "Eat healthy food.",
+        "exCn": "吃健康食物。"
+      },
+      {
+        "w": "honest",
+        "ipa": "/ˈɒnɪst/",
+        "cn": "诚实的",
+        "ex": "Be honest.",
+        "exCn": "要诚实。"
+      },
+      {
+        "w": "horizontal",
+        "ipa": "/ˌhɒrɪˈzɒntl/",
+        "cn": "水平的",
+        "ex": "Draw a horizontal line.",
+        "exCn": "画水平线。"
+      },
+      {
+        "w": "hostile",
+        "ipa": "/ˈhɒstaɪl/",
+        "cn": "敌对的",
+        "ex": "Don't be hostile.",
+        "exCn": "不要敌对。"
+      },
+      {
+        "w": "human",
+        "ipa": "/ˈhjuːmən/",
+        "cn": "人类的",
+        "ex": "Human rights are important.",
+        "exCn": "人权重要。"
+      },
+      {
+        "w": "ideological",
+        "ipa": "/ˌaɪdiəˈlɒdʒɪkl/",
+        "cn": "意识形态的",
+        "ex": "Ideological differences exist.",
+        "exCn": "存在意识形态差异。"
+      },
+      {
+        "w": "immune",
+        "ipa": "/ɪˈmjuːn/",
+        "cn": "免疫的",
+        "ex": "Vaccines help the immune system.",
+        "exCn": "疫苗帮助免疫系统。"
+      },
+      {
+        "w": "imperial",
+        "ipa": "/ɪmˈpɪəriəl/",
+        "cn": "帝国的",
+        "ex": "Imperial history is complex.",
+        "exCn": "帝国历史复杂。"
+      },
+      {
+        "w": "implicit",
+        "ipa": "/ɪmˈplɪsɪt/",
+        "cn": "隐含的",
+        "ex": "There is an implicit meaning.",
+        "exCn": "有隐含意义。"
+      },
+      {
+        "w": "important",
+        "ipa": "/ɪmˈpɔːtnt/",
+        "cn": "重要的",
+        "ex": "Education is important.",
+        "exCn": "教育重要。"
+      },
+      {
+        "w": "impossible",
+        "ipa": "/ɪmˈpɒsəbl/",
+        "cn": "不可能的",
+        "ex": "Nothing is impossible.",
+        "exCn": "没有什么不可能。"
+      },
+      {
+        "w": "impressive",
+        "ipa": "/ɪmˈpresɪv/",
+        "cn": "令人印象深刻的",
+        "ex": "The performance was impressive.",
+        "exCn": "表演令人印象深刻。"
+      },
+      {
+        "w": "inadequate",
+        "ipa": "/ɪnˈædɪkwət/",
+        "cn": "不足的",
+        "ex": "The preparation was inadequate.",
+        "exCn": "准备不足。"
+      },
+      {
+        "w": "industrial",
+        "ipa": "/ɪnˈdʌstriəl/",
+        "cn": "工业的",
+        "ex": "Industrial development is rapid.",
+        "exCn": "工业发展迅速。"
+      },
+      {
+        "w": "infinite",
+        "ipa": "/ˈɪnfɪnət/",
+        "cn": "无限的",
+        "ex": "The universe seems infinite.",
+        "exCn": "宇宙似乎无限。"
+      },
+      {
+        "w": "influential",
+        "ipa": "/ˌɪnfluˈenʃl/",
+        "cn": "有影响力的",
+        "ex": "He is an influential writer.",
+        "exCn": "他是有影响力的作家。"
+      },
+      {
+        "w": "informal",
+        "ipa": "/ɪnˈfɔːml/",
+        "cn": "非正式的",
+        "ex": "This is an informal meeting.",
+        "exCn": "这是非正式会议。"
+      },
+      {
+        "w": "innovative",
+        "ipa": "/ˈɪnəveɪtɪv/",
+        "cn": "创新的",
+        "ex": "This is an innovative idea.",
+        "exCn": "这是创新想法。"
+      },
+      {
+        "w": "intelligent",
+        "ipa": "/ɪnˈtelɪdʒənt/",
+        "cn": "聪明的",
+        "ex": "She is intelligent.",
+        "exCn": "她聪明。"
+      },
+      {
+        "w": "intensive",
+        "ipa": "/ɪnˈtensɪv/",
+        "cn": "密集的",
+        "ex": "This is an intensive course.",
+        "exCn": "这是密集课程。"
+      },
+      {
+        "w": "invisible",
+        "ipa": "/ɪnˈvɪzəbl/",
+        "cn": "看不见的",
+        "ex": "Air is invisible.",
+        "exCn": "空气看不见。"
+      },
+      {
+        "w": "irrelevant",
+        "ipa": "/ɪˈreləvənt/",
+        "cn": "不相关的",
+        "ex": "This information is irrelevant.",
+        "exCn": "这信息不相关。"
+      },
+      {
+        "w": "joint",
+        "ipa": "/dʒɔɪnt/",
+        "cn": "共同的",
+        "ex": "This is a joint project.",
+        "exCn": "这是共同项目。"
+      },
+      {
+        "w": "liberal",
+        "ipa": "/ˈlɪbərəl/",
+        "cn": "开明的",
+        "ex": "He has liberal views.",
+        "exCn": "他观点开明。"
+      },
+      {
+        "w": "literary",
+        "ipa": "/ˈlɪtərəri/",
+        "cn": "文学的",
+        "ex": "She has literary talent.",
+        "exCn": "她有文学天赋。"
+      },
+      {
+        "w": "loyal",
+        "ipa": "/ˈlɔɪəl/",
+        "cn": "忠诚的",
+        "ex": "He is a loyal friend.",
+        "exCn": "他是忠诚的朋友。"
+      },
+      {
+        "w": "magnificent",
+        "ipa": "/mæɡˈnɪfɪsnt/",
+        "cn": "壮丽的",
+        "ex": "The view is magnificent.",
+        "exCn": "景色壮丽。"
+      },
+      {
+        "w": "marine",
+        "ipa": "/məˈriːn/",
+        "cn": "海洋的",
+        "ex": "Marine life is diverse.",
+        "exCn": "海洋生物多样。"
+      },
+      {
+        "w": "mathematical",
+        "ipa": "/ˌmæθəˈmætɪkl/",
+        "cn": "数学的",
+        "ex": "Mathematical skills are useful.",
+        "exCn": "数学技能有用。"
+      },
+      {
+        "w": "mechanical",
+        "ipa": "/məˈkænɪkl/",
+        "cn": "机械的",
+        "ex": "There is a mechanical problem.",
+        "exCn": "有机械问题。"
+      },
+      {
+        "w": "medical",
+        "ipa": "/ˈmedɪkl/",
+        "cn": "医学的",
+        "ex": "She needs medical help.",
+        "exCn": "她需要医疗帮助。"
+      },
+      {
+        "w": "mobile",
+        "ipa": "/ˈməʊbaɪl/",
+        "cn": "可移动的",
+        "ex": "Mobile phones are common.",
+        "exCn": "手机常见。"
+      },
+      {
+        "w": "modest",
+        "ipa": "/ˈmɒdɪst/",
+        "cn": "谦虚的",
+        "ex": "Be modest about your success.",
+        "exCn": "对成功保持谦虚。"
+      },
+      {
+        "w": "national",
+        "ipa": "/ˈnæʃnəl/",
+        "cn": "国家的",
+        "ex": "This is a national holiday.",
+        "exCn": "这是国家节日。"
+      },
+      {
+        "w": "noble",
+        "ipa": "/ˈnəʊbl/",
+        "cn": "高尚的",
+        "ex": "Teaching is a noble profession.",
+        "exCn": "教学是高尚职业。"
+      },
+      {
+        "w": "nuclear",
+        "ipa": "/ˈnjuːkliə(r)/",
+        "cn": "核的",
+        "ex": "Nuclear energy is powerful.",
+        "exCn": "核能强大。"
+      },
+      {
+        "w": "numerous",
+        "ipa": "/ˈnjuːmərəs/",
+        "cn": "众多的",
+        "ex": "There are numerous examples.",
+        "exCn": "有众多例子。"
+      },
+      {
+        "w": "objective",
+        "ipa": "/əbˈdʒektɪv/",
+        "cn": "客观的",
+        "ex": "Try to be objective.",
+        "exCn": "尽量客观。"
+      },
+      {
+        "w": "ongoing",
+        "ipa": "/ˈɒnɡəʊɪŋ/",
+        "cn": "进行中的",
+        "ex": "The project is ongoing.",
+        "exCn": "项目进行中。"
+      },
+      {
+        "w": "optimistic",
+        "ipa": "/ˌɒptɪˈmɪstɪk/",
+        "cn": "乐观的",
+        "ex": "Stay optimistic.",
+        "exCn": "保持乐观。"
+      },
+      {
+        "w": "organic",
+        "ipa": "/ɔːˈɡænɪk/",
+        "cn": "有机的",
+        "ex": "Organic food is popular.",
+        "exCn": "有机食品受欢迎。"
+      },
+      {
+        "w": "religious",
+        "ipa": "/rɪˈlɪdʒəs/",
+        "cn": "宗教的",
+        "ex": "Religious freedom is important.",
+        "exCn": "宗教自由重要。"
+      },
+      {
+        "w": "remarkable",
+        "ipa": "/rɪˈmɑːkəbl/",
+        "cn": "非凡的",
+        "ex": "She made remarkable progress.",
+        "exCn": "她取得非凡进步。"
+      },
+      {
+        "w": "residential",
+        "ipa": "/ˌrezɪˈdenʃl/",
+        "cn": "住宅的",
+        "ex": "This is a residential area.",
+        "exCn": "这是住宅区。"
       }
     ],
     "高考核心名词": [
@@ -9665,6 +12222,811 @@
         "cn": "证人；目击",
         "ex": "He was a witness to the accident.",
         "exCn": "他是事故的目击者。"
+      },
+      {
+        "w": "abundance",
+        "ipa": "/əˈbʌndəns/",
+        "cn": "丰富",
+        "ex": "There is an abundance of resources.",
+        "exCn": "资源丰富。"
+      },
+      {
+        "w": "accuracy",
+        "ipa": "/ˈækjərəsi/",
+        "cn": "准确性",
+        "ex": "Accuracy is important in science.",
+        "exCn": "科学中准确性很重要。"
+      },
+      {
+        "w": "adaptation",
+        "ipa": "/ˌædæpˈteɪʃn/",
+        "cn": "适应；改编",
+        "ex": "Adaptation to change is necessary.",
+        "exCn": "适应变化是必要的。"
+      },
+      {
+        "w": "admission",
+        "ipa": "/ədˈmɪʃn/",
+        "cn": "准许进入；承认",
+        "ex": "Admission to the university is competitive.",
+        "exCn": "大学录取竞争激烈。"
+      },
+      {
+        "w": "ambition",
+        "ipa": "/æmˈbɪʃn/",
+        "cn": "雄心",
+        "ex": "She has great ambition.",
+        "exCn": "她有很大雄心。"
+      },
+      {
+        "w": "anxiety",
+        "ipa": "/æŋˈzaɪəti/",
+        "cn": "焦虑",
+        "ex": "Exam anxiety is common.",
+        "exCn": "考试焦虑很常见。"
+      },
+      {
+        "w": "appeal",
+        "ipa": "/əˈpiːl/",
+        "cn": "吸引力；上诉",
+        "ex": "The idea has strong appeal.",
+        "exCn": "这个想法很有吸引力。"
+      },
+      {
+        "w": "appreciation",
+        "ipa": "/əˌpriːʃiˈeɪʃn/",
+        "cn": "欣赏；感谢",
+        "ex": "Show appreciation for others' help.",
+        "exCn": "对他人的帮助表示感谢。"
+      },
+      {
+        "w": "approval",
+        "ipa": "/əˈpruːvl/",
+        "cn": "批准；赞成",
+        "ex": "We need official approval.",
+        "exCn": "我们需要官方批准。"
+      },
+      {
+        "w": "assumption",
+        "ipa": "/əˈsʌmpʃn/",
+        "cn": "假定",
+        "ex": "Don't make false assumptions.",
+        "exCn": "不要做错误假定。"
+      },
+      {
+        "w": "attraction",
+        "ipa": "/əˈtrækʃn/",
+        "cn": "吸引力",
+        "ex": "The city has many attractions.",
+        "exCn": "这座城市有许多景点。"
+      },
+      {
+        "w": "capability",
+        "ipa": "/ˌkeɪpəˈbɪləti/",
+        "cn": "能力",
+        "ex": "The system has great capability.",
+        "exCn": "系统能力很强。"
+      },
+      {
+        "w": "certainty",
+        "ipa": "/ˈsɜːtnti/",
+        "cn": "确定性",
+        "ex": "There is no certainty about the future.",
+        "exCn": "未来没有确定性。"
+      },
+      {
+        "w": "clarity",
+        "ipa": "/ˈklærəti/",
+        "cn": "清晰",
+        "ex": "Clarity of expression is important.",
+        "exCn": "表达清晰很重要。"
+      },
+      {
+        "w": "competence",
+        "ipa": "/ˈkɒmpɪtəns/",
+        "cn": "能力",
+        "ex": "Professional competence is required.",
+        "exCn": "需要专业能力。"
+      },
+      {
+        "w": "complexity",
+        "ipa": "/kəmˈpleksəti/",
+        "cn": "复杂性",
+        "ex": "The complexity of the problem is high.",
+        "exCn": "问题的复杂性很高。"
+      },
+      {
+        "w": "concentration",
+        "ipa": "/ˌkɒnsnˈtreɪʃn/",
+        "cn": "注意力；浓度",
+        "ex": "Concentration is needed for study.",
+        "exCn": "学习需要注意力。"
+      },
+      {
+        "w": "confusion",
+        "ipa": "/kənˈfjuːʒn/",
+        "cn": "困惑",
+        "ex": "There was some confusion about the rules.",
+        "exCn": "规则有些令人困惑。"
+      },
+      {
+        "w": "consistency",
+        "ipa": "/kənˈsɪstənsi/",
+        "cn": "一致性",
+        "ex": "Consistency in effort leads to progress.",
+        "exCn": "努力的一致性带来进步。"
+      },
+      {
+        "w": "constraint",
+        "ipa": "/kənˈstreɪnt/",
+        "cn": "限制",
+        "ex": "Time is a major constraint.",
+        "exCn": "时间是主要限制。"
+      },
+      {
+        "w": "consultation",
+        "ipa": "/ˌkɒnslˈteɪʃn/",
+        "cn": "咨询",
+        "ex": "We need further consultation.",
+        "exCn": "我们需要进一步咨询。"
+      },
+      {
+        "w": "consumption",
+        "ipa": "/kənˈsʌmpʃn/",
+        "cn": "消费；消耗",
+        "ex": "Energy consumption is increasing.",
+        "exCn": "能源消耗在增加。"
+      },
+      {
+        "w": "convenience",
+        "ipa": "/kənˈviːniəns/",
+        "cn": "方便",
+        "ex": "Online shopping offers convenience.",
+        "exCn": "网购提供方便。"
+      },
+      {
+        "w": "conviction",
+        "ipa": "/kənˈvɪkʃn/",
+        "cn": "信念；定罪",
+        "ex": "She spoke with conviction.",
+        "exCn": "她说话带着信念。"
+      },
+      {
+        "w": "correlation",
+        "ipa": "/ˌkɒrəˈleɪʃn/",
+        "cn": "关联",
+        "ex": "There is a correlation between the two factors.",
+        "exCn": "两个因素之间有关联。"
+      },
+      {
+        "w": "courage",
+        "ipa": "/ˈkʌrɪdʒ/",
+        "cn": "勇气",
+        "ex": "It takes courage to speak up.",
+        "exCn": "说出来需要勇气。"
+      },
+      {
+        "w": "creativity",
+        "ipa": "/ˌkriːeɪˈtɪvəti/",
+        "cn": "创造力",
+        "ex": "Creativity is valued in many jobs.",
+        "exCn": "许多工作看重创造力。"
+      },
+      {
+        "w": "curiosity",
+        "ipa": "/ˌkjʊəriˈɒsəti/",
+        "cn": "好奇心",
+        "ex": "Curiosity drives learning.",
+        "exCn": "好奇心驱动学习。"
+      },
+      {
+        "w": "deadline",
+        "ipa": "/ˈdedlaɪn/",
+        "cn": "截止日期",
+        "ex": "Please meet the deadline.",
+        "exCn": "请赶上截止日期。"
+      },
+      {
+        "w": "dedication",
+        "ipa": "/ˌdedɪˈkeɪʃn/",
+        "cn": "奉献",
+        "ex": "Success requires dedication.",
+        "exCn": "成功需要奉献。"
+      },
+      {
+        "w": "deficiency",
+        "ipa": "/dɪˈfɪʃnsi/",
+        "cn": "缺乏",
+        "ex": "There is a deficiency of evidence.",
+        "exCn": "证据不足。"
+      },
+      {
+        "w": "democracy",
+        "ipa": "/dɪˈmɒkrəsi/",
+        "cn": "民主",
+        "ex": "Democracy requires participation.",
+        "exCn": "民主需要参与。"
+      },
+      {
+        "w": "demonstration",
+        "ipa": "/ˌdemənˈstreɪʃn/",
+        "cn": "演示；示威",
+        "ex": "The demonstration was peaceful.",
+        "exCn": "示威是和平的。"
+      },
+      {
+        "w": "depression",
+        "ipa": "/dɪˈpreʃn/",
+        "cn": "抑郁；萧条",
+        "ex": "Seek help if you feel depression.",
+        "exCn": "如果感到抑郁请寻求帮助。"
+      },
+      {
+        "w": "determination",
+        "ipa": "/dɪˌtɜːmɪˈneɪʃn/",
+        "cn": "决心",
+        "ex": "Her determination was strong.",
+        "exCn": "她的决心很强。"
+      },
+      {
+        "w": "dimension",
+        "ipa": "/daɪˈmenʃn/",
+        "cn": "维度；方面",
+        "ex": "Consider every dimension of the problem.",
+        "exCn": "考虑问题的每个方面。"
+      },
+      {
+        "w": "distinction",
+        "ipa": "/dɪˈstɪŋkʃn/",
+        "cn": "区别；卓越",
+        "ex": "Make a clear distinction between the two.",
+        "exCn": "在两者之间做出明确区分。"
+      },
+      {
+        "w": "diversity",
+        "ipa": "/daɪˈvɜːsəti/",
+        "cn": "多样性",
+        "ex": "Cultural diversity enriches society.",
+        "exCn": "文化多样性丰富社会。"
+      },
+      {
+        "w": "efficiency",
+        "ipa": "/ɪˈfɪʃnsi/",
+        "cn": "效率",
+        "ex": "We need to improve efficiency.",
+        "exCn": "我们需要提高效率。"
+      },
+      {
+        "w": "equality",
+        "ipa": "/iˈkwɒləti/",
+        "cn": "平等",
+        "ex": "Equality is a basic right.",
+        "exCn": "平等是基本权利。"
+      },
+      {
+        "w": "evaluation",
+        "ipa": "/ɪˌvæljuˈeɪʃn/",
+        "cn": "评估",
+        "ex": "The evaluation was fair.",
+        "exCn": "评估是公平的。"
+      },
+      {
+        "w": "excellence",
+        "ipa": "/ˈeksələns/",
+        "cn": "卓越",
+        "ex": "Strive for excellence.",
+        "exCn": "追求卓越。"
+      },
+      {
+        "w": "exploration",
+        "ipa": "/ˌekspləˈreɪʃn/",
+        "cn": "探索",
+        "ex": "Space exploration continues.",
+        "exCn": "太空探索仍在继续。"
+      },
+      {
+        "w": "extension",
+        "ipa": "/ɪkˈstenʃn/",
+        "cn": "延长；扩展",
+        "ex": "We need an extension of the deadline.",
+        "exCn": "我们需要延长截止日期。"
+      },
+      {
+        "w": "flexibility",
+        "ipa": "/ˌfleksəˈbɪləti/",
+        "cn": "灵活性",
+        "ex": "Flexibility is an advantage.",
+        "exCn": "灵活性是优势。"
+      },
+      {
+        "w": "frequency",
+        "ipa": "/ˈfriːkwənsi/",
+        "cn": "频率",
+        "ex": "The frequency of practice matters.",
+        "exCn": "练习频率很重要。"
+      },
+      {
+        "w": "frustration",
+        "ipa": "/frʌˈstreɪʃn/",
+        "cn": "挫败感",
+        "ex": "Don't let frustration stop you.",
+        "exCn": "不要让挫败感阻止你。"
+      },
+      {
+        "w": "hypothesis",
+        "ipa": "/haɪˈpɒθəsɪs/",
+        "cn": "假设",
+        "ex": "We tested the hypothesis.",
+        "exCn": "我们检验了假设。"
+      },
+      {
+        "w": "illustration",
+        "ipa": "/ˌɪləˈstreɪʃn/",
+        "cn": "说明；插图",
+        "ex": "This is a good illustration of the point.",
+        "exCn": "这是对该点的很好说明。"
+      },
+      {
+        "w": "imagination",
+        "ipa": "/ɪˌmædʒɪˈneɪʃn/",
+        "cn": "想象力",
+        "ex": "Reading develops imagination.",
+        "exCn": "阅读培养想象力。"
+      },
+      {
+        "w": "implication",
+        "ipa": "/ˌɪmplɪˈkeɪʃn/",
+        "cn": "含义；影响",
+        "ex": "Consider the implications carefully.",
+        "exCn": "仔细考虑影响。"
+      },
+      {
+        "w": "incentive",
+        "ipa": "/ɪnˈsentɪv/",
+        "cn": "激励",
+        "ex": "There is little incentive to change.",
+        "exCn": "几乎没有改变的激励。"
+      },
+      {
+        "w": "inspiration",
+        "ipa": "/ˌɪnspəˈreɪʃn/",
+        "cn": "灵感",
+        "ex": "Nature is a source of inspiration.",
+        "exCn": "自然是灵感的来源。"
+      },
+      {
+        "w": "instinct",
+        "ipa": "/ˈɪnstɪŋkt/",
+        "cn": "本能",
+        "ex": "Follow your instinct carefully.",
+        "exCn": "谨慎跟随本能。"
+      },
+      {
+        "w": "integration",
+        "ipa": "/ˌɪntɪˈɡreɪʃn/",
+        "cn": "整合",
+        "ex": "Integration of theory and practice is important.",
+        "exCn": "理论与实践的整合很重要。"
+      },
+      {
+        "w": "integrity",
+        "ipa": "/ɪnˈteɡrəti/",
+        "cn": "正直；完整",
+        "ex": "Integrity is a core value.",
+        "exCn": "正直是核心价值。"
+      },
+      {
+        "w": "intensity",
+        "ipa": "/ɪnˈtensəti/",
+        "cn": "强度",
+        "ex": "The intensity of the storm increased.",
+        "exCn": "风暴强度增加了。"
+      },
+      {
+        "w": "intervention",
+        "ipa": "/ˌɪntəˈvenʃn/",
+        "cn": "干预",
+        "ex": "Early intervention helps.",
+        "exCn": "早期干预有帮助。"
+      },
+      {
+        "w": "intuition",
+        "ipa": "/ˌɪntjuˈɪʃn/",
+        "cn": "直觉",
+        "ex": "Sometimes intuition is useful.",
+        "exCn": "有时直觉有用。"
+      },
+      {
+        "w": "investigation",
+        "ipa": "/ɪnˌvestɪˈɡeɪʃn/",
+        "cn": "调查",
+        "ex": "The investigation continues.",
+        "exCn": "调查仍在继续。"
+      },
+      {
+        "w": "involvement",
+        "ipa": "/ɪnˈvɒlvmənt/",
+        "cn": "参与",
+        "ex": "Parental involvement helps students.",
+        "exCn": "家长参与帮助学生。"
+      },
+      {
+        "w": "isolation",
+        "ipa": "/ˌaɪsəˈleɪʃn/",
+        "cn": "隔离",
+        "ex": "Isolation can affect mental health.",
+        "exCn": "隔离可能影响心理健康。"
+      },
+      {
+        "w": "justification",
+        "ipa": "/ˌdʒʌstɪfɪˈkeɪʃn/",
+        "cn": "正当理由",
+        "ex": "There is no justification for this action.",
+        "exCn": "这一行动没有正当理由。"
+      },
+      {
+        "w": "limitation",
+        "ipa": "/ˌlɪmɪˈteɪʃn/",
+        "cn": "限制",
+        "ex": "Every method has limitations.",
+        "exCn": "每种方法都有局限。"
+      },
+      {
+        "w": "maintenance",
+        "ipa": "/ˈmeɪntənəns/",
+        "cn": "维护",
+        "ex": "Regular maintenance is needed.",
+        "exCn": "需要定期维护。"
+      },
+      {
+        "w": "manipulation",
+        "ipa": "/məˌnɪpjuˈleɪʃn/",
+        "cn": "操纵",
+        "ex": "Data manipulation is dishonest.",
+        "exCn": "数据操纵是不诚实的。"
+      },
+      {
+        "w": "mechanism",
+        "ipa": "/ˈmekənɪzəm/",
+        "cn": "机制",
+        "ex": "Understanding the mechanism is important.",
+        "exCn": "理解机制很重要。"
+      },
+      {
+        "w": "negotiation",
+        "ipa": "/nɪˌɡəʊʃiˈeɪʃn/",
+        "cn": "谈判",
+        "ex": "The negotiation was successful.",
+        "exCn": "谈判成功了。"
+      },
+      {
+        "w": "obligation",
+        "ipa": "/ˌɒblɪˈɡeɪʃn/",
+        "cn": "义务",
+        "ex": "We have an obligation to help.",
+        "exCn": "我们有帮助的义务。"
+      },
+      {
+        "w": "occurrence",
+        "ipa": "/əˈkʌrəns/",
+        "cn": "发生",
+        "ex": "This is a rare occurrence.",
+        "exCn": "这是罕见的发生。"
+      },
+      {
+        "w": "orientation",
+        "ipa": "/ˌɔːriənˈteɪʃn/",
+        "cn": "方向；迎新",
+        "ex": "The orientation was helpful.",
+        "exCn": "迎新很有帮助。"
+      },
+      {
+        "w": "participation",
+        "ipa": "/pɑːˌtɪsɪˈpeɪʃn/",
+        "cn": "参与",
+        "ex": "Active participation is encouraged.",
+        "exCn": "鼓励积极参与。"
+      },
+      {
+        "w": "perception",
+        "ipa": "/pəˈsepʃn/",
+        "cn": "感知",
+        "ex": "Perception differs among people.",
+        "exCn": "人们的感知不同。"
+      },
+      {
+        "w": "persistence",
+        "ipa": "/pəˈsɪstəns/",
+        "cn": "坚持",
+        "ex": "Persistence leads to success.",
+        "exCn": "坚持通向成功。"
+      },
+      {
+        "w": "portion",
+        "ipa": "/ˈpɔːʃn/",
+        "cn": "部分",
+        "ex": "A large portion of time is spent on study.",
+        "exCn": "大部分时间花在学习上。"
+      },
+      {
+        "w": "prediction",
+        "ipa": "/prɪˈdɪkʃn/",
+        "cn": "预测",
+        "ex": "The prediction was accurate.",
+        "exCn": "预测准确。"
+      },
+      {
+        "w": "preservation",
+        "ipa": "/ˌprezəˈveɪʃn/",
+        "cn": "保护",
+        "ex": "Preservation of culture is important.",
+        "exCn": "保护文化很重要。"
+      },
+      {
+        "w": "probability",
+        "ipa": "/ˌprɒbəˈbɪləti/",
+        "cn": "可能性",
+        "ex": "The probability of success is high.",
+        "exCn": "成功的可能性很高。"
+      },
+      {
+        "w": "productivity",
+        "ipa": "/ˌprɒdʌkˈtɪvəti/",
+        "cn": "生产力",
+        "ex": "Productivity has increased.",
+        "exCn": "生产力提高了。"
+      },
+      {
+        "w": "proportion",
+        "ipa": "/prəˈpɔːʃn/",
+        "cn": "比例",
+        "ex": "A large proportion of students agreed.",
+        "exCn": "大部分学生同意。"
+      },
+      {
+        "w": "publication",
+        "ipa": "/ˌpʌblɪˈkeɪʃn/",
+        "cn": "出版物",
+        "ex": "The publication is widely read.",
+        "exCn": "该出版物读者广泛。"
+      },
+      {
+        "w": "qualification",
+        "ipa": "/ˌkwɒlɪfɪˈkeɪʃn/",
+        "cn": "资格",
+        "ex": "Do you have the right qualifications?",
+        "exCn": "你有合适的资格吗？"
+      },
+      {
+        "w": "rejection",
+        "ipa": "/rɪˈdʒekʃn/",
+        "cn": "拒绝",
+        "ex": "Don't fear rejection.",
+        "exCn": "不要害怕拒绝。"
+      },
+      {
+        "w": "relevance",
+        "ipa": "/ˈreləvəns/",
+        "cn": "相关性",
+        "ex": "Check the relevance of the information.",
+        "exCn": "检查信息的相关性。"
+      },
+      {
+        "w": "reliability",
+        "ipa": "/rɪˌlaɪəˈbɪləti/",
+        "cn": "可靠性",
+        "ex": "Reliability is important.",
+        "exCn": "可靠性很重要。"
+      },
+      {
+        "w": "representation",
+        "ipa": "/ˌreprɪzenˈteɪʃn/",
+        "cn": "代表",
+        "ex": "Fair representation is needed.",
+        "exCn": "需要公平代表。"
+      },
+      {
+        "w": "resistance",
+        "ipa": "/rɪˈzɪstəns/",
+        "cn": "抵抗",
+        "ex": "There was some resistance to change.",
+        "exCn": "对变化有一些抵抗。"
+      },
+      {
+        "w": "resolution",
+        "ipa": "/ˌrezəˈluːʃn/",
+        "cn": "决心；决议",
+        "ex": "New Year resolution is common.",
+        "exCn": "新年决心很常见。"
+      },
+      {
+        "w": "respect",
+        "ipa": "/rɪˈspekt/",
+        "cn": "尊重",
+        "ex": "Show respect to others.",
+        "exCn": "尊重他人。"
+      },
+      {
+        "w": "restriction",
+        "ipa": "/rɪˈstrɪkʃn/",
+        "cn": "限制",
+        "ex": "There are restrictions on parking.",
+        "exCn": "停车有限制。"
+      },
+      {
+        "w": "retention",
+        "ipa": "/rɪˈtenʃn/",
+        "cn": "保持",
+        "ex": "Memory retention improves with review.",
+        "exCn": "复习提高记忆保持。"
+      },
+      {
+        "w": "revelation",
+        "ipa": "/ˌrevəˈleɪʃn/",
+        "cn": "揭示",
+        "ex": "The revelation surprised everyone.",
+        "exCn": "这一揭示让所有人惊讶。"
+      },
+      {
+        "w": "satisfaction",
+        "ipa": "/ˌsætɪsˈfækʃn/",
+        "cn": "满意",
+        "ex": "Job satisfaction is important.",
+        "exCn": "工作满意度很重要。"
+      },
+      {
+        "w": "sensitivity",
+        "ipa": "/ˌsensəˈtɪvəti/",
+        "cn": "敏感性",
+        "ex": "Show sensitivity to others' feelings.",
+        "exCn": "对他人感受保持敏感。"
+      },
+      {
+        "w": "similarity",
+        "ipa": "/ˌsɪməˈlærəti/",
+        "cn": "相似性",
+        "ex": "There is a similarity between the two cases.",
+        "exCn": "两个案例有相似性。"
+      },
+      {
+        "w": "simplicity",
+        "ipa": "/sɪmˈplɪsəti/",
+        "cn": "简单",
+        "ex": "Simplicity is a virtue in design.",
+        "exCn": "简单是设计中的美德。"
+      },
+      {
+        "w": "stability",
+        "ipa": "/stəˈbɪləti/",
+        "cn": "稳定",
+        "ex": "Political stability is important.",
+        "exCn": "政治稳定很重要。"
+      },
+      {
+        "w": "stimulus",
+        "ipa": "/ˈstɪmjələs/",
+        "cn": "刺激",
+        "ex": "Competition can be a stimulus.",
+        "exCn": "竞争可以是一种刺激。"
+      },
+      {
+        "w": "submission",
+        "ipa": "/səbˈmɪʃn/",
+        "cn": "提交",
+        "ex": "The submission deadline is Friday.",
+        "exCn": "提交截止日期是周五。"
+      },
+      {
+        "w": "substance",
+        "ipa": "/ˈsʌbstəns/",
+        "cn": "物质；实质",
+        "ex": "The substance of the argument is clear.",
+        "exCn": "论点的实质是清楚的。"
+      },
+      {
+        "w": "succession",
+        "ipa": "/səkˈseʃn/",
+        "cn": "连续",
+        "ex": "A succession of events followed.",
+        "exCn": "随后发生了一系列事件。"
+      },
+      {
+        "w": "supervision",
+        "ipa": "/ˌsuːpəˈvɪʒn/",
+        "cn": "监督",
+        "ex": "Children need supervision.",
+        "exCn": "孩子需要监督。"
+      },
+      {
+        "w": "survival",
+        "ipa": "/səˈvaɪvl/",
+        "cn": "生存",
+        "ex": "Survival depends on adaptation.",
+        "exCn": "生存取决于适应。"
+      },
+      {
+        "w": "sympathy",
+        "ipa": "/ˈsɪmpəθi/",
+        "cn": "同情",
+        "ex": "Show sympathy to those in need.",
+        "exCn": "对需要帮助的人表示同情。"
+      },
+      {
+        "w": "tension",
+        "ipa": "/ˈtenʃn/",
+        "cn": "紧张",
+        "ex": "There is tension between the two sides.",
+        "exCn": "双方之间有紧张。"
+      },
+      {
+        "w": "tolerance",
+        "ipa": "/ˈtɒlərəns/",
+        "cn": "宽容",
+        "ex": "Tolerance is important in a diverse society.",
+        "exCn": "在多元社会中宽容很重要。"
+      },
+      {
+        "w": "transformation",
+        "ipa": "/ˌtrænsfəˈmeɪʃn/",
+        "cn": "转变",
+        "ex": "Digital transformation is ongoing.",
+        "exCn": "数字化转型正在进行。"
+      },
+      {
+        "w": "transition",
+        "ipa": "/trænˈzɪʃn/",
+        "cn": "过渡",
+        "ex": "The transition was smooth.",
+        "exCn": "过渡很顺利。"
+      },
+      {
+        "w": "transmission",
+        "ipa": "/trænsˈmɪʃn/",
+        "cn": "传输",
+        "ex": "Data transmission is fast.",
+        "exCn": "数据传输很快。"
+      },
+      {
+        "w": "uncertainty",
+        "ipa": "/ʌnˈsɜːtnti/",
+        "cn": "不确定性",
+        "ex": "We face uncertainty about the future.",
+        "exCn": "我们面临未来的不确定性。"
+      },
+      {
+        "w": "variation",
+        "ipa": "/ˌveəriˈeɪʃn/",
+        "cn": "变化",
+        "ex": "There is variation in results.",
+        "exCn": "结果有变化。"
+      },
+      {
+        "w": "violation",
+        "ipa": "/ˌvaɪəˈleɪʃn/",
+        "cn": "违反",
+        "ex": "This is a violation of the rules.",
+        "exCn": "这是对规则的违反。"
+      },
+      {
+        "w": "visibility",
+        "ipa": "/ˌvɪzəˈbɪləti/",
+        "cn": "能见度",
+        "ex": "Visibility is low in the fog.",
+        "exCn": "雾中能见度低。"
+      },
+      {
+        "w": "vulnerability",
+        "ipa": "/ˌvʌlnərəˈbɪləti/",
+        "cn": "脆弱性",
+        "ex": "Acknowledge vulnerability.",
+        "exCn": "承认脆弱性。"
+      },
+      {
+        "w": "willingness",
+        "ipa": "/ˈwɪlɪŋnəs/",
+        "cn": "意愿",
+        "ex": "Willingness to learn is key.",
+        "exCn": "学习意愿是关键。"
       }
     ],
     "高考写作连接词": [
@@ -10003,6 +13365,668 @@
         "cn": "借以",
         "ex": "They made a plan whereby everyone could participate.",
         "exCn": "他们制定了一个让每个人都能参与的计划。"
+      }
+    ],
+    "高考常用短语": [
+      {
+        "w": "in terms of",
+        "ipa": "/ɪn tɜːmz əv/",
+        "cn": "就…而言",
+        "ex": "In terms of quality, this is better.",
+        "exCn": "就质量而言，这个更好。"
+      },
+      {
+        "w": "in spite of",
+        "ipa": "/ɪn spaɪt əv/",
+        "cn": "尽管",
+        "ex": "In spite of the rain, we went out.",
+        "exCn": "尽管下雨，我们还是出去了。"
+      },
+      {
+        "w": "as a result of",
+        "ipa": "/æz ə rɪˈzʌlt əv/",
+        "cn": "由于",
+        "ex": "As a result of hard work, she succeeded.",
+        "exCn": "由于努力，她成功了。"
+      },
+      {
+        "w": "on behalf of",
+        "ipa": "/ɒn bɪˈhɑːf əv/",
+        "cn": "代表",
+        "ex": "I speak on behalf of the team.",
+        "exCn": "我代表团队发言。"
+      },
+      {
+        "w": "in favour of",
+        "ipa": "/ɪn ˈfeɪvə əv/",
+        "cn": "支持",
+        "ex": "I am in favour of the plan.",
+        "exCn": "我支持这个计划。"
+      },
+      {
+        "w": "in addition to",
+        "ipa": "/ɪn əˈdɪʃn tuː/",
+        "cn": "除…之外",
+        "ex": "In addition to English, she studies French.",
+        "exCn": "除了英语，她还学法语。"
+      },
+      {
+        "w": "due to",
+        "ipa": "/djuː tuː/",
+        "cn": "由于",
+        "ex": "The delay was due to bad weather.",
+        "exCn": "延误是由于坏天气。"
+      },
+      {
+        "w": "owing to",
+        "ipa": "/ˈəʊɪŋ tuː/",
+        "cn": "由于",
+        "ex": "Owing to the traffic, he was late.",
+        "exCn": "由于交通，他迟到了。"
+      },
+      {
+        "w": "regardless of",
+        "ipa": "/rɪˈɡɑːdləs əv/",
+        "cn": "不管",
+        "ex": "We will go regardless of the cost.",
+        "exCn": "不管费用如何我们都会去。"
+      },
+      {
+        "w": "in contrast to",
+        "ipa": "/ɪn ˈkɒntrɑːst tuː/",
+        "cn": "与…形成对比",
+        "ex": "In contrast to last year, sales have increased.",
+        "exCn": "与去年相比，销售额增加了。"
+      },
+      {
+        "w": "with regard to",
+        "ipa": "/wɪð rɪˈɡɑːd tuː/",
+        "cn": "关于",
+        "ex": "With regard to your question, here is the answer.",
+        "exCn": "关于你的问题，这是答案。"
+      },
+      {
+        "w": "in the long run",
+        "ipa": "/ɪn ðə lɒŋ rʌn/",
+        "cn": "从长远看",
+        "ex": "In the long run, education pays off.",
+        "exCn": "从长远看，教育会有回报。"
+      },
+      {
+        "w": "on the other hand",
+        "ipa": "/ɒn ðə ˈʌðə hænd/",
+        "cn": "另一方面",
+        "ex": "It is cheap; on the other hand, quality is low.",
+        "exCn": "它便宜；另一方面，质量低。"
+      },
+      {
+        "w": "for instance",
+        "ipa": "/fɔː ˈɪnstəns/",
+        "cn": "例如",
+        "ex": "Many fruits are healthy; for instance, apples.",
+        "exCn": "许多水果健康；例如苹果。"
+      },
+      {
+        "w": "in other words",
+        "ipa": "/ɪn ˈʌðə wɜːdz/",
+        "cn": "换句话说",
+        "ex": "In other words, we need more time.",
+        "exCn": "换句话说，我们需要更多时间。"
+      },
+      {
+        "w": "as a matter of fact",
+        "ipa": "/æz ə ˈmætə əv fækt/",
+        "cn": "事实上",
+        "ex": "As a matter of fact, I agree with you.",
+        "exCn": "事实上，我同意你。"
+      },
+      {
+        "w": "to some extent",
+        "ipa": "/tə sʌm ɪkˈstent/",
+        "cn": "在某种程度上",
+        "ex": "To some extent, you are right.",
+        "exCn": "在某种程度上，你是对的。"
+      },
+      {
+        "w": "by means of",
+        "ipa": "/baɪ miːnz əv/",
+        "cn": "通过",
+        "ex": "We communicate by means of language.",
+        "exCn": "我们通过语言交流。"
+      },
+      {
+        "w": "in the face of",
+        "ipa": "/ɪn ðə feɪs əv/",
+        "cn": "面对",
+        "ex": "She remained calm in the face of danger.",
+        "exCn": "面对危险她保持冷静。"
+      },
+      {
+        "w": "at the expense of",
+        "ipa": "/æt ði ɪkˈspens əv/",
+        "cn": "以…为代价",
+        "ex": "Don't succeed at the expense of health.",
+        "exCn": "不要以健康为代价成功。"
+      },
+      {
+        "w": "in the light of",
+        "ipa": "/ɪn ðə laɪt əv/",
+        "cn": "根据",
+        "ex": "In the light of new evidence, we changed the plan.",
+        "exCn": "根据新证据，我们改变了计划。"
+      },
+      {
+        "w": "for the sake of",
+        "ipa": "/fɔː ðə seɪk əv/",
+        "cn": "为了",
+        "ex": "For the sake of safety, wear a helmet.",
+        "exCn": "为了安全，请戴头盔。"
+      },
+      {
+        "w": "in accordance with",
+        "ipa": "/ɪn əˈkɔːdns wɪð/",
+        "cn": "依照",
+        "ex": "Please act in accordance with the rules.",
+        "exCn": "请依照规则行事。"
+      },
+      {
+        "w": "on account of",
+        "ipa": "/ɒn əˈkaʊnt əv/",
+        "cn": "因为",
+        "ex": "The match was cancelled on account of rain.",
+        "exCn": "比赛因雨取消。"
+      },
+      {
+        "w": "in place of",
+        "ipa": "/ɪn pleɪs əv/",
+        "cn": "代替",
+        "ex": "Use honey in place of sugar.",
+        "exCn": "用蜂蜜代替糖。"
+      },
+      {
+        "w": "by virtue of",
+        "ipa": "/baɪ ˈvɜːtʃuː əv/",
+        "cn": "凭借",
+        "ex": "He succeeded by virtue of hard work.",
+        "exCn": "他凭借努力成功。"
+      },
+      {
+        "w": "in the event of",
+        "ipa": "/ɪn ði ɪˈvent əv/",
+        "cn": "如果发生",
+        "ex": "In the event of fire, use the stairs.",
+        "exCn": "如果发生火灾，走楼梯。"
+      },
+      {
+        "w": "with a view to",
+        "ipa": "/wɪð ə vjuː tuː/",
+        "cn": "为了",
+        "ex": "He studies hard with a view to entering university.",
+        "exCn": "他努力学习是为了上大学。"
+      },
+      {
+        "w": "in the course of",
+        "ipa": "/ɪn ðə kɔːs əv/",
+        "cn": "在…过程中",
+        "ex": "In the course of the discussion, new ideas appeared.",
+        "exCn": "在讨论过程中出现了新想法。"
+      },
+      {
+        "w": "to a large extent",
+        "ipa": "/tə ə lɑːdʒ ɪkˈstent/",
+        "cn": "在很大程度上",
+        "ex": "Success depends to a large extent on effort.",
+        "exCn": "成功在很大程度上取决于努力。"
+      }
+    ],
+    "综合补充": [
+      {
+        "w": "account",
+        "ipa": "/əˈkaʊnt/",
+        "cn": "账户；解释",
+        "ex": "Please explain on account of this.",
+        "exCn": "请就此事解释。"
+      },
+      {
+        "w": "add",
+        "ipa": "/æd/",
+        "cn": "添加",
+        "ex": "Add more details.",
+        "exCn": "添加更多细节。"
+      },
+      {
+        "w": "admit",
+        "ipa": "/ədˈmɪt/",
+        "cn": "承认",
+        "ex": "Admit your mistake.",
+        "exCn": "承认错误。"
+      },
+      {
+        "w": "advance",
+        "ipa": "/ədˈvɑːns/",
+        "cn": "前进",
+        "ex": "Science continues to advance.",
+        "exCn": "科学继续前进。"
+      },
+      {
+        "w": "adventure",
+        "ipa": "/ədˈventʃə(r)/",
+        "cn": "冒险",
+        "ex": "Life is an adventure.",
+        "exCn": "生活是冒险。"
+      },
+      {
+        "w": "advertise",
+        "ipa": "/ˈædvətaɪz/",
+        "cn": "做广告",
+        "ex": "They advertise the product.",
+        "exCn": "他们为产品做广告。"
+      },
+      {
+        "w": "advise",
+        "ipa": "/ədˈvaɪz/",
+        "cn": "建议",
+        "ex": "I advise you to study.",
+        "exCn": "我建议你学习。"
+      },
+      {
+        "w": "afford",
+        "ipa": "/əˈfɔːd/",
+        "cn": "负担得起",
+        "ex": "I can't afford it.",
+        "exCn": "我负担不起。"
+      },
+      {
+        "w": "agree",
+        "ipa": "/əˈɡriː/",
+        "cn": "同意",
+        "ex": "I agree with you.",
+        "exCn": "我同意你。"
+      },
+      {
+        "w": "agriculture",
+        "ipa": "/ˈæɡrɪkʌltʃə(r)/",
+        "cn": "农业",
+        "ex": "Agriculture is important.",
+        "exCn": "农业重要。"
+      },
+      {
+        "w": "ahead",
+        "ipa": "/əˈhed/",
+        "cn": "向前",
+        "ex": "Go ahead.",
+        "exCn": "继续。"
+      },
+      {
+        "w": "alarm",
+        "ipa": "/əˈlɑːm/",
+        "cn": "警报",
+        "ex": "The alarm went off.",
+        "exCn": "警报响了。"
+      },
+      {
+        "w": "alike",
+        "ipa": "/əˈlaɪk/",
+        "cn": "相似的",
+        "ex": "The twins look alike.",
+        "exCn": "双胞胎长得像。"
+      },
+      {
+        "w": "almost",
+        "ipa": "/ˈɔːlməʊst/",
+        "cn": "几乎",
+        "ex": "I almost finished.",
+        "exCn": "我几乎完成了。"
+      },
+      {
+        "w": "along",
+        "ipa": "/əˈlɒŋ/",
+        "cn": "沿着",
+        "ex": "Walk along the river.",
+        "exCn": "沿河走。"
+      },
+      {
+        "w": "already",
+        "ipa": "/ɔːlˈredi/",
+        "cn": "已经",
+        "ex": "I have already finished.",
+        "exCn": "我已经完成。"
+      },
+      {
+        "w": "also",
+        "ipa": "/ˈɔːlsəʊ/",
+        "cn": "也",
+        "ex": "I also agree.",
+        "exCn": "我也同意。"
+      },
+      {
+        "w": "although",
+        "ipa": "/ɔːlˈðəʊ/",
+        "cn": "虽然",
+        "ex": "Although it rained, we went out.",
+        "exCn": "虽然下雨我们还是出去了。"
+      },
+      {
+        "w": "altogether",
+        "ipa": "/ˌɔːltəˈɡeðə(r)/",
+        "cn": "总共",
+        "ex": "Altogether there are 50 students.",
+        "exCn": "总共有50名学生。"
+      },
+      {
+        "w": "always",
+        "ipa": "/ˈɔːlweɪz/",
+        "cn": "总是",
+        "ex": "She always works hard.",
+        "exCn": "她总是努力工作。"
+      },
+      {
+        "w": "amaze",
+        "ipa": "/əˈmeɪz/",
+        "cn": "使惊讶",
+        "ex": "The result amazed me.",
+        "exCn": "结果让我惊讶。"
+      },
+      {
+        "w": "among",
+        "ipa": "/əˈmʌŋ/",
+        "cn": "在…之中",
+        "ex": "He is popular among students.",
+        "exCn": "他在学生中受欢迎。"
+      },
+      {
+        "w": "amount",
+        "ipa": "/əˈmaʊnt/",
+        "cn": "数量",
+        "ex": "A large amount of work.",
+        "exCn": "大量工作。"
+      },
+      {
+        "w": "amuse",
+        "ipa": "/əˈmjuːz/",
+        "cn": "逗乐",
+        "ex": "The story amused the children.",
+        "exCn": "故事逗乐了孩子。"
+      },
+      {
+        "w": "anger",
+        "ipa": "/ˈæŋɡə(r)/",
+        "cn": "愤怒",
+        "ex": "Control your anger.",
+        "exCn": "控制愤怒。"
+      },
+      {
+        "w": "angle",
+        "ipa": "/ˈæŋɡl/",
+        "cn": "角度",
+        "ex": "Look from another angle.",
+        "exCn": "从另一个角度看。"
+      },
+      {
+        "w": "announce",
+        "ipa": "/əˈnaʊns/",
+        "cn": "宣布",
+        "ex": "They announced the result.",
+        "exCn": "他们宣布了结果。"
+      },
+      {
+        "w": "annoy",
+        "ipa": "/əˈnɔɪ/",
+        "cn": "使烦恼",
+        "ex": "Don't annoy others.",
+        "exCn": "不要烦扰他人。"
+      },
+      {
+        "w": "another",
+        "ipa": "/əˈnʌðə(r)/",
+        "cn": "另一个",
+        "ex": "Try another way.",
+        "exCn": "试另一种方法。"
+      },
+      {
+        "w": "any",
+        "ipa": "/ˈeni/",
+        "cn": "任何",
+        "ex": "Any question is welcome.",
+        "exCn": "欢迎任何问题。"
+      },
+      {
+        "w": "anyone",
+        "ipa": "/ˈeniwʌn/",
+        "cn": "任何人",
+        "ex": "Anyone can try.",
+        "exCn": "任何人都可以试。"
+      },
+      {
+        "w": "anything",
+        "ipa": "/ˈeniθɪŋ/",
+        "cn": "任何事",
+        "ex": "Is there anything else?",
+        "exCn": "还有别的吗？"
+      },
+      {
+        "w": "anyway",
+        "ipa": "/ˈeniweɪ/",
+        "cn": "无论如何",
+        "ex": "Anyway, we should try.",
+        "exCn": "无论如何我们该试。"
+      },
+      {
+        "w": "anywhere",
+        "ipa": "/ˈeniweə(r)/",
+        "cn": "任何地方",
+        "ex": "You can sit anywhere.",
+        "exCn": "你可以坐任何地方。"
+      },
+      {
+        "w": "apart",
+        "ipa": "/əˈpɑːt/",
+        "cn": "分开",
+        "ex": "Keep them apart.",
+        "exCn": "让它们分开。"
+      },
+      {
+        "w": "appoint",
+        "ipa": "/əˈpɔɪnt/",
+        "cn": "任命",
+        "ex": "They appointed a new leader.",
+        "exCn": "他们任命了新领导。"
+      },
+      {
+        "w": "arm",
+        "ipa": "/ɑːm/",
+        "cn": "手臂",
+        "ex": "Raise your arm.",
+        "exCn": "举起手臂。"
+      },
+      {
+        "w": "army",
+        "ipa": "/ˈɑːmi/",
+        "cn": "军队",
+        "ex": "He joined the army.",
+        "exCn": "他参军了。"
+      },
+      {
+        "w": "around",
+        "ipa": "/əˈraʊnd/",
+        "cn": "周围",
+        "ex": "Look around.",
+        "exCn": "环顾四周。"
+      },
+      {
+        "w": "arrange",
+        "ipa": "/əˈreɪndʒ/",
+        "cn": "安排",
+        "ex": "Arrange a meeting.",
+        "exCn": "安排会议。"
+      },
+      {
+        "w": "arrival",
+        "ipa": "/əˈraɪvl/",
+        "cn": "到达",
+        "ex": "Upon arrival, check in.",
+        "exCn": "到达后登记。"
+      },
+      {
+        "w": "article",
+        "ipa": "/ˈɑːtɪkl/",
+        "cn": "文章",
+        "ex": "I wrote an article.",
+        "exCn": "我写了一篇文章。"
+      },
+      {
+        "w": "artist",
+        "ipa": "/ˈɑːtɪst/",
+        "cn": "艺术家",
+        "ex": "He is an artist.",
+        "exCn": "他是艺术家。"
+      },
+      {
+        "w": "as",
+        "ipa": "/æz/",
+        "cn": "作为；当",
+        "ex": "As a student, you should study.",
+        "exCn": "作为学生你应该学习。"
+      },
+      {
+        "w": "ashamed",
+        "ipa": "/əˈʃeɪmd/",
+        "cn": "羞愧的",
+        "ex": "Don't be ashamed to ask.",
+        "exCn": "不要羞于提问。"
+      },
+      {
+        "w": "aside",
+        "ipa": "/əˈsaɪd/",
+        "cn": "一边",
+        "ex": "Put it aside.",
+        "exCn": "放一边。"
+      },
+      {
+        "w": "ask",
+        "ipa": "/ɑːsk/",
+        "cn": "问",
+        "ex": "Ask a question.",
+        "exCn": "问问题。"
+      },
+      {
+        "w": "associate",
+        "ipa": "/əˈsəʊsieɪt/",
+        "cn": "联系",
+        "ex": "Associate the word with the picture.",
+        "exCn": "把词和图片联系起来。"
+      },
+      {
+        "w": "assure",
+        "ipa": "/əˈʃʊə(r)/",
+        "cn": "保证",
+        "ex": "I assure you.",
+        "exCn": "我向你保证。"
+      },
+      {
+        "w": "astonish",
+        "ipa": "/əˈstɒnɪʃ/",
+        "cn": "使惊讶",
+        "ex": "The news astonished me.",
+        "exCn": "消息让我惊讶。"
+      },
+      {
+        "w": "at",
+        "ipa": "/æt/",
+        "cn": "在",
+        "ex": "Meet at the gate.",
+        "exCn": "在门口见面。"
+      },
+      {
+        "w": "attack",
+        "ipa": "/əˈtæk/",
+        "cn": "攻击",
+        "ex": "Don't attack others.",
+        "exCn": "不要攻击他人。"
+      },
+      {
+        "w": "attend",
+        "ipa": "/əˈtend/",
+        "cn": "参加",
+        "ex": "Attend the meeting.",
+        "exCn": "参加会议。"
+      },
+      {
+        "w": "audience",
+        "ipa": "/ˈɔːdiəns/",
+        "cn": "观众",
+        "ex": "The audience clapped.",
+        "exCn": "观众鼓掌。"
+      },
+      {
+        "w": "author",
+        "ipa": "/ˈɔːθə(r)/",
+        "cn": "作者",
+        "ex": "Who is the author?",
+        "exCn": "作者是谁？"
+      },
+      {
+        "w": "average",
+        "ipa": "/ˈævərɪdʒ/",
+        "cn": "平均的",
+        "ex": "The average score is 80.",
+        "exCn": "平均分是80。"
+      },
+      {
+        "w": "award",
+        "ipa": "/əˈwɔːd/",
+        "cn": "奖",
+        "ex": "She won an award.",
+        "exCn": "她获奖了。"
+      },
+      {
+        "w": "away",
+        "ipa": "/əˈweɪ/",
+        "cn": "离开",
+        "ex": "Go away.",
+        "exCn": "走开。"
+      },
+      {
+        "w": "awful",
+        "ipa": "/ˈɔːfl/",
+        "cn": "糟糕的",
+        "ex": "The weather is awful.",
+        "exCn": "天气糟糕。"
+      },
+      {
+        "w": "battle",
+        "ipa": "/ˈbætl/",
+        "cn": "战斗",
+        "ex": "Win the battle.",
+        "exCn": "打赢战斗。"
+      },
+      {
+        "w": "bear",
+        "ipa": "/beə(r)/",
+        "cn": "忍受；熊",
+        "ex": "I can't bear the noise.",
+        "exCn": "我无法忍受噪音。"
+      },
+      {
+        "w": "beat",
+        "ipa": "/biːt/",
+        "cn": "打败",
+        "ex": "We beat the other team.",
+        "exCn": "我们打败了另一队。"
+      },
+      {
+        "w": "beauty",
+        "ipa": "/ˈbjuːti/",
+        "cn": "美",
+        "ex": "Beauty is everywhere.",
+        "exCn": "美无处不在。"
+      },
+      {
+        "w": "become",
+        "ipa": "/bɪˈkʌm/",
+        "cn": "成为",
+        "ex": "She became a teacher.",
+        "exCn": "她成为老师。"
       }
     ]
   }
