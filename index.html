@@ -119,6 +119,12 @@ html.license-locked .app,html.license-locked #popup,body.license-locked .app,bod
 .sent{cursor:pointer;border-radius:6px;transition:background .15s}
 .sent:hover{background:rgba(56,189,248,.1)}
 .sent.speaking{background:rgba(94,234,212,.18);box-shadow:0 0 0 2px rgba(94,234,212,.35)}
+
+.wx-tip,.tts-tip{flex:1 1 100%;background:rgba(251,191,36,.12);border:1px solid rgba(251,191,36,.35);color:#fde68a;border-radius:12px;padding:8px 12px;font-size:.74rem;font-weight:700;line-height:1.55}
+.voice-preview{border:none;background:linear-gradient(135deg,#0ea5e9,#0284c7);color:#fff;border-radius:999px;padding:4px 11px;font-size:.7rem;font-weight:800;cursor:pointer}
+.quiz-tools{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0 0}
+.quiz-tools .pill,.retry-btn{padding:7px 12px}
+.answer-reveal{margin-top:8px;color:#5eead4;font-weight:700;font-size:.86rem;line-height:1.5}
 </style>
 <script>
 (function(){
@@ -198,6 +204,7 @@ html.license-locked .app,html.license-locked #popup,body.license-locked .app,bod
           <h3>✏️ 阅读理解</h3>
           <div id="qBox"></div>
           <button class="check-btn" onclick="checkAnswers()">提交答案并查看解析</button>
+          <button type="button" class="pill" id="artRetryBtn" style="display:none;margin-top:10px" onclick="retryArticleQuiz()">再试一次</button>
           <div class="score-banner" id="scoreBanner"></div>
         </div>
       </div>
@@ -833,7 +840,8 @@ function applyVoiceToUtterance(u){
   u.pitch=_voicePitch;
 }
 function speak(text,rateOrOpts){
-  if(!text||!('speechSynthesis' in window)) return;
+  if(!text) return;
+  if(!ttsSupported()){renderVoiceBar();return;}
   var opts=(rateOrOpts && typeof rateOrOpts==='object')?rateOrOpts:{rate:rateOrOpts};
   if(!opts.queue){
     stopSpeech();
@@ -846,12 +854,29 @@ function speak(text,rateOrOpts){
   u.onend=function(){
     if(opts.onend && token===_speakToken) opts.onend();
   };
-  u.onerror=function(){
+  u.onerror=function(ev){
+    var typ=ev&&ev.error;
+    if(typ!=='canceled' && typ!=='interrupted' && !opts._retried){
+      var uri=_voiceObj&&(_voiceObj.voiceURI||_voiceObj.name);
+      if(uri) _badVoiceURIs[uri]=1;
+      var fb=window._voiceFallback;
+      if(fb && (!uri || (fb.voiceURI||fb.name)!==uri)){
+        _voiceObj=fb;
+        var retry=Object.assign({},opts,{_retried:true,queue:true,token:token});
+        speak(text,retry);
+        return;
+      }
+    }
     if(opts.onend && token===_speakToken) opts.onend();
   };
   if(opts.onstart) u.onstart=opts.onstart;
   startResumeWatch();
-  try{speechSynthesis.speak(u);}catch(e){if(opts.onend) opts.onend();}
+  try{
+    if(!opts.queue && (speechSynthesis.speaking||speechSynthesis.pending)){
+      try{speechSynthesis.cancel();}catch(e){}
+    }
+    speechSynthesis.speak(u);
+  }catch(e){if(opts.onend) opts.onend();}
 }
 function speakPopup(rate){speak(document.getElementById('pWord').innerText,{rate:rate});}
 
@@ -1040,24 +1065,50 @@ function clickArticleSentence(i){
   });
 }
 
-function voiceLang(v){return String(v.lang||'').replace(/_/g,'-').toLowerCase();}
-function voiceIsEn(v){return /^en([-_]|$)/i.test(voiceLang(v))||/(english|en-us|en-gb|en-uk)/i.test(v.name||'');}
-function voiceSkip(v){
-  return /whisper|bells|boing|bubbles|cellos|jester|organ|superstar|trinoids|zarvox|bahh|deranged|bad news|good news|pipe organ|hysterical|novelty|singing|dummy|bender|wobble|reed|junior/i.test(v.name||'');
+function ttsSupported(){
+  return typeof window!=='undefined' && 'speechSynthesis' in window && typeof SpeechSynthesisUtterance!=='undefined';
 }
-var FEMALE_NAMES=['samantha','victoria','susan','allison','ava','zoe','aria','zira','jenny','michelle','nicky','karen','moira','tessa','fiona','veena','raveena','kate','serena','martha','libby','sonia','hazel','princess','kathy','vicki','emma','joanna','ivy','kendra','kimberly','salli','nicole','olivia','maisie','ana','jane','mary','linda','helen','catherine','heather','zira','aria','siri','fiona','moira','tessa','susan','sonia','libby','melissa','linda','heather','paulina','elsa','alice','amy','lisa'];
-var MALE_NAMES=['alex','fred','tom','daniel','nathan','aaron','guy','david','ryan','christopher','bruce','ralph','george','oliver','thomas','ravi','james','matthew','mark','brian','justin','joey','kevin','eric','brandon','richard','benjamin','andrew','arthur','geraint','rishi','gordon','aaron','nathan','tom','fred','daniel','oliver','george','ryan','david','jamie','harry','jack','william','michael','john','peter','robert','steve','nathan'];
+function isWeChatUA(){return /MicroMessenger/i.test((typeof navigator!=='undefined'&&navigator.userAgent)||'');}
+function isIOSUA(){
+  var ua=(typeof navigator!=='undefined'&&navigator.userAgent)||'';
+  return /iP(hone|ad|od)/.test(ua) || (navigator.platform==='MacIntel' && navigator.maxTouchPoints>1);
+}
+var _speechUnlocked=false;
+var _badVoiceURIs={};
+function unlockSpeech(){
+  if(_speechUnlocked || !ttsSupported()) return;
+  try{
+    var u=new SpeechSynthesisUtterance(' ');
+    u.volume=0; u.rate=1; u.lang='en-US';
+    speechSynthesis.speak(u);
+    speechSynthesis.cancel();
+    _speechUnlocked=true;
+  }catch(e){}
+}
+
+function voiceLang(v){return String(v.lang||'').replace(/_/g,'-').toLowerCase();}
+function voiceIsEn(v){
+  var l=voiceLang(v), n=v.name||'';
+  if(/^en([-]|$)/.test(l)) return true;
+  if(l && !/^en/.test(l)) return false;
+  return /english|\ben-us\b|\ben-gb\b|\ben-uk\b/i.test(n);
+}
+function voiceSkip(v){
+  return /whisper|bells|boing|bubbles|cellos|jester|organ|superstar|trinoids|zarvox|bahh|deranged|bad news|good news|pipe organ|hysterical|novelty|singing|dummy|bender|wobble|reed|junior|trinoids|badnews/i.test(v.name||'');
+}
+var FEMALE_NAMES=['samantha','victoria','susan','allison','ava','zoe','aria','zira','jenny','michelle','nicky','karen','moira','tessa','fiona','veena','raveena','kate','serena','martha','libby','sonia','hazel','princess','kathy','vicki','emma','joanna','ivy','kendra','kimberly','salli','nicole','olivia','maisie','ana','jane','mary','linda','helen','catherine','heather','sara','amber','ashley','nancy','monica','mia','clara','luna','natasha','cora','elizabeth','melissa','paulina','elsa','alice','amy','lisa','siri'];
+var MALE_NAMES=['alex','fred','tom','daniel','nathan','aaron','evan','guy','david','davis','ryan','christopher','bruce','ralph','george','oliver','thomas','ravi','james','matthew','mark','brian','justin','joey','kevin','eric','brandon','richard','benjamin','andrew','arthur','geraint','rishi','gordon','jamie','harry','jack','william','michael','john','peter','robert','steve','derek','steffan','roger','tony','jason','eddy','brandon'];
 function nameHit(name,list){
-  var n=' '+name.replace(/[_.]+/g,' ')+' ';
+  var n=' '+String(name||'').replace(/[_.]+/g,' ')+' ';
   return list.some(function(x){return new RegExp('[\\s\\-.]'+x+'[\\s\\-.]','i').test(n);});
 }
 function voiceRegion(v){
   var l=voiceLang(v),n=v.name||'';
   if(/^en-gb|^en-uk/.test(l)||/UK English|United Kingdom|British|en-GB|England/i.test(n)) return 'gb';
-  if(/^en-us/.test(l)||/US English|United States|American|en-US/i.test(n)) return 'us';
-  if(/^en-au/.test(l)||/Australian|en-AU/i.test(n)) return 'au';
+  if(/^en-us/.test(l)||/US English|United States|American|en-US|en_US/i.test(n)) return 'us';
+  if(/^en-au/.test(l)||/Australian|en-AU|Australia/i.test(n)) return 'au';
   if(/^en-in/.test(l)||/Indian|en-IN/i.test(n)) return 'in';
-  if(/^en-ie/.test(l)||/Irish/i.test(n)) return 'ie';
+  if(/^en-ie/.test(l)||/Irish|en-IE/i.test(n)) return 'ie';
   if(l.indexOf('en')===0) return 'en';
   return 'other';
 }
@@ -1073,17 +1124,31 @@ function voiceGender(v){
 }
 function voiceQuality(v){
   var n=v.name||'',s=0;
-  if(/natural|enhanced|premium|neural|online/i.test(n)) s+=3;
-  if(v.localService) s+=1;
-  if(/compact/i.test(n)) s-=1;
+  if(_badVoiceURIs[v.voiceURI||v.name]) s-=20;
+  if(/online\s*\(?\s*natural|natural|neural/i.test(n)) s+=8;
+  if(/enhanced|premium/i.test(n)) s+=6;
+  if(v.localService) s+=3;
+  if(/compact/i.test(n)) s-=4;
+  if(/samantha|aria|jenny|ava|libby|daniel|allison|guy|alex\b/i.test(n)) s+=1;
   return s;
+}
+function honestVoiceLabel(v){
+  var r=voiceRegion(v),g=voiceGender(v);
+  var region=r==='us'?'美式':r==='gb'?'英式':r==='au'?'澳式':r==='ie'?'爱尔兰':r==='in'?'印度':'英语';
+  var sex=g==='f'?'女声':g==='m'?'男声':'发音';
+  return region+sex;
 }
 function pickVoiceChoices(){
   var all=[];
-  try{all=speechSynthesis.getVoices()||[];}catch(e){all=[];}
+  try{if(ttsSupported()) all=speechSynthesis.getVoices()||[];}catch(e){all=[];}
   var en=all.filter(function(v){return voiceIsEn(v)&&!voiceSkip(v);});
   function best(pred){
     var pool=en.filter(pred);
+    pool.sort(function(a,b){return voiceQuality(b)-voiceQuality(a);});
+    return pool[0]||null;
+  }
+  function bestLocal(pred){
+    var pool=en.filter(function(v){return v.localService && pred(v);});
     pool.sort(function(a,b){return voiceQuality(b)-voiceQuality(a);});
     return pool[0]||null;
   }
@@ -1092,43 +1157,53 @@ function pickVoiceChoices(){
   var usF=take(best(function(v){return voiceRegion(v)==='us'&&voiceGender(v)==='f';}));
   var usM=take(best(function(v){return voiceRegion(v)==='us'&&voiceGender(v)==='m';}));
   var uk=take(best(function(v){return voiceRegion(v)==='gb';}));
-  if(!usF) usF=take(best(function(v){return voiceGender(v)==='f';}));
-  if(!usM) usM=take(best(function(v){return voiceRegion(v)==='us'&&voiceGender(v)==='m';}));
-  if(!uk) uk=take(best(function(v){return voiceRegion(v)==='gb'||voiceRegion(v)==='au'||voiceRegion(v)==='ie';}));
   var choices=[];
-  function voiceLabel(v){
-    var r=voiceRegion(v),g=voiceGender(v);
-    var region=r==='us'?'美式':r==='gb'?'英式':r==='au'?'澳式':r==='ie'?'爱尔兰':r==='in'?'印度':'英语';
-    var sex=g==='f'?'女声':g==='m'?'男声':'发音';
-    return region+sex;
+  function pack(key,label,v){
+    if(!v) return;
+    var fb=bestLocal(function(x){return x!==v && (x.voiceURI||x.name)!==(v.voiceURI||v.name);})||null;
+    choices.push({key:key,label:label,voice:v,lang:v.lang||'en-US',pitch:1.05,fallback:fb});
   }
-  if(usF) choices.push({key:'us-f',label:voiceLabel(usF),voice:usF,lang:usF.lang||'en-US',pitch:1.05});
-  if(usM) choices.push({key:'us-m',label:voiceLabel(usM),voice:usM,lang:usM.lang||'en-US',pitch:1.0});
-  if(uk) choices.push({key:'uk',label:voiceLabel(uk),voice:uk,lang:uk.lang||'en-GB',pitch:1.02});
+  if(usF) pack('us-f','美式女声',usF);
+  if(usM) pack('us-m','美式男声',usM);
+  if(uk) pack('uk','英式发音',uk);
   if(choices.length<3){
-    en.forEach(function(v){
+    var leftovers=en.filter(function(v){return !used[v.voiceURI||v.name];})
+      .sort(function(a,b){return voiceQuality(b)-voiceQuality(a);});
+    leftovers.forEach(function(v){
       if(choices.length>=3) return;
-      if(used[v.voiceURI||v.name]) return;
       used[v.voiceURI||v.name]=1;
-      choices.push({key:'extra-'+(v.voiceURI||v.name),label:voiceLabel(v),voice:v,lang:v.lang||'en-US',pitch:1.05});
+      pack('extra-'+(v.voiceURI||v.name), honestVoiceLabel(v), v);
     });
   }
   _pitchFallback=false;
-  if(choices.length<=1){
+  if(choices.length===0 && en.length){
+    pack('en-1', honestVoiceLabel(en[0]), en[0]);
+  }
+  if(choices.length===1){
     _pitchFallback=true;
-    var base=choices[0]?choices[0].voice:null;
-    var lang=base?(base.lang||'en-US'):'en-US';
+    var base=choices[0].voice, lang=base?(base.lang||'en-US'):'en-US', fb=choices[0].fallback||null;
     choices=[
-      {key:'pitch-high',label:'音色一 · 偏高',voice:base,lang:lang,pitch:1.2},
-      {key:'pitch-mid',label:'音色二 · 自然',voice:base,lang:lang,pitch:1.05},
-      {key:'pitch-low',label:'音色三 · 偏低',voice:base,lang:lang,pitch:0.85}
+      {key:'pitch-high',label:'英语语音 1 · 偏高',voice:base,lang:lang,pitch:1.2,fallback:fb},
+      {key:'pitch-mid',label:'英语语音 2 · 自然',voice:base,lang:lang,pitch:1.05,fallback:fb},
+      {key:'pitch-low',label:'英语语音 3 · 偏低',voice:base,lang:lang,pitch:0.85,fallback:fb}
     ];
+  }else if(choices.length===2){
+    // keep both, honest labels already set; do not invent a fake third slot
+  }
+  if(choices.length>1){
+    var seen={};
+    choices.forEach(function(c,i){
+      if(seen[c.label]){
+        c.label='英语语音 '+(i+1);
+      }
+      seen[c.label]=1;
+    });
   }
   _voiceChoices=choices.slice(0,3);
   _voicesReady=all.length>0;
   return _voiceChoices;
 }
-function applyVoiceKey(key,persist){
+function applyVoiceKey(key,persist,preview){
   if(!_voiceChoices.length) pickVoiceChoices();
   var ch=_voiceChoices.filter(function(c){return c.key===key;})[0]||_voiceChoices[0];
   if(!ch) return;
@@ -1136,9 +1211,16 @@ function applyVoiceKey(key,persist){
   _voiceObj=ch.voice||null;
   _voicePitch=ch.pitch||1.05;
   _voiceLang=ch.lang||'en-US';
+  window._voiceFallback=ch.fallback||null;
   if(persist!==false){
     try{localStorage.setItem(VOICE_STORE_KEY,JSON.stringify({key:ch.key,uri:ch.voice?ch.voice.voiceURI:''}));}catch(e){}
   }
+  if(preview) previewCurrentVoice();
+}
+function previewCurrentVoice(){
+  if(!ttsSupported()){renderVoiceBar();return;}
+  unlockSpeech();
+  speak('Hello! Let us practice English.', {rate:0.95});
 }
 function loadVoicePrefs(){
   try{
@@ -1156,7 +1238,7 @@ function loadVoicePrefs(){
       if(hit) key=hit.key;
     }
   }
-  applyVoiceKey(key||(_voiceChoices[0]&&_voiceChoices[0].key)||'',false);
+  applyVoiceKey(key||(_voiceChoices[0]&&_voiceChoices[0].key)||'',false,false);
 }
 function setSpeedMode(mode){
   _speedMode=(mode==='normal')?'normal':'slow';
@@ -1166,19 +1248,31 @@ function setSpeedMode(mode){
 function renderVoiceBar(){
   var box=document.getElementById('voiceBar');
   if(!box) return;
+  if(!ttsSupported()){
+    box.innerHTML='<div class="tts-tip">当前浏览器不支持语音朗读。推荐：苹果用 Safari，安卓或电脑用 Chrome 或 Edge。</div>';
+    return;
+  }
   if(!_voiceChoices.length) pickVoiceChoices();
   var voicePills=_voiceChoices.map(function(c){
     return '<button type="button" class="pill'+(c.key===_voiceKey?' active':'')+'" data-voice-key="'+escAttr(c.key)+'">'+c.label+'</button>';
   }).join('');
-  var hint=_pitchFallback
-    ? '当前设备只检测到一种英语发音，已用音调稍作区分。不同手机、电脑上的音色可能不同。'
-    : (!_voicesReady ? '正在读取系统发音…' : '');
+  var tips=[];
+  if(isWeChatUA()){
+    tips.push('<div class="wx-tip">当前在微信里打开，语音朗读可能无法使用或效果较差。请点右上角 ···，选择「在浏览器中打开」。</div>');
+  }
+  if(_pitchFallback){
+    tips.push('<span class="voice-hint">当前设备只检测到一种英语发音，已用音调稍作区分。不同手机、浏览器上的音色可能不同。</span>');
+  }else if(!_voicesReady){
+    tips.push('<span class="voice-hint">正在读取系统发音…</span>');
+  }
+  tips.push('<span class="voice-hint">音色由手机/浏览器自带语音决定，推荐：苹果用 Safari，安卓/电脑用 Chrome 或 Edge。</span>');
   box.innerHTML=
     '<span class="vb-lab">发音</span><div class="pills" id="voicePills">'+voicePills+'</div>'+
+    '<button type="button" class="voice-preview" id="voicePreviewBtn">试听</button>'+
     '<span class="vb-lab">语速</span><div class="pills" id="speedPills">'+
       '<button type="button" class="pill'+(_speedMode==='slow'?' active':'')+'" data-speed="slow">慢速</button>'+
       '<button type="button" class="pill'+(_speedMode==='normal'?' active':'')+'" data-speed="normal">正常</button>'+
-    '</div>'+(hint?'<span class="voice-hint">'+hint+'</span>':'');
+    '</div>'+tips.join('');
 }
 function initSpeechUI(){
   loadVoicePrefs();
@@ -1187,8 +1281,11 @@ function initSpeechUI(){
   if(bar && !bar._bound){
     bar._bound=true;
     bar.addEventListener('click',function(e){
+      unlockSpeech();
+      var prev=e.target.closest('#voicePreviewBtn, .voice-preview');
+      if(prev){previewCurrentVoice();return;}
       var v=e.target.closest('[data-voice-key]');
-      if(v){applyVoiceKey(v.getAttribute('data-voice-key'),true);renderVoiceBar();return;}
+      if(v){applyVoiceKey(v.getAttribute('data-voice-key'),true,true);renderVoiceBar();return;}
       var s=e.target.closest('[data-speed]');
       if(s){setSpeedMode(s.getAttribute('data-speed'));}
     });
@@ -1199,6 +1296,7 @@ function initSpeechUI(){
     grid.addEventListener('click',function(e){
       var t=e.target.closest('[data-speak]');
       if(!t||!grid.contains(t)) return;
+      unlockSpeech();
       var rate=t.getAttribute('data-rate');
       speak(t.getAttribute('data-speak'), rate?{rate:parseFloat(rate)}:undefined);
     });
@@ -1224,15 +1322,19 @@ function initSpeechUI(){
   var readBtn=document.getElementById('artReadBtn');
   var pauseBtn=document.getElementById('artPauseBtn');
   var stopBtn=document.getElementById('artStopBtn');
-  if(readBtn && !readBtn._bound){readBtn._bound=true;readBtn.addEventListener('click',function(){playArticleFrom(0);});}
+  if(readBtn && !readBtn._bound){readBtn._bound=true;readBtn.addEventListener('click',function(){unlockSpeech();playArticleFrom(0);});}
   if(pauseBtn && !pauseBtn._bound){pauseBtn._bound=true;pauseBtn.addEventListener('click',pauseOrResumeArticle);}
   if(stopBtn && !stopBtn._bound){stopBtn._bound=true;stopBtn.addEventListener('click',stopSpeech);}
-  if('speechSynthesis' in window){
+  document.addEventListener('touchstart',unlockSpeech,{once:true,passive:true});
+  document.addEventListener('click',unlockSpeech,{once:true});
+  if(ttsSupported()){
     try{speechSynthesis.addEventListener('voiceschanged',function(){loadVoicePrefs();renderVoiceBar();});}catch(e){
       speechSynthesis.onvoiceschanged=function(){loadVoicePrefs();renderVoiceBar();};
     }
     setTimeout(function(){loadVoicePrefs();renderVoiceBar();},300);
     setTimeout(function(){loadVoicePrefs();renderVoiceBar();},1200);
+  }else{
+    renderVoiceBar();
   }
 }
 
@@ -1249,7 +1351,7 @@ function shuffleOptions(options,answer){
 
 function bindPlayButton(btn,text){
   if(!btn) return;
-  btn.addEventListener('click',function(){speak(text);});
+  btn.addEventListener('click',function(){unlockSpeech();speak(text);});
 }
 
 
@@ -1336,6 +1438,7 @@ function openArticle(id){
         </label>`).join('')}
     </div>`).join('');
   document.getElementById('scoreBanner').style.display='none';
+  var rb=document.getElementById('artRetryBtn'); if(rb) rb.style.display='none';
 }
 function backToList(){
   stopSpeech();
@@ -1382,6 +1485,28 @@ function checkAnswers(){
       }
     }
   });
+  var rb=document.getElementById('artRetryBtn'); if(rb) rb.style.display='';
+}
+function retryArticleQuiz(){
+  if(!currentArticle)return;
+  userAnswers={};
+  (currentArticle.questions||[]).forEach(function(q,qi){
+    var card=document.getElementById('qcard-'+qi);
+    if(card){
+      var exp=card.querySelector('.exp');
+      if(exp) exp.remove();
+    }
+    (q.options||[]).forEach(function(_,oi){
+      var el=document.getElementById('opt-'+qi+'-'+oi);
+      if(!el)return;
+      el.classList.remove('selected','correct','wrong');
+      var inp=el.querySelector('input[type=radio]');
+      if(inp) inp.checked=false;
+    });
+  });
+  var banner=document.getElementById('scoreBanner');
+  if(banner) banner.style.display='none';
+  var rb=document.getElementById('artRetryBtn'); if(rb) rb.style.display='none';
 }
 initLicense();
 initSpeechUI();
@@ -1447,6 +1572,50 @@ function backToListenList(){
   stopSpeech();
   renderListening();
 }
+function quizToolRow(){
+  const row=document.createElement('div');
+  row.className='quiz-tools';
+  return row;
+}
+function makeToolBtn(label,onClick){
+  const b=document.createElement('button');
+  b.type='button';
+  b.className='pill';
+  b.innerText=label;
+  b.addEventListener('click',onClick);
+  return b;
+}
+function clearQuizMarks(root){
+  if(!root) return;
+  root.querySelectorAll('.pill').forEach(function(b){
+    b.classList.remove('active');
+    b.style.borderColor='';
+  });
+}
+function showRetryBar(res, opts){
+  opts=opts||{};
+  const bar=document.createElement('div');
+  bar.className='quiz-tools';
+  const retry=makeToolBtn('再试一次', opts.onRetry);
+  retry.classList.add('retry-btn');
+  bar.appendChild(retry);
+  if(opts.answerText){
+    const see=makeToolBtn('查看答案', function(){
+      var old=bar.parentNode && bar.parentNode.querySelector('.answer-reveal');
+      if(old) old.remove();
+      var span=document.createElement('div');
+      span.className='answer-reveal';
+      span.innerText='正确答案：'+opts.answerText;
+      res.appendChild(span);
+      if(opts.onReveal) opts.onReveal();
+      see.disabled=true;
+      see.style.opacity='0.55';
+    });
+    bar.appendChild(see);
+  }
+  res.appendChild(bar);
+}
+
 function renderWordChoice(item,items){
   const shuffled=shuffleOptions(item.options,item.answer);
   window._wcCorrect=shuffled.correct;
@@ -1475,6 +1644,7 @@ function renderWordChoice(item,items){
     btn.innerText=op;
     btn.dataset.val=op;
     btn.onclick=function(){
+      if(window._wcLocked) return;
       document.querySelectorAll('#wcOptions .pill').forEach(function(b){b.classList.remove('active');});
       btn.classList.add('active');
     };
@@ -1484,6 +1654,7 @@ function renderWordChoice(item,items){
   const check=document.createElement('button');
   check.className='check-btn';
   check.type='button';
+  check.id='wcCheckBtn';
   check.style.marginTop='14px';
   check.innerText='提交答案';
   check.onclick=checkWordChoice;
@@ -1497,6 +1668,7 @@ function renderWordChoice(item,items){
   nav.innerHTML='<button type="button" class="pill" onclick="prevListen()">← 上一题</button><button type="button" class="pill" onclick="nextListen()">下一题 →</button>';
   box.appendChild(wrap);
   box.appendChild(nav);
+  window._wcLocked=false;
 }
 function checkWordChoice(){
   const sel=document.querySelector('#wcOptions .pill.active');
@@ -1504,18 +1676,75 @@ function checkWordChoice(){
   const correct=window._wcCorrect;
   if(!sel){res.innerHTML='<span style="color:#fbbf24">请先选择一个选项</span>';return;}
   const chosen=sel.dataset.val;
-  document.querySelectorAll('#wcOptions .pill').forEach(function(b){
-    if(b.dataset.val===correct) b.style.borderColor='#5eead4';
-    if(b===sel && chosen!==correct) b.style.borderColor='#f87171';
-  });
   if(chosen===correct){
+    document.querySelectorAll('#wcOptions .pill').forEach(function(b){
+      if(b.dataset.val===correct) b.style.borderColor='#5eead4';
+    });
     res.innerHTML='<span style="color:#5eead4;font-weight:800">✓ 正确！</span> '+ (getListenItems()[currentListenIndex].exp||'');
+    window._wcLocked=true;
   }else{
-    res.innerHTML='<span style="color:#f87171;font-weight:800">✗ 错误</span> 正确答案是：'+correct;
+    sel.style.borderColor='#f87171';
+    res.innerHTML='<span style="color:#f87171;font-weight:800">✗ 不正确，可以改选或再试一次</span>';
+    showRetryBar(res,{
+      onRetry:function(){
+        const items=getListenItems();
+        renderWordChoice(items[currentListenIndex],items);
+      },
+      answerText:correct,
+      onReveal:function(){
+        document.querySelectorAll('#wcOptions .pill').forEach(function(b){
+          if(b.dataset.val===correct) b.style.borderColor='#5eead4';
+        });
+      }
+    });
   }
 }
+
+function fillSentencePool(pool,sel,words){
+  pool.innerHTML='';
+  const shuffled=[...words].sort(function(){return Math.random()-0.5;});
+  shuffled.forEach(function(w){
+    const b=document.createElement('button');
+    b.className='pill';
+    b.type='button';
+    b.innerText=w;
+    b.addEventListener('click',function(){onSentenceWordTap(b,pool,sel);});
+    pool.appendChild(b);
+  });
+}
+function onSentenceWordTap(b,pool,sel){
+  if(window._soLocked) return;
+  if(b.parentElement===pool){
+    sel.appendChild(b);
+  }else{
+    pool.appendChild(b);
+  }
+  const res=document.getElementById('soResult');
+  if(res && !res.dataset.final) res.innerHTML='';
+}
+function undoSentenceWord(){
+  if(window._soLocked) return;
+  const sel=document.getElementById('soSelected');
+  const pool=document.getElementById('soPool');
+  if(!sel||!pool) return;
+  const pills=sel.querySelectorAll('.pill');
+  if(!pills.length) return;
+  pool.appendChild(pills[pills.length-1]);
+  const res=document.getElementById('soResult');
+  if(res && !res.dataset.final) res.innerHTML='';
+}
+function resetSentenceOrder(){
+  window._soLocked=false;
+  const item=window._currentSentence;
+  const sel=document.getElementById('soSelected');
+  const pool=document.getElementById('soPool');
+  const res=document.getElementById('soResult');
+  if(!item||!sel||!pool) return;
+  sel.innerHTML='';
+  fillSentencePool(pool,sel,item.words);
+  if(res){res.innerHTML='';res.removeAttribute('data-final');}
+}
 function renderSentenceOrder(item,items){
-  const shuffled=[...item.words].sort(function(){return Math.random()-0.5;});
   const box=document.getElementById('listenContent');
   box.innerHTML='';
   const wrap=document.createElement('div');
@@ -1532,7 +1761,7 @@ function renderSentenceOrder(item,items){
   wrap.appendChild(head);
   const hint=document.createElement('div');
   hint.style.cssText='margin-bottom:8px;color:#94a8c4;font-size:.85rem';
-  hint.innerText='点击单词按顺序排列：';
+  hint.innerText='点击单词按顺序排列。点错了可点已选单词放回，或使用撤回、重新排序。';
   wrap.appendChild(hint);
   const sel=document.createElement('div');
   sel.id='soSelected';
@@ -1542,6 +1771,10 @@ function renderSentenceOrder(item,items){
   pool.style.cssText='display:flex;flex-wrap:wrap;gap:6px';
   wrap.appendChild(sel);
   wrap.appendChild(pool);
+  const tools=quizToolRow();
+  tools.appendChild(makeToolBtn('↩ 撤回一个', undoSentenceWord));
+  tools.appendChild(makeToolBtn('↺ 重新排序', resetSentenceOrder));
+  wrap.appendChild(tools);
   const check=document.createElement('button');
   check.className='check-btn';
   check.type='button';
@@ -1558,30 +1791,30 @@ function renderSentenceOrder(item,items){
   nav.innerHTML='<button type="button" class="pill" onclick="prevListen()">← 上一题</button><button type="button" class="pill" onclick="nextListen()">下一题 →</button>';
   box.appendChild(wrap);
   box.appendChild(nav);
-  shuffled.forEach(function(w){
-    const b=document.createElement('button');
-    b.className='pill';
-    b.type='button';
-    b.innerText=w;
-    b.onclick=function(){
-      if(b.parentElement===pool){sel.appendChild(b);}
-      else{pool.appendChild(b);}
-    };
-    pool.appendChild(b);
-  });
   window._currentSentence=item;
+  window._soLocked=false;
+  fillSentencePool(pool,sel,item.words);
 }
 function checkSentenceOrder(){
   const sel=document.getElementById('soSelected');
   const chosen=[...sel.querySelectorAll('.pill')].map(function(b){return b.innerText;});
   const correct=window._currentSentence.words;
   const res=document.getElementById('soResult');
+  if(!chosen.length){res.innerHTML='<span style="color:#fbbf24">请先把单词排列到上方</span>';res.removeAttribute('data-final');return;}
   if(chosen.join(' ')===correct.join(' ')){
+    res.dataset.final='1';
     res.innerHTML='<span style="color:#5eead4;font-weight:800">✓ 正确！</span> '+ (window._currentSentence.exp||'');
+    window._soLocked=true;
   }else{
-    res.innerHTML='<span style="color:#f87171;font-weight:800">✗ 错误</span> 正确顺序：'+correct.join(' ');
+    res.removeAttribute('data-final');
+    res.innerHTML='<span style="color:#f87171;font-weight:800">✗ 顺序还不对，可以撤回、点已选单词放回，或重新排序后再试</span>';
+    showRetryBar(res,{
+      onRetry:resetSentenceOrder,
+      answerText:correct.join(' ')
+    });
   }
 }
+
 function renderPassage(item,items){
   const box=document.getElementById('listenContent');
   box.innerHTML='';
@@ -1598,6 +1831,7 @@ function renderPassage(item,items){
   play.type='button';
   play.innerText='🔊 播放短文';
   play.addEventListener('click',function(){
+    unlockSpeech();
     const text=item.audio||item.transcript||'';
     const groups=splitSentences(text);
     const sents=[];
@@ -1633,6 +1867,7 @@ function renderPassage(item,items){
   wrap.appendChild(head);
   wrap.appendChild(trans);
   window._pqCorrect=[];
+  window._pqLocked=false;
   (item.questions||[]).forEach(function(q,qi){
     const sh=shuffleOptions(q.options,q.answer);
     window._pqCorrect[qi]=sh.correct;
@@ -1651,7 +1886,8 @@ function renderPassage(item,items){
       b.innerText=op;
       b.dataset.val=op;
       b.onclick=function(){
-        opbox.querySelectorAll('.pill').forEach(function(x){x.classList.remove('active');});
+        if(window._pqLocked) return;
+        opbox.querySelectorAll('.pill').forEach(function(x){x.classList.remove('active'); x.style.borderColor='';});
         b.classList.add('active');
       };
       opbox.appendChild(b);
@@ -1677,25 +1913,47 @@ function renderPassage(item,items){
   box.appendChild(nav);
   window._currentPassage=item;
 }
-function checkPassage(){
-  const item=window._currentPassage;
-  let correct=0;
-  (item.questions||[]).forEach(function(q,qi){
-    const sel=document.querySelector('#pq'+qi+' .pill.active');
-    const ans=window._pqCorrect[qi];
-    if(sel && sel.dataset.val===ans) correct++;
-  });
-  const res=document.getElementById('pResult');
-  res.innerHTML='<span style="color:#5eead4;font-weight:800">得分：'+correct+' / '+item.questions.length+'</span>';
-  (item.questions||[]).forEach(function(q,qi){
+function revealPassageAnswers(){
+  (window._currentPassage.questions||[]).forEach(function(q,qi){
     const div=document.getElementById('pq'+qi);
-    const sel=div.querySelector('.pill.active');
     const ans=window._pqCorrect[qi];
+    const sel=div.querySelector('.pill.active');
     div.querySelectorAll('.pill').forEach(function(b){
       if(b.dataset.val===ans) b.style.borderColor='#5eead4';
       if(sel && b===sel && b.dataset.val!==ans) b.style.borderColor='#f87171';
     });
   });
+}
+function checkPassage(){
+  const item=window._currentPassage;
+  let correct=0, answered=0;
+  (item.questions||[]).forEach(function(q,qi){
+    const sel=document.querySelector('#pq'+qi+' .pill.active');
+    const ans=window._pqCorrect[qi];
+    if(sel) answered++;
+    if(sel && sel.dataset.val===ans) correct++;
+  });
+  const res=document.getElementById('pResult');
+  if(!answered){res.innerHTML='<span style="color:#fbbf24">请先作答</span>';return;}
+  if(correct===item.questions.length){
+    window._pqLocked=true;
+    revealPassageAnswers();
+    res.innerHTML='<span style="color:#5eead4;font-weight:800">得分：'+correct+' / '+item.questions.length+'（全部正确！）</span>';
+  }else{
+    window._pqLocked=false;
+    res.innerHTML='<span style="color:#f87171;font-weight:800">得分：'+correct+' / '+item.questions.length+'，可以改选或再试一次</span>';
+    showRetryBar(res,{
+      onRetry:function(){
+        const items=getListenItems();
+        renderPassage(items[currentListenIndex],items);
+      },
+      answerText:'见下方绿色选项',
+      onReveal:function(){
+        window._pqLocked=true;
+        revealPassageAnswers();
+      }
+    });
+  }
 }
 function nextListen(){
   const items=getListenItems();
