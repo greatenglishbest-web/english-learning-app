@@ -6,12 +6,12 @@
           "id": "jew1",
           "audio": "important",
           "options": [
+            "improve",
             "important",
             "import",
-            "improve",
             "impress"
           ],
-          "answer": 0,
+          "answer": 1,
           "exp": "important 重要的"
         },
         {
@@ -20,8 +20,8 @@
           "options": [
             "different",
             "difference",
-            "difficult",
-            "direction"
+            "direction",
+            "difficult"
           ],
           "answer": 0,
           "exp": "different 不同的"
@@ -30,24 +30,24 @@
           "id": "jew3",
           "audio": "beautiful",
           "options": [
-            "beautiful",
             "beauty",
             "because",
-            "before"
+            "before",
+            "beautiful"
           ],
-          "answer": 0,
+          "answer": 3,
           "exp": "beautiful 美丽的"
         },
         {
           "id": "jew4",
           "audio": "interesting",
           "options": [
-            "interesting",
+            "interview",
             "interest",
             "internet",
-            "interview"
+            "interesting"
           ],
-          "answer": 0,
+          "answer": 3,
           "exp": "interesting 有趣的"
         },
         {
@@ -56,8 +56,8 @@
           "options": [
             "healthy",
             "health",
-            "wealthy",
-            "heavy"
+            "heavy",
+            "wealthy"
           ],
           "answer": 0,
           "exp": "healthy 健康的"
@@ -66,72 +66,72 @@
           "id": "jew6",
           "audio": "exercise",
           "options": [
-            "exercise",
-            "excuse",
             "except",
-            "exchange"
+            "exercise",
+            "exchange",
+            "excuse"
           ],
-          "answer": 0,
+          "answer": 1,
           "exp": "exercise 锻炼"
         },
         {
           "id": "jew7",
           "audio": "protect",
           "options": [
-            "protect",
             "protection",
             "project",
-            "protest"
+            "protest",
+            "protect"
           ],
-          "answer": 0,
+          "answer": 3,
           "exp": "protect 保护"
         },
         {
           "id": "jew8",
           "audio": "develop",
           "options": [
-            "develop",
-            "development",
             "device",
-            "devote"
+            "development",
+            "devote",
+            "develop"
           ],
-          "answer": 0,
+          "answer": 3,
           "exp": "develop 发展"
         },
         {
           "id": "jew9",
           "audio": "success",
           "options": [
-            "success",
             "successful",
-            "succeed",
-            "suggest"
+            "suggest",
+            "success",
+            "succeed"
           ],
-          "answer": 0,
+          "answer": 2,
           "exp": "success 成功"
         },
         {
           "id": "jew10",
           "audio": "knowledge",
           "options": [
-            "knowledge",
-            "know",
             "acknowledge",
-            "college"
+            "knowledge",
+            "college",
+            "know"
           ],
-          "answer": 0,
+          "answer": 1,
           "exp": "knowledge 知识"
         },
         {
           "id": "jew11",
           "audio": "practice",
           "options": [
-            "practice",
             "practise",
-            "practical",
-            "predict"
+            "practice",
+            "predict",
+            "practical"
           ],
-          "answer": 0,
+          "answer": 1,
           "exp": "practice 练习"
         },
         {
@@ -139,9 +139,9 @@
           "audio": "remember",
           "options": [
             "remember",
+            "memory",
             "remind",
-            "member",
-            "memory"
+            "member"
           ],
           "answer": 0,
           "exp": "remember 记住"
@@ -151,9 +151,9 @@
           "audio": "understand",
           "options": [
             "understand",
-            "understanding",
+            "stand",
             "under",
-            "stand"
+            "understanding"
           ],
           "answer": 0,
           "exp": "understand 理解"
@@ -162,12 +162,12 @@
           "id": "jew14",
           "audio": "improve",
           "options": [
-            "improve",
             "improvement",
-            "approve",
-            "prove"
+            "prove",
+            "improve",
+            "approve"
           ],
-          "answer": 0,
+          "answer": 2,
           "exp": "improve 提高"
         },
         {
@@ -176,8 +176,8 @@
           "options": [
             "environment",
             "environmental",
-            "experiment",
-            "equipment"
+            "equipment",
+            "experiment"
           ],
           "answer": 0,
           "exp": "environment 环境"
@@ -187,9 +187,9 @@
           "audio": "opportunity",
           "options": [
             "opportunity",
-            "opposite",
+            "operation",
             "opinion",
-            "operation"
+            "opposite"
           ],
           "answer": 0,
           "exp": "opportunity 机会"
@@ -198,70 +198,70 @@
           "id": "jew17",
           "audio": "experience",
           "options": [
-            "experience",
-            "experiment",
+            "explain",
             "expert",
-            "explain"
+            "experience",
+            "experiment"
           ],
-          "answer": 0,
+          "answer": 2,
           "exp": "experience 经验"
         },
         {
           "id": "jew18",
           "audio": "advantage",
           "options": [
-            "advantage",
             "advance",
             "advice",
+            "advantage",
             "adventure"
           ],
-          "answer": 0,
+          "answer": 2,
           "exp": "advantage 优势"
         },
         {
           "id": "jew19",
           "audio": "challenge",
           "options": [
-            "challenge",
-            "change",
             "chance",
-            "charge"
+            "charge",
+            "challenge",
+            "change"
           ],
-          "answer": 0,
+          "answer": 2,
           "exp": "challenge 挑战"
         },
         {
           "id": "jew20",
           "audio": "encourage",
           "options": [
+            "engage",
             "encourage",
             "courage",
-            "increase",
-            "engage"
+            "increase"
           ],
-          "answer": 0,
+          "answer": 1,
           "exp": "encourage 鼓励"
         },
         {
           "id": "jew21",
           "audio": "ship",
           "options": [
-            "ship",
-            "sheep",
+            "sharp",
             "shop",
-            "sharp"
+            "sheep",
+            "ship"
           ],
-          "answer": 0,
+          "answer": 3,
           "exp": "ship 船"
         },
         {
           "id": "jew22",
           "audio": "bit",
           "options": [
-            "beat",
-            "bit",
             "bet",
-            "bat"
+            "bit",
+            "bat",
+            "beat"
           ],
           "answer": 1,
           "exp": "bit 一点；咬"
@@ -270,12 +270,12 @@
           "id": "jew23",
           "audio": "hat",
           "options": [
-            "had",
-            "hot",
             "hat",
+            "hot",
+            "had",
             "hate"
           ],
-          "answer": 2,
+          "answer": 0,
           "exp": "hat 帽子"
         },
         {
@@ -283,8 +283,8 @@
           "audio": "light",
           "options": [
             "right",
-            "night",
             "like",
+            "night",
             "light"
           ],
           "answer": 3,
@@ -294,34 +294,34 @@
           "id": "jew25",
           "audio": "walk",
           "options": [
-            "walk",
-            "work",
             "woke",
-            "wait"
+            "walk",
+            "wait",
+            "work"
           ],
-          "answer": 0,
+          "answer": 1,
           "exp": "walk 走路"
         },
         {
           "id": "jew26",
           "audio": "tree",
           "options": [
-            "three",
-            "tree",
+            "tray",
             "free",
-            "tray"
+            "tree",
+            "three"
           ],
-          "answer": 1,
+          "answer": 2,
           "exp": "tree 树"
         },
         {
           "id": "jew27",
           "audio": "cheap",
           "options": [
-            "chip",
+            "chop",
             "cheek",
             "cheap",
-            "chop"
+            "chip"
           ],
           "answer": 2,
           "exp": "cheap 便宜的"
@@ -330,36 +330,36 @@
           "id": "jew28",
           "audio": "pull",
           "options": [
-            "pool",
-            "pole",
             "poor",
-            "pull"
+            "pull",
+            "pole",
+            "pool"
           ],
-          "answer": 3,
+          "answer": 1,
           "exp": "pull 拉"
         },
         {
           "id": "jew29",
           "audio": "leave",
           "options": [
-            "leave",
+            "lift",
             "live",
             "leaf",
-            "lift"
+            "leave"
           ],
-          "answer": 0,
+          "answer": 3,
           "exp": "leave 离开"
         },
         {
           "id": "jew30",
           "audio": "watch",
           "options": [
-            "wash",
             "watch",
-            "wish",
-            "which"
+            "wash",
+            "which",
+            "wish"
           ],
-          "answer": 1,
+          "answer": 0,
           "exp": "watch 手表；观看"
         }
       ],
@@ -773,33 +773,33 @@
               "q": "What helps students study better?",
               "options": [
                 "Only games",
-                "Breakfast, water and sleep",
                 "Staying up late",
+                "Breakfast, water and sleep",
                 "Skipping meals"
               ],
-              "answer": 1,
+              "answer": 2,
               "exp": "Eating breakfast, drinking water, and getting enough sleep."
             },
             {
               "q": "What does exercise do?",
               "options": [
-                "Makes you tired only",
-                "Keeps your body strong",
                 "Stops learning",
-                "Is unnecessary"
+                "Is unnecessary",
+                "Keeps your body strong",
+                "Makes you tired only"
               ],
-              "answer": 1,
+              "answer": 2,
               "exp": "Keeps your body strong."
             },
             {
               "q": "What advice is given?",
               "options": [
-                "Change everything at once",
                 "Build one healthy habit at a time",
-                "Never exercise",
-                "Ignore sleep"
+                "Change everything at once",
+                "Ignore sleep",
+                "Never exercise"
               ],
-              "answer": 1,
+              "answer": 0,
               "exp": "Build one healthy habit at a time."
             }
           ]
@@ -814,33 +814,33 @@
               "q": "What does daily reading help?",
               "options": [
                 "Only speed",
-                "Learn new words and understand better",
                 "Only handwriting",
-                "Nothing"
+                "Nothing",
+                "Learn new words and understand better"
               ],
-              "answer": 1,
+              "answer": 3,
               "exp": "Learn new words and understand better."
             },
             {
               "q": "How long is suggested?",
               "options": [
-                "Several hours",
                 "Even fifteen minutes",
                 "Only weekends",
+                "Several hours",
                 "Never"
               ],
-              "answer": 1,
+              "answer": 0,
               "exp": "Even fifteen minutes a day."
             },
             {
               "q": "What can you read?",
               "options": [
                 "Only textbooks",
-                "Stories, news or science books",
                 "Only comics",
+                "Stories, news or science books",
                 "Nothing"
               ],
-              "answer": 1,
+              "answer": 2,
               "exp": "Stories, news or science books."
             }
           ]
@@ -865,21 +865,21 @@
               "q": "How many books can a student borrow at one time?",
               "options": [
                 "Five books",
-                "Two books",
                 "Only one book",
-                "As many as they like"
+                "As many as they like",
+                "Two books"
               ],
-              "answer": 1
+              "answer": 3
             },
             {
               "q": "What happens if a book is late?",
               "options": [
-                "You must buy a new book",
                 "The library closes for a week",
                 "You cannot borrow another book until you bring it back",
-                "The librarian stops helping you"
+                "The librarian stops helping you",
+                "You must buy a new book"
               ],
-              "answer": 2
+              "answer": 1
             }
           ]
         },
@@ -892,32 +892,32 @@
             {
               "q": "Where did the classes plant the trees?",
               "options": [
-                "Behind the playground",
-                "In front of the school gate",
                 "On the roof",
-                "Beside the river"
+                "Behind the playground",
+                "Beside the river",
+                "In front of the school gate"
               ],
-              "answer": 0
+              "answer": 1
             },
             {
               "q": "Who showed the students how to plant?",
               "options": [
                 "The head teacher",
                 "The science teacher",
-                "A visitor from a farm",
-                "The sports coach"
+                "The sports coach",
+                "A visitor from a farm"
               ],
               "answer": 1
             },
             {
               "q": "What will students do each week?",
               "options": [
-                "Plant two more trees",
                 "Move the trees to the gate",
-                "Take turns checking the trees",
-                "Cut the branches"
+                "Plant two more trees",
+                "Cut the branches",
+                "Take turns checking the trees"
               ],
-              "answer": 2
+              "answer": 3
             }
           ]
         },
@@ -930,30 +930,30 @@
             {
               "q": "When did the class visit the farm?",
               "options": [
-                "On Saturday",
                 "On Friday evening",
-                "On Sunday morning",
-                "During a weekday class"
+                "On Saturday",
+                "During a weekday class",
+                "On Sunday morning"
               ],
-              "answer": 0
+              "answer": 1
             },
             {
               "q": "What did the farmer say helps the vegetables grow?",
               "options": [
-                "Only dry sand",
+                "Plastic covers all day",
                 "Wet soil that is full of leaves",
-                "Less light and no water",
-                "Plastic covers all day"
+                "Only dry sand",
+                "Less light and no water"
               ],
               "answer": 1
             },
             {
               "q": "How did the fresh tomatoes taste to many students?",
               "options": [
-                "Bitter and hard to eat",
                 "The same as shop tomatoes",
+                "They did not taste them",
                 "Sweeter than the ones from the shop",
-                "They did not taste them"
+                "Bitter and hard to eat"
               ],
               "answer": 2
             }
@@ -968,32 +968,32 @@
             {
               "q": "When does Tom help at home?",
               "options": [
+                "Once a month",
                 "Every weekday after school",
                 "Only on Sunday morning",
-                "Before he goes to school",
-                "Once a month"
+                "Before he goes to school"
               ],
-              "answer": 0
+              "answer": 1
             },
             {
               "q": "What do his parents say about housework?",
               "options": [
-                "Only adults should do it",
                 "A family should share it",
+                "It is not important",
                 "Children should be paid each time",
-                "It is not important"
+                "Only adults should do it"
               ],
-              "answer": 1
+              "answer": 0
             },
             {
               "q": "How does Tom feel when the kitchen is clean?",
               "options": [
                 "Angry with his parents",
+                "Ready to stop forever",
                 "Sorry that he helped",
-                "Proud, even if he is tired some days",
-                "Ready to stop forever"
+                "Proud, even if he is tired some days"
               ],
-              "answer": 2
+              "answer": 3
             }
           ]
         },
@@ -1006,32 +1006,32 @@
             {
               "q": "When is sports day held?",
               "options": [
-                "On the first Friday of May",
                 "On the last Monday of April",
+                "On the first Friday of June",
                 "Every Friday in May",
-                "On the first Friday of June"
+                "On the first Friday of May"
               ],
-              "answer": 0
+              "answer": 3
             },
             {
               "q": "What should students bring?",
               "options": [
-                "Only a camera",
                 "A water bottle and a hat",
                 "A heavy coat and gloves",
+                "Only a camera",
                 "Nothing at all"
               ],
-              "answer": 1
+              "answer": 0
             },
             {
               "q": "Why will there be a rest tent this year?",
               "options": [
-                "Because the races will be at night",
-                "Because parents cannot come",
                 "Because last year it was very hot and two students felt sick",
-                "Because the finish line was removed"
+                "Because the races will be at night",
+                "Because the finish line was removed",
+                "Because parents cannot come"
               ],
-              "answer": 2
+              "answer": 0
             }
           ]
         },
@@ -1044,32 +1044,32 @@
             {
               "q": "What do the new signs ask students to do?",
               "options": [
-                "Turn the tap off when they finish",
-                "Wash their hands for a longer time",
+                "Use the toilets less often",
                 "Leave the tap running",
-                "Use the toilets less often"
+                "Turn the tap off when they finish",
+                "Wash their hands for a longer time"
               ],
-              "answer": 0
+              "answer": 2
             },
             {
               "q": "Why were the toilets repaired?",
               "options": [
-                "So they can use more water",
-                "So they do not keep running",
                 "So students can eat there",
-                "So they can be removed"
+                "So they can use more water",
+                "So they can be removed",
+                "So they do not keep running"
               ],
-              "answer": 1
+              "answer": 3
             },
             {
               "q": "What happened in one week?",
               "options": [
-                "The school used more water than before",
-                "The signs were taken down",
                 "The school used much less water than before",
-                "Other schools refused the plan"
+                "The school used more water than before",
+                "Other schools refused the plan",
+                "The signs were taken down"
               ],
-              "answer": 2
+              "answer": 0
             }
           ]
         },
@@ -1082,32 +1082,32 @@
             {
               "q": "Why was the football match moved indoors?",
               "options": [
-                "It rained all afternoon",
+                "Next Wednesday is a holiday",
                 "The teacher was late",
-                "The hall was closed",
-                "Next Wednesday is a holiday"
+                "It rained all afternoon",
+                "The hall was closed"
               ],
-              "answer": 0
+              "answer": 2
             },
             {
               "q": "What did the class do in the hall?",
               "options": [
-                "They ran around the field",
                 "They played a quiz game and then read quietly",
                 "They went home early",
+                "They ran around the field",
                 "They painted the walls"
               ],
-              "answer": 1
+              "answer": 0
             },
             {
               "q": "When will the match be played if the field is dry?",
               "options": [
+                "Next month",
                 "This Sunday",
                 "Tomorrow morning",
-                "Next Wednesday",
-                "Next month"
+                "Next Wednesday"
               ],
-              "answer": 2
+              "answer": 3
             }
           ]
         },
@@ -1120,32 +1120,32 @@
             {
               "q": "When did Lily join the class?",
               "options": [
-                "In March",
                 "In June",
-                "On the last day of school",
-                "After the summer holiday"
+                "After the summer holiday",
+                "In March",
+                "On the last day of school"
               ],
-              "answer": 0
+              "answer": 2
             },
             {
               "q": "How did two classmates help her?",
               "options": [
-                "They did her homework for her",
+                "They hid the way to the bus stop",
                 "They showed her the dining hall and the bus stop, and invited her to lunch",
-                "They asked her to leave at lunch",
-                "They hid the way to the bus stop"
+                "They did her homework for her",
+                "They asked her to leave at lunch"
               ],
               "answer": 1
             },
             {
               "q": "How did Lily feel by the end of the week?",
               "options": [
-                "She wanted to change class again",
-                "She was still too shy to speak",
+                "She refused to sit with anyone",
                 "She felt less alone and was laughing with the group",
-                "She refused to sit with anyone"
+                "She wanted to change class again",
+                "She was still too shy to speak"
               ],
-              "answer": 2
+              "answer": 1
             }
           ]
         }
@@ -1159,8 +1159,8 @@
           "options": [
             "responsibility",
             "responsible",
-            "response",
-            "respect"
+            "respect",
+            "response"
           ],
           "answer": 0,
           "exp": "responsibility 责任"
@@ -1169,48 +1169,48 @@
           "id": "jmw2",
           "audio": "communicate",
           "options": [
+            "company",
             "communicate",
-            "communication",
             "community",
-            "company"
+            "communication"
           ],
-          "answer": 0,
+          "answer": 1,
           "exp": "communicate 交流"
         },
         {
           "id": "jmw3",
           "audio": "discover",
           "options": [
+            "distance",
             "discover",
-            "discovery",
             "discuss",
-            "distance"
+            "discovery"
           ],
-          "answer": 0,
+          "answer": 1,
           "exp": "discover 发现"
         },
         {
           "id": "jmw4",
           "audio": "compare",
           "options": [
-            "compare",
-            "comparison",
             "complete",
-            "compete"
+            "compete",
+            "comparison",
+            "compare"
           ],
-          "answer": 0,
+          "answer": 3,
           "exp": "compare 比较"
         },
         {
           "id": "jmw5",
           "audio": "create",
           "options": [
-            "create",
             "creation",
-            "creative",
-            "creature"
+            "creature",
+            "create",
+            "creative"
           ],
-          "answer": 0,
+          "answer": 2,
           "exp": "create 创造"
         },
         {
@@ -1218,9 +1218,9 @@
           "audio": "decide",
           "options": [
             "decide",
-            "decision",
             "design",
-            "desire"
+            "desire",
+            "decision"
           ],
           "answer": 0,
           "exp": "decide 决定"
@@ -1230,9 +1230,9 @@
           "audio": "explain",
           "options": [
             "explain",
-            "explanation",
             "explore",
-            "express"
+            "express",
+            "explanation"
           ],
           "answer": 0,
           "exp": "explain 解释"
@@ -1241,12 +1241,12 @@
           "id": "jmw8",
           "audio": "suggest",
           "options": [
-            "suggest",
-            "suggestion",
             "success",
-            "support"
+            "suggestion",
+            "support",
+            "suggest"
           ],
-          "answer": 0,
+          "answer": 3,
           "exp": "suggest 建议"
         },
         {
@@ -1254,9 +1254,9 @@
           "audio": "provide",
           "options": [
             "provide",
+            "produce",
             "provision",
-            "protect",
-            "produce"
+            "protect"
           ],
           "answer": 0,
           "exp": "provide 提供"
@@ -1265,72 +1265,72 @@
           "id": "jmw10",
           "audio": "require",
           "options": [
-            "require",
-            "requirement",
+            "acquire",
             "request",
-            "acquire"
+            "require",
+            "requirement"
           ],
-          "answer": 0,
+          "answer": 2,
           "exp": "require 需要"
         },
         {
           "id": "jmw11",
           "audio": "achieve",
           "options": [
-            "achieve",
-            "achievement",
             "active",
-            "accept"
+            "accept",
+            "achievement",
+            "achieve"
           ],
-          "answer": 0,
+          "answer": 3,
           "exp": "achieve 实现"
         },
         {
           "id": "jmw12",
           "audio": "benefit",
           "options": [
-            "benefit",
             "beneficial",
-            "before",
-            "begin"
+            "benefit",
+            "begin",
+            "before"
           ],
-          "answer": 0,
+          "answer": 1,
           "exp": "benefit 益处"
         },
         {
           "id": "jmw13",
           "audio": "effort",
           "options": [
-            "effort",
-            "effect",
             "affect",
-            "afford"
+            "effect",
+            "afford",
+            "effort"
           ],
-          "answer": 0,
+          "answer": 3,
           "exp": "effort 努力"
         },
         {
           "id": "jmw14",
           "audio": "focus",
           "options": [
-            "focus",
-            "force",
+            "folk",
             "fork",
-            "folk"
+            "focus",
+            "force"
           ],
-          "answer": 0,
+          "answer": 2,
           "exp": "focus 专注"
         },
         {
           "id": "jmw15",
           "audio": "method",
           "options": [
+            "meter",
             "method",
             "metal",
-            "meter",
             "matter"
           ],
-          "answer": 0,
+          "answer": 1,
           "exp": "method 方法"
         },
         {
@@ -1338,9 +1338,9 @@
           "audio": "quite",
           "options": [
             "quite",
+            "quick",
             "quiet",
-            "quit",
-            "quick"
+            "quit"
           ],
           "answer": 0,
           "exp": "quite 相当；完全"
@@ -1349,36 +1349,36 @@
           "id": "jmw17",
           "audio": "than",
           "options": [
+            "thin",
             "then",
-            "than",
             "them",
-            "thin"
+            "than"
           ],
-          "answer": 1,
+          "answer": 3,
           "exp": "than 比"
         },
         {
           "id": "jmw18",
           "audio": "loose",
           "options": [
+            "lost",
             "lose",
             "loss",
-            "loose",
-            "lost"
+            "loose"
           ],
-          "answer": 2,
+          "answer": 3,
           "exp": "loose 松的"
         },
         {
           "id": "jmw19",
           "audio": "accept",
           "options": [
-            "except",
-            "expect",
+            "accept",
             "excerpt",
-            "accept"
+            "expect",
+            "except"
           ],
-          "answer": 3,
+          "answer": 0,
           "exp": "accept 接受"
         },
         {
@@ -1387,8 +1387,8 @@
           "options": [
             "advice",
             "advise",
-            "adverse",
-            "advance"
+            "advance",
+            "adverse"
           ],
           "answer": 0,
           "exp": "advice 建议（名词）"
@@ -1397,20 +1397,20 @@
           "id": "jmw21",
           "audio": "later",
           "options": [
+            "litter",
             "latter",
             "later",
-            "letter",
-            "litter"
+            "letter"
           ],
-          "answer": 1,
+          "answer": 2,
           "exp": "later 后来"
         },
         {
           "id": "jmw22",
           "audio": "wander",
           "options": [
-            "wonder",
             "winter",
+            "wonder",
             "wander",
             "wider"
           ],
@@ -1422,33 +1422,33 @@
           "audio": "dessert",
           "options": [
             "desert",
+            "dessert",
             "deserve",
-            "descend",
-            "dessert"
+            "descend"
           ],
-          "answer": 3,
+          "answer": 1,
           "exp": "dessert 甜点"
         },
         {
           "id": "jmw24",
           "audio": "affect",
           "options": [
-            "affect",
             "effect",
             "effort",
-            "afford"
+            "afford",
+            "affect"
           ],
-          "answer": 0,
+          "answer": 3,
           "exp": "affect 影响（动词）"
         },
         {
           "id": "jmw25",
           "audio": "access",
           "options": [
-            "assess",
+            "axis",
             "access",
             "excess",
-            "axis"
+            "assess"
           ],
           "answer": 1,
           "exp": "access 进入；通道"
@@ -1459,44 +1459,44 @@
           "options": [
             "prize",
             "praise",
-            "price",
-            "press"
+            "press",
+            "price"
           ],
-          "answer": 2,
+          "answer": 3,
           "exp": "price 价格"
         },
         {
           "id": "jmw27",
           "audio": "raise",
           "options": [
-            "rise",
-            "rice",
             "race",
-            "raise"
+            "rise",
+            "raise",
+            "rice"
           ],
-          "answer": 3,
+          "answer": 2,
           "exp": "raise 举起；提高"
         },
         {
           "id": "jmw28",
           "audio": "coarse",
           "options": [
-            "coarse",
             "course",
-            "cause",
-            "courts"
+            "courts",
+            "coarse",
+            "cause"
           ],
-          "answer": 0,
+          "answer": 2,
           "exp": "coarse 粗糙的"
         },
         {
           "id": "jmw29",
           "audio": "whether",
           "options": [
-            "weather",
-            "whether",
             "feather",
-            "wither"
+            "whether",
+            "wither",
+            "weather"
           ],
           "answer": 1,
           "exp": "whether 是否"
@@ -1505,10 +1505,10 @@
           "id": "jmw30",
           "audio": "sight",
           "options": [
-            "site",
+            "side",
             "cite",
             "sight",
-            "side"
+            "site"
           ],
           "answer": 2,
           "exp": "sight 视力；景象"
@@ -1992,8 +1992,8 @@
               "options": [
                 "Only handwriting",
                 "Vocabulary and comprehension",
-                "Only speed",
-                "Nothing"
+                "Nothing",
+                "Only speed"
               ],
               "answer": 1,
               "exp": "Vocabulary and comprehension."
@@ -2001,10 +2001,10 @@
             {
               "q": "How much reading is suggested?",
               "options": [
-                "Several hours",
+                "Never",
                 "Even twenty minutes a day",
                 "Only weekends",
-                "Never"
+                "Several hours"
               ],
               "answer": 1,
               "exp": "Even twenty minutes a day."
@@ -2012,9 +2012,9 @@
             {
               "q": "What is the advice for starting?",
               "options": [
-                "Only hard books",
-                "Start with topics you enjoy",
                 "Avoid all books",
+                "Start with topics you enjoy",
+                "Only hard books",
                 "Only textbooks"
               ],
               "answer": 1,
@@ -2031,42 +2031,42 @@
             {
               "q": "How can a student unlock a shared bicycle?",
               "options": [
-                "With a student card",
-                "With a car key",
+                "By calling the police",
                 "Only with cash at a shop",
-                "By calling the police"
+                "With a car key",
+                "With a student card"
               ],
-              "answer": 0
+              "answer": 3
             },
             {
               "q": "When does a fee begin?",
               "options": [
-                "From the first minute",
                 "After the first thirty minutes",
                 "Only after two hours",
-                "Never, the ride is always free"
+                "Never, the ride is always free",
+                "From the first minute"
               ],
-              "answer": 1
+              "answer": 0
             },
             {
               "q": "Where must the bicycles be left?",
               "options": [
                 "Anywhere on the pavement",
+                "At the river bank only",
                 "Inside the classroom",
-                "At a marked stand, not on the pavement",
-                "At the river bank only"
+                "At a marked stand, not on the pavement"
               ],
-              "answer": 2
+              "answer": 3
             },
             {
               "q": "What will the town do if bicycles are returned on time?",
               "options": [
+                "Add more stands",
                 "Stop the plan at once",
                 "Replace all bicycles with cars",
-                "Remove the student cards",
-                "Add more stands"
+                "Remove the student cards"
               ],
-              "answer": 3
+              "answer": 0
             }
           ]
         },
@@ -2089,32 +2089,32 @@
             {
               "q": "What did a volunteer explain?",
               "options": [
-                "The river is cleaned by wind only",
-                "Rain washes the rubbish into the river and then toward the lake",
+                "The lake is not connected to the river",
                 "Plastic bags cannot move in rain",
-                "The lake is not connected to the river"
+                "The river is cleaned by wind only",
+                "Rain washes the rubbish into the river and then toward the lake"
               ],
-              "answer": 1
+              "answer": 3
             },
             {
               "q": "What did people put up after the work?",
               "options": [
-                "A shop selling old chairs",
                 "A fence that closed the river",
+                "A poster about a football match",
                 "A sign asking people not to dump waste on the bank",
-                "A poster about a football match"
+                "A shop selling old chairs"
               ],
               "answer": 2
             },
             {
               "q": "When is the next clean-up planned?",
               "options": [
+                "At the end of next month",
                 "Next Sunday morning only",
                 "In two years",
-                "It will not be held again",
-                "At the end of next month"
+                "It will not be held again"
               ],
-              "answer": 3
+              "answer": 0
             }
           ]
         },
@@ -2127,38 +2127,38 @@
             {
               "q": "How often does the newspaper come out?",
               "options": [
+                "Only in summer",
                 "Every two weeks",
                 "Every day",
-                "Once a year",
-                "Only in summer"
+                "Once a year"
               ],
-              "answer": 0
+              "answer": 1
             },
             {
               "q": "What does the teacher check?",
               "options": [
-                "Only the sports scores",
                 "The facts, without changing respectful opinions",
                 "The paper is never checked",
-                "The opinions must all be removed"
+                "The opinions must all be removed",
+                "Only the sports scores"
               ],
-              "answer": 1
+              "answer": 0
             },
             {
               "q": "What was in the last issue?",
               "options": [
                 "A list of exam papers",
-                "A map of another city",
                 "An interview with the cook about healthy lunches",
-                "A film review from a cinema"
+                "A film review from a cinema",
+                "A map of another city"
               ],
-              "answer": 2
+              "answer": 1
             },
             {
               "q": "Where can parents take a copy?",
               "options": [
-                "Only in the teachers office",
                 "At the bus station downtown",
+                "Only in the teachers office",
                 "They cannot take a copy",
                 "On a table near the gate"
               ],
@@ -2176,8 +2176,8 @@
               "q": "What can students try in the sound room?",
               "options": [
                 "A quiet box that blocks almost all noise",
-                "A car that flies over the city",
                 "A film about cooking",
+                "A car that flies over the city",
                 "A pool for swimming"
               ],
               "answer": 0
@@ -2185,32 +2185,32 @@
             {
               "q": "What did the guide say about loud sound?",
               "options": [
-                "It is always safe for ears",
-                "Too much of it can hurt the ears over time",
+                "It cannot move the air",
                 "It helps you hear better at night",
-                "It cannot move the air"
+                "Too much of it can hurt the ears over time",
+                "It is always safe for ears"
               ],
-              "answer": 1
+              "answer": 2
             },
             {
               "q": "What is on the museum roof?",
               "options": [
                 "A car park for buses only",
+                "A room for loud concerts",
                 "A restaurant with no windows",
-                "A small garden with sensors for wind and rain",
-                "A room for loud concerts"
+                "A small garden with sensors for wind and rain"
               ],
-              "answer": 2
+              "answer": 3
             },
             {
               "q": "What did the class do after the visit?",
               "options": [
                 "They closed the museum",
                 "They measured nothing",
-                "They stayed overnight",
-                "They wrote three questions to research at school"
+                "They wrote three questions to research at school",
+                "They stayed overnight"
               ],
-              "answer": 3
+              "answer": 2
             }
           ]
         },
@@ -2223,19 +2223,19 @@
             {
               "q": "What does Mina write in her notebook?",
               "options": [
-                "A new English word with a short sentence",
-                "Only pictures of food",
                 "The names of every classmate",
-                "Long pages from a textbook"
+                "Only pictures of food",
+                "Long pages from a textbook",
+                "A new English word with a short sentence"
               ],
-              "answer": 0
+              "answer": 3
             },
             {
               "q": "When does she try to use two of the words?",
               "options": [
-                "Only in the summer holiday",
-                "At dinner in the evening",
                 "Before she writes them down",
+                "At dinner in the evening",
+                "Only in the summer holiday",
                 "Once a year in an exam"
               ],
               "answer": 1
@@ -2244,21 +2244,21 @@
               "q": "Why were the words easier to remember?",
               "options": [
                 "Because she never read the notebook",
-                "Because the teacher wrote them for her",
+                "Because she hid the notebook",
                 "Because she used them, not only copied lists from a book",
-                "Because she hid the notebook"
+                "Because the teacher wrote them for her"
               ],
               "answer": 2
             },
             {
               "q": "What does the teacher want the class to do?",
               "options": [
-                "Stop writing new words",
                 "Copy lists only from a book",
                 "Put away all notebooks",
-                "Try the same method for four weeks and then share what worked"
+                "Try the same method for four weeks and then share what worked",
+                "Stop writing new words"
               ],
-              "answer": 3
+              "answer": 2
             }
           ]
         },
@@ -2272,27 +2272,27 @@
               "q": "Who stops the cars in the morning?",
               "options": [
                 "A crossing guard",
-                "A shopkeeper from across the road",
                 "Only the head teacher",
-                "The bus driver alone"
+                "The bus driver alone",
+                "A shopkeeper from across the road"
               ],
               "answer": 0
             },
             {
               "q": "What happened last year?",
               "options": [
+                "A new motorway was built on the playground",
                 "The road was closed forever",
                 "A student ran out between two parked cars and was almost hit",
-                "The guard stopped coming",
-                "A new motorway was built on the playground"
+                "The guard stopped coming"
               ],
-              "answer": 1
+              "answer": 2
             },
             {
               "q": "What are students told to do now?",
               "options": [
-                "Run between parked cars",
                 "Cross anywhere they like",
+                "Run between parked cars",
                 "Wait until the guard lifts the sign, even if the road looks empty",
                 "Ignore the yellow area"
               ],
@@ -2303,10 +2303,10 @@
               "options": [
                 "It has made the road busier at night",
                 "It has removed the crossing",
-                "It has stopped all parents from coming",
-                "It has made the gate much calmer"
+                "It has made the gate much calmer",
+                "It has stopped all parents from coming"
               ],
-              "answer": 3
+              "answer": 2
             }
           ]
         },
@@ -2320,31 +2320,31 @@
               "q": "How often does each student write a letter?",
               "options": [
                 "Every two weeks",
-                "Every day after class",
+                "Only when they feel bored",
                 "Once a year in June",
-                "Only when they feel bored"
+                "Every day after class"
               ],
               "answer": 0
             },
             {
               "q": "Why are the letters sent by post, not by phone?",
               "options": [
-                "Because the other school has no teachers",
+                "Because phones are not allowed in the other city",
                 "So that students have to wait and think",
-                "Because post is faster than a phone",
-                "Because phones are not allowed in the other city"
+                "Because the other school has no teachers",
+                "Because post is faster than a phone"
               ],
               "answer": 1
             },
             {
               "q": "What surprised some students?",
               "options": [
-                "Their partners refused to write back",
-                "The letters were all lost in June",
                 "Their partners asked about the river and school lunch",
-                "The video meeting was cancelled forever"
+                "Their partners refused to write back",
+                "The video meeting was cancelled forever",
+                "The letters were all lost in June"
               ],
-              "answer": 2
+              "answer": 0
             },
             {
               "q": "What will happen in June?",
@@ -2367,42 +2367,42 @@
             {
               "q": "What did the club make on Thursday?",
               "options": [
-                "Vegetable soup",
-                "Fruit cake",
                 "Fried chicken only",
-                "Cold drinks"
+                "Fruit cake",
+                "Cold drinks",
+                "Vegetable soup"
               ],
-              "answer": 0
+              "answer": 3
             },
             {
               "q": "What did the teacher show them about the onions?",
               "options": [
-                "To add them after the soup is finished",
-                "To cook them slowly before adding water and salt",
                 "To eat them raw with sugar",
-                "To throw them away"
+                "To throw them away",
+                "To add them after the soup is finished",
+                "To cook them slowly before adding water and salt"
               ],
-              "answer": 1
+              "answer": 3
             },
             {
               "q": "What did students write down after tasting?",
               "options": [
-                "The names of all the teachers",
                 "A complaint about the room",
+                "Nothing at all",
                 "One change they would make next time",
-                "Nothing at all"
+                "The names of all the teachers"
               ],
               "answer": 2
             },
             {
               "q": "What must everyone do before leaving?",
               "options": [
-                "Take the soup home in bags",
-                "Start the rice for next week",
                 "Turn off the school lights only",
-                "Wash up"
+                "Take the soup home in bags",
+                "Wash up",
+                "Start the rice for next week"
               ],
-              "answer": 3
+              "answer": 2
             }
           ]
         },
@@ -2415,20 +2415,20 @@
             {
               "q": "Where is the garden?",
               "options": [
-                "On a flat roof",
-                "Beside the river outside town",
                 "Under the playground",
-                "In a dark basement"
+                "Beside the river outside town",
+                "In a dark basement",
+                "On a flat roof"
               ],
-              "answer": 0
+              "answer": 3
             },
             {
               "q": "What does the science group do?",
               "options": [
                 "It sells all the tomatoes in a shop",
                 "It measures how much water the plants need each week",
-                "It paints the boxes every day",
-                "It closes the garden in autumn"
+                "It closes the garden in autumn",
+                "It paints the boxes every day"
               ],
               "answer": 1
             },
@@ -2436,21 +2436,21 @@
               "q": "How was the garden used in art class?",
               "options": [
                 "They removed all the plants",
-                "They only drew maps of other schools",
                 "Students used the colours that change with the seasons",
-                "They turned the roof into a car park"
+                "They turned the roof into a car park",
+                "They only drew maps of other schools"
               ],
-              "answer": 2
+              "answer": 1
             },
             {
               "q": "What happened to the lettuce last month?",
               "options": [
+                "It was served in the dining hall",
                 "It was thrown away at once",
-                "It was sent to another city",
                 "It was used only in art class",
-                "It was served in the dining hall"
+                "It was sent to another city"
               ],
-              "answer": 3
+              "answer": 0
             }
           ]
         }
@@ -2462,36 +2462,36 @@
           "id": "jhw1",
           "audio": "opportunity",
           "options": [
-            "opportunity",
             "opposite",
             "opinion",
-            "operation"
+            "operation",
+            "opportunity"
           ],
-          "answer": 0,
+          "answer": 3,
           "exp": "opportunity 机会"
         },
         {
           "id": "jhw2",
           "audio": "advantage",
           "options": [
-            "advantage",
-            "advance",
             "advice",
-            "adventure"
+            "adventure",
+            "advance",
+            "advantage"
           ],
-          "answer": 0,
+          "answer": 3,
           "exp": "advantage 优势"
         },
         {
           "id": "jhw3",
           "audio": "challenge",
           "options": [
-            "challenge",
             "change",
+            "charge",
             "chance",
-            "charge"
+            "challenge"
           ],
-          "answer": 0,
+          "answer": 3,
           "exp": "challenge 挑战"
         },
         {
@@ -2510,48 +2510,48 @@
           "id": "jhw5",
           "audio": "encourage",
           "options": [
+            "increase",
             "encourage",
             "courage",
-            "increase",
             "engage"
           ],
-          "answer": 0,
+          "answer": 1,
           "exp": "encourage 鼓励"
         },
         {
           "id": "jhw6",
           "audio": "responsibility",
           "options": [
-            "responsibility",
-            "responsible",
+            "respect",
             "response",
-            "respect"
+            "responsibility",
+            "responsible"
           ],
-          "answer": 0,
+          "answer": 2,
           "exp": "responsibility 责任"
         },
         {
           "id": "jhw7",
           "audio": "communicate",
           "options": [
+            "company",
             "communicate",
-            "communication",
             "community",
-            "company"
+            "communication"
           ],
-          "answer": 0,
+          "answer": 1,
           "exp": "communicate 交流"
         },
         {
           "id": "jhw8",
           "audio": "discover",
           "options": [
+            "distance",
             "discover",
             "discovery",
-            "discuss",
-            "distance"
+            "discuss"
           ],
-          "answer": 0,
+          "answer": 1,
           "exp": "discover 发现"
         },
         {
@@ -2559,9 +2559,9 @@
           "audio": "principal",
           "options": [
             "principal",
-            "principle",
+            "printer",
             "prince",
-            "printer"
+            "principle"
           ],
           "answer": 0,
           "exp": "principal 校长；主要的"
@@ -2570,70 +2570,70 @@
           "id": "jhw10",
           "audio": "personal",
           "options": [
-            "personnel",
-            "personal",
             "person",
-            "persons"
+            "personnel",
+            "persons",
+            "personal"
           ],
-          "answer": 1,
+          "answer": 3,
           "exp": "personal 个人的"
         },
         {
           "id": "jhw11",
           "audio": "ensure",
           "options": [
-            "insure",
-            "assure",
             "ensure",
-            "endure"
+            "endure",
+            "assure",
+            "insure"
           ],
-          "answer": 2,
+          "answer": 0,
           "exp": "ensure 确保"
         },
         {
           "id": "jhw12",
           "audio": "adopt",
           "options": [
-            "adapt",
-            "adept",
             "adopted",
-            "adopt"
+            "adept",
+            "adopt",
+            "adapt"
           ],
-          "answer": 3,
+          "answer": 2,
           "exp": "adopt 采用；收养"
         },
         {
           "id": "jhw13",
           "audio": "economic",
           "options": [
-            "economic",
+            "economics",
             "economical",
             "economy",
-            "economics"
+            "economic"
           ],
-          "answer": 0,
+          "answer": 3,
           "exp": "economic 经济的"
         },
         {
           "id": "jhw14",
           "audio": "especially",
           "options": [
-            "specially",
-            "especially",
             "special",
-            "specific"
+            "specific",
+            "specially",
+            "especially"
           ],
-          "answer": 1,
+          "answer": 3,
           "exp": "especially 尤其"
         },
         {
           "id": "jhw15",
           "audio": "device",
           "options": [
+            "divine",
             "devise",
-            "divide",
             "device",
-            "divine"
+            "divide"
           ],
           "answer": 2,
           "exp": "device 装置"
@@ -2642,12 +2642,12 @@
           "id": "jhw16",
           "audio": "precede",
           "options": [
-            "proceed",
             "precise",
+            "precede",
             "prestige",
-            "precede"
+            "proceed"
           ],
-          "answer": 3,
+          "answer": 1,
           "exp": "precede 先于"
         },
         {
@@ -2655,9 +2655,9 @@
           "audio": "compliment",
           "options": [
             "compliment",
-            "complement",
+            "implement",
             "complete",
-            "implement"
+            "complement"
           ],
           "answer": 0,
           "exp": "compliment 赞美"
@@ -2666,10 +2666,10 @@
           "id": "jhw18",
           "audio": "stationery",
           "options": [
-            "stationary",
+            "statement",
             "stationery",
-            "station",
-            "statement"
+            "stationary",
+            "station"
           ],
           "answer": 1,
           "exp": "stationery 文具"
@@ -2678,20 +2678,20 @@
           "id": "jhw19",
           "audio": "eligible",
           "options": [
-            "illegible",
-            "illegal",
             "eligible",
+            "illegal",
+            "illegible",
             "elegant"
           ],
-          "answer": 2,
+          "answer": 0,
           "exp": "eligible 符合条件的"
         },
         {
           "id": "jhw20",
           "audio": "conscience",
           "options": [
-            "conscious",
             "cautious",
+            "conscious",
             "consistent",
             "conscience"
           ],
@@ -2702,24 +2702,24 @@
           "id": "jhw21",
           "audio": "eminent",
           "options": [
-            "eminent",
-            "imminent",
+            "evident",
             "immigrant",
-            "evident"
+            "eminent",
+            "imminent"
           ],
-          "answer": 0,
+          "answer": 2,
           "exp": "eminent 杰出的"
         },
         {
           "id": "jhw22",
           "audio": "allude",
           "options": [
-            "elude",
             "allude",
+            "allege",
             "allure",
-            "allege"
+            "elude"
           ],
-          "answer": 1,
+          "answer": 0,
           "exp": "allude 暗指"
         },
         {
@@ -2727,9 +2727,9 @@
           "audio": "elicit",
           "options": [
             "illicit",
-            "explicit",
+            "implicit",
             "elicit",
-            "implicit"
+            "explicit"
           ],
           "answer": 2,
           "exp": "elicit 引出"
@@ -2739,33 +2739,33 @@
           "audio": "moral",
           "options": [
             "morale",
-            "mortal",
             "mural",
-            "moral"
+            "moral",
+            "mortal"
           ],
-          "answer": 3,
+          "answer": 2,
           "exp": "moral 道德的"
         },
         {
           "id": "jhw25",
           "audio": "decent",
           "options": [
-            "decent",
-            "descent",
             "descend",
+            "descent",
+            "decent",
             "recent"
           ],
-          "answer": 0,
+          "answer": 2,
           "exp": "decent 得体的"
         },
         {
           "id": "jhw26",
           "audio": "hardy",
           "options": [
-            "hearty",
+            "handy",
             "hardy",
-            "hardly",
-            "handy"
+            "hearty",
+            "hardly"
           ],
           "answer": 1,
           "exp": "hardy 能吃苦的"
@@ -2774,46 +2774,46 @@
           "id": "jhw27",
           "audio": "expand",
           "options": [
-            "expend",
-            "extend",
             "expand",
-            "extent"
+            "expend",
+            "extent",
+            "extend"
           ],
-          "answer": 2,
+          "answer": 0,
           "exp": "expand 扩大"
         },
         {
           "id": "jhw28",
           "audio": "contrast",
           "options": [
-            "contract",
-            "contact",
+            "contrast",
             "content",
-            "contrast"
+            "contract",
+            "contact"
           ],
-          "answer": 3,
+          "answer": 0,
           "exp": "contrast 对比"
         },
         {
           "id": "jhw29",
           "audio": "formal",
           "options": [
-            "formal",
             "former",
+            "formal",
             "farmer",
             "formula"
           ],
-          "answer": 0,
+          "answer": 1,
           "exp": "formal 正式的"
         },
         {
           "id": "jhw30",
           "audio": "vary",
           "options": [
-            "very",
+            "fairly",
             "vary",
             "valley",
-            "fairly"
+            "very"
           ],
           "answer": 1,
           "exp": "vary 变化"
@@ -3363,10 +3363,10 @@
             {
               "q": "What is more important than perfection?",
               "options": [
-                "Speed",
+                "Difficulty",
                 "Consistency",
                 "Amount",
-                "Difficulty"
+                "Speed"
               ],
               "answer": 1,
               "exp": "Consistency is more important than perfection."
@@ -3374,10 +3374,10 @@
             {
               "q": "What should you do if you miss a day?",
               "options": [
-                "Give up",
+                "Wait a week",
                 "Simply continue the next day",
-                "Start over completely",
-                "Wait a week"
+                "Give up",
+                "Start over completely"
               ],
               "answer": 1,
               "exp": "Simply continue the next day without giving up."
@@ -3385,12 +3385,12 @@
             {
               "q": "What creates real progress?",
               "options": [
-                "Only big changes",
-                "Small actions over time",
                 "Perfect planning only",
-                "Avoiding effort"
+                "Avoiding effort",
+                "Small actions over time",
+                "Only big changes"
               ],
-              "answer": 1,
+              "answer": 2,
               "exp": "Small actions create real progress."
             }
           ]
@@ -3404,42 +3404,42 @@
             {
               "q": "How did the bottles in the film leave the bin?",
               "options": [
-                "Wind blew them out of an open bin, and rain carried them along the gutter",
                 "Workers threw them into the river on purpose",
-                "They flew from the recycling box after being rinsed",
-                "A ship dropped them at the river mouth"
-              ],
-              "answer": 0
-            },
-            {
-              "q": "Why could some plastic not be collected at the river mouth?",
-              "options": [
-                "The workers refused to pick up any bags",
-                "Small pieces had already broken off and were too small to collect",
-                "The river mouth was closed to all people",
-                "The film did not show a river"
+                "Wind blew them out of an open bin, and rain carried them along the gutter",
+                "A ship dropped them at the river mouth",
+                "They flew from the recycling box after being rinsed"
               ],
               "answer": 1
             },
             {
+              "q": "Why could some plastic not be collected at the river mouth?",
+              "options": [
+                "The film did not show a river",
+                "The workers refused to pick up any bags",
+                "The river mouth was closed to all people",
+                "Small pieces had already broken off and were too small to collect"
+              ],
+              "answer": 3
+            },
+            {
               "q": "What did the class find near school after a windy day?",
               "options": [
-                "A clean street with no bottles",
-                "A new recycling factory",
                 "Sixteen bottles around one bin",
+                "A new recycling factory",
+                "A clean street with no bottles",
                 "Sixteen closed lids on every bin"
               ],
-              "answer": 2
+              "answer": 0
             },
             {
               "q": "What two habits did the class agree to follow?",
               "options": [
                 "Leave lids open so wind can help",
                 "Wash bottles in the river",
-                "Stop all recycling at school",
-                "Close the lids and rinse bottles before recycling"
+                "Close the lids and rinse bottles before recycling",
+                "Stop all recycling at school"
               ],
-              "answer": 3
+              "answer": 2
             }
           ]
         },
@@ -3452,39 +3452,39 @@
             {
               "q": "Where is the hospital library?",
               "options": [
-                "On the second floor",
-                "In the school hall",
                 "Outside the main gate",
-                "On the top of a bus"
+                "In the school hall",
+                "On the top of a bus",
+                "On the second floor"
               ],
-              "answer": 0
+              "answer": 3
             },
             {
               "q": "Why does each visit last only fifteen minutes?",
               "options": [
-                "Because the cart holds only one book",
                 "Because patients may be tired",
+                "Because volunteers must leave the hospital after five minutes",
                 "Because children are never waiting",
-                "Because volunteers must leave the hospital after five minutes"
+                "Because the cart holds only one book"
               ],
-              "answer": 1
+              "answer": 0
             },
             {
               "q": "What did a girl say last month?",
               "options": [
-                "The volunteers spoke too loudly",
-                "She did not want any stories",
                 "A funny story made the wait feel shorter",
+                "She did not want any stories",
+                "The volunteers spoke too loudly",
                 "The wait felt longer after the story"
               ],
-              "answer": 2
+              "answer": 0
             },
             {
               "q": "What must volunteers do before every visit?",
               "options": [
-                "Collect praise from the teacher",
                 "Take a test in the library",
                 "Bring food for every patient",
+                "Collect praise from the teacher",
                 "Wash their hands and speak softly"
               ],
               "answer": 3
@@ -3501,9 +3501,9 @@
               "q": "What was the same about the three pieces of ice at the start, in a fair test?",
               "options": [
                 "They were the same size",
+                "They all melted at the same time",
                 "They were all placed in the sun",
-                "They were all put in warm water",
-                "They all melted at the same time"
+                "They were all put in warm water"
               ],
               "answer": 0
             },
@@ -3511,28 +3511,28 @@
               "q": "Which piece melted first?",
               "options": [
                 "The ice in the shade",
+                "None of the pieces melted",
                 "The ice in warm water",
-                "The ice on the window in the dark",
-                "None of the pieces melted"
+                "The ice on the window in the dark"
               ],
-              "answer": 1
+              "answer": 2
             },
             {
               "q": "Why could one pair not compare their times fairly?",
               "options": [
+                "They used three pieces of the same size",
                 "They checked the ice every two minutes",
-                "They wrote down the times",
                 "They used a smaller piece in the sun",
-                "They used three pieces of the same size"
+                "They wrote down the times"
               ],
               "answer": 2
             },
             {
               "q": "What will the class do next week?",
               "options": [
-                "Stop writing down any times",
                 "Test only ice in the shade",
                 "Change the size of every piece on purpose",
+                "Stop writing down any times",
                 "Repeat the experiment with salt on one piece"
               ],
               "answer": 3
@@ -3549,9 +3549,9 @@
               "q": "What did many front labels use?",
               "options": [
                 "Words such as natural or energy",
+                "A warning to read nothing",
                 "A full list of all the sugar",
-                "The same words as the back of the label",
-                "A warning to read nothing"
+                "The same words as the back of the label"
               ],
               "answer": 0
             },
@@ -3559,31 +3559,31 @@
               "q": "What did the teacher ask the class to compare?",
               "options": [
                 "Which bottle had a brighter colour",
+                "Which shop was farther from school",
                 "Which drink of the same size had less sugar",
-                "Which drink was more expensive",
-                "Which shop was farther from school"
+                "Which drink was more expensive"
               ],
-              "answer": 1
+              "answer": 2
             },
             {
               "q": "What surprised the class?",
               "options": [
                 "All drinks had no sugar at all",
                 "The mild tea had the most sugar",
-                "A juice drink had more sugar than a mild tea in a plain bottle",
-                "Labels never showed sugar"
+                "Labels never showed sugar",
+                "A juice drink had more sugar than a mild tea in a plain bottle"
               ],
-              "answer": 2
+              "answer": 3
             },
             {
               "q": "What has the school shop agreed to do?",
               "options": [
-                "Remove all labels from bottles",
                 "Sell only juice drinks at the front",
-                "Hide the back of every label",
-                "Place water and unsweetened tea at the front of the shelf"
+                "Remove all labels from bottles",
+                "Place water and unsweetened tea at the front of the shelf",
+                "Hide the back of every label"
               ],
-              "answer": 3
+              "answer": 2
             }
           ]
         },
@@ -3596,32 +3596,32 @@
             {
               "q": "What does the weather station measure?",
               "options": [
-                "Rainfall, wind speed and the highest and lowest temperature of the day",
                 "Only the speed of passing cars",
+                "Rainfall, wind speed and the highest and lowest temperature of the day",
                 "The number of students in each class",
                 "The height of the science building"
-              ],
-              "answer": 0
-            },
-            {
-              "q": "What did last winter's chart show?",
-              "options": [
-                "No days below zero",
-                "Five days below zero, colder than the winter before",
-                "More rain than any summer",
-                "A broken radio programme"
               ],
               "answer": 1
             },
             {
-              "q": "Why can a broken cup in the rain gauge be a problem?",
+              "q": "What did last winter's chart show?",
               "options": [
-                "It makes the temperature rise at night",
-                "It stops the wind speed from being low",
-                "It can make the rainfall look too low",
-                "It adds extra rain to the book"
+                "More rain than any summer",
+                "No days below zero",
+                "Five days below zero, colder than the winter before",
+                "A broken radio programme"
               ],
               "answer": 2
+            },
+            {
+              "q": "Why can a broken cup in the rain gauge be a problem?",
+              "options": [
+                "It adds extra rain to the book",
+                "It can make the rainfall look too low",
+                "It stops the wind speed from being low",
+                "It makes the temperature rise at night"
+              ],
+              "answer": 1
             },
             {
               "q": "How often is the data shared with a local radio programme?",
@@ -3645,41 +3645,41 @@
               "q": "Where is the lost and found office?",
               "options": [
                 "Beside ticket window number three",
-                "On the train that left at five",
                 "Inside a charity shop",
-                "At the school gate"
+                "At the school gate",
+                "On the train that left at five"
               ],
               "answer": 0
             },
             {
               "q": "How long does the office keep each item?",
               "options": [
-                "For two days only",
                 "For two months",
                 "For two years",
+                "For two days only",
                 "Until the train leaves"
               ],
-              "answer": 1
+              "answer": 0
             },
             {
               "q": "What happened to the student last Friday?",
               "options": [
                 "She lost the office itself",
                 "She took someone else's phone home",
-                "She found her bag, which she had left on the train that left at five",
-                "She worked as the clerk for a day"
+                "She worked as the clerk for a day",
+                "She found her bag, which she had left on the train that left at five"
               ],
-              "answer": 2
+              "answer": 3
             },
             {
               "q": "What makes the search faster, according to the clerk?",
               "options": [
-                "A late date with no place",
-                "Leaving the bag on a bench",
                 "Waiting for two more months",
-                "A clear description"
+                "A clear description",
+                "Leaving the bag on a bench",
+                "A late date with no place"
               ],
-              "answer": 3
+              "answer": 1
             }
           ]
         },
@@ -3692,22 +3692,22 @@
             {
               "q": "Why was the bridge first built?",
               "options": [
-                "So that farmers could take vegetables to the market on the other side of the river",
-                "So that heavy trucks could go south",
+                "So that people could close the market",
                 "So that engineers could test cracks",
-                "So that people could close the market"
+                "So that farmers could take vegetables to the market on the other side of the river",
+                "So that heavy trucks could go south"
               ],
-              "answer": 0
+              "answer": 2
             },
             {
               "q": "What happened in the flood of nineteen ninety-eight?",
               "options": [
-                "The bridge fell into the river",
-                "The water rose almost to the top, but the bridge did not fall",
+                "Engineers closed the bridge for a year",
                 "The market moved onto the bridge",
-                "Engineers closed the bridge for a year"
+                "The bridge fell into the river",
+                "The water rose almost to the top, but the bridge did not fall"
               ],
-              "answer": 1
+              "answer": 3
             },
             {
               "q": "Why was the bridge closed last year?",
@@ -3722,12 +3722,12 @@
             {
               "q": "What rule applies now?",
               "options": [
-                "No one may walk across in the evening",
                 "All trucks must cross the old bridge",
-                "The board at the entrance has been removed",
-                "There is a weight limit, and heavy trucks must use the new road to the south"
+                "There is a weight limit, and heavy trucks must use the new road to the south",
+                "No one may walk across in the evening",
+                "The board at the entrance has been removed"
               ],
-              "answer": 3
+              "answer": 1
             }
           ]
         },
@@ -3741,8 +3741,8 @@
               "q": "What can children do in the waiting game?",
               "options": [
                 "Throw soft bags at a target or draw on a large paper tree",
-                "Leave the hospital without a nurse",
                 "Make the treatment shorter by running",
+                "Leave the hospital without a nurse",
                 "Take photos of every parent"
               ],
               "answer": 0
@@ -3750,32 +3750,32 @@
             {
               "q": "What did the nurse say play can do?",
               "options": [
-                "It makes the treatment much shorter",
                 "It can make fear smaller and time easier to bear",
+                "It is only for parents",
                 "It stops all fear at once",
-                "It is only for parents"
+                "It makes the treatment much shorter"
               ],
-              "answer": 1
+              "answer": 0
             },
             {
               "q": "When should parents join the game?",
               "options": [
-                "Always, even if the child says no",
                 "Never, under any condition",
-                "Only if the child wants them to",
-                "Only after the tree is full"
+                "Only after the tree is full",
+                "Always, even if the child says no",
+                "Only if the child wants them to"
               ],
-              "answer": 2
+              "answer": 3
             },
             {
               "q": "What did the class make later?",
               "options": [
                 "A new target for the nurse to take home",
-                "A shorter treatment for every child",
+                "A paper tree with kind sentences on the leaves",
                 "A photo album of the whole hospital",
-                "A paper tree with kind sentences on the leaves"
+                "A shorter treatment for every child"
               ],
-              "answer": 3
+              "answer": 1
             }
           ]
         },
@@ -3788,42 +3788,42 @@
             {
               "q": "What did the report say about streets with many trees?",
               "options": [
-                "They were several degrees cooler in the afternoon",
                 "They were hotter than streets with no trees",
+                "They were several degrees cooler in the afternoon",
                 "They made rainwater rush into the drains",
                 "They were used only for photos of parks"
               ],
-              "answer": 0
+              "answer": 1
             },
             {
               "q": "Where did the report ask the city to plant more trees?",
               "options": [
                 "Only in parks that already look green in photos",
                 "Along the hottest roads, not only in parks that already look green",
-                "Only behind the shops",
-                "Only on the school playground"
+                "Only on the school playground",
+                "Only behind the shops"
               ],
               "answer": 1
             },
             {
               "q": "Why were some shopkeepers worried, and what is the plan?",
               "options": [
-                "They wanted all trees to be removed",
                 "They asked students to stop watering",
-                "They worried that trees would hide their signs, so the plan will use taller trunks and careful cutting",
-                "They planned to hide the report"
+                "They wanted all trees to be removed",
+                "They planned to hide the report",
+                "They worried that trees would hide their signs, so the plan will use taller trunks and careful cutting"
               ],
-              "answer": 2
+              "answer": 3
             },
             {
               "q": "What will students from three schools do?",
               "options": [
                 "Cut all the trunks in the first summer",
-                "Move the trees into the parks",
                 "Write a new report on winter ice",
-                "Water the young trees in the first two summers"
+                "Water the young trees in the first two summers",
+                "Move the trees into the parks"
               ],
-              "answer": 3
+              "answer": 2
             }
           ]
         }
@@ -3837,24 +3837,24 @@
           "id": "sew1",
           "audio": "achieve",
           "options": [
-            "achieve",
             "active",
             "actual",
+            "achieve",
             "accept"
           ],
-          "answer": 0,
+          "answer": 2,
           "exp": "achieve 实现"
         },
         {
           "id": "sew2",
           "audio": "benefit",
           "options": [
-            "benefit",
             "before",
-            "begin",
-            "behind"
+            "behind",
+            "benefit",
+            "begin"
           ],
-          "answer": 0,
+          "answer": 2,
           "exp": "benefit 益处"
         },
         {
@@ -3862,8 +3862,8 @@
           "audio": "challenge",
           "options": [
             "challenge",
-            "change",
             "chance",
+            "change",
             "charge"
           ],
           "answer": 0,
@@ -3873,12 +3873,12 @@
           "id": "sew4",
           "audio": "develop",
           "options": [
+            "decide",
             "develop",
             "device",
-            "decide",
             "depend"
           ],
-          "answer": 0,
+          "answer": 1,
           "exp": "develop 发展"
         },
         {
@@ -3886,9 +3886,9 @@
           "audio": "effort",
           "options": [
             "effort",
-            "effect",
+            "afford",
             "affect",
-            "afford"
+            "effect"
           ],
           "answer": 0,
           "exp": "effort 努力"
@@ -3898,9 +3898,9 @@
           "audio": "focus",
           "options": [
             "focus",
+            "folk",
             "force",
-            "fork",
-            "folk"
+            "fork"
           ],
           "answer": 0,
           "exp": "focus 专注"
@@ -3909,48 +3909,48 @@
           "id": "sew7",
           "audio": "goal",
           "options": [
-            "goal",
-            "gold",
             "golf",
-            "good"
+            "gold",
+            "good",
+            "goal"
           ],
-          "answer": 0,
+          "answer": 3,
           "exp": "goal 目标"
         },
         {
           "id": "sew8",
           "audio": "habit",
           "options": [
-            "habit",
-            "happy",
+            "hobby",
             "happen",
-            "hobby"
+            "happy",
+            "habit"
           ],
-          "answer": 0,
+          "answer": 3,
           "exp": "habit 习惯"
         },
         {
           "id": "sew9",
           "audio": "improve",
           "options": [
-            "improve",
+            "important",
             "import",
-            "impress",
-            "important"
+            "improve",
+            "impress"
           ],
-          "answer": 0,
+          "answer": 2,
           "exp": "improve 提高"
         },
         {
           "id": "sew10",
           "audio": "knowledge",
           "options": [
-            "knowledge",
+            "acknowledge",
             "know",
-            "college",
-            "acknowledge"
+            "knowledge",
+            "college"
           ],
-          "answer": 0,
+          "answer": 2,
           "exp": "knowledge 知识"
         },
         {
@@ -3970,8 +3970,8 @@
           "audio": "progress",
           "options": [
             "progress",
-            "process",
             "program",
+            "process",
             "project"
           ],
           "answer": 0,
@@ -3981,12 +3981,12 @@
           "id": "sew13",
           "audio": "quality",
           "options": [
+            "qualify",
             "quality",
             "quantity",
-            "qualify",
             "quiet"
           ],
-          "answer": 0,
+          "answer": 1,
           "exp": "quality 质量"
         },
         {
@@ -3994,8 +3994,8 @@
           "audio": "result",
           "options": [
             "result",
-            "resist",
             "resort",
+            "resist",
             "resolve"
           ],
           "answer": 0,
@@ -4005,57 +4005,57 @@
           "id": "sew15",
           "audio": "skill",
           "options": [
+            "school",
             "skill",
-            "skull",
             "scale",
-            "school"
+            "skull"
           ],
-          "answer": 0,
+          "answer": 1,
           "exp": "skill 技能"
         },
         {
           "id": "sew16",
           "audio": "choose",
           "options": [
-            "choose",
             "chose",
             "choice",
+            "choose",
             "chase"
           ],
-          "answer": 0,
+          "answer": 2,
           "exp": "choose 选择"
         },
         {
           "id": "sew17",
           "audio": "though",
           "options": [
+            "thorough",
             "thought",
-            "though",
             "through",
-            "thorough"
+            "though"
           ],
-          "answer": 1,
+          "answer": 3,
           "exp": "though 虽然"
         },
         {
           "id": "sew18",
           "audio": "steal",
           "options": [
-            "still",
             "steel",
             "steal",
-            "style"
+            "style",
+            "still"
           ],
-          "answer": 2,
+          "answer": 1,
           "exp": "steal 偷"
         },
         {
           "id": "sew19",
           "audio": "wait",
           "options": [
-            "weight",
             "white",
             "wheat",
+            "weight",
             "wait"
           ],
           "answer": 3,
@@ -4065,80 +4065,80 @@
           "id": "sew20",
           "audio": "peace",
           "options": [
-            "peace",
-            "piece",
             "peas",
-            "please"
+            "piece",
+            "please",
+            "peace"
           ],
-          "answer": 0,
+          "answer": 3,
           "exp": "peace 和平"
         },
         {
           "id": "sew21",
           "audio": "hear",
           "options": [
-            "here",
-            "hear",
             "hair",
-            "hire"
+            "hire",
+            "hear",
+            "here"
           ],
-          "answer": 1,
+          "answer": 2,
           "exp": "hear 听见"
         },
         {
           "id": "sew22",
           "audio": "allowed",
           "options": [
-            "aloud",
             "along",
             "allowed",
-            "alone"
+            "alone",
+            "aloud"
           ],
-          "answer": 2,
+          "answer": 1,
           "exp": "allowed 被允许的"
         },
         {
           "id": "sew23",
           "audio": "break",
           "options": [
-            "brake",
             "brick",
-            "broke",
-            "break"
+            "break",
+            "brake",
+            "broke"
           ],
-          "answer": 3,
+          "answer": 1,
           "exp": "break 打破；休息"
         },
         {
           "id": "sew24",
           "audio": "scene",
           "options": [
-            "scene",
             "seen",
+            "scene",
             "sign",
             "sine"
           ],
-          "answer": 0,
+          "answer": 1,
           "exp": "scene 场景"
         },
         {
           "id": "sew25",
           "audio": "bored",
           "options": [
-            "board",
-            "bored",
+            "bird",
             "broad",
-            "bird"
+            "board",
+            "bored"
           ],
-          "answer": 1,
+          "answer": 3,
           "exp": "bored 感到无聊的"
         },
         {
           "id": "sew26",
           "audio": "flour",
           "options": [
-            "flower",
             "floor",
+            "flower",
             "flour",
             "flow"
           ],
@@ -4150,8 +4150,8 @@
           "audio": "current",
           "options": [
             "curtain",
-            "curious",
             "currant",
+            "curious",
             "current"
           ],
           "answer": 3,
@@ -4161,36 +4161,36 @@
           "id": "sew28",
           "audio": "bare",
           "options": [
-            "bare",
+            "pear",
             "bear",
             "beer",
-            "pear"
+            "bare"
           ],
-          "answer": 0,
+          "answer": 3,
           "exp": "bare 光秃的；赤裸的"
         },
         {
           "id": "sew29",
           "audio": "soar",
           "options": [
-            "sore",
-            "soar",
             "sour",
-            "sow"
+            "sow",
+            "soar",
+            "sore"
           ],
-          "answer": 1,
+          "answer": 2,
           "exp": "soar 翱翔"
         },
         {
           "id": "sew30",
           "audio": "heel",
           "options": [
-            "heal",
-            "hill",
             "heel",
+            "hill",
+            "heal",
             "hall"
           ],
-          "answer": 2,
+          "answer": 0,
           "exp": "heel 脚后跟"
         }
       ],
@@ -4638,21 +4638,21 @@
             {
               "q": "What makes a good goal?",
               "options": [
+                "Only written once",
                 "Vague",
                 "Specific and realistic",
-                "Impossible",
-                "Only written once"
+                "Impossible"
               ],
-              "answer": 1,
+              "answer": 2,
               "exp": "Specific and realistic."
             },
             {
               "q": "Why break large goals into steps?",
               "options": [
-                "It makes them harder",
-                "It makes them easier to achieve",
                 "It wastes time",
-                "It is unnecessary"
+                "It makes them easier to achieve",
+                "It is unnecessary",
+                "It makes them harder"
               ],
               "answer": 1,
               "exp": "It makes them easier to achieve."
@@ -4660,12 +4660,12 @@
             {
               "q": "What do clear goals do?",
               "options": [
-                "Create confusion",
                 "Turn hopes into actions",
-                "Stop progress",
-                "Only help adults"
+                "Create confusion",
+                "Only help adults",
+                "Stop progress"
               ],
-              "answer": 1,
+              "answer": 0,
               "exp": "Turn hopes into actions."
             }
           ]
@@ -4679,42 +4679,42 @@
             {
               "q": "How does the first week often feel?",
               "options": [
-                "Long and new",
                 "Short and familiar",
+                "Already finished by Monday",
                 "Exactly like junior school",
-                "Already finished by Monday"
+                "Long and new"
               ],
-              "answer": 0
+              "answer": 3
             },
             {
               "q": "What is a useful plan?",
               "options": [
-                "Arrive late and ask no one",
-                "Write the room numbers in a small book and arrive ten minutes early",
+                "Avoid the help desk",
                 "Memorise nothing about the rooms",
-                "Avoid the help desk"
+                "Arrive late and ask no one",
+                "Write the room numbers in a small book and arrive ten minutes early"
               ],
-              "answer": 1
+              "answer": 3
             },
             {
               "q": "Who can show you the way?",
               "options": [
-                "Only the head teacher in the office",
-                "No one at the school",
                 "Older students at the help desk",
-                "A bus driver outside town"
+                "A bus driver outside town",
+                "No one at the school",
+                "Only the head teacher in the office"
               ],
-              "answer": 2
+              "answer": 0
             },
             {
               "q": "How do most people feel by Friday?",
               "options": [
-                "More lost than on the first day",
-                "Ready to leave the school",
                 "Unsure where Friday is",
-                "Calmer than they did on Monday, once they know the route"
+                "Calmer than they did on Monday, once they know the route",
+                "More lost than on the first day",
+                "Ready to leave the school"
               ],
-              "answer": 3
+              "answer": 1
             }
           ]
         },
@@ -4727,42 +4727,42 @@
             {
               "q": "Why can writing slowly help?",
               "options": [
-                "You have to choose the key words instead of copying every sentence",
-                "You can copy every sentence faster",
+                "The phone types the notes for you",
                 "You no longer need any key words",
-                "The phone types the notes for you"
+                "You can copy every sentence faster",
+                "You have to choose the key words instead of copying every sentence"
               ],
-              "answer": 0
+              "answer": 3
             },
             {
               "q": "What can marks on the page do later?",
               "options": [
+                "Hide the meaning of the lesson",
                 "Replace all digital tools at once",
                 "Bring back the lesson more clearly than a long file",
-                "Hide the meaning of the lesson",
                 "Make the file longer"
               ],
-              "answer": 1
+              "answer": 2
             },
             {
               "q": "What is the advice after class?",
               "options": [
+                "Only take a photo of the board",
                 "Give up all digital tools",
-                "Never write anything by hand",
                 "Write a short page by hand, then keep a clearer copy if you need it",
-                "Only take a photo of the board"
+                "Never write anything by hand"
               ],
               "answer": 2
             },
             {
               "q": "How can you test the method?",
               "options": [
+                "See whether you can explain the page without looking",
                 "See whether the file is as long as possible",
-                "Count the number of phones in the class",
                 "Copy every sentence again",
-                "See whether you can explain the page without looking"
+                "Count the number of phones in the class"
               ],
-              "answer": 3
+              "answer": 0
             }
           ]
         },
@@ -4775,42 +4775,42 @@
             {
               "q": "Where is the bookstore?",
               "options": [
+                "On the top floor of the hospital",
                 "Near the station",
-                "Inside the school library",
                 "Far from any street",
-                "On the top floor of the hospital"
+                "Inside the school library"
               ],
-              "answer": 0
+              "answer": 1
             },
             {
               "q": "What should Lin do if she is unsure?",
               "options": [
                 "Guess the shelf at once",
                 "Check the computer first, and not guess",
-                "Ask the customer to leave",
-                "Hide the title"
+                "Hide the title",
+                "Ask the customer to leave"
               ],
               "answer": 1
             },
             {
               "q": "What has she learned after one month?",
               "options": [
-                "To stop being patient",
-                "To avoid the computer",
                 "To find most school titles quickly and to speak more clearly with strangers",
-                "To leave the job before exams"
+                "To stop being patient",
+                "To leave the job before exams",
+                "To avoid the computer"
               ],
-              "answer": 2
+              "answer": 0
             },
             {
               "q": "Until when will she keep the job?",
               "options": [
                 "Until the store closes at noon",
                 "For only one Saturday",
-                "Until the manager guesses a title",
-                "Until the summer exams begin"
+                "Until the summer exams begin",
+                "Until the manager guesses a title"
               ],
-              "answer": 3
+              "answer": 2
             }
           ]
         },
@@ -4823,42 +4823,42 @@
             {
               "q": "How long should the presentation be?",
               "options": [
-                "Three minutes",
                 "Thirty minutes",
-                "A full lesson",
-                "As long as a complete script"
+                "As long as a complete script",
+                "Three minutes",
+                "A full lesson"
               ],
-              "answer": 0
+              "answer": 2
             },
             {
               "q": "What did the teacher say a good talk has?",
               "options": [
                 "Many ideas and no ending",
-                "One clear idea, two examples and a short ending",
+                "A full script and no audience",
                 "Only a long paper with no examples",
-                "A full script and no audience"
+                "One clear idea, two examples and a short ending"
               ],
-              "answer": 1
+              "answer": 3
             },
             {
               "q": "What is allowed during the talk?",
               "options": [
-                "A full script and no notes",
-                "No practice at home",
                 "Notes on a small card, but not a full script",
-                "Looking only at the paper"
+                "A full script and no notes",
+                "Looking only at the paper",
+                "No practice at home"
               ],
-              "answer": 2
+              "answer": 0
             },
             {
               "q": "Why is the first round in groups of four?",
               "options": [
-                "So that no one has to speak",
-                "So that talks can last thirty minutes",
+                "So that each person can receive kind advice before the whole class listens",
                 "So that scripts are required",
-                "So that each person can receive kind advice before the whole class listens"
+                "So that no one has to speak",
+                "So that talks can last thirty minutes"
               ],
-              "answer": 3
+              "answer": 0
             }
           ]
         },
@@ -4871,42 +4871,42 @@
             {
               "q": "What did the group use on the walk?",
               "options": [
-                "A paper map and no phones",
-                "Only phones and no map",
                 "A bus ticket through the new town",
+                "Only phones and no map",
+                "A paper map and no phones",
                 "A clock with no map"
               ],
-              "answer": 0
+              "answer": 2
             },
             {
               "q": "What mistake did they make at first?",
               "options": [
-                "They reached the museum too early",
-                "They turned the map the wrong way and walked toward the river",
+                "They left the map at school",
                 "They refused to look at the bridge",
-                "They left the map at school"
+                "They turned the map the wrong way and walked toward the river",
+                "They reached the museum too early"
               ],
-              "answer": 1
+              "answer": 2
             },
             {
               "q": "When did the route become easier?",
               "options": [
                 "After they put the map away",
-                "After they opened their phones",
+                "After the museum closed",
                 "After they matched the bridge on the paper with the real bridge",
-                "After the museum closed"
+                "After they opened their phones"
               ],
               "answer": 2
             },
             {
               "q": "What did the teacher say about a map?",
               "options": [
-                "It is useful only when you ignore the streets",
                 "It cannot correct any error",
-                "It should replace all landmarks",
-                "It is only useful if you keep looking at the world as well"
+                "It is useful only when you ignore the streets",
+                "It is only useful if you keep looking at the world as well",
+                "It should replace all landmarks"
               ],
-              "answer": 3
+              "answer": 2
             }
           ]
         },
@@ -4919,42 +4919,42 @@
             {
               "q": "When does Maya do her weekly review?",
               "options": [
-                "Every Sunday evening, for thirty minutes",
-                "Every morning before class, for three hours",
                 "Only on the night before a test",
+                "Every morning before class, for three hours",
+                "Every Sunday evening, for thirty minutes",
                 "Once a term for a whole book"
               ],
-              "answer": 0
+              "answer": 2
             },
             {
               "q": "What does she write?",
               "options": [
                 "A whole book of notes",
-                "Three questions for the next seven days",
+                "Nothing, she only reads",
                 "The full test paper",
-                "Nothing, she only reads"
+                "Three questions for the next seven days"
               ],
-              "answer": 1
+              "answer": 3
             },
             {
               "q": "What is the goal of the half hour?",
               "options": [
-                "To learn a whole book at once",
-                "To guess the next test paper",
                 "To see what is weak while there is still time to practise",
-                "To stop practising for a term"
+                "To stop practising for a term",
+                "To guess the next test paper",
+                "To learn a whole book at once"
               ],
-              "answer": 2
+              "answer": 0
             },
             {
               "q": "Where does she keep the reviews now?",
               "options": [
-                "On separate scraps that she throws away",
                 "Only on her phone calendar",
-                "In the teachers office",
-                "In one notebook"
+                "In one notebook",
+                "On separate scraps that she throws away",
+                "In the teachers office"
               ],
-              "answer": 3
+              "answer": 1
             }
           ]
         },
@@ -4967,39 +4967,39 @@
             {
               "q": "When does the debate club meet?",
               "options": [
-                "On Wednesday after the last class",
                 "On Sunday morning before school",
                 "Only during the summer holiday",
-                "On the morning of a contest"
+                "On the morning of a contest",
+                "On Wednesday after the last class"
               ],
-              "answer": 0
+              "answer": 3
             },
             {
               "q": "What do new members do in the first two weeks?",
               "options": [
-                "They must speak in every debate",
-                "They listen, take notes, and help to keep time",
                 "They leave after one minute",
-                "They choose the contest judges"
+                "They choose the contest judges",
+                "They must speak in every debate",
+                "They listen, take notes, and help to keep time"
               ],
-              "answer": 1
+              "answer": 3
             },
             {
               "q": "What does the coach care about more?",
               "options": [
-                "A loud voice with no reasons",
-                "Winning without any points",
                 "Clear reasons, more than a loud voice",
-                "Homework that is always longer"
+                "Homework that is always longer",
+                "A loud voice with no reasons",
+                "Winning without any points"
               ],
-              "answer": 2
+              "answer": 0
             },
             {
               "q": "Why did a quiet student win a local contest?",
               "options": [
-                "Because she spoke the loudest",
-                "Because she refused to listen",
                 "Because she had not joined the club",
+                "Because she refused to listen",
+                "Because she spoke the loudest",
                 "Because her points were easy to follow"
               ],
               "answer": 3
@@ -5015,42 +5015,42 @@
             {
               "q": "Why does staying up very late often fail, according to the class?",
               "options": [
-                "The brain needs sleep to store what was learned, and a short night hurts attention",
                 "Sleep has no effect on memory or attention",
+                "The brain needs sleep to store what was learned, and a short night hurts attention",
                 "A short night always improves a test score",
                 "Review should never stop at a set time"
-              ],
-              "answer": 0
-            },
-            {
-              "q": "What is a better plan?",
-              "options": [
-                "Read every page all night and skip sleep",
-                "Stop review at a set time, sleep enough, and do a short review in the morning",
-                "Invent a chapter that was never opened",
-                "Avoid any morning review"
               ],
               "answer": 1
             },
             {
+              "q": "What is a better plan?",
+              "options": [
+                "Stop review at a set time, sleep enough, and do a short review in the morning",
+                "Avoid any morning review",
+                "Invent a chapter that was never opened",
+                "Read every page all night and skip sleep"
+              ],
+              "answer": 0
+            },
+            {
               "q": "What can sleep not do?",
               "options": [
-                "Protect work you have already done",
-                "Help store what was learned during the day",
                 "Invent a chapter that you never opened",
+                "Help store what was learned during the day",
+                "Protect work you have already done",
                 "Support attention in the morning"
               ],
-              "answer": 2
+              "answer": 0
             },
             {
               "q": "What did the teacher ask the class to do?",
               "options": [
                 "Stay up late for every test",
+                "Try the better plan for the next exam week",
                 "Close all books a week early",
-                "Skip the health class",
-                "Try the better plan for the next exam week"
+                "Skip the health class"
               ],
-              "answer": 3
+              "answer": 1
             }
           ]
         },
@@ -5063,38 +5063,38 @@
             {
               "q": "How many elective courses must each student choose?",
               "options": [
-                "One",
                 "Four, one from every subject",
+                "One",
                 "None, the school decides later",
                 "As many as they can list"
               ],
-              "answer": 0
+              "answer": 1
             },
             {
               "q": "What did the counsellor say you should choose?",
               "options": [
-                "Only the course that looks most impressive",
-                "A course you will actually attend, not only one that looks impressive",
                 "A course you plan to miss",
-                "Any course after the last Friday"
+                "A course you will actually attend, not only one that looks impressive",
+                "Any course after the last Friday",
+                "Only the course that looks most impressive"
               ],
               "answer": 1
             },
             {
               "q": "When can students change a course?",
               "options": [
-                "At any time in the term",
-                "Only after the last Friday",
+                "Never, even in the first week",
                 "Once in the first two weeks, but not later",
-                "Never, even in the first week"
+                "Only after the last Friday",
+                "At any time in the term"
               ],
-              "answer": 2
+              "answer": 1
             },
             {
               "q": "When must the form be handed in?",
               "options": [
-                "After the second term ends",
                 "On the first day of last year",
+                "After the second term ends",
                 "Whenever a teacher is absent",
                 "Before the last Friday of this month"
               ],
@@ -5111,9 +5111,9 @@
           "audio": "significant",
           "options": [
             "significant",
+            "simple",
             "signature",
-            "similar",
-            "simple"
+            "similar"
           ],
           "answer": 0,
           "exp": "significant 重要的"
@@ -5123,9 +5123,9 @@
           "audio": "contribute",
           "options": [
             "contribute",
+            "continue",
             "contribution",
-            "control",
-            "continue"
+            "control"
           ],
           "answer": 0,
           "exp": "contribute 贡献"
@@ -5134,12 +5134,12 @@
           "id": "smw3",
           "audio": "perspective",
           "options": [
-            "perspective",
             "perfect",
+            "perhaps",
             "perform",
-            "perhaps"
+            "perspective"
           ],
-          "answer": 0,
+          "answer": 3,
           "exp": "perspective 视角"
         },
         {
@@ -5147,8 +5147,8 @@
           "audio": "sustainable",
           "options": [
             "sustainable",
-            "sustain",
             "suspect",
+            "sustain",
             "success"
           ],
           "answer": 0,
@@ -5170,72 +5170,72 @@
           "id": "smw6",
           "audio": "analysis",
           "options": [
-            "analysis",
-            "analyse",
             "animal",
-            "annual"
+            "analysis",
+            "annual",
+            "analyse"
           ],
-          "answer": 0,
+          "answer": 1,
           "exp": "analysis 分析"
         },
         {
           "id": "smw7",
           "audio": "strategy",
           "options": [
-            "strategy",
+            "stress",
             "strange",
             "strength",
-            "stress"
+            "strategy"
           ],
-          "answer": 0,
+          "answer": 3,
           "exp": "strategy 策略"
         },
         {
           "id": "smw8",
           "audio": "evaluate",
           "options": [
-            "evaluate",
-            "evaluation",
             "value",
-            "evolve"
+            "evolve",
+            "evaluate",
+            "evaluation"
           ],
-          "answer": 0,
+          "answer": 2,
           "exp": "evaluate 评估"
         },
         {
           "id": "smw9",
           "audio": "maintain",
           "options": [
+            "mountain",
             "maintain",
             "main",
-            "mountain",
             "mention"
           ],
-          "answer": 0,
+          "answer": 1,
           "exp": "maintain 维持"
         },
         {
           "id": "smw10",
           "audio": "require",
           "options": [
-            "require",
+            "enquire",
             "request",
             "acquire",
-            "enquire"
+            "require"
           ],
-          "answer": 0,
+          "answer": 3,
           "exp": "require 需要"
         },
         {
           "id": "smw11",
           "audio": "comprehensive",
           "options": [
-            "comprehensive",
-            "comprehension",
             "compose",
-            "compact"
+            "compact",
+            "comprehension",
+            "comprehensive"
           ],
-          "answer": 0,
+          "answer": 3,
           "exp": "comprehensive 全面的"
         },
         {
@@ -5243,32 +5243,32 @@
           "audio": "considerable",
           "options": [
             "considerate",
+            "considering",
             "considerable",
-            "considered",
-            "considering"
+            "considered"
           ],
-          "answer": 1,
+          "answer": 2,
           "exp": "considerable 相当大的"
         },
         {
           "id": "smw13",
           "audio": "continuous",
           "options": [
-            "continual",
-            "continue",
+            "continuity",
             "continuous",
-            "continuity"
+            "continue",
+            "continual"
           ],
-          "answer": 2,
+          "answer": 1,
           "exp": "continuous 连续不断的"
         },
         {
           "id": "smw14",
           "audio": "historic",
           "options": [
-            "historical",
-            "history",
             "historian",
+            "history",
+            "historical",
             "historic"
           ],
           "answer": 3,
@@ -5278,48 +5278,48 @@
           "id": "smw15",
           "audio": "classic",
           "options": [
-            "classic",
-            "classical",
             "class",
-            "classify"
+            "classic",
+            "classify",
+            "classical"
           ],
-          "answer": 0,
+          "answer": 1,
           "exp": "classic 经典的"
         },
         {
           "id": "smw16",
           "audio": "effectiveness",
           "options": [
+            "efficient",
             "efficiency",
             "effectiveness",
-            "efficient",
             "effective"
           ],
-          "answer": 1,
+          "answer": 2,
           "exp": "effectiveness 有效性"
         },
         {
           "id": "smw17",
           "audio": "distinctive",
           "options": [
-            "distinct",
+            "district",
             "distinction",
-            "distinctive",
-            "district"
+            "distinct",
+            "distinctive"
           ],
-          "answer": 2,
+          "answer": 3,
           "exp": "distinctive 独特的"
         },
         {
           "id": "smw18",
           "audio": "substantial",
           "options": [
-            "substance",
             "substitute",
+            "substantial",
             "subtle",
-            "substantial"
+            "substance"
           ],
-          "answer": 3,
+          "answer": 1,
           "exp": "substantial 大量的"
         },
         {
@@ -5327,9 +5327,9 @@
           "audio": "implicit",
           "options": [
             "implicit",
-            "explicit",
+            "imply",
             "illicit",
-            "imply"
+            "explicit"
           ],
           "answer": 0,
           "exp": "implicit 含蓄的"
@@ -5338,12 +5338,12 @@
           "id": "smw20",
           "audio": "successive",
           "options": [
+            "successor",
             "successful",
             "successive",
-            "successor",
             "succession"
           ],
-          "answer": 1,
+          "answer": 2,
           "exp": "successive 连续的"
         },
         {
@@ -5363,11 +5363,11 @@
           "audio": "perceive",
           "options": [
             "receive",
-            "conceive",
             "deceive",
-            "perceive"
+            "perceive",
+            "conceive"
           ],
-          "answer": 3,
+          "answer": 2,
           "exp": "perceive 察觉"
         },
         {
@@ -5375,9 +5375,9 @@
           "audio": "subsequent",
           "options": [
             "subsequent",
+            "subsequently",
             "consequent",
-            "sequence",
-            "subsequently"
+            "sequence"
           ],
           "answer": 0,
           "exp": "subsequent 随后的"
@@ -5386,12 +5386,12 @@
           "id": "smw24",
           "audio": "recommend",
           "options": [
-            "commend",
-            "recommend",
             "reconsider",
-            "recount"
+            "commend",
+            "recount",
+            "recommend"
           ],
-          "answer": 1,
+          "answer": 3,
           "exp": "recommend 推荐"
         },
         {
@@ -5399,11 +5399,11 @@
           "audio": "illustrate",
           "options": [
             "illuminate",
-            "illiterate",
             "illustrate",
+            "illiterate",
             "illustrator"
           ],
-          "answer": 2,
+          "answer": 1,
           "exp": "illustrate 说明"
         },
         {
@@ -5411,11 +5411,11 @@
           "audio": "emphasize",
           "options": [
             "emphasis",
-            "empathize",
             "employ",
-            "emphasize"
+            "emphasize",
+            "empathize"
           ],
-          "answer": 3,
+          "answer": 2,
           "exp": "emphasize 强调"
         },
         {
@@ -5423,9 +5423,9 @@
           "audio": "adequate",
           "options": [
             "adequate",
-            "advocate",
             "allocate",
-            "educate"
+            "educate",
+            "advocate"
           ],
           "answer": 0,
           "exp": "adequate 足够的"
@@ -5434,24 +5434,24 @@
           "id": "smw28",
           "audio": "precious",
           "options": [
-            "precise",
             "precious",
-            "previous",
-            "process"
+            "precise",
+            "process",
+            "previous"
           ],
-          "answer": 1,
+          "answer": 0,
           "exp": "precious 珍贵的"
         },
         {
           "id": "smw29",
           "audio": "deceive",
           "options": [
-            "receive",
-            "perceive",
+            "conceit",
             "deceive",
-            "conceit"
+            "receive",
+            "perceive"
           ],
-          "answer": 2,
+          "answer": 1,
           "exp": "deceive 欺骗"
         },
         {
@@ -5459,11 +5459,11 @@
           "audio": "occupy",
           "options": [
             "occur",
-            "occupation",
+            "occupy",
             "accurate",
-            "occupy"
+            "occupation"
           ],
-          "answer": 3,
+          "answer": 1,
           "exp": "occupy 占用"
         }
       ],
@@ -6009,10 +6009,10 @@
             {
               "q": "What is active recall?",
               "options": [
-                "Only rereading",
+                "Listening passively",
                 "Trying to remember without looking",
-                "Highlighting only",
-                "Listening passively"
+                "Only rereading",
+                "Highlighting only"
               ],
               "answer": 1,
               "exp": "Trying to remember without looking."
@@ -6020,9 +6020,9 @@
             {
               "q": "What strengthens memory?",
               "options": [
-                "Passive review only",
-                "The effort of trying to recall",
                 "Avoiding practice",
+                "The effort of trying to recall",
+                "Passive review only",
                 "Only cramming"
               ],
               "answer": 1,
@@ -6031,12 +6031,12 @@
             {
               "q": "What combination is recommended?",
               "options": [
-                "Only one method",
-                "Active recall with spaced repetition",
                 "No review",
-                "Only group study"
+                "Only group study",
+                "Active recall with spaced repetition",
+                "Only one method"
               ],
-              "answer": 1,
+              "answer": 2,
               "exp": "Active recall with spaced repetition."
             }
           ]
@@ -6050,39 +6050,39 @@
             {
               "q": "What is the short rule of the media class?",
               "options": [
-                "Check the source first",
-                "Share a story as soon as it is striking",
                 "Ignore the date of every photo",
+                "Share a story as soon as it is striking",
+                "Check the source first",
                 "Trust every post about a local river"
-              ],
-              "answer": 0
-            },
-            {
-              "q": "What should you do with a story that has no name and no date?",
-              "options": [
-                "Treat it as automatically true",
-                "Do not pass it on as if it were certain",
-                "Delete all reliable sites",
-                "Add a false date and share it"
-              ],
-              "answer": 1
-            },
-            {
-              "q": "What was wrong with the flood photo last week?",
-              "options": [
-                "It was taken that morning by the teacher",
-                "It had a clear name and date from this town",
-                "It was months old and came from another country",
-                "It could not be found online"
               ],
               "answer": 2
             },
             {
+              "q": "What should you do with a story that has no name and no date?",
+              "options": [
+                "Delete all reliable sites",
+                "Treat it as automatically true",
+                "Add a false date and share it",
+                "Do not pass it on as if it were certain"
+              ],
+              "answer": 3
+            },
+            {
+              "q": "What was wrong with the flood photo last week?",
+              "options": [
+                "It could not be found online",
+                "It had a clear name and date from this town",
+                "It was taken that morning by the teacher",
+                "It was months old and came from another country"
+              ],
+              "answer": 3
+            },
+            {
               "q": "How did two students find the original page?",
               "options": [
-                "By waiting a month without searching",
-                "By asking the river to name the writer",
                 "By ignoring all sentences in the text",
+                "By asking the river to name the writer",
+                "By waiting a month without searching",
                 "By searching for a sentence from the text, in five minutes"
               ],
               "answer": 3
@@ -6098,42 +6098,42 @@
             {
               "q": "What was the first claim based on?",
               "options": [
+                "A test with no students at all",
                 "A survey of twenty people in one class",
-                "A survey of four hundred students from ten schools",
                 "A city vote among all readers",
-                "A test with no students at all"
-              ],
-              "answer": 0
-            },
-            {
-              "q": "Why was the first sample a weak basis for a city-wide claim?",
-              "options": [
-                "Twenty people are always enough for a city",
-                "Twenty students in one class cannot stand for a whole city, especially after a long test",
-                "The class had never taken a test",
-                "Headlines never use sample size"
+                "A survey of four hundred students from ten schools"
               ],
               "answer": 1
             },
             {
+              "q": "Why was the first sample a weak basis for a city-wide claim?",
+              "options": [
+                "Twenty students in one class cannot stand for a whole city, especially after a long test",
+                "Twenty people are always enough for a city",
+                "The class had never taken a test",
+                "Headlines never use sample size"
+              ],
+              "answer": 0
+            },
+            {
               "q": "What happened in the later survey?",
               "options": [
+                "Four hundred students from ten schools gave a more mixed result",
                 "Twenty more people in the same class agreed completely",
                 "The city banned all surveys",
-                "Four hundred students from ten schools gave a more mixed result",
                 "Everyone said they disliked books"
               ],
-              "answer": 2
+              "answer": 0
             },
             {
               "q": "What do the students now write next to every claim they discuss?",
               "options": [
-                "The name of a headline writer only",
-                "Nothing about the sample",
                 "A rule that surveys are useless",
-                "The sample size"
+                "The sample size",
+                "The name of a headline writer only",
+                "Nothing about the sample"
               ],
-              "answer": 3
+              "answer": 1
             }
           ]
         },
@@ -6146,32 +6146,32 @@
             {
               "q": "What can a low price hide, according to the project?",
               "options": [
-                "Low pay for workers, dirty water from factories, and fuel use in long transport",
-                "A higher price at the till",
                 "A free repair for every shirt",
-                "A shorter distance with no fuel use"
+                "A shorter distance with no fuel use",
+                "A higher price at the till",
+                "Low pay for workers, dirty water from factories, and fuel use in long transport"
               ],
-              "answer": 0
+              "answer": 3
             },
             {
               "q": "What was the class asked to do?",
               "options": [
                 "Stop buying all clothes at once",
-                "Look at how often they replace a shirt that could be repaired, and learn brands that publish a clearer report",
                 "Ignore every report from a brand",
-                "Throw away bags of clothes on Saturday"
+                "Throw away bags of clothes on Saturday",
+                "Look at how often they replace a shirt that could be repaired, and learn brands that publish a clearer report"
               ],
-              "answer": 1
+              "answer": 3
             },
             {
               "q": "What does the local repair shop offer?",
               "options": [
-                "Free new shirts for every student",
-                "A higher price only for students",
+                "No repairs at the weekend",
                 "A student price on Saturday morning",
-                "No repairs at the weekend"
+                "Free new shirts for every student",
+                "A higher price only for students"
               ],
-              "answer": 2
+              "answer": 1
             },
             {
               "q": "What have several students already done?",
@@ -6195,21 +6195,21 @@
               "q": "How long did the power cut last?",
               "options": [
                 "Fourteen hours",
-                "Fourteen days",
+                "Only a few minutes",
                 "Two years",
-                "Only a few minutes"
+                "Fourteen days"
               ],
               "answer": 0
             },
             {
               "q": "What happened to mobile networks by the evening?",
               "options": [
-                "They became faster than usual",
-                "They became slow",
                 "They started the lifts again",
-                "They cooled the food in shops"
+                "They cooled the food in shops",
+                "They became faster than usual",
+                "They became slow"
               ],
-              "answer": 1
+              "answer": 3
             },
             {
               "q": "What did the paper find most useful after the storm?",
@@ -6224,12 +6224,12 @@
             {
               "q": "What will the city do now?",
               "options": [
-                "Stop all radios on the street",
+                "Test the warning system twice a year and mark buildings that need extra help",
                 "Wait until officials arrive before anyone acts",
-                "Remove lamps from small stores",
-                "Test the warning system twice a year and mark buildings that need extra help"
+                "Stop all radios on the street",
+                "Remove lamps from small stores"
               ],
-              "answer": 3
+              "answer": 0
             }
           ]
         },
@@ -6242,28 +6242,28 @@
             {
               "q": "How did the two internships differ?",
               "options": [
-                "One paid a small daily amount and had clear tasks; the other was unpaid, with late days and little training",
-                "Both paid well and ended at noon",
                 "Both were unpaid with a clear list of tasks",
+                "Both paid well and ended at noon",
+                "One paid a small daily amount and had clear tasks; the other was unpaid, with late days and little training",
                 "Neither student went to a company"
               ],
-              "answer": 0
+              "answer": 2
             },
             {
               "q": "What problem did the unpaid student face?",
               "options": [
+                "She refused all help from her family",
                 "She was paid too much for the month",
                 "She learned less than she had hoped and needed money from her family to travel",
-                "She received too much training",
-                "She refused all help from her family"
+                "She received too much training"
               ],
-              "answer": 1
+              "answer": 2
             },
             {
               "q": "What test did the career teacher suggest?",
               "options": [
-                "Any unpaid post is automatically fair",
                 "Carrying boxes and buying coffee is enough training",
+                "Any unpaid post is automatically fair",
                 "A useful internship should teach you something and should not treat you as free labour",
                 "You should never ask for a change"
               ],
@@ -6272,9 +6272,9 @@
             {
               "q": "What is pay a sign of, according to the talk?",
               "options": [
-                "That the work cannot teach anything",
-                "That late days are required",
                 "That families must always pay for travel",
+                "That late days are required",
+                "That the work cannot teach anything",
                 "That the work is valued, though a paid post is not automatically fair"
               ],
               "answer": 3
@@ -6290,42 +6290,42 @@
             {
               "q": "Why does overnight cramming often fail?",
               "options": [
-                "The brain can hold only a limited amount of new material in a short time, and fatigue weakens it by morning",
-                "The brain holds more when it is more tired",
+                "Practice tests are not allowed",
                 "A whole book is easier in one sitting than over two weeks",
-                "Practice tests are not allowed"
+                "The brain can hold only a limited amount of new material in a short time, and fatigue weakens it by morning",
+                "The brain holds more when it is more tired"
               ],
-              "answer": 0
+              "answer": 2
             },
             {
               "q": "Who remembered more names and dates in the practice test?",
               "options": [
-                "Students who read the whole book only the night before",
-                "Students who had spread the pages over two weeks and tested themselves without looking",
+                "Students who skipped all earlier work",
                 "Students who never tested themselves",
-                "Students who skipped all earlier work"
+                "Students who had spread the pages over two weeks and tested themselves without looking",
+                "Students who read the whole book only the night before"
               ],
-              "answer": 1
+              "answer": 2
             },
             {
               "q": "What did the talk say about a short review the night before?",
               "options": [
                 "It is always useless",
+                "It must last the whole night",
                 "It should replace all earlier work",
-                "It should come after earlier work, not instead of it",
-                "It must last the whole night"
+                "It should come after earlier work, not instead of it"
               ],
-              "answer": 2
+              "answer": 3
             },
             {
               "q": "What have several students now made?",
               "options": [
+                "A calendar that places a little history practice on four evenings, not one",
                 "A plan to read the whole book in one night",
                 "A rule against all practice tests",
-                "A talk that cancels the calendar",
-                "A calendar that places a little history practice on four evenings, not one"
+                "A talk that cancels the calendar"
               ],
-              "answer": 3
+              "answer": 0
             }
           ]
         },
@@ -6348,28 +6348,28 @@
             {
               "q": "What made the drop faster in the first week?",
               "options": [
-                "Schools opened more fountains",
                 "Some families filled large tanks early",
+                "The rains returned in the first week",
                 "The hotline repaired every pipe on day one",
-                "The rains returned in the first week"
+                "Schools opened more fountains"
               ],
-              "answer": 1
+              "answer": 0
             },
             {
               "q": "What did the public meeting agree to do?",
               "options": [
-                "Ask every family to fill more tanks",
-                "Close the reservoir for twenty years",
+                "Stop all explanations of the rules",
                 "Give each street advice and open a hotline for broken pipes",
-                "Stop all explanations of the rules"
+                "Ask every family to fill more tanks",
+                "Close the reservoir for twenty years"
               ],
-              "answer": 2
+              "answer": 1
             },
             {
               "q": "Why did the city keep the hotline after the rains returned?",
               "options": [
-                "Because the rains never returned",
                 "Because schools needed more fountains",
+                "Because the rains never returned",
                 "Because the rules should stay secret",
                 "Because leaks should not wait for the next dry year"
               ],
@@ -6386,42 +6386,42 @@
             {
               "q": "What did the metal bars on some benches do?",
               "options": [
-                "They stopped anyone from lying down",
-                "They made the benches longer for prams",
+                "They invited people to sleep at night",
                 "They added lights for the night patrol",
-                "They invited people to sleep at night"
+                "They stopped anyone from lying down",
+                "They made the benches longer for prams"
               ],
-              "answer": 0
+              "answer": 2
             },
             {
               "q": "What did the survey of a hundred users find?",
               "options": [
-                "Shopkeepers had more places to lie down",
+                "Night complaints had already disappeared",
                 "Older people and parents with prams had fewer places to rest during the day",
                 "No one used the square in the afternoon",
-                "Night complaints had already disappeared"
+                "Shopkeepers had more places to lie down"
               ],
               "answer": 1
             },
             {
               "q": "What mixed plan did the class suggest?",
               "options": [
-                "Add bars to every bench and remove the lights",
                 "Close the square after lunch",
                 "Keep lights and a night patrol, and provide some benches without bars near the trees",
+                "Add bars to every bench and remove the lights",
                 "Cancel the public meeting in May"
               ],
-              "answer": 2
+              "answer": 1
             },
             {
               "q": "How will the council judge the plan?",
               "options": [
-                "It will judge it after one night only",
+                "It will try it for six months and then count night complaints and hours of daytime use",
                 "It will ignore daytime use completely",
                 "It will hide the report from the public",
-                "It will try it for six months and then count night complaints and hours of daytime use"
+                "It will judge it after one night only"
               ],
-              "answer": 3
+              "answer": 0
             }
           ]
         },
@@ -6434,42 +6434,42 @@
             {
               "q": "What problem can group projects create?",
               "options": [
-                "They can grow until a few students carry most of the work",
                 "They always share work equally",
+                "They can grow until a few students carry most of the work",
                 "They never teach cooperation",
                 "They remove all music exams"
-              ],
-              "answer": 0
-            },
-            {
-              "q": "Why did Chen refuse a third group in the same week?",
-              "options": [
-                "She never wanted to help anyone",
-                "She already had a lab report and a music exam",
-                "The teacher forbade all group work",
-                "The group had already finished"
               ],
               "answer": 1
             },
             {
+              "q": "Why did Chen refuse a third group in the same week?",
+              "options": [
+                "She already had a lab report and a music exam",
+                "The group had already finished",
+                "She never wanted to help anyone",
+                "The teacher forbade all group work"
+              ],
+              "answer": 0
+            },
+            {
               "q": "What did the teacher say about a clear no?",
               "options": [
-                "It is always ruder than a weak yes",
-                "It should be hidden until the deadline",
                 "It is fairer than a late and weak yes",
-                "It means the student is not part of the class"
+                "It should be hidden until the deadline",
+                "It means the student is not part of the class",
+                "It is always ruder than a weak yes"
               ],
-              "answer": 2
+              "answer": 0
             },
             {
               "q": "What is Chen's short rule now?",
               "options": [
                 "Accept every task in the same week",
+                "Do not accept a task if you cannot name the hours you will give it",
                 "Let quieter students carry all the work",
-                "Never explain a decision to a group",
-                "Do not accept a task if you cannot name the hours you will give it"
+                "Never explain a decision to a group"
               ],
-              "answer": 3
+              "answer": 1
             }
           ]
         }
@@ -6481,24 +6481,24 @@
           "id": "shw1",
           "audio": "intellectual",
           "options": [
+            "interest",
             "intellectual",
             "intelligent",
-            "interest",
             "internal"
           ],
-          "answer": 0,
+          "answer": 1,
           "exp": "intellectual 智力的"
         },
         {
           "id": "shw2",
           "audio": "infrastructure",
           "options": [
-            "infrastructure",
-            "instruction",
             "instrument",
-            "international"
+            "international",
+            "instruction",
+            "infrastructure"
           ],
-          "answer": 0,
+          "answer": 3,
           "exp": "infrastructure 基础设施"
         },
         {
@@ -6506,8 +6506,8 @@
           "audio": "sustainability",
           "options": [
             "sustainability",
-            "sustainable",
             "substance",
+            "sustainable",
             "substitute"
           ],
           "answer": 0,
@@ -6517,12 +6517,12 @@
           "id": "shw4",
           "audio": "correlation",
           "options": [
-            "correlation",
-            "relation",
             "correction",
-            "collection"
+            "collection",
+            "relation",
+            "correlation"
           ],
-          "answer": 0,
+          "answer": 3,
           "exp": "correlation 相关"
         },
         {
@@ -6530,9 +6530,9 @@
           "audio": "causation",
           "options": [
             "causation",
+            "creation",
             "cause",
-            "caution",
-            "creation"
+            "caution"
           ],
           "answer": 0,
           "exp": "causation 因果"
@@ -6541,72 +6541,72 @@
           "id": "shw6",
           "audio": "algorithm",
           "options": [
-            "algorithm",
-            "algebra",
             "allegory",
-            "allergy"
+            "allergy",
+            "algebra",
+            "algorithm"
           ],
-          "answer": 0,
+          "answer": 3,
           "exp": "algorithm 算法"
         },
         {
           "id": "shw7",
           "audio": "resilience",
           "options": [
-            "resilience",
             "resistance",
-            "residence",
-            "resonance"
+            "resilience",
+            "resonance",
+            "residence"
           ],
-          "answer": 0,
+          "answer": 1,
           "exp": "resilience 韧性"
         },
         {
           "id": "shw8",
           "audio": "biodiversity",
           "options": [
-            "biodiversity",
-            "biology",
             "biography",
-            "diversity"
+            "diversity",
+            "biodiversity",
+            "biology"
           ],
-          "answer": 0,
+          "answer": 2,
           "exp": "biodiversity 生物多样性"
         },
         {
           "id": "shw9",
           "audio": "inference",
           "options": [
-            "inference",
             "interference",
+            "inference",
             "reference",
             "preference"
           ],
-          "answer": 0,
+          "answer": 1,
           "exp": "inference 推断"
         },
         {
           "id": "shw10",
           "audio": "phenomenon",
           "options": [
+            "philanthropy",
             "phenomena",
-            "phenomenon",
             "phenomenal",
-            "philanthropy"
+            "phenomenon"
           ],
-          "answer": 1,
+          "answer": 3,
           "exp": "phenomenon 现象"
         },
         {
           "id": "shw11",
           "audio": "hypothesis",
           "options": [
-            "hypotheses",
             "hypothetical",
             "hypothesis",
+            "hypotheses",
             "hypocrisy"
           ],
-          "answer": 2,
+          "answer": 1,
           "exp": "hypothesis 假设"
         },
         {
@@ -6615,22 +6615,22 @@
           "options": [
             "criteria",
             "critic",
-            "critical",
-            "criterion"
+            "criterion",
+            "critical"
           ],
-          "answer": 3,
+          "answer": 2,
           "exp": "criterion 标准（单数）"
         },
         {
           "id": "shw13",
           "audio": "cumulative",
           "options": [
-            "cumulative",
-            "accumulative",
             "accumulate",
+            "accumulative",
+            "cumulative",
             "community"
           ],
-          "answer": 0,
+          "answer": 2,
           "exp": "cumulative 累积的"
         },
         {
@@ -6638,23 +6638,23 @@
           "audio": "qualitative",
           "options": [
             "quantitative",
-            "qualitative",
             "quality",
+            "qualitative",
             "quantity"
           ],
-          "answer": 1,
+          "answer": 2,
           "exp": "qualitative 定性的"
         },
         {
           "id": "shw15",
           "audio": "contemporary",
           "options": [
-            "temporary",
-            "contemplative",
             "contemporary",
-            "contempt"
+            "contemplative",
+            "contempt",
+            "temporary"
           ],
-          "answer": 2,
+          "answer": 0,
           "exp": "contemporary 同时代的"
         },
         {
@@ -6673,12 +6673,12 @@
           "id": "shw17",
           "audio": "ambiguous",
           "options": [
-            "ambiguous",
             "ambitious",
             "amphibious",
-            "ambiguity"
+            "ambiguity",
+            "ambiguous"
           ],
-          "answer": 0,
+          "answer": 3,
           "exp": "ambiguous 模棱两可的"
         },
         {
@@ -6686,57 +6686,57 @@
           "audio": "pragmatic",
           "options": [
             "practical",
-            "pragmatic",
             "practice",
+            "pragmatic",
             "practised"
           ],
-          "answer": 1,
+          "answer": 2,
           "exp": "pragmatic 务实的"
         },
         {
           "id": "shw19",
           "audio": "empirical",
           "options": [
-            "imperial",
-            "ethereal",
+            "analytical",
             "empirical",
-            "analytical"
+            "ethereal",
+            "imperial"
           ],
-          "answer": 2,
+          "answer": 1,
           "exp": "empirical 实证的"
         },
         {
           "id": "shw20",
           "audio": "coherent",
           "options": [
-            "cohesive",
             "inherent",
+            "coherent",
             "adhesive",
-            "coherent"
+            "cohesive"
           ],
-          "answer": 3,
+          "answer": 1,
           "exp": "coherent 连贯的"
         },
         {
           "id": "shw21",
           "audio": "analogous",
           "options": [
-            "analogous",
             "analogy",
             "analytic",
+            "analogous",
             "anomalous"
           ],
-          "answer": 0,
+          "answer": 2,
           "exp": "analogous 类似的"
         },
         {
           "id": "shw22",
           "audio": "discrepancy",
           "options": [
-            "discretion",
-            "discrepancy",
             "description",
-            "discovery"
+            "discrepancy",
+            "discovery",
+            "discretion"
           ],
           "answer": 1,
           "exp": "discrepancy 差异"
@@ -6745,10 +6745,10 @@
           "id": "shw23",
           "audio": "prevalence",
           "options": [
-            "relevance",
+            "privilege",
             "evidence",
             "prevalence",
-            "privilege"
+            "relevance"
           ],
           "answer": 2,
           "exp": "prevalence 流行程度"
@@ -6757,12 +6757,12 @@
           "id": "shw24",
           "audio": "longitudinal",
           "options": [
+            "longitudinal",
             "longitude",
-            "latitude",
             "longish",
-            "longitudinal"
+            "latitude"
           ],
-          "answer": 3,
+          "answer": 0,
           "exp": "longitudinal 纵向的；长期跟踪的"
         },
         {
@@ -6771,8 +6771,8 @@
           "options": [
             "socioeconomic",
             "sociological",
-            "economical",
-            "socialist"
+            "socialist",
+            "economical"
           ],
           "answer": 0,
           "exp": "socioeconomic 社会经济的"
@@ -6781,60 +6781,60 @@
           "id": "shw26",
           "audio": "chronology",
           "options": [
+            "chrome",
             "chronic",
             "chronology",
-            "chronological",
-            "chrome"
+            "chronological"
           ],
-          "answer": 1,
+          "answer": 2,
           "exp": "chronology 年表；年代学"
         },
         {
           "id": "shw27",
           "audio": "subsistence",
           "options": [
+            "consistency",
             "existence",
             "substance",
-            "subsistence",
-            "consistency"
+            "subsistence"
           ],
-          "answer": 2,
+          "answer": 3,
           "exp": "subsistence 勉强维持生活"
         },
         {
           "id": "shw28",
           "audio": "systematic",
           "options": [
+            "systematic",
             "systemic",
             "system",
-            "stamina",
-            "systematic"
+            "stamina"
           ],
-          "answer": 3,
+          "answer": 0,
           "exp": "systematic 系统的"
         },
         {
           "id": "shw29",
           "audio": "methodology",
           "options": [
-            "methodology",
+            "method",
             "methodical",
             "mythology",
-            "method"
+            "methodology"
           ],
-          "answer": 0,
+          "answer": 3,
           "exp": "methodology 方法论"
         },
         {
           "id": "shw30",
           "audio": "plausible",
           "options": [
-            "possible",
             "plausible",
             "palpable",
-            "flexible"
+            "flexible",
+            "possible"
           ],
-          "answer": 1,
+          "answer": 0,
           "exp": "plausible 似乎有理的"
         }
       ],
@@ -7453,45 +7453,45 @@
             {
               "q": "Why is media literacy essential?",
               "options": [
+                "Because no one needs it",
                 "Because all online information is true",
                 "Because not all information is reliable",
-                "Because algorithms are always fair",
-                "Because no one needs it"
+                "Because algorithms are always fair"
               ],
-              "answer": 1,
+              "answer": 2,
               "exp": "Not all information is reliable."
             },
             {
               "q": "What can algorithms create?",
               "options": [
                 "Only balanced views",
-                "Filter bubbles that reinforce existing views",
+                "No effect",
                 "Perfect information",
-                "No effect"
+                "Filter bubbles that reinforce existing views"
               ],
-              "answer": 1,
+              "answer": 3,
               "exp": "Filter bubbles."
             },
             {
               "q": "What do critical habits protect?",
               "options": [
-                "Only personal privacy",
-                "Personal understanding and public discourse",
+                "Nothing important",
                 "Only exam scores",
-                "Nothing important"
+                "Personal understanding and public discourse",
+                "Only personal privacy"
               ],
-              "answer": 1,
+              "answer": 2,
               "exp": "Personal understanding and public discourse."
             },
             {
               "q": "What should people do when evaluating information?",
               "options": [
-                "Accept everything",
-                "Evaluate sources, check evidence and recognise bias",
                 "Ignore all sources",
-                "Only trust social media"
+                "Only trust social media",
+                "Evaluate sources, check evidence and recognise bias",
+                "Accept everything"
               ],
-              "answer": 1,
+              "answer": 2,
               "exp": "Evaluate sources, check evidence and recognise bias."
             }
           ]
@@ -7505,52 +7505,52 @@
             {
               "q": "What did the first graph show?",
               "options": [
-                "Ice cream sales and swimming accidents rising in the same months",
+                "A proof that ice cream causes accidents",
                 "Ice cream sales falling whenever accidents rose",
                 "No change in any month",
-                "A proof that ice cream causes accidents"
-              ],
-              "answer": 0
-            },
-            {
-              "q": "What other facts also rose in those months?",
-              "options": [
-                "Colder weather and empty beaches",
-                "Hot weather and more people at the beach",
-                "A ban on ice cream",
-                "Fewer graphs in the club"
-              ],
-              "answer": 1
-            },
-            {
-              "q": "What basic rule did the teacher explain?",
-              "options": [
-                "Two numbers that rise together must be cause and effect",
-                "A third factor is never possible",
-                "When two numbers rise together, one does not automatically cause the other",
-                "Short sets of months always prove a cause"
-              ],
-              "answer": 2
-            },
-            {
-              "q": "What happened in the second graph after weather was taken into account?",
-              "options": [
-                "The accidents disappeared from every summer",
-                "The first graph was proved completely right",
-                "The club stopped writing questions",
-                "Sales and accidents did not move together"
+                "Ice cream sales and swimming accidents rising in the same months"
               ],
               "answer": 3
             },
             {
+              "q": "What other facts also rose in those months?",
+              "options": [
+                "Fewer graphs in the club",
+                "A ban on ice cream",
+                "Hot weather and more people at the beach",
+                "Colder weather and empty beaches"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "What basic rule did the teacher explain?",
+              "options": [
+                "Short sets of months always prove a cause",
+                "When two numbers rise together, one does not automatically cause the other",
+                "Two numbers that rise together must be cause and effect",
+                "A third factor is never possible"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "What happened in the second graph after weather was taken into account?",
+              "options": [
+                "The first graph was proved completely right",
+                "The club stopped writing questions",
+                "Sales and accidents did not move together",
+                "The accidents disappeared from every summer"
+              ],
+              "answer": 2
+            },
+            {
               "q": "What do members now write beside every striking graph?",
               "options": [
-                "A question about what else could explain the pattern",
-                "A joke that the graph is always useless",
                 "A headline that names a cause at once",
+                "A joke that the graph is always useless",
+                "A question about what else could explain the pattern",
                 "Nothing, because graphs cannot be misused"
               ],
-              "answer": 0
+              "answer": 2
             }
           ]
         },
@@ -7564,9 +7564,9 @@
               "q": "Why did the final rider have to climb six floors?",
               "options": [
                 "Because the lift was broken",
+                "Because the order was cancelled",
                 "Because the warehouse was on the sixth floor",
-                "Because the app paid more for stairs",
-                "Because the order was cancelled"
+                "Because the app paid more for stairs"
               ],
               "answer": 0
             },
@@ -7574,39 +7574,39 @@
               "q": "How was the rider paid?",
               "options": [
                 "By the hour, with no link to deliveries",
-                "By the number of deliveries, not by the hour",
                 "Only with a yearly bonus",
+                "By the number of deliveries, not by the hour",
                 "By the school shop in cash each morning"
               ],
-              "answer": 1
+              "answer": 2
             },
             {
               "q": "What did both riders say in the interview?",
               "options": [
-                "They disliked flexible hours and loved sudden rule changes",
                 "They never used the app",
-                "They liked the flexible hours and feared a sudden change in the rules of the app",
-                "They climbed no stairs in any building"
+                "They disliked flexible hours and loved sudden rule changes",
+                "They climbed no stairs in any building",
+                "They liked the flexible hours and feared a sudden change in the rules of the app"
               ],
-              "answer": 2
+              "answer": 3
             },
             {
               "q": "What did the students conclude about speed for the buyer?",
               "options": [
                 "It always increases the rider's pay",
-                "It removes all delays at buildings",
+                "It can hide pressure for the person at the door",
                 "It makes interviews unnecessary",
-                "It can hide pressure for the person at the door"
+                "It removes all delays at buildings"
               ],
-              "answer": 3
+              "answer": 1
             },
             {
               "q": "What would a fair system do, according to the report?",
               "options": [
                 "Show how pay is calculated and offer a way to speak to a person when an account is frozen",
+                "Pay only by the year with no explanation",
                 "Hide the pay rules and freeze accounts in silence",
-                "Stop all deliveries to the school shop",
-                "Pay only by the year with no explanation"
+                "Stop all deliveries to the school shop"
               ],
               "answer": 0
             }
@@ -7621,52 +7621,52 @@
             {
               "q": "What aim did the school give for the cameras?",
               "options": [
-                "Safety and better training for new teachers",
+                "A rule that no one may ask questions",
                 "A way to replace all teachers",
                 "A plan to sell the videos",
-                "A rule that no one may ask questions"
+                "Safety and better training for new teachers"
               ],
-              "answer": 0
+              "answer": 3
             },
             {
               "q": "What concerns did many teachers and some students raise?",
               "options": [
-                "Whether the gate should be left open at night",
+                "Whether parents could welcome a serious incident",
                 "Who would watch the video, how long it would be kept, and whether the class would speak less freely",
                 "Whether new teachers needed any training",
-                "Whether parents could welcome a serious incident"
+                "Whether the gate should be left open at night"
               ],
               "answer": 1
             },
             {
               "q": "What limit did the public meeting set for classroom video?",
               "options": [
-                "It should be kept for ever in every case",
-                "It should never be allowed in the hall or at the gate",
                 "It should be kept only for two weeks unless an official case required more",
-                "It should be hidden from students at all times"
+                "It should never be allowed in the hall or at the gate",
+                "It should be hidden from students at all times",
+                "It should be kept for ever in every case"
               ],
-              "answer": 2
+              "answer": 0
             },
             {
               "q": "What else did the meeting agree about recording?",
               "options": [
-                "Students should never be told about cameras",
-                "Recording must stay on all night in every home",
                 "Only machines may start a debate",
-                "Students should be told when recording is on"
+                "Recording must stay on all night in every home",
+                "Students should be told when recording is on",
+                "Students should never be told about cameras"
               ],
-              "answer": 3
+              "answer": 2
             },
             {
               "q": "When will the council review the rule?",
               "options": [
-                "After one term",
+                "Never, because the debate is finished",
                 "After ten years with no meeting",
-                "Before the cameras were placed",
-                "Never, because the debate is finished"
+                "After one term",
+                "Before the cameras were placed"
               ],
-              "answer": 0
+              "answer": 2
             }
           ]
         },
@@ -7679,39 +7679,39 @@
             {
               "q": "How far apart were the two streets?",
               "options": [
+                "In two different heatwaves",
                 "Only three blocks apart",
                 "On opposite sides of the country",
-                "In two different months",
-                "In two different heatwaves"
+                "In two different months"
               ],
-              "answer": 0
+              "answer": 1
             },
             {
               "q": "Which street had more heat illness?",
               "options": [
-                "The street with old trees and light coloured walls",
+                "Neither street, because no one needed help",
                 "The street with almost no shade, dark roofs and more elderly residents who lived alone",
                 "Both streets equally, because the weather was different",
-                "Neither street, because no one needed help"
+                "The street with old trees and light coloured walls"
               ],
               "answer": 1
             },
             {
               "q": "What did the team say caused the difference?",
               "options": [
-                "A different weather system over the second street only",
                 "The trees on the hotter street",
-                "The design of the street and the support around people who cannot leave easily, not a different weather system",
-                "A lack of any heat warning in the city"
+                "A different weather system over the second street only",
+                "A lack of any heat warning in the city",
+                "The design of the street and the support around people who cannot leave easily, not a different weather system"
               ],
-              "answer": 2
+              "answer": 3
             },
             {
               "q": "What will the city do first?",
               "options": [
-                "Cut the old trees on the cooler street",
-                "Paint all roofs darker",
                 "Move every resident to a new district",
+                "Paint all roofs darker",
+                "Cut the old trees on the cooler street",
                 "Plant trees on the hotter street first"
               ],
               "answer": 3
@@ -7719,12 +7719,12 @@
             {
               "q": "What will the volunteer group do?",
               "options": [
-                "Telephone older residents on the first morning of a heat warning",
-                "Visit only the cooler street in winter",
                 "Turn off heat warnings in August",
-                "Close medical help during a heatwave"
+                "Visit only the cooler street in winter",
+                "Close medical help during a heatwave",
+                "Telephone older residents on the first morning of a heat warning"
               ],
-              "answer": 0
+              "answer": 3
             }
           ]
         },
@@ -7737,42 +7737,42 @@
             {
               "q": "What happened when three later teams repeated the paper?",
               "options": [
-                "The effect became small or disappeared",
                 "The large effect grew even larger",
                 "The first team was proved dishonest at once",
+                "The effect became small or disappeared",
                 "No later team could begin the work"
               ],
-              "answer": 0
+              "answer": 2
             },
             {
               "q": "How did the later teams work?",
               "options": [
-                "They used a smaller sample and wrote the plan after the results",
-                "They used a larger sample and wrote their plan before they saw the results",
+                "They refused to write any plan",
                 "They copied the headline without a sample",
-                "They refused to write any plan"
+                "They used a larger sample and wrote their plan before they saw the results",
+                "They used a smaller sample and wrote the plan after the results"
               ],
-              "answer": 1
+              "answer": 2
             },
             {
               "q": "What does the story show about one published result?",
               "options": [
                 "It is always a final verdict",
+                "It can never be repeated",
                 "It is always an insult to later teams",
-                "It is a beginning, not a final verdict, and it need not mean dishonesty",
-                "It can never be repeated"
+                "It is a beginning, not a final verdict, and it need not mean dishonesty"
               ],
-              "answer": 2
+              "answer": 3
             },
             {
               "q": "What should students look for before treating a headline as settled?",
               "options": [
                 "Only the size of the original headline",
+                "A sentence about sample size and about whether a study has been repeated",
                 "A proof that failed repeats are insults",
-                "A list that makes every paper perfect",
-                "A sentence about sample size and about whether a study has been repeated"
+                "A list that makes every paper perfect"
               ],
-              "answer": 3
+              "answer": 1
             },
             {
               "q": "What three points are on the class checklist?",
@@ -7795,52 +7795,52 @@
             {
               "q": "How was the first survey sent, and who mostly replied?",
               "options": [
-                "It was sent by email, and most replies came from students with regular internet and evening time",
-                "It was given on paper in class to the whole grade",
                 "It was sent only to students in family shops",
-                "Everyone in the grade replied on the first day"
+                "It was sent by email, and most replies came from students with regular internet and evening time",
+                "Everyone in the grade replied on the first day",
+                "It was given on paper in class to the whole grade"
               ],
-              "answer": 0
+              "answer": 1
             },
             {
               "q": "What did the first results claim?",
               "options": [
-                "That most students reported tiredness and less time for homework",
+                "That email was never used",
                 "That most students found jobs easy to manage with homework",
-                "That no student had an after school job",
-                "That email was never used"
+                "That most students reported tiredness and less time for homework",
+                "That no student had an after school job"
               ],
               "answer": 1
             },
             {
               "q": "Who was almost missing from the first replies?",
               "options": [
-                "Students with regular internet at home",
-                "Teachers who noticed nothing",
                 "Students who work late in family shops and have little time for email",
+                "Teachers who noticed nothing",
+                "Students with regular internet at home",
                 "People who never go to class"
               ],
-              "answer": 2
+              "answer": 0
             },
             {
               "q": "What happened when a shorter paper survey was given in class?",
               "options": [
-                "The first conclusion became even stronger",
-                "No one reported tiredness",
+                "More students reported tiredness and less time for homework",
                 "The class stopped asking who was missing",
-                "More students reported tiredness and less time for homework"
+                "No one reported tiredness",
+                "The first conclusion became even stronger"
               ],
-              "answer": 3
+              "answer": 0
             },
             {
               "q": "What will the class now ask about every survey?",
               "options": [
+                "Whether email can speak for the whole grade without checks",
                 "Who was invited, who could reply easily, and who is absent from the results",
                 "Only who has the most evening time",
-                "Whether email can speak for the whole grade without checks",
                 "Whether a question should never be asked"
               ],
-              "answer": 0
+              "answer": 1
             }
           ]
         },
@@ -7853,39 +7853,39 @@
             {
               "q": "How does the app build a list, besides the songs users select?",
               "options": [
-                "It uses what they have already played and what people like them have played",
                 "It uses only a library list from the school music room",
-                "It plays songs at random with no history",
-                "It copies one official list for every user"
+                "It uses what they have already played and what people like them have played",
+                "It copies one official list for every user",
+                "It plays songs at random with no history"
               ],
-              "answer": 0
+              "answer": 1
             },
             {
               "q": "What did two classmates find after a month?",
               "options": [
                 "Their lists became much wider and more surprising",
-                "Their songs were becoming more similar to their past choices and less surprising",
                 "The app stopped building any list",
+                "Their songs were becoming more similar to their past choices and less surprising",
                 "They heard only songs from the music room"
-              ],
-              "answer": 1
-            },
-            {
-              "q": "What happened after one student chose only from a library list for a week?",
-              "options": [
-                "Her app list became narrower than before",
-                "The company closed the app",
-                "Her app list slowly became wider again",
-                "The class abandoned all music"
               ],
               "answer": 2
             },
             {
+              "q": "What happened after one student chose only from a library list for a week?",
+              "options": [
+                "The class abandoned all music",
+                "Her app list became narrower than before",
+                "The company closed the app",
+                "Her app list slowly became wider again"
+              ],
+              "answer": 3
+            },
+            {
               "q": "What point did the class draw?",
               "options": [
+                "Ignore all hidden costs of a free list",
                 "Abandon the app at once",
                 "Stay inside a familiar set of songs",
-                "Ignore all hidden costs of a free list",
                 "Notice when a machine is choosing, try a source outside the usual list, and ask what the company gains"
               ],
               "answer": 3
@@ -7895,8 +7895,8 @@
               "options": [
                 "It can quietly reduce what you hear",
                 "It always increases what you hear",
-                "It cannot narrow taste",
-                "It has no effect on a familiar set of songs"
+                "It has no effect on a familiar set of songs",
+                "It cannot narrow taste"
               ],
               "answer": 0
             }
@@ -7912,8 +7912,8 @@
               "q": "What did the school first say about the request?",
               "options": [
                 "All students must sit in the main hall so that the test is the same for everyone",
-                "A quiet room would be booked at once",
                 "The questions would be changed for one student",
+                "A quiet room would be booked at once",
                 "No counsellor could attend a meeting"
               ],
               "answer": 0
@@ -7921,42 +7921,42 @@
             {
               "q": "What did the counsellor explain about the hall?",
               "options": [
-                "The hall is the same experience for every student",
                 "Noise that is a small distraction for one person can make another person lose a whole section",
-                "Noise never affects a test paper",
-                "Only time limits are different in the hall"
+                "The hall is the same experience for every student",
+                "Only time limits are different in the hall",
+                "Noise never affects a test paper"
               ],
-              "answer": 1
+              "answer": 0
             },
             {
               "q": "How did the school finally describe the quiet room?",
               "options": [
-                "As a way to make the test easier and shorter",
-                "As a change in the questions only",
                 "As a change in the setting, not in the questions or the time, which can make the test fairer rather than easier",
-                "As a room that cannot be fair"
+                "As a room that cannot be fair",
+                "As a change in the questions only",
+                "As a way to make the test easier and shorter"
               ],
-              "answer": 2
+              "answer": 0
             },
             {
               "q": "What did the exam board later write?",
               "options": [
                 "Equal treatment always means the same room",
                 "A quiet room is never allowed in an official week",
-                "Students should not describe their problems",
-                "Equal treatment does not always mean the same room, but it does mean the same chance to show what you know"
+                "Equal treatment does not always mean the same room, but it does mean the same chance to show what you know",
+                "Students should not describe their problems"
               ],
-              "answer": 3
+              "answer": 2
             },
             {
               "q": "When will the quiet room be booked now?",
               "options": [
-                "In advance for every official exam week",
                 "Only after each exam has already begun",
                 "Never, because the hall is enough",
-                "Only for unofficial practice tests"
+                "Only for unofficial practice tests",
+                "In advance for every official exam week"
               ],
-              "answer": 0
+              "answer": 3
             }
           ]
         },
@@ -7969,39 +7969,39 @@
             {
               "q": "What is the carbon label meant to show?",
               "options": [
-                "The greenhouse gas linked to producing and transporting that item",
                 "The price of the item only",
+                "The greenhouse gas linked to producing and transporting that item",
                 "The weight of the shopping bag",
                 "The name of the class that visited"
-              ],
-              "answer": 0
-            },
-            {
-              "q": "When did the labels help most, according to the visit?",
-              "options": [
-                "When a product had no label at all",
-                "When two milks were side by side",
-                "When the number was in a colour that was hard to read",
-                "When shoppers compared unrelated products"
               ],
               "answer": 1
             },
             {
+              "q": "When did the labels help most, according to the visit?",
+              "options": [
+                "When two milks were side by side",
+                "When a product had no label at all",
+                "When shoppers compared unrelated products",
+                "When the number was in a colour that was hard to read"
+              ],
+              "answer": 0
+            },
+            {
               "q": "What will the store do this year?",
               "options": [
-                "Remove all labels from milk and rice",
-                "Print numbers in a lighter colour",
                 "Add labels to more items and use a darker print",
-                "Stop comparing similar products"
+                "Print numbers in a lighter colour",
+                "Stop comparing similar products",
+                "Remove all labels from milk and rice"
               ],
-              "answer": 2
+              "answer": 0
             },
             {
               "q": "What risk did the students note?",
               "options": [
                 "Labels can never be a tool of any kind",
-                "A darker print will hide the number",
                 "The store will refuse any test in March",
+                "A darker print will hide the number",
                 "A label can become a substitute for thinking about waste, if people then throw food away at home"
               ],
               "answer": 3
@@ -8009,12 +8009,12 @@
             {
               "q": "What should a fair label be, according to the report?",
               "options": [
-                "Clear, complete and hard to ignore",
                 "Easy to ignore and incomplete",
+                "Clear, complete and hard to ignore",
                 "A complete answer that replaces all other thinking",
                 "A substitute for any test of the print"
               ],
-              "answer": 0
+              "answer": 1
             }
           ]
         }
