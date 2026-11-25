@@ -403,11 +403,8 @@ function renderListening(){
     const card=document.createElement('div');
     card.className='word-card';
     card.style.cursor='pointer';
-    let preview='';
-    if(listenType==='wordChoice') preview=item.audio;
-    else if(listenType==='sentenceOrder') preview=item.audio.length>40?item.audio.slice(0,40)+'…':item.audio;
-    else preview=item.title||'短文';
-    card.innerHTML=`<div class="w-word" style="font-size:1rem">第 ${idx+1} 题</div><div class="w-cn" style="margin-top:4px">${preview}</div><div class="w-ipa" style="margin-top:6px">${typeName}</div>`;
+    // 列表页绝不显示具体内容，只显示题号和题型
+    card.innerHTML=`<div class="w-word" style="font-size:1.05rem">第 ${idx+1} 题</div><div class="w-ipa" style="margin-top:8px;font-size:.85rem">${typeName}</div><div class="w-cn" style="margin-top:6px;color:#64748b;font-size:.8rem">点击开始听力</div>`;
     card.onclick=()=>openListenItem(idx);
     grid.appendChild(card);
   });
