@@ -78,7 +78,57 @@ body{background:radial-gradient(ellipse at 10% 0%,#1e3a5f 0%,transparent 45%),ra
 .view{display:none}.view.active{display:block}
 .loading{text-align:center;padding:60px 20px;color:#5eead4;font-size:1rem;font-weight:700}
 .status-bar{font-size:.72rem;color:#64748b;text-align:right;margin-top:6px}
+
+html.license-locked .app,html.license-locked #popup,body.license-locked .app,body.license-locked #popup{display:none!important}
+.lic-badge{display:flex;align-items:center;margin-top:8px}
+.lic-chip{display:inline-flex;align-items:center;gap:8px;background:rgba(94,234,212,.1);border:1px solid rgba(94,234,212,.28);color:#99f6e4;border-radius:999px;padding:4px 8px 4px 12px;font-size:.74rem;font-weight:800;line-height:1.2}
+.lic-chip.warn{background:rgba(251,191,36,.12);border-color:rgba(251,191,36,.35);color:#fde68a}
+.lic-chip.ok{background:rgba(52,211,153,.12);border-color:rgba(52,211,153,.32);color:#6ee7b7}
+.lic-chip button{border:none;background:linear-gradient(135deg,#0ea5e9,#8b5cf6);color:#fff;border-radius:999px;padding:4px 11px;font-size:.7rem;font-weight:800;cursor:pointer}
+.lic-modal{display:none;position:fixed;inset:0;z-index:10000;background:rgba(2,6,23,.92);justify-content:center;align-items:center;padding:18px;backdrop-filter:blur(10px)}
+.lic-modal.show{display:flex}
+.lic-dialog{background:linear-gradient(160deg,#1e293b,#0f172a);border:1px solid rgba(94,234,212,.35);border-radius:22px;padding:22px 22px 18px;max-width:420px;width:100%;box-shadow:0 20px 60px rgba(0,0,0,.45)}
+.lic-dialog h2{font-size:1.12rem;font-weight:900;margin-bottom:8px;line-height:1.4;background:linear-gradient(90deg,#5eead4,#7dd3fc,#c084fc);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.lic-hint{font-size:.76rem;color:#94a8c4;margin-bottom:14px;line-height:1.55}
+.lic-row{display:flex;align-items:center;justify-content:space-between;gap:10px;background:var(--elev,#1a2438);border:1px solid rgba(148,180,220,.18);border-radius:12px;padding:10px 12px;margin-bottom:10px;font-size:.86rem}
+.lic-row .meta{min-width:0;flex:1}
+.lic-row .k{color:#94a8c4;font-size:.74rem;font-weight:700;margin-bottom:2px}
+.lic-row .v{font-weight:800;letter-spacing:.06em;color:#f0f6ff;word-break:break-all}
+.lic-copy{border:none;background:#334155;color:#fff;border-radius:9px;padding:6px 10px;font-size:.72rem;font-weight:800;cursor:pointer;white-space:nowrap;flex-shrink:0}
+.lic-input{width:100%;background:#0b1220;border:1px solid rgba(148,180,220,.22);border-radius:12px;padding:11px 14px;color:#fff;font-size:1rem;font-weight:800;letter-spacing:.08em;outline:none;text-align:center;margin:8px 0 10px}
+.lic-input:focus{border-color:#5eead4}
+.lic-act{width:100%;border:none;background:linear-gradient(135deg,#0ea5e9,#8b5cf6);color:#fff;padding:12px;border-radius:14px;font-size:.95rem;font-weight:900;cursor:pointer}
+.lic-err{min-height:1.3em;margin-top:10px;font-size:.8rem;font-weight:700;color:#fb7185;text-align:center}
+.lic-okmsg{color:#6ee7b7}
+.lic-close{display:none;width:100%;margin-top:10px;border:none;background:#475569;color:#fff;padding:9px;border-radius:11px;font-weight:800;cursor:pointer}
+.lic-close.show{display:block}
+
 </style>
+<script>
+(function(){
+  try{
+    var K='eea_lic_v1',TRIAL=48*3600*1000,SKEW=2*3600*1000,now=Date.now(),raw=null,st=null,i,p,ps;
+    try{raw=localStorage.getItem(K);}catch(e){}
+    if(!raw){
+      try{
+        ps=document.cookie.split(';');
+        for(i=0;i<ps.length;i++){
+          p=ps[i].replace(/^\s+/,'');
+          if(p.indexOf(K+'=')===0){raw=decodeURIComponent(p.slice(K.length+1));break;}
+        }
+      }catch(e){}
+    }
+    if(!raw) return;
+    st=JSON.parse(raw);
+    if(!st||!st.t0) return;
+    if(st.ls&&now<st.ls-SKEW) st.tp=1;
+    var locked=!!st.tp;
+    if(!locked&&st.a){if(st.a.e!==0&&now>=st.a.e) locked=true;}
+    else if(!locked&&now>=st.t0+TRIAL) locked=true;
+    if(locked) document.documentElement.classList.add('license-locked');
+  }catch(e){}
+})();
+</script>
 </head>
 <body>
 <div class="app">
@@ -86,6 +136,7 @@ body{background:radial-gradient(ellipse at 10% 0%,#1e3a5f 0%,transparent 45%),ra
     <div class="title">
       <h1>🚀 英语单词 · 阅读 · 听力学习神器</h1>
       <p>单词 · 阅读 · 听力三合一 · 远程数据 · 护眼卡通科技风</p>
+      <div class="lic-badge" id="licBadge"></div>
     </div>
     <div class="controls">
       <div class="switch">
@@ -165,7 +216,489 @@ body{background:radial-gradient(ellipse at 10% 0%,#1e3a5f 0%,transparent 45%),ra
     <button class="p-close" onclick="closePopup()">关闭</button>
   </div>
 </div>
+<div class="lic-modal" id="licModal" role="dialog" aria-modal="true" aria-labelledby="licModalTitle">
+  <div class="lic-dialog">
+    <h2 id="licModalTitle">免费试用已结束，请联系管理员开通</h2>
+    <p class="lic-hint" id="licModalHint">请将您的设备码发给微信客服，获取激活码后即可继续使用。</p>
+    <div class="lic-row">
+      <div class="meta"><div class="k">微信客服</div><div class="v" id="licWx">lmgsjgzt</div></div>
+      <button type="button" class="lic-copy" onclick="copyLicWx(this)">复制</button>
+    </div>
+    <div class="lic-row">
+      <div class="meta"><div class="k">您的设备码</div><div class="v" id="licDevCode">---- ----</div></div>
+      <button type="button" class="lic-copy" onclick="copyLicDev(this)">复制</button>
+    </div>
+    <input class="lic-input" id="licCodeInput" placeholder="请输入激活码" autocomplete="off" autocapitalize="characters" spellcheck="false" onkeydown="if(event.key==='Enter'){event.preventDefault();submitLicenseCode();}">
+    <button type="button" class="lic-act" onclick="submitLicenseCode()">激活</button>
+    <p class="lic-err" id="licErr"></p>
+    <button type="button" class="lic-close" id="licCloseBtn" onclick="closeLicenseModal()">关闭</button>
+  </div>
+</div>
 <script>
+/* license crypto (shared) */
+var LIC_ABC='23456789ABCDEFGHJKLMNPQRSTUVWXYZ';
+var LIC_PLANS={
+  m1:{id:'m1',label:'1个月',days:30},
+  m6:{id:'m6',label:'半年',days:182},
+  y1:{id:'y1',label:'1年',days:365},
+  life:{id:'life',label:'终身',days:0}
+};
+function _lk(){
+  var p=["OPO9IIc8PbG1ZuHujP5NautCqWCg7X","uGY2G14jW0792pT2m2FKw28ukugD48","4edi4+6K/R9q60OuYP/jKYdvaw=="];
+  var s=atob(p.join(''));
+  var x=[1,198,219,24,229,90,89,130,134,81,133,219,184,159,124,12,143,113,158];
+  var o='',i;
+  for(i=0;i<s.length;i++) o+=String.fromCharCode(s.charCodeAt(i)^x[i%x.length]);
+  return o;
+}
+function licUtf8(str){
+  if(typeof TextEncoder!=='undefined') return new TextEncoder().encode(str);
+  var out=[],i,c;
+  for(i=0;i<str.length;i++){
+    c=str.charCodeAt(i);
+    if(c<0x80) out.push(c);
+    else if(c<0x800) out.push(0xc0|(c>>6),0x80|(c&63));
+    else if(c>=0xd800&&c<=0xdbff){
+      c=0x10000+((c&0x3ff)<<10)+(str.charCodeAt(++i)&0x3ff);
+      out.push(0xf0|(c>>18),0x80|((c>>12)&63),0x80|((c>>6)&63),0x80|(c&63));
+    }else out.push(0xe0|(c>>12),0x80|((c>>6)&63),0x80|(c&63));
+  }
+  return new Uint8Array(out);
+}
+var _SHA_K=new Uint32Array([
+  0x428a2f98,0x71374491,0xb5c0fbcf,0xe9b5dba5,0x3956c25b,0x59f111f1,0x923f82a4,0xab1c5ed5,
+  0xd807aa98,0x12835b01,0x243185be,0x550c7dc3,0x72be5d74,0x80deb1fe,0x9bdc06a7,0xc19bf174,
+  0xe49b69c1,0xefbe4786,0x0fc19dc6,0x240ca1cc,0x2de92c6f,0x4a7484aa,0x5cb0a9dc,0x76f988da,
+  0x983e5152,0xa831c66d,0xb00327c8,0xbf597fc7,0xc6e00bf3,0xd5a79147,0x06ca6351,0x14292967,
+  0x27b70a85,0x2e1b2138,0x4d2c6dfc,0x53380d13,0x650a7354,0x766a0abb,0x81c2c92e,0x92722c85,
+  0xa2bfe8a1,0xa81a664b,0xc24b8b70,0xc76c51a3,0xd192e819,0xd6990624,0xf40e3585,0x106aa070,
+  0x19a4c116,0x1e376c08,0x2748774c,0x34b0bcb5,0x391c0cb3,0x4ed8aa4a,0x5b9cca4f,0x682e6ff3,
+  0x748f82ee,0x78a5636f,0x84c87814,0x8cc70208,0x90befffa,0xa4506ceb,0xbef9a3f7,0xc67178f2
+]);
+function _rotr(x,n){return (x>>>n)|(x<<(32-n));}
+function licSha256(msg){
+  var ml=msg.length,bitLenHi=Math.floor(ml/0x20000000),bitLenLo=(ml<<3)>>>0;
+  var with1=ml+1,pad=(with1%64<=56)?(56-(with1%64)):(56+64-(with1%64)),total=with1+pad+8;
+  var buf=new Uint8Array(total);buf.set(msg);buf[ml]=0x80;
+  var dv=new DataView(buf.buffer);
+  dv.setUint32(total-8,bitLenHi,false);dv.setUint32(total-4,bitLenLo,false);
+  var h0=0x6a09e667,h1=0xbb67ae85,h2=0x3c6ef372,h3=0xa54ff53a,h4=0x510e527f,h5=0x9b05688c,h6=0x1f83d9ab,h7=0x5be0cd19;
+  var w=new Uint32Array(64),off,i,s0,s1,a,b,c,d,e,f,g,h,S0,S1,ch,maj,t1,t2;
+  for(off=0;off<total;off+=64){
+    for(i=0;i<16;i++) w[i]=dv.getUint32(off+i*4,false);
+    for(i=16;i<64;i++){
+      s0=_rotr(w[i-15],7)^_rotr(w[i-15],18)^(w[i-15]>>>3);
+      s1=_rotr(w[i-2],17)^_rotr(w[i-2],19)^(w[i-2]>>>10);
+      w[i]=(w[i-16]+s0+w[i-7]+s1)>>>0;
+    }
+    a=h0;b=h1;c=h2;d=h3;e=h4;f=h5;g=h6;h=h7;
+    for(i=0;i<64;i++){
+      S1=_rotr(e,6)^_rotr(e,11)^_rotr(e,25);
+      ch=(e&f)^((~e)&g);
+      t1=(h+S1+ch+_SHA_K[i]+w[i])>>>0;
+      S0=_rotr(a,2)^_rotr(a,13)^_rotr(a,22);
+      maj=(a&b)^(a&c)^(b&c);
+      t2=(S0+maj)>>>0;
+      h=g;g=f;f=e;e=(d+t1)>>>0;d=c;c=b;b=a;a=(t1+t2)>>>0;
+    }
+    h0=(h0+a)>>>0;h1=(h1+b)>>>0;h2=(h2+c)>>>0;h3=(h3+d)>>>0;
+    h4=(h4+e)>>>0;h5=(h5+f)>>>0;h6=(h6+g)>>>0;h7=(h7+h)>>>0;
+  }
+  var out=new Uint8Array(32),odv=new DataView(out.buffer);
+  odv.setUint32(0,h0,false);odv.setUint32(4,h1,false);
+  odv.setUint32(8,h2,false);odv.setUint32(12,h3,false);
+  odv.setUint32(16,h4,false);odv.setUint32(20,h5,false);
+  odv.setUint32(24,h6,false);odv.setUint32(28,h7,false);
+  return out;
+}
+function licHmacSha256Sync(keyStr,msgStr){
+  var key=licUtf8(keyStr),msg=licUtf8(msgStr);
+  if(key.length>64) key=licSha256(key);
+  var k=new Uint8Array(64);k.set(key);
+  var ipad=new Uint8Array(64),opad=new Uint8Array(64),i;
+  for(i=0;i<64;i++){ipad[i]=k[i]^0x36;opad[i]=k[i]^0x5c;}
+  var inner=new Uint8Array(64+msg.length);inner.set(ipad);inner.set(msg,64);
+  var ih=licSha256(inner);
+  var outer=new Uint8Array(96);outer.set(opad);outer.set(ih,64);
+  return licSha256(outer);
+}
+function licHmacSha256(keyStr,msgStr){
+  var subtle=typeof crypto!=='undefined'&&crypto.subtle;
+  if(subtle){
+    return crypto.subtle.importKey('raw',licUtf8(keyStr),{name:'HMAC',hash:'SHA-256'},false,['sign'])
+      .then(function(key){return crypto.subtle.sign('HMAC',key,licUtf8(msgStr));})
+      .then(function(sig){return new Uint8Array(sig);})
+      .catch(function(){return licHmacSha256Sync(keyStr,msgStr);});
+  }
+  return Promise.resolve(licHmacSha256Sync(keyStr,msgStr));
+}
+function licNorm(s){return String(s||'').toUpperCase().replace(/[^A-Z0-9]/g,'');}
+function licFmt(raw,group){
+  group=group||4;
+  var s=licNorm(raw),out=[];
+  for(var i=0;i<s.length;i+=group) out.push(s.slice(i,i+group));
+  return out.join('-');
+}
+function licBytesToCode(bytes,len){
+  var chars=[],buf=0,bits=0,i;
+  for(i=0;i<bytes.length&&chars.length<len;i++){
+    buf=(buf<<8)|bytes[i];
+    bits+=8;
+    while(bits>=5&&chars.length<len){
+      bits-=5;
+      chars.push(LIC_ABC[(buf>>bits)&31]);
+    }
+  }
+  return chars.join('');
+}
+function licMakeCodeSync(deviceCode,planId){
+  var msg=licNorm(deviceCode)+'|'+planId;
+  var dig=licHmacSha256Sync(_lk(),msg);
+  return licFmt(licBytesToCode(dig,12),4);
+}
+function licMakeCode(deviceCode,planId){
+  var msg=licNorm(deviceCode)+'|'+planId;
+  return licHmacSha256(_lk(),msg).then(function(dig){return licFmt(licBytesToCode(dig,12),4);});
+}
+function licMatchPlan(deviceCode,actCode){
+  var want=licNorm(actCode),ids=Object.keys(LIC_PLANS),i;
+  for(i=0;i<ids.length;i++){
+    if(licNorm(licMakeCodeSync(deviceCode,ids[i]))===want) return ids[i];
+  }
+  return null;
+}
+
+var LIC_KEY='eea_lic_v1';
+var LIC_TRIAL_MS=48*3600*1000;
+var LIC_SKEW_MS=2*3600*1000;
+var LIC_WX='lmgsjgzt';
+var _licState=null;
+var _licModalOpen=false;
+var _licBlocking=false;
+var _licTimer=null;
+
+function licNow(){return Date.now();}
+function licParse(raw){
+  if(!raw) return null;
+  try{if(typeof raw==='string') raw=JSON.parse(raw);}catch(e){return null;}
+  if(!raw||typeof raw!=='object') return null;
+  var c=licNorm(raw.c);
+  if(!c||c.length!==8) return null;
+  var t0=Number(raw.t0);
+  if(!isFinite(t0)||t0<=0) return null;
+  var st={c:c,t0:t0,ls:Number(raw.ls)||t0,tp:raw.tp?1:0,a:null};
+  if(raw.a&&LIC_PLANS[raw.a.p]){
+    st.a={p:raw.a.p,t:Number(raw.a.t)||t0,e:Number(raw.a.e)||0};
+  }
+  return st;
+}
+function licMerge(list){
+  var i,s,best=null,e1,e2;
+  for(i=0;i<list.length;i++){
+    s=licParse(list[i]);
+    if(!s) continue;
+    if(!best){best={c:s.c,t0:s.t0,ls:s.ls,tp:s.tp,a:s.a?{p:s.a.p,t:s.a.t,e:s.a.e}:null};continue;}
+    if(s.t0<best.t0){best.c=s.c;best.t0=s.t0;}
+    if((s.ls||0)>(best.ls||0)) best.ls=s.ls;
+    if(s.tp) best.tp=1;
+    if(s.a){
+      if(!best.a) best.a={p:s.a.p,t:s.a.t,e:s.a.e};
+      else{
+        e1=best.a.e===0?Infinity:best.a.e;
+        e2=s.a.e===0?Infinity:s.a.e;
+        if(e2>e1) best.a={p:s.a.p,t:s.a.t,e:s.a.e};
+      }
+    }
+  }
+  return best;
+}
+function licReadLS(){
+  try{return licParse(localStorage.getItem(LIC_KEY));}catch(e){return null;}
+}
+function licWriteLS(st){
+  try{localStorage.setItem(LIC_KEY,JSON.stringify(st));}catch(e){}
+}
+function licReadCookie(){
+  try{
+    var parts=document.cookie.split(';'),i,p;
+    for(i=0;i<parts.length;i++){
+      p=parts[i].replace(/^\s+/,'').replace(/\s+$/,'');
+      if(p.indexOf(LIC_KEY+'=')===0) return licParse(decodeURIComponent(p.slice(LIC_KEY.length+1)));
+    }
+  }catch(e){}
+  return null;
+}
+function licWriteCookie(st){
+  try{document.cookie=LIC_KEY+'='+encodeURIComponent(JSON.stringify(st))+';path=/;max-age=315360000;SameSite=Lax';}catch(e){}
+}
+function licIdbOpen(){
+  return new Promise(function(resolve){
+    try{
+      if(typeof indexedDB==='undefined'){resolve(null);return;}
+      var req=indexedDB.open(LIC_KEY,1);
+      req.onerror=function(){resolve(null);};
+      req.onupgradeneeded=function(e){
+        var db=e.target.result;
+        if(!db.objectStoreNames.contains('kv')) db.createObjectStore('kv');
+      };
+      req.onsuccess=function(e){resolve(e.target.result);};
+    }catch(e){resolve(null);}
+  });
+}
+function licReadIDB(){
+  return new Promise(function(resolve){
+    var done=false;
+    var to=setTimeout(function(){if(!done){done=true;resolve(null);}},1200);
+    licIdbOpen().then(function(db){
+      if(done){if(db) try{db.close();}catch(e){} return;}
+      if(!db){done=true;clearTimeout(to);resolve(null);return;}
+      try{
+        var tx=db.transaction('kv','readonly');
+        var g=tx.objectStore('kv').get('state');
+        g.onsuccess=function(){if(!done){done=true;clearTimeout(to);db.close();resolve(licParse(g.result));}};
+        g.onerror=function(){if(!done){done=true;clearTimeout(to);try{db.close();}catch(e){}resolve(null);}};
+      }catch(e){if(!done){done=true;clearTimeout(to);try{db.close();}catch(err){}resolve(null);}}
+    });
+  });
+}
+function licWriteIDB(st){
+  return new Promise(function(resolve){
+    var done=false;
+    var to=setTimeout(function(){if(!done){done=true;resolve();}},1200);
+    licIdbOpen().then(function(db){
+      if(done){if(db) try{db.close();}catch(e){} return;}
+      if(!db){done=true;clearTimeout(to);resolve();return;}
+      try{
+        var tx=db.transaction('kv','readwrite');
+        tx.objectStore('kv').put(st,'state');
+        tx.oncomplete=function(){if(!done){done=true;clearTimeout(to);db.close();resolve();}};
+        tx.onerror=function(){if(!done){done=true;clearTimeout(to);try{db.close();}catch(e){}resolve();}};
+      }catch(e){if(!done){done=true;clearTimeout(to);try{db.close();}catch(err){}resolve();}}
+    });
+  });
+}
+function licPersist(st){
+  licWriteLS(st);
+  licWriteCookie(st);
+  return licWriteIDB(st);
+}
+function licRandCode(len){
+  var out='',i,arr=new Uint8Array(len);
+  if(typeof crypto!=='undefined'&&crypto.getRandomValues) crypto.getRandomValues(arr);
+  else for(i=0;i<len;i++) arr[i]=Math.floor(Math.random()*256);
+  for(i=0;i<len;i++) out+=LIC_ABC[arr[i]%32];
+  return out;
+}
+function licNewState(){
+  var t=licNow();
+  return {c:licRandCode(8),t0:t,ls:t,tp:0,a:null};
+}
+function licStatus(st,now){
+  now=now==null?licNow():now;
+  if(!st) return {ok:false,reason:'trial',remain:0,until:0,plan:null};
+  if(st.ls&&now<st.ls-LIC_SKEW_MS) st.tp=1;
+  if(st.tp){
+    return {ok:false,reason:st.a?'member':'trial',remain:0,until:0,plan:st.a?st.a.p:null,tamper:true};
+  }
+  if(st.a){
+    if(st.a.e===0) return {ok:true,reason:'life',remain:Infinity,until:0,plan:'life'};
+    if(now<st.a.e) return {ok:true,reason:'paid',remain:st.a.e-now,until:st.a.e,plan:st.a.p};
+    return {ok:false,reason:'member',remain:0,until:st.a.e,plan:st.a.p};
+  }
+  var end=st.t0+LIC_TRIAL_MS;
+  if(now<end) return {ok:true,reason:'trial',remain:end-now,until:end,plan:null};
+  return {ok:false,reason:'trial',remain:0,until:end,plan:null};
+}
+function licFmtDate(ts){
+  var d=new Date(ts);
+  var m=String(d.getMonth()+1),day=String(d.getDate());
+  if(m.length<2)m='0'+m;
+  if(day.length<2)day='0'+day;
+  return d.getFullYear()+'-'+m+'-'+day;
+}
+function licRemainText(ms){
+  var h=Math.floor(ms/3600000);
+  if(ms>47*3600000) h=48;
+  if(h>=1) return '免费试用剩余 '+h+' 小时';
+  var m=Math.max(1,Math.ceil(ms/60000));
+  return '免费试用剩余 '+m+' 分钟';
+}
+function licSetLocked(on){
+  var r=document.documentElement,b=document.body;
+  if(on){r.classList.add('license-locked');if(b)b.classList.add('license-locked');}
+  else{r.classList.remove('license-locked');if(b)b.classList.remove('license-locked');}
+}
+function licCopy(text,btn){
+  function done(){
+    if(!btn) return;
+    var old=btn.getAttribute('data-old')||btn.innerText;
+    btn.setAttribute('data-old',old);
+    btn.innerText='已复制';
+    setTimeout(function(){btn.innerText=old;},1500);
+  }
+  function fallback(){
+    try{
+      var ta=document.createElement('textarea');
+      ta.value=text;ta.setAttribute('readonly','');ta.style.cssText='position:fixed;left:-9999px;top:0';
+      document.body.appendChild(ta);ta.select();ta.setSelectionRange(0,text.length);
+      document.execCommand('copy');document.body.removeChild(ta);done();
+    }catch(e){try{window.prompt('请手动复制：',text);}catch(err){}}
+  }
+  if(navigator.clipboard&&navigator.clipboard.writeText){
+    navigator.clipboard.writeText(text).then(done).catch(fallback);
+  }else fallback();
+}
+function copyLicWx(btn){licCopy(LIC_WX,btn);}
+function copyLicDev(btn){if(_licState) licCopy(licFmt(_licState.c,4),btn);}
+function licFillModal(st,status,dismissible){
+  var title=document.getElementById('licModalTitle');
+  var hint=document.getElementById('licModalHint');
+  var dev=document.getElementById('licDevCode');
+  var close=document.getElementById('licCloseBtn');
+  var err=document.getElementById('licErr');
+  var input=document.getElementById('licCodeInput');
+  if(dev) dev.innerText=licFmt(st.c,4);
+  if(err && !(_licModalOpen && !dismissible)){err.innerText='';err.className='lic-err';}
+  if(input && !dismissible && !_licModalOpen) input.value='';
+  if(status.ok){
+    if(title) title.innerText='输入激活码开通会员';
+    if(hint) hint.innerText='激活码与本设备绑定。开通后有效期从激活时起算。';
+  }else if(status.reason==='member'){
+    if(title) title.innerText='会员已到期，请联系管理员续费';
+    if(hint) hint.innerText='请将您的设备码发给微信客服，获取新的激活码后续费。';
+  }else{
+    if(title) title.innerText='免费试用已结束，请联系管理员开通';
+    if(hint) hint.innerText='请将您的设备码发给微信客服，获取激活码后即可继续使用。';
+  }
+  if(close){
+    if(dismissible) close.classList.add('show');
+    else close.classList.remove('show');
+  }
+  _licBlocking=!dismissible;
+}
+function licShowModal(dismissible){
+  var modal=document.getElementById('licModal');
+  var st=_licState||licNewState();
+  var status=licStatus(st);
+  licFillModal(st,status,!!dismissible);
+  if(modal) modal.classList.add('show');
+  _licModalOpen=true;
+  var input=document.getElementById('licCodeInput');
+  if(input) setTimeout(function(){try{input.focus();}catch(e){}},200);
+}
+function openLicenseModal(){
+  var st=_licState;
+  var status=st?licStatus(st):{ok:false};
+  licShowModal(!!status.ok);
+}
+function closeLicenseModal(){
+  if(_licBlocking) return;
+  var modal=document.getElementById('licModal');
+  if(modal) modal.classList.remove('show');
+  _licModalOpen=false;
+  var err=document.getElementById('licErr');
+  if(err) err.innerText='';
+}
+function licRenderBadge(st,status){
+  var box=document.getElementById('licBadge');
+  if(!box) return;
+  if(!status.ok){box.innerHTML='';return;}
+  var chip='lic-chip',text='',btn='';
+  if(status.reason==='life'){
+    chip+=' ok';text='终身会员';
+  }else if(status.reason==='paid'){
+    chip+=' ok';
+    text='已激活 · 有效期至 '+licFmtDate(status.until);
+    btn='<button type="button" onclick="openLicenseModal()">续费</button>';
+  }else{
+    if(status.remain<=6*3600000) chip+=' warn';
+    text=licRemainText(status.remain);
+    btn='<button type="button" onclick="openLicenseModal()">激活</button>';
+  }
+  box.innerHTML='<div class="'+chip+'"><span>'+text+'</span>'+btn+'</div>';
+}
+function licApply(){
+  var st=_licState;
+  if(!st) return;
+  var now=licNow();
+  if(st.ls&&now<st.ls-LIC_SKEW_MS) st.tp=1;
+  st.ls=Math.max(st.ls||0,now);
+  licPersist(st);
+  var status=licStatus(st,now);
+  licRenderBadge(st,status);
+  if(!status.ok){
+    licSetLocked(true);
+    if(!_licModalOpen) licShowModal(false);
+    else licFillModal(st,status,false);
+  }else{
+    licSetLocked(false);
+    if(_licModalOpen&&_licBlocking) closeLicenseModal();
+    if(!_licModalOpen){
+      var modal=document.getElementById('licModal');
+      if(modal) modal.classList.remove('show');
+    }
+  }
+}
+async function submitLicenseCode(){
+  var input=document.getElementById('licCodeInput');
+  var err=document.getElementById('licErr');
+  var code=input?input.value:'';
+  if(!licNorm(code)){
+    if(err){err.className='lic-err';err.innerText='请输入激活码';}
+    return;
+  }
+  var st=_licState;
+  if(!st){if(err) err.innerText='设备信息读取失败，请刷新页面后重试';return;}
+  var planId=null;
+  try{
+    var want=licNorm(code),ids=Object.keys(LIC_PLANS),i,gen;
+    for(i=0;i<ids.length;i++){
+      gen=await licMakeCode(st.c,ids[i]);
+      if(licNorm(gen)===want){planId=ids[i];break;}
+    }
+  }catch(e){
+    planId=licMatchPlan(st.c,code);
+  }
+  if(!planId){
+    if(err){err.className='lic-err';err.innerText='激活码不正确，请检查后重试。激活码与设备绑定，请确认已发送正确的设备码。';}
+    return;
+  }
+  var plan=LIC_PLANS[planId];
+  var t=licNow();
+  st.a={p:planId,t:t,e:plan.days?t+plan.days*24*3600*1000:0};
+  st.tp=0;
+  st.ls=t;
+  _licState=st;
+  await licPersist(st);
+  if(err){err.className='lic-err lic-okmsg';err.innerText='激活成功，已开通'+plan.label+'会员';}
+  _licBlocking=false;
+  _licModalOpen=false;
+  setTimeout(function(){
+    var modal=document.getElementById('licModal');
+    if(modal) modal.classList.remove('show');
+    licApply();
+  },700);
+}
+async function initLicense(){
+  var fromLS=licReadLS();
+  var fromCk=licReadCookie();
+  var fromIdb=null;
+  try{fromIdb=await licReadIDB();}catch(e){}
+  var st=licMerge([fromLS,fromCk,fromIdb]);
+  if(!st) st=licNewState();
+  var now=licNow();
+  if(st.ls&&now<st.ls-LIC_SKEW_MS) st.tp=1;
+  st.ls=Math.max(st.ls||0,now);
+  _licState=st;
+  await licPersist(st);
+  licApply();
+  if(_licTimer) clearInterval(_licTimer);
+  _licTimer=setInterval(function(){if(_licState) licApply();},30000);
+}
+document.addEventListener('keydown',function(e){
+  if(e.key==='Escape') closeLicenseModal();
+});
+
 const DATA_BASE='https://greatenglishbest-web.github.io/english-learning-app/data';
 const WORDS_URL=DATA_BASE+'/words.json';
 const ARTICLES_URL=DATA_BASE+'/articles.json';
@@ -362,6 +895,7 @@ function checkAnswers(){
     }
   });
 }
+initLicense();
 loadData();
 
 function setListenDiff(diff,btn){
